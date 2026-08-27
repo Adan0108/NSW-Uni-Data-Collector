@@ -1,0 +1,368 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T12:04:55.701Z",
+  "counts": {
+    "pools": 11,
+    "totalRoleNames": 214
+  },
+  "pools": [
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "names": [
+        "American Studies",
+        "Ancient Greek",
+        "Ancient History",
+        "Anthropology",
+        "Arabic Language and Cultures",
+        "Archaeology",
+        "Art History",
+        "Asian Studies",
+        "Chinese Studies",
+        "Criminology",
+        "Cultural Studies",
+        "Digital Cultures",
+        "Econometrics",
+        "Economic Policy Analysis",
+        "Economics",
+        "Education Studies",
+        "English",
+        "Environmental, Agricultural and Resource Economics",
+        "European Studies",
+        "Film Studies",
+        "Financial Economics",
+        "French and Francophone Studies",
+        "Gender Studies",
+        "Germanic Studies",
+        "Hebrew (modern)",
+        "History",
+        "Indigenous Studies",
+        "Indonesian Studies",
+        "International and Comparative Literary Studies",
+        "International Relations",
+        "Italian Studies",
+        "Japanese Studies",
+        "Jewish Civilisation, Thought and Culture",
+        "Korean Studies",
+        "Latin",
+        "Linguistics",
+        "Media Studies",
+        "Modern Greek Studies",
+        "Music",
+        "Philosophy",
+        "Political Economy",
+        "Politics",
+        "Socio-legal Studies",
+        "Sociology",
+        "Spanish and Latin American Studies",
+        "Theatre and Performance Studies",
+        "Visual Arts"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "2026 Bachelor of Arts Table A majors."
+      ]
+    },
+    {
+      "scope": "ARTS",
+      "role": "MINOR",
+      "names": [
+        "American Studies",
+        "Ancient Greek",
+        "Ancient History",
+        "Anthropology",
+        "Arabic Language and Cultures",
+        "Archaeology",
+        "Art History",
+        "Asian Studies",
+        "Chinese Studies",
+        "Criminology",
+        "Cultural Studies",
+        "Digital Cultures",
+        "Diversity Studies",
+        "Econometrics",
+        "Economic Policy Analysis",
+        "Economics",
+        "Education Studies",
+        "English",
+        "Environmental, Agricultural and Resource Economics",
+        "European Studies",
+        "Film Studies",
+        "Financial Economics",
+        "French and Francophone Studies",
+        "Gender Studies",
+        "Germanic Studies",
+        "Hebrew (modern)",
+        "History",
+        "Indigenous Studies",
+        "Indonesian Studies",
+        "International and Comparative Literary Studies",
+        "International Relations",
+        "Italian Studies",
+        "Japanese Studies",
+        "Jewish Civilisation, Thought and Culture",
+        "Korean Studies",
+        "Latin",
+        "Linguistics",
+        "Media Studies",
+        "Modern Greek Studies",
+        "Music",
+        "Philosophy",
+        "Political Economy",
+        "Politics",
+        "Sanskrit",
+        "Socio-legal Studies",
+        "Sociology",
+        "Spanish and Latin American Studies",
+        "Studies in Religion",
+        "Theatre and Performance Studies",
+        "Visual Arts"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST_PLUS_RULE",
+      "notes": [
+        "2026 Arts rule: every Table A major is available as a minor, plus Diversity Studies, Sanskrit and Studies in Religion."
+      ]
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "names": [
+        "Accounting",
+        "Banking",
+        "Business Analytics",
+        "Business Information Systems",
+        "Business Law",
+        "Finance",
+        "Industrial Relations and Human Resource Management",
+        "Innovation and Entrepreneurship",
+        "International Business",
+        "Management and Leadership",
+        "Marketing"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "2026 Bachelor of Commerce Table A majors. Professional Accounting is a PROGRAM, not a major."
+      ]
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MINOR",
+      "names": [
+        "Accounting",
+        "Business Analytics",
+        "Business Information Systems",
+        "Business Law",
+        "Industrial Relations and Human Resource Management",
+        "Innovation and Entrepreneurship",
+        "International Business",
+        "Management and Leadership",
+        "Marketing"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "2026 Bachelor of Commerce Table A minors."
+      ]
+    },
+    {
+      "scope": "COMPUTING",
+      "role": "MINOR",
+      "names": [
+        "Computational Data Science",
+        "Computer Science",
+        "Cybersecurity",
+        "Software Development"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/advanced-computing-unit-of-study-table.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "2026 Computing Table A minors."
+      ]
+    },
+    {
+      "scope": "CONSERVATORIUM",
+      "role": "MINOR",
+      "names": [
+        "Community Music",
+        "Composition for Creative Industries",
+        "Digital Music",
+        "Ethnomusicology",
+        "Indigenous Music",
+        "Performance and Ensembles",
+        "Performance Science"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "2026 Bachelor of Music Table A music minors."
+      ]
+    },
+    {
+      "scope": "CONSERVATORIUM",
+      "role": "PROGRAM",
+      "names": [
+        "Composition for Creative Industries",
+        "Contemporary Music Practice",
+        "Digital Music Composition"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/overview.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "2026 Bachelor of Music programs."
+      ]
+    },
+    {
+      "scope": "ENGINEERING",
+      "role": "MAJOR",
+      "names": [
+        "Built Environment",
+        "Construction"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/engineering/project-management/unit-of-study-table.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "For these unqualified signals, Engineering scope corresponds to Project Management Table A."
+      ]
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "names": [
+        "Anatomy and Histology",
+        "Animal Health, Disease and Welfare",
+        "Animal Production",
+        "Applied Medical Science",
+        "Biochemistry and Molecular Biology",
+        "Biology",
+        "Chemistry",
+        "Computer Science",
+        "Data Science",
+        "Discrete Mathematics and Algorithms",
+        "Ecology and Evolutionary Biology",
+        "Environmental Science",
+        "Environmental Studies",
+        "Financial Mathematics and Statistics",
+        "Food Science",
+        "Genetics and Genomics",
+        "Geography",
+        "Geology and Geophysics",
+        "Health",
+        "History and Philosophy of Science",
+        "Immunology and Pathology",
+        "Infectious Diseases",
+        "Marine Science",
+        "Mathematical Modelling and Computation",
+        "Mathematics",
+        "Medical Science",
+        "Medicinal Chemistry",
+        "Microbiology",
+        "Neuroscience",
+        "Nutrition Science",
+        "Pharmacology",
+        "Physics",
+        "Physiology",
+        "Plant Science",
+        "Psychological Science",
+        "Software Development",
+        "Soil Science and Hydrology",
+        "Statistics"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "Current 2026 Science Table A majors."
+      ]
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MINOR",
+      "names": [
+        "Anatomy and Histology",
+        "Animal Health, Disease and Welfare",
+        "Animal Production",
+        "Applied Medical Science",
+        "Biochemistry and Molecular Biology",
+        "Biology",
+        "Chemistry",
+        "Computer Science",
+        "Data Science",
+        "Discrete Mathematics and Algorithms",
+        "Environmental Studies",
+        "Financial Mathematics and Statistics",
+        "Food Science",
+        "Genetics and Genomics",
+        "Geography",
+        "Geology and Geophysics",
+        "History and Philosophy of Science",
+        "Immunology",
+        "Infectious Diseases",
+        "Marine Science",
+        "Mathematical Modelling and Computation",
+        "Mathematics",
+        "Medicinal Chemistry",
+        "Microbiology",
+        "Neuroscience",
+        "Nutrition Science",
+        "Pathology",
+        "Pharmacology",
+        "Physics",
+        "Physiology",
+        "Plant Science",
+        "Psychological Science",
+        "Software Development",
+        "Soil Science and Hydrology",
+        "Statistics",
+        "Virology",
+        "Wildlife Conservation"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "Current 2026 Science Table A minors."
+      ]
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "PROGRAM",
+      "names": [
+        "Astrophysics",
+        "Environmental Science",
+        "Life Sciences",
+        "Medical Science",
+        "Nutrition and Dietetics",
+        "Psychology"
+      ],
+      "sourceUrls": [
+        "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      ],
+      "sourceMethod": "CENTRAL_ROLE_LIST",
+      "notes": [
+        "Current 2026 Science programs."
+      ]
+    }
+  ]
+}

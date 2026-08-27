@@ -1,0 +1,873 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T11:14:22.519Z",
+  "counts": {
+    "semanticSafeSignals": 49,
+    "typedEligibleSignals": 47,
+    "safeButUntypedSignals": 2,
+    "degrees": 28,
+    "exactScope": 44,
+    "multiScopeExplicit": 2,
+    "alreadyCoveredByQualifiedPool": 1,
+    "ambiguousScope": 0,
+    "noScopeEvidence": 0
+  },
+  "excludedSafeButUntyped": [
+    {
+      "degreeCode": "BHLIARSH-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Honours)",
+      "semanticClass": "CROSS_FACULTY_TABLE_A_COMPONENT_CHOICE",
+      "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement.",
+      "componentType": null
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "semanticClass": "CROSS_FACULTY_TABLE_A_COMPONENT_CHOICE",
+      "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement.",
+      "componentType": null
+    }
+  ],
+  "records": [
+    {
+      "degreeCode": "BHENGART-05",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Arts",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "a major (48 credit points) or a 3-year program with an embedded major from Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS",
+        "ENGINEERING"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BHENGCOM-05",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Commerce",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "a major (48 credit points) or a 3-year program with an embedded major from Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "BUSINESS",
+        "ENGINEERING"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "BUSINESS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BHLIARSH-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Honours)",
+      "componentType": "MAJOR",
+      "semanticClass": "CROSS_FACULTY_TABLE_A_COMPONENT_CHOICE",
+      "raw": "a major from either Science Table A or Arts and Social Sciences Table A",
+      "explicitScopes": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "resolution": "MULTI_SCOPE_EXPLICIT",
+      "resolvedScopes": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BHLIARSH-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Honours)",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A",
+      "explicitScopes": [
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BHLIARSH-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Honours)",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A",
+      "explicitScopes": [
+        "ARTS"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BHPRJMGT-01",
+      "degreeTitle": "Bachelor of Project Management (Honours)",
+      "componentType": "MAJOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a major (48 credit points) from Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ENGINEERING"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ENGINEERING"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BHPSYCHH-02",
+      "degreeTitle": "Bachelor of Psychology Honours",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a minor (36 credit points) from the Bachelor of Science Table A, or Table S",
+      "explicitScopes": [
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BHPSYCHH-02",
+      "degreeTitle": "Bachelor of Psychology Honours",
+      "componentType": "PROGRAM",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "Program as listed in the Bachelor of Science and Bachelor of Science/Bachelor of Advanced Studies Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPADVCMP-01",
+      "degreeTitle": "Bachelor of Advanced Computing",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a minor (36 credit points) or second major (48 credit points) from Table S or Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [
+        "COMPUTING"
+      ],
+      "inferredScopeCandidates": [
+        "COMPUTING"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "COMPUTING"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTAVS-01",
+      "degreeTitle": "Bachelor of Arts and Bachelor of Advanced Studies",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points) or program as listed and defined in Section 7 below and specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTAVS-01",
+      "degreeTitle": "Bachelor of Arts and Bachelor of Advanced Studies",
+      "componentType": "MAJOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "second major (48 credit points) as listed and defined in Section 7 below and specified in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTMED-01",
+      "degreeTitle": "Bachelor of Arts and Doctor of Medicine",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points) listed and defined in Section 7 below and specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTMED-01",
+      "degreeTitle": "Bachelor of Arts and Doctor of Medicine",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points) or second major (48 credit points) as defined in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTSAR-09",
+      "degreeTitle": "Bachelor of Arts",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points) or a program as listed and defined in Section 7 below and as specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTSAR-09",
+      "degreeTitle": "Bachelor of Arts",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points) or second major (48 credit points) as listed and defined in Section 7 below and as specified in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTXTD-01",
+      "degreeTitle": "Bachelor of Arts (Extended)",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points) as listed and defined in Section 8 below and as specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPARTXTD-01",
+      "degreeTitle": "Bachelor of Arts (Extended)",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points) or second major (48 credit points) as listed and defined in Section 8 below and as specified in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPCOMAVS-01",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Advanced Studies",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "a major (48 credit points) or program listed in section 7 below and specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "BUSINESS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "BUSINESS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPCOMAVS-01",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Advanced Studies",
+      "componentType": "MAJOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "second major (48 credit points) as listed and specified in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "BUSINESS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "BUSINESS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPCOMMER-06",
+      "degreeTitle": "Bachelor of Commerce",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "a major (48 credit points) or program listed in section 7 below and specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "BUSINESS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "BUSINESS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPCOMMER-06",
+      "degreeTitle": "Bachelor of Commerce",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a minor (36 credit points) or second major (48 credit points) as listed and specified in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "BUSINESS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "BUSINESS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPCOMPUT-01",
+      "degreeTitle": "Bachelor of Computing",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "second major from Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [
+        "COMPUTING"
+      ],
+      "inferredScopeCandidates": [
+        "COMPUTING"
+      ],
+      "resolution": "ALREADY_COVERED_BY_QUALIFIED_POOL",
+      "resolvedScopes": [
+        "COMPUTING"
+      ],
+      "dedupAgainstQualified": true
+    },
+    {
+      "degreeCode": "BPCOMPUT-01",
+      "degreeTitle": "Bachelor of Computing",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a minor (36 credit points) from Table S or Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [
+        "COMPUTING"
+      ],
+      "inferredScopeCandidates": [
+        "COMPUTING"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "COMPUTING"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPINTSTD-02",
+      "degreeTitle": "Bachelor of International Studies",
+      "componentType": "MINOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points) or second major (48 credit points) as listed and defined in section 7 and as specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPLANGUA-01",
+      "degreeTitle": "Bachelor of Languages",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points) as listed and defined in section 7 below and specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPLANGUA-01",
+      "degreeTitle": "Bachelor of Languages",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points) or second major (48 credit points) as specified in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "componentType": "MAJOR",
+      "semanticClass": "CROSS_FACULTY_TABLE_A_COMPONENT_CHOICE",
+      "raw": "a major from either Science Table A or Arts and Social Sciences Table A",
+      "explicitScopes": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "resolution": "MULTI_SCOPE_EXPLICIT",
+      "resolvedScopes": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A",
+      "explicitScopes": [
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A",
+      "explicitScopes": [
+        "ARTS"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ARTS",
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ARTS"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPMATHSC-01",
+      "degreeTitle": "Bachelor of Mathematical Sciences",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a minor (36 credit points of units of study) or second major (48 credit points of units of study) from the Bachelor of Science Table A or Table S",
+      "explicitScopes": [
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPMUCOMP-01",
+      "degreeTitle": "Bachelor of Music (Composition)",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "minor from Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "CONSERVATORIUM"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "CONSERVATORIUM"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPMUSICM-05",
+      "degreeTitle": "Bachelor of Music",
+      "componentType": "PROGRAM",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "Program as defined in Section 7 and as specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "CONSERVATORIUM"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "CONSERVATORIUM"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPPRJMGT-02",
+      "degreeTitle": "Bachelor of Project Management",
+      "componentType": "MAJOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a major (48 credit points) from Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "ENGINEERING"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "ENGINEERING"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPPSYCHO-04",
+      "degreeTitle": "Bachelor of Psychology",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "minor as listed in the Bachelor of Science Table A, or Table S",
+      "explicitScopes": [
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPPSYCHO-04",
+      "degreeTitle": "Bachelor of Psychology",
+      "componentType": "PROGRAM",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "program as listed in the Bachelor of Science and Bachelor of Science and Bachelor of Advanced Studies Table A",
+      "explicitScopes": [
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIAVS-01",
+      "degreeTitle": "Bachelor of Science and Bachelor of Advanced Studies",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points of units of study) or program listed and defined in Section 7 below and specified in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIAVS-01",
+      "degreeTitle": "Bachelor of Science and Bachelor of Advanced Studies",
+      "componentType": "MAJOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "second major (48 credit points of units of study) as defined in Section 7 below and specified in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIDMD-01",
+      "degreeTitle": "Bachelor of Science and Doctor of Dental Medicine",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points of units of study) or program defined in Section 7 below and listed in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIDMD-01",
+      "degreeTitle": "Bachelor of Science and Doctor of Dental Medicine",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points of units of study) or second major (48 credit points of units of study) as defined in Section 7 below and listed in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIENC-05",
+      "degreeTitle": "Bachelor of Science",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points of units of study) or program defined in Section 7 below and listed in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIENC-05",
+      "degreeTitle": "Bachelor of Science",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points of units of study) or second major (48 credit points of units of study) as defined in Section 7 below and listed in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIMED-01",
+      "degreeTitle": "Bachelor of Science and Doctor of Medicine",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points of units of study) or program defined in Section 7 below and listed in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIMED-01",
+      "degreeTitle": "Bachelor of Science and Doctor of Medicine",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points of units of study) or second major (48 credit points of units of study) as defined in Section 7 below and listed in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCINUD-02",
+      "degreeTitle": "Bachelor of Science and Master of Nutrition and Dietetics",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "a minor (36 credit points of units of study) or second major (48 credit points of units of study) as defined in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCINUR-02",
+      "degreeTitle": "Bachelor of Science and Master of Nursing",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points of units of study) defined in Section 8 below and listed in Science Table A",
+      "explicitScopes": [
+        "SCIENCE"
+      ],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIXTD-01",
+      "degreeTitle": "Bachelor of Science (Extended)",
+      "componentType": "MAJOR",
+      "semanticClass": "DIRECT_TABLE_A_COMPONENT_CHOICE",
+      "raw": "A major (48 credit points of units of study) or stream defined in Section 7 below and listed in Table A",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    },
+    {
+      "degreeCode": "BPSCIXTD-01",
+      "degreeTitle": "Bachelor of Science (Extended)",
+      "componentType": "MINOR",
+      "semanticClass": "TABLE_A_OR_TABLE_S_COMPONENT_CHOICE",
+      "raw": "A minor (36 credit points units of study) or second major (48 credit points of units of study) as defined in Section 7 below and listed in Table A or Table S",
+      "explicitScopes": [],
+      "existingQualifiedScopes": [],
+      "inferredScopeCandidates": [
+        "SCIENCE"
+      ],
+      "resolution": "EXACT_SCOPE",
+      "resolvedScopes": [
+        "SCIENCE"
+      ],
+      "dedupAgainstQualified": false
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T15:49:49.009Z",
+  "purpose": "OFFICIAL_STUDY_PLAN_SUBJECT_CROSS_REFERENCE",
+  "requiredCodes": [
+    "ATHK1001",
+    "WRIT1001",
+    "INLI1001",
+    "INLI1002",
+    "MATH1100",
+    "MATH1200",
+    "OLES1602"
+  ],
+  "counts": {
+    "requested": 7,
+    "collected": 7
+  },
+  "units": [
+    {
+      "code": "ATHK1001",
+      "name": "Analytical Thinking",
+      "year": 2026,
+      "studyLevel": "Undergraduate",
+      "academicUnit": "Psychology Academic Operations",
+      "managingFaculty": "Science",
+      "creditPoints": 6,
+      "description": "Analytical Thinking covers aspects of research design, interpretation of data, analysis, logic, and thinking processes. It is comprised of three sections: Data Concepts and Analysis; Logic and Basic Arguments; and Research and Everyday Reasoning. The section on Data Concepts and Analysis covers aspects of research design, data collection, and introduces basic forms of hypothesis testing and statistical tests. The Logic and Basic Arguments section covers material ranging from valid and invalid forms of argument and errors in reasoning to critiques of arguments presented in case studies. The Research and Everyday Reasoning section examines how arguments and scientific evidence are presented and interpreted in the media, society, and interpersonal interactions. Together, the three course components teach foundational skills necessary for carrying out meaningful academic discussions, arguments, and research studies, which may be applied to any area of scholarly enquiry.",
+      "accessConditions": {
+        "prerequisite": null,
+        "corequisite": null,
+        "prohibition": "ATHK1901",
+        "assumedKnowledge": null
+      },
+      "availabilities": [
+        {
+          "session": "Semester 1",
+          "year": 2026,
+          "mode": "Normal day",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/ATHK1001/2026-S1C-ND-CC"
+        }
+      ],
+      "learningOutcomes": [
+        "Demonstrate a basic conceptual understanding of descriptive statistics used across disciplines.",
+        "Demonstrate a basic conceptual understanding of inferential statistics used across disciplines, though not of their mathematical underpinnings.",
+        "Demonstrate basic skills in computing and data handling",
+        "Understand and evaluate the quality of data based on its sources and the different methods used to collect it.",
+        "Identify ways of approaching the exploration of a research question and understand potential sources of bias in information sources.",
+        "Demonstrate a basic understanding of how logic can help analytical thinking and use it to analyze problems, within your discipline and across disciplines.",
+        "Demonstrate an understanding of basic processes of thinking and why these could lead to errors in reasoning, the evaluation of data and of learning.",
+        "Communicate the results of data analysis and research appropriately through written work"
+      ],
+      "sourceUrl": "https://www.sydney.edu.au/units/ATHK1001"
+    },
+    {
+      "code": "INLI1001",
+      "name": "Indigenous Literacies in Academic Contexts A",
+      "year": 2026,
+      "studyLevel": "Undergraduate",
+      "academicUnit": "Indigenous Academic Units",
+      "managingFaculty": "Arts and Social Sciences",
+      "creditPoints": 6,
+      "description": "This unit of study provides the foundations for students to develop the academic skills and capacity to experience success at university through an exploration of Aboriginal and Torres Strait Islander and Western knowledge management conventions. It will introduce students to core skills required for successful communication in an academic context (reading, writing, listening and speaking), which include the ability to locate relevant information; summarise and paraphrase; and analyse and synthesise ideas. The ownership, representation and communication of knowledge in community, academic and professional contexts will be explored. Students will respond to a range of views presented by Aboriginal and Torres Strait Islander lecturers and speakers, and visit culturally relevant, contemporary sites. The unit also emphasises the importance of reflection as a means of enhancing students' learning experiences.",
+      "accessConditions": {
+        "prerequisite": null,
+        "corequisite": null,
+        "prohibition": null,
+        "assumedKnowledge": null
+      },
+      "availabilities": [
+        {
+          "session": "Semester 1",
+          "year": 2026,
+          "mode": "Normal day",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/INLI1001/2026-S1C-ND-CC"
+        }
+      ],
+      "learningOutcomes": [
+        "Locate relevant information, identify the range of source materials used at university, and acknowledge and reference appropriately.",
+        "Develop awareness of individual learning, learning styles and perspectives through process of self-reflection",
+        "Develop fluency in online learning and engage in creative use of multi-modal communication using a variety of tools and strategies",
+        "Explore approaches to knowledge representation and management from Indigenous and Western standpoints",
+        "Develop skills in listening and summarising information for a variety of tasks",
+        "Analyse information from a variety of sources, written and spoken",
+        "Communicate information for a range of purposes and using a variety of modes",
+        "Develop communication and interpersonal skills to engage in collaborative learning"
+      ],
+      "sourceUrl": "https://www.sydney.edu.au/units/INLI1001"
+    },
+    {
+      "code": "INLI1002",
+      "name": "Indigenous Literacies in Academic Contexts B",
+      "year": 2026,
+      "studyLevel": "Undergraduate",
+      "academicUnit": "Indigenous Academic Units",
+      "managingFaculty": "Arts and Social Sciences",
+      "creditPoints": 6,
+      "description": "A focus on persuasive and critical thinking and communication informs students' writing practise in this unit of study building upon the descriptive and analytical thinking skills developed in Indigenous Literacies in Academic Contexts A. Students will be introduced to research and digital literacy strategies while investigating topics of value to Aboriginal and Torres Strait Islander communities and will learn how to locate and select ideas in appropriate academic sources and use those ideas effectively. Students will learn how to recognise diverse positions in their readings and to use evidence to develop and support their own positions in the development of persuasive essays or science reports. Students will examine ideas of attribution and collective and individual ownership of knowledge including the concept of Indigenous Cultural and Intellectual Property and be encouraged to develop a critical approach to knowledge representation. The concept of cultural safety within a range of contexts and processes will be explored. Visiting culturally relevant, contemporary sites and responding to a range of views presented by Aboriginal and Torres Strait Islander lecturers and speakers will support learning in this unit of study.",
+      "accessConditions": {
+        "prerequisite": "INLI1001",
+        "corequisite": null,
+        "prohibition": null,
+        "assumedKnowledge": null
+      },
+      "availabilities": [
+        {
+          "session": "Semester 2",
+          "year": 2026,
+          "mode": "Normal day",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/INLI1002/2026-S2C-ND-CC"
+        }
+      ],
+      "learningOutcomes": [
+        "Locate relevant databases for research purposes and identify source materials relevant to discipline context and assignment tasks",
+        "Understand what ‘academic integrity’ means in the university context, how referencing practices reflect this cultural approach to knowledge sharing and help avoid plagiarism",
+        "Identify and critically evaluate positions, arguments and evidence in academic and other relevant sources.",
+        "Develop one’s own position and arguments and learn how to incorporate evidence in academic essa",
+        "Explore one’s own perspectives, and deepen an understanding of critical self-reflection, including recognizing the lens of one’s own worldview and viewpoint.",
+        "Explore approaches to culture and knowledge construction from Indigenous and Western perspectives",
+        "Communicate information, or arguments for a range of purposes, and using a variety of modes, to a range of audiences."
+      ],
+      "sourceUrl": "https://www.sydney.edu.au/units/INLI1002"
+    },
+    {
+      "code": "MATH1100",
+      "name": "Power of Number A",
+      "year": 2026,
+      "studyLevel": "Undergraduate",
+      "academicUnit": "Mathematics and Statistics Academic Operations",
+      "managingFaculty": "Science",
+      "creditPoints": 6,
+      "description": "This unit provides an introductory level of mathematics for students in the initial phase of a tertiary level program. Beginning with the number system, this unit develops understanding of basic algebra and equations, and gives an introduction to functions including the quadratic, exponential and logarithmic functions. The various uses of mathematics by Aboriginal and Torres Strait Islander Peoples for community agency, cultural knowledge management and practice, business enterprise, creative industries and research are incorporated in this unit, along with an emphasis on the roles of narrative and discovery. Aboriginal and Torres Strait Islander lecturers and speakers will be involved in the delivery of this unit and culture-centred, case studies will feature throughout to demonstrate linkages between learning and future practice.",
+      "accessConditions": {
+        "prerequisite": null,
+        "corequisite": null,
+        "prohibition": null,
+        "assumedKnowledge": null
+      },
+      "availabilities": [
+        {
+          "session": "Semester 1",
+          "year": 2026,
+          "mode": "Block mode",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/MATH1100/2026-S1C-BM-CC"
+        }
+      ],
+      "learningOutcomes": [
+        "Understand the role of narrative and collaboration in the development of mathematics, and appreciating the importance and value of a range of viewpoints.",
+        "Use existing knowledge and cultural perspectives to incorporate expanded understandings of mathematical concepts and logic; use these to solve mathematical problems and express mathematical ideas coherently in written and oral form.",
+        "Demonstrate fluency in manipulating real numbers, their symbolic representations, operations, and solve associated algebraic equations.",
+        "Develop fluency with lines, coordinate geometry in two dimensions, the notion of a function, its natural domain, range and graph.",
+        "Become conversant with elementary functions, including quadratic, exponential, logarithmic and be able to apply them to real phenomena and to yield solutions of associated equations.",
+        "Understand the links between learning and industry, professional and/or personal practice."
+      ],
+      "sourceUrl": "https://www.sydney.edu.au/units/MATH1100"
+    },
+    {
+      "code": "MATH1200",
+      "name": "Power of Number B",
+      "year": 2026,
+      "studyLevel": "Undergraduate",
+      "academicUnit": "Mathematics and Statistics Academic Operations",
+      "managingFaculty": "Science",
+      "creditPoints": 6,
+      "description": "This unit provides an introductory level of mathematics for students in the initial phase of a tertiary level program. This unit develops basic trigonometry and the associated trigonometric functions, and provides an introduction to single and bivariate statistics, elementary probability theory, and the binomial and normal distributions. The various uses of mathematics by Aboriginal and Torres Strait Islander Peoples for community agency, cultural knowledge management and practice, business enterprise, creative industries and research are incorporated in this unit, along with an emphasis on the roles of narrative and discovery. Aboriginal and Torres Strait Islander lecturers and speakers will be involved in the delivery of this unit and culture-centred, case studies will feature throughout to demonstrate linkages between learning and future practice.",
+      "accessConditions": {
+        "prerequisite": "MATH1100",
+        "corequisite": null,
+        "prohibition": null,
+        "assumedKnowledge": null
+      },
+      "availabilities": [
+        {
+          "session": "Semester 2",
+          "year": 2026,
+          "mode": "Block mode",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/MATH1200/2026-S2C-BM-CC"
+        }
+      ],
+      "learningOutcomes": [
+        "Understand the role of narrative and collaboration in the development of mathematics, and appreciating the importance and value of a range of viewpoints.",
+        "Use existing knowledge and cultural perspectives to incorporate expanded understandings of mathematical concepts and logic; use these to solve mathematical and logical problems.",
+        "Demonstrate fluency in relating angles and sidelengths of right-angled triangles; become conversant with trigonometric functions and their properties.",
+        "Develop fluency with statistical language, be able to classify data types, compute and interpret statistical summaries, make basic inferences.",
+        "Become conversant with the concepts of probability, be able to solve and interpret problems related to the binomial and normal distributions.",
+        "Understand the links between learning and industry, professional and/or personal practice."
+      ],
+      "sourceUrl": "https://www.sydney.edu.au/units/MATH1200"
+    },
+    {
+      "code": "OLES1602",
+      "name": "The Apocalypse in Science and Culture",
+      "year": 2026,
+      "studyLevel": "Undergraduate",
+      "academicUnit": "Physics Academic Operations",
+      "managingFaculty": "Science",
+      "creditPoints": 6,
+      "description": "Apocalypse scenarios abound in popular culture, due to causes as diverse as nuclear war, climate change, and zombies. Thinking about how the apocalypse might occur, and how to survive it, presents deep questions around our understanding of science, economics and social culture. This unit will investigate topical issues in nuclear physics, climate science, agriculture and economics. We will use examples from film and literature to explore how we might survive apocalyptic events. In this highly interdisciplinary unit of study you will work together with other students on a diverse range of case studies, to explore some of the key problems confronting our civilization. By doing this unit you will develop critical thinking and analysis skills, as well as practical skills in video production.",
+      "accessConditions": {
+        "prerequisite": null,
+        "corequisite": null,
+        "prohibition": null,
+        "assumedKnowledge": null
+      },
+      "availabilities": [
+        {
+          "session": "Semester 2",
+          "year": 2026,
+          "mode": "Normal day",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/OLES1602/2026-S2C-ND-CC"
+        },
+        {
+          "session": "Semester 2",
+          "year": 2026,
+          "mode": "Online",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/OLES1602/2026-S2C-OL-CC"
+        }
+      ],
+      "learningOutcomes": [
+        "Demonstrate an understanding of different apocalyptic scenarios",
+        "Describe examples of potentially catastrophic issues facing our society, such as climate change and economic collapse",
+        "Use online research to explore threats to our society and possible solutions in an interdisciplinary context",
+        "Analyse how fictional representations of apocalyptic scenarios reflect our concerns and inform debate about threats to society",
+        "Analyse a particular aspect of an apocalyptic scenario in depth, connecting to the broader scientific and social context",
+        "Create a video to communicate ideas, using appropriate technology",
+        "Work in groups to plan and implement a major project"
+      ],
+      "sourceUrl": "https://www.sydney.edu.au/units/OLES1602"
+    },
+    {
+      "code": "WRIT1001",
+      "name": "Writing and Rhetoric: Academic Essays",
+      "year": 2026,
+      "studyLevel": "Undergraduate",
+      "academicUnit": "English and Writing",
+      "managingFaculty": "Arts and Social Sciences",
+      "creditPoints": 6,
+      "description": "The persuasive power of the English language emerges from its richness and variation. This unit introduces students to rhetorical theory as a resource for the creative construction of meaning. Students will learn to discover topics, arrange ideas, and analyse the delivery of arguments across a variety of contexts. We examine print, visual media, political debates and engage in virtual exchanges with universities around the world.",
+      "accessConditions": {
+        "prerequisite": null,
+        "corequisite": null,
+        "prohibition": null,
+        "assumedKnowledge": null
+      },
+      "availabilities": [
+        {
+          "session": "Semester 1 Departmental Permission",
+          "year": 2026,
+          "mode": "Block mode",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/WRIT1001/2026-S1C-BM-CC"
+        },
+        {
+          "session": "Semester 2",
+          "year": 2026,
+          "mode": "Normal day",
+          "location": "Camperdown/Darlington, Sydney",
+          "outlineUrl": "https://www.sydney.edu.au/units/WRIT1001/2026-S2C-ND-CC"
+        }
+      ],
+      "learningOutcomes": [
+        "communicate persuasively in writing across a range of modalities and contexts",
+        "demonstrate an increased ability to analyse texts using relevant rhetorical concepts",
+        "adapt essay conventions to suit specific contexts for scholarly communication",
+        "connect scholarly arguments to issues of cultural and community importance",
+        "cultivate an independent writing style in response to collaborations with other writers or AI writing technologies"
+      ],
+      "sourceUrl": "https://www.sydney.edu.au/units/WRIT1001"
+    }
+  ]
+}

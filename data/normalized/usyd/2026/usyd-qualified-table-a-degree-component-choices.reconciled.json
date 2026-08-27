@@ -1,0 +1,3603 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T10:49:52.613Z",
+  "counts": {
+    "qualifiedTableAGroups": 23,
+    "authoritativeChoicePools": 18,
+    "degreesWithQualifiedTableAChoices": 13,
+    "totalChoiceCandidates": 462,
+    "reviewSignals": 5,
+    "contextualHonoursSignals": 4,
+    "streamReviewSignals": 1,
+    "unresolvedRoleSignals": 0
+  },
+  "choices": [
+    {
+      "degreeCode": "BPACMCOM-01",
+      "degreeTitle": "Bachelor of Advanced Computing and Bachelor of Commerce",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 52,
+          "componentName": "Accounting",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 54,
+          "componentName": "Banking",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 55,
+          "componentName": "Business Analytics",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 56,
+          "componentName": "Business Information Systems",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 57,
+          "componentName": "Business Law",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 58,
+          "componentName": "Finance",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 59,
+          "componentName": "Industrial Relations and Human Resource Management",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 60,
+          "componentName": "Innovation and Entrepreneurship",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 61,
+          "componentName": "International Business",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 62,
+          "componentName": "Management and Leadership",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 63,
+          "componentName": "Marketing",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points) from Table A for the Bachelor of Commerce"
+      ]
+    },
+    {
+      "degreeCode": "BPACMCOM-01",
+      "degreeTitle": "Bachelor of Advanced Computing and Bachelor of Commerce",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Computing",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 139,
+          "componentName": "Computational Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 140,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 142,
+          "componentName": "Cybersecurity",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 143,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points) from Table A for the Bachelor of Computing"
+      ]
+    },
+    {
+      "degreeCode": "BPACMSCI-01",
+      "degreeTitle": "Bachelor of Advanced Computing and Bachelor of Science",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Computing",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 139,
+          "componentName": "Computational Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 140,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 142,
+          "componentName": "Cybersecurity",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 143,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points) from Table A for the Bachelor of Computing"
+      ]
+    },
+    {
+      "degreeCode": "BPACMSCI-01",
+      "degreeTitle": "Bachelor of Advanced Computing and Bachelor of Science",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Science",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 312,
+          "componentName": "Anatomy and Histology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 313,
+          "componentName": "Animal Health, Disease and Welfare",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 314,
+          "componentName": "Animal Production",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 315,
+          "componentName": "Applied Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 317,
+          "componentName": "Biochemistry and Molecular Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 318,
+          "componentName": "Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 319,
+          "componentName": "Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 320,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 321,
+          "componentName": "Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 322,
+          "componentName": "Discrete Mathematics and Algorithms",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 323,
+          "componentName": "Ecology and Evolutionary Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 324,
+          "componentName": "Environmental Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 325,
+          "componentName": "Environmental Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 326,
+          "componentName": "Financial Mathematics and Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 327,
+          "componentName": "Food Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 328,
+          "componentName": "Genetics and Genomics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 329,
+          "componentName": "Geography",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 330,
+          "componentName": "Geology and Geophysics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 331,
+          "componentName": "Health",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 332,
+          "componentName": "History and Philosophy of Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 334,
+          "componentName": "Immunology and Pathology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 335,
+          "componentName": "Infectious Diseases",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 337,
+          "componentName": "Marine Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 338,
+          "componentName": "Mathematical Modelling and Computation",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 339,
+          "componentName": "Mathematics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 340,
+          "componentName": "Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 341,
+          "componentName": "Medicinal Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 342,
+          "componentName": "Microbiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 343,
+          "componentName": "Neuroscience",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 345,
+          "componentName": "Nutrition Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 347,
+          "componentName": "Pharmacology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 348,
+          "componentName": "Physics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 349,
+          "componentName": "Physiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 350,
+          "componentName": "Plant Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 351,
+          "componentName": "Psychological Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 353,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 354,
+          "componentName": "Soil Science and Hydrology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 355,
+          "componentName": "Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points) or a 3-year program with an embedded major from Table A for the Bachelor of Science, and which is different from the major completed to satisfy requirements specified clause 6 (4)(b) above (note: candidates taking Computational Data Science to fulfil requirements specified in clauses 6 (4)",
+        "A major (48 credit points) or a 3-year program with an embedded major from Table A for the Bachelor of Science, and which is different from the major completed to satisfy requirements specified clause 6 (4)(b) above (note: candidates taking Computational Data Science to fulfil requirements specified in clauses 6 (4) (b) may not take Data Science to fulfil requirements for the second major specified in this clause)"
+      ]
+    },
+    {
+      "degreeCode": "BPADVCMP-01",
+      "degreeTitle": "Bachelor of Advanced Computing",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Computing",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 139,
+          "componentName": "Computational Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 140,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 142,
+          "componentName": "Cybersecurity",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 143,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points) from Table A for the Bachelor of Computing"
+      ]
+    },
+    {
+      "degreeCode": "BPARTNUR-02",
+      "degreeTitle": "Bachelor of Arts and Master of Nursing",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Arts",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 0,
+          "componentName": "American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 1,
+          "componentName": "Ancient Greek",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 2,
+          "componentName": "Ancient History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 3,
+          "componentName": "Anthropology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 4,
+          "componentName": "Arabic Language and Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 5,
+          "componentName": "Archaeology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 6,
+          "componentName": "Art History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 7,
+          "componentName": "Asian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 8,
+          "componentName": "Chinese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 9,
+          "componentName": "Criminology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 10,
+          "componentName": "Cultural Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 11,
+          "componentName": "Digital Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 13,
+          "componentName": "Econometrics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 14,
+          "componentName": "Economic Policy Analysis",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 15,
+          "componentName": "Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 16,
+          "componentName": "Education Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 17,
+          "componentName": "English",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 18,
+          "componentName": "Environmental, Agricultural and Resource Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 19,
+          "componentName": "European Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 21,
+          "componentName": "Film Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 22,
+          "componentName": "Financial Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 23,
+          "componentName": "French and Francophone Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 24,
+          "componentName": "Gender Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 25,
+          "componentName": "Germanic Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 26,
+          "componentName": "Hebrew (Modern)",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 27,
+          "componentName": "History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 28,
+          "componentName": "Indigenous Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 29,
+          "componentName": "Indonesian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 30,
+          "componentName": "International and Comparative Literary Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 31,
+          "componentName": "International Relations",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 32,
+          "componentName": "Italian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 33,
+          "componentName": "Japanese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 34,
+          "componentName": "Jewish Civilisation, Thought and Culture",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 35,
+          "componentName": "Korean Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 36,
+          "componentName": "Latin",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 37,
+          "componentName": "Linguistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 38,
+          "componentName": "Media Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 39,
+          "componentName": "Modern Greek Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 40,
+          "componentName": "Music",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 41,
+          "componentName": "Philosophy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 42,
+          "componentName": "Political Economy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 43,
+          "componentName": "Politics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 45,
+          "componentName": "Socio-Legal Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 46,
+          "componentName": "Sociology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 47,
+          "componentName": "Spanish and Latin American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 49,
+          "componentName": "Theatre and Performance Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 50,
+          "componentName": "Visual Arts",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) from Table A for the Bachelor of Arts"
+      ]
+    },
+    {
+      "degreeCode": "BPARTSWK-04",
+      "degreeTitle": "Bachelor of Arts and Bachelor of Social Work",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Arts",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 0,
+          "componentName": "American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 1,
+          "componentName": "Ancient Greek",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 2,
+          "componentName": "Ancient History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 3,
+          "componentName": "Anthropology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 4,
+          "componentName": "Arabic Language and Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 5,
+          "componentName": "Archaeology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 6,
+          "componentName": "Art History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 7,
+          "componentName": "Asian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 8,
+          "componentName": "Chinese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 9,
+          "componentName": "Criminology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 10,
+          "componentName": "Cultural Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 11,
+          "componentName": "Digital Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 13,
+          "componentName": "Econometrics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 14,
+          "componentName": "Economic Policy Analysis",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 15,
+          "componentName": "Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 16,
+          "componentName": "Education Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 17,
+          "componentName": "English",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 18,
+          "componentName": "Environmental, Agricultural and Resource Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 19,
+          "componentName": "European Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 21,
+          "componentName": "Film Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 22,
+          "componentName": "Financial Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 23,
+          "componentName": "French and Francophone Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 24,
+          "componentName": "Gender Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 25,
+          "componentName": "Germanic Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 26,
+          "componentName": "Hebrew (Modern)",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 27,
+          "componentName": "History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 28,
+          "componentName": "Indigenous Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 29,
+          "componentName": "Indonesian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 30,
+          "componentName": "International and Comparative Literary Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 31,
+          "componentName": "International Relations",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 32,
+          "componentName": "Italian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 33,
+          "componentName": "Japanese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 34,
+          "componentName": "Jewish Civilisation, Thought and Culture",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 35,
+          "componentName": "Korean Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 36,
+          "componentName": "Latin",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 37,
+          "componentName": "Linguistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 38,
+          "componentName": "Media Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 39,
+          "componentName": "Modern Greek Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 40,
+          "componentName": "Music",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 41,
+          "componentName": "Philosophy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 42,
+          "componentName": "Political Economy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 43,
+          "componentName": "Politics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 45,
+          "componentName": "Socio-Legal Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 46,
+          "componentName": "Sociology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 47,
+          "componentName": "Spanish and Latin American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 49,
+          "componentName": "Theatre and Performance Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 50,
+          "componentName": "Visual Arts",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points) from Table A for the Bachelor of Arts and Bachelor of Advanced Studies as set out in Section 7 below"
+      ]
+    },
+    {
+      "degreeCode": "BPCOMART-03",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Arts",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Arts",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 0,
+          "componentName": "American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 1,
+          "componentName": "Ancient Greek",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 2,
+          "componentName": "Ancient History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 3,
+          "componentName": "Anthropology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 4,
+          "componentName": "Arabic Language and Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 5,
+          "componentName": "Archaeology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 6,
+          "componentName": "Art History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 7,
+          "componentName": "Asian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 8,
+          "componentName": "Chinese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 9,
+          "componentName": "Criminology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 10,
+          "componentName": "Cultural Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 11,
+          "componentName": "Digital Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 13,
+          "componentName": "Econometrics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 14,
+          "componentName": "Economic Policy Analysis",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 15,
+          "componentName": "Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 16,
+          "componentName": "Education Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 17,
+          "componentName": "English",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 18,
+          "componentName": "Environmental, Agricultural and Resource Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 19,
+          "componentName": "European Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 21,
+          "componentName": "Film Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 22,
+          "componentName": "Financial Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 23,
+          "componentName": "French and Francophone Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 24,
+          "componentName": "Gender Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 25,
+          "componentName": "Germanic Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 26,
+          "componentName": "Hebrew (Modern)",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 27,
+          "componentName": "History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 28,
+          "componentName": "Indigenous Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 29,
+          "componentName": "Indonesian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 30,
+          "componentName": "International and Comparative Literary Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 31,
+          "componentName": "International Relations",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 32,
+          "componentName": "Italian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 33,
+          "componentName": "Japanese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 34,
+          "componentName": "Jewish Civilisation, Thought and Culture",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 35,
+          "componentName": "Korean Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 36,
+          "componentName": "Latin",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 37,
+          "componentName": "Linguistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 38,
+          "componentName": "Media Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 39,
+          "componentName": "Modern Greek Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 40,
+          "componentName": "Music",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 41,
+          "componentName": "Philosophy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 42,
+          "componentName": "Political Economy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 43,
+          "componentName": "Politics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 45,
+          "componentName": "Socio-Legal Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 46,
+          "componentName": "Sociology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 47,
+          "componentName": "Spanish and Latin American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 49,
+          "componentName": "Theatre and Performance Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 50,
+          "componentName": "Visual Arts",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) as set out in the resolutions for the Bachelor of Arts and in Table A for the Bachelor of Arts"
+      ]
+    },
+    {
+      "degreeCode": "BPCOMART-03",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Arts",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 52,
+          "componentName": "Accounting",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 54,
+          "componentName": "Banking",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 55,
+          "componentName": "Business Analytics",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 56,
+          "componentName": "Business Information Systems",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 57,
+          "componentName": "Business Law",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 58,
+          "componentName": "Finance",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 59,
+          "componentName": "Industrial Relations and Human Resource Management",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 60,
+          "componentName": "Innovation and Entrepreneurship",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 61,
+          "componentName": "International Business",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 62,
+          "componentName": "Management and Leadership",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 63,
+          "componentName": "Marketing",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) as set out in the resolutions for the Bachelor of Commerce and in Table A for the Bachelor of Commerce"
+      ]
+    },
+    {
+      "degreeCode": "BPCOMLAW-05",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Laws",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 52,
+          "componentName": "Accounting",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 54,
+          "componentName": "Banking",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 55,
+          "componentName": "Business Analytics",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 56,
+          "componentName": "Business Information Systems",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 57,
+          "componentName": "Business Law",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 58,
+          "componentName": "Finance",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 59,
+          "componentName": "Industrial Relations and Human Resource Management",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 60,
+          "componentName": "Innovation and Entrepreneurship",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 61,
+          "componentName": "International Business",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 62,
+          "componentName": "Management and Leadership",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 63,
+          "componentName": "Marketing",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) from Table A for the Bachelor of Commerce as set out in section 7 below"
+      ]
+    },
+    {
+      "degreeCode": "BPCOMPUT-01",
+      "degreeTitle": "Bachelor of Computing",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Computing",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 139,
+          "componentName": "Computational Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 140,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 142,
+          "componentName": "Cybersecurity",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 143,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "ENGINEERING",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points) from Table A for the Bachelor of Computing"
+      ]
+    },
+    {
+      "degreeCode": "BPCOMSCI-03",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Science",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 52,
+          "componentName": "Accounting",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 54,
+          "componentName": "Banking",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 55,
+          "componentName": "Business Analytics",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 56,
+          "componentName": "Business Information Systems",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 57,
+          "componentName": "Business Law",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 58,
+          "componentName": "Finance",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 59,
+          "componentName": "Industrial Relations and Human Resource Management",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 60,
+          "componentName": "Innovation and Entrepreneurship",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 61,
+          "componentName": "International Business",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 62,
+          "componentName": "Management and Leadership",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 63,
+          "componentName": "Marketing",
+          "componentType": "MAJOR",
+          "componentHandbook": "BUSINESS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) as set out in the resolutions for the Bachelor of Commerce and in Table A for the Bachelor of Commerce"
+      ]
+    },
+    {
+      "degreeCode": "BPCOMSCI-03",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Science",
+      "degreeHandbook": "BUSINESS",
+      "tableName": "Table A for the Bachelor of Science",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 312,
+          "componentName": "Anatomy and Histology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 313,
+          "componentName": "Animal Health, Disease and Welfare",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 314,
+          "componentName": "Animal Production",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 315,
+          "componentName": "Applied Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 317,
+          "componentName": "Biochemistry and Molecular Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 318,
+          "componentName": "Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 319,
+          "componentName": "Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 320,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 321,
+          "componentName": "Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 322,
+          "componentName": "Discrete Mathematics and Algorithms",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 323,
+          "componentName": "Ecology and Evolutionary Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 324,
+          "componentName": "Environmental Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 325,
+          "componentName": "Environmental Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 326,
+          "componentName": "Financial Mathematics and Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 327,
+          "componentName": "Food Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 328,
+          "componentName": "Genetics and Genomics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 329,
+          "componentName": "Geography",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 330,
+          "componentName": "Geology and Geophysics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 331,
+          "componentName": "Health",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 332,
+          "componentName": "History and Philosophy of Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 334,
+          "componentName": "Immunology and Pathology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 335,
+          "componentName": "Infectious Diseases",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 337,
+          "componentName": "Marine Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 338,
+          "componentName": "Mathematical Modelling and Computation",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 339,
+          "componentName": "Mathematics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 340,
+          "componentName": "Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 341,
+          "componentName": "Medicinal Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 342,
+          "componentName": "Microbiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 343,
+          "componentName": "Neuroscience",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 345,
+          "componentName": "Nutrition Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 347,
+          "componentName": "Pharmacology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 348,
+          "componentName": "Physics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 349,
+          "componentName": "Physiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 350,
+          "componentName": "Plant Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 351,
+          "componentName": "Psychological Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 353,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 354,
+          "componentName": "Soil Science and Hydrology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 355,
+          "componentName": "Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) or program as set out in the resolutions for the Bachelor of Science and in Table A for the Bachelor of Science"
+      ]
+    },
+    {
+      "degreeCode": "BPECNAVS-01",
+      "degreeTitle": "Bachelor of Economics and Bachelor of Advanced Studies",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": null,
+          "componentName": "Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/economics/overview.html",
+          "authoritativeRoleSource": "ECONOMICS_ROLE_CATALOG"
+        },
+        {
+          "componentIndex": null,
+          "componentName": "Environmental, Agricultural and Resource Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/environmental-agricultural-resource-economics/overview.html",
+          "authoritativeRoleSource": "ECONOMICS_ROLE_CATALOG"
+        },
+        {
+          "componentIndex": null,
+          "componentName": "Financial Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/financial-economics/overview.html",
+          "authoritativeRoleSource": "ECONOMICS_ROLE_CATALOG"
+        }
+      ],
+      "evidence": [
+        "second major (48 credit points) as defined in Section 7 below and as specified in Table A for the Bachelor of Economics or Table S"
+      ]
+    },
+    {
+      "degreeCode": "BPECONOM-05",
+      "degreeTitle": "Bachelor of Economics",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "requestedComponentType": "MINOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": null,
+          "componentName": "Economics",
+          "componentType": "MINOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/economics/overview.html",
+          "authoritativeRoleSource": "ECONOMICS_ROLE_CATALOG"
+        },
+        {
+          "componentIndex": null,
+          "componentName": "Environmental, Agricultural and Resource Economics",
+          "componentType": "MINOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/environmental-agricultural-resource-economics/overview.html",
+          "authoritativeRoleSource": "ECONOMICS_ROLE_CATALOG"
+        },
+        {
+          "componentIndex": null,
+          "componentName": "Financial Economics",
+          "componentType": "MINOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/financial-economics/overview.html",
+          "authoritativeRoleSource": "ECONOMICS_ROLE_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a minor (36 credit points) or second major (48 credit points) as defined in Section 7 below and as specified in Table A for the Bachelor of Economics or Table S"
+      ]
+    },
+    {
+      "degreeCode": "BPSCIART-03",
+      "degreeTitle": "Bachelor of Science and Bachelor of Arts",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Arts",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 0,
+          "componentName": "American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 1,
+          "componentName": "Ancient Greek",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 2,
+          "componentName": "Ancient History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 3,
+          "componentName": "Anthropology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 4,
+          "componentName": "Arabic Language and Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 5,
+          "componentName": "Archaeology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 6,
+          "componentName": "Art History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 7,
+          "componentName": "Asian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 8,
+          "componentName": "Chinese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 9,
+          "componentName": "Criminology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 10,
+          "componentName": "Cultural Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 11,
+          "componentName": "Digital Cultures",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 13,
+          "componentName": "Econometrics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 14,
+          "componentName": "Economic Policy Analysis",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 15,
+          "componentName": "Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 16,
+          "componentName": "Education Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 17,
+          "componentName": "English",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 18,
+          "componentName": "Environmental, Agricultural and Resource Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 19,
+          "componentName": "European Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 21,
+          "componentName": "Film Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 22,
+          "componentName": "Financial Economics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 23,
+          "componentName": "French and Francophone Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 24,
+          "componentName": "Gender Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 25,
+          "componentName": "Germanic Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 26,
+          "componentName": "Hebrew (Modern)",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 27,
+          "componentName": "History",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 28,
+          "componentName": "Indigenous Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 29,
+          "componentName": "Indonesian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 30,
+          "componentName": "International and Comparative Literary Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 31,
+          "componentName": "International Relations",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 32,
+          "componentName": "Italian Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 33,
+          "componentName": "Japanese Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 34,
+          "componentName": "Jewish Civilisation, Thought and Culture",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 35,
+          "componentName": "Korean Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 36,
+          "componentName": "Latin",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 37,
+          "componentName": "Linguistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 38,
+          "componentName": "Media Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 39,
+          "componentName": "Modern Greek Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 40,
+          "componentName": "Music",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 41,
+          "componentName": "Philosophy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 42,
+          "componentName": "Political Economy",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 43,
+          "componentName": "Politics",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 45,
+          "componentName": "Socio-Legal Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 46,
+          "componentName": "Sociology",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 47,
+          "componentName": "Spanish and Latin American Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 49,
+          "componentName": "Theatre and Performance Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 50,
+          "componentName": "Visual Arts",
+          "componentType": "MAJOR",
+          "componentHandbook": "ARTS",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) as set out in the resolutions for the Bachelor of Arts and in Table A for the Bachelor of Arts"
+      ]
+    },
+    {
+      "degreeCode": "BPSCIART-03",
+      "degreeTitle": "Bachelor of Science and Bachelor of Arts",
+      "degreeHandbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Science",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 312,
+          "componentName": "Anatomy and Histology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 313,
+          "componentName": "Animal Health, Disease and Welfare",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 314,
+          "componentName": "Animal Production",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 315,
+          "componentName": "Applied Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 317,
+          "componentName": "Biochemistry and Molecular Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 318,
+          "componentName": "Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 319,
+          "componentName": "Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 320,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 321,
+          "componentName": "Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 322,
+          "componentName": "Discrete Mathematics and Algorithms",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 323,
+          "componentName": "Ecology and Evolutionary Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 324,
+          "componentName": "Environmental Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 325,
+          "componentName": "Environmental Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 326,
+          "componentName": "Financial Mathematics and Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 327,
+          "componentName": "Food Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 328,
+          "componentName": "Genetics and Genomics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 329,
+          "componentName": "Geography",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 330,
+          "componentName": "Geology and Geophysics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 331,
+          "componentName": "Health",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 332,
+          "componentName": "History and Philosophy of Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 334,
+          "componentName": "Immunology and Pathology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 335,
+          "componentName": "Infectious Diseases",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 337,
+          "componentName": "Marine Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 338,
+          "componentName": "Mathematical Modelling and Computation",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 339,
+          "componentName": "Mathematics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 340,
+          "componentName": "Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 341,
+          "componentName": "Medicinal Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 342,
+          "componentName": "Microbiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 343,
+          "componentName": "Neuroscience",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 345,
+          "componentName": "Nutrition Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 347,
+          "componentName": "Pharmacology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 348,
+          "componentName": "Physics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 349,
+          "componentName": "Physiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 350,
+          "componentName": "Plant Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 351,
+          "componentName": "Psychological Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 353,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 354,
+          "componentName": "Soil Science and Hydrology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 355,
+          "componentName": "Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "a major (48 credit points) or program as set out in the resolutions for the Bachelor of Science and in Table A for the Bachelor of Science"
+      ]
+    },
+    {
+      "degreeCode": "BPSCILAW-02",
+      "degreeTitle": "Bachelor of Science and Bachelor of Laws",
+      "degreeHandbook": "SCIENCE",
+      "tableName": "Table A for the Bachelor of Science",
+      "requestedComponentType": "MAJOR",
+      "relationshipSemantics": "CHOICE_POOL",
+      "authoritative": true,
+      "compulsoryCandidateRelationships": false,
+      "candidates": [
+        {
+          "componentIndex": 312,
+          "componentName": "Anatomy and Histology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 313,
+          "componentName": "Animal Health, Disease and Welfare",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 314,
+          "componentName": "Animal Production",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 315,
+          "componentName": "Applied Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 317,
+          "componentName": "Biochemistry and Molecular Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 318,
+          "componentName": "Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 319,
+          "componentName": "Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 320,
+          "componentName": "Computer Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 321,
+          "componentName": "Data Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 322,
+          "componentName": "Discrete Mathematics and Algorithms",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 323,
+          "componentName": "Ecology and Evolutionary Biology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 324,
+          "componentName": "Environmental Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 325,
+          "componentName": "Environmental Studies",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 326,
+          "componentName": "Financial Mathematics and Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 327,
+          "componentName": "Food Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 328,
+          "componentName": "Genetics and Genomics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 329,
+          "componentName": "Geography",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 330,
+          "componentName": "Geology and Geophysics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 331,
+          "componentName": "Health",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 332,
+          "componentName": "History and Philosophy of Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 334,
+          "componentName": "Immunology and Pathology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 335,
+          "componentName": "Infectious Diseases",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 337,
+          "componentName": "Marine Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 338,
+          "componentName": "Mathematical Modelling and Computation",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 339,
+          "componentName": "Mathematics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 340,
+          "componentName": "Medical Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 341,
+          "componentName": "Medicinal Chemistry",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 342,
+          "componentName": "Microbiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 343,
+          "componentName": "Neuroscience",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 345,
+          "componentName": "Nutrition Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 347,
+          "componentName": "Pharmacology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 348,
+          "componentName": "Physics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 349,
+          "componentName": "Physiology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 350,
+          "componentName": "Plant Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 351,
+          "componentName": "Psychological Science",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 353,
+          "componentName": "Software Development",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 354,
+          "componentName": "Soil Science and Hydrology",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        },
+        {
+          "componentIndex": 355,
+          "componentName": "Statistics",
+          "componentType": "MAJOR",
+          "componentHandbook": "SCIENCE",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+          "authoritativeRoleSource": "COMPONENT_CATALOG"
+        }
+      ],
+      "evidence": [
+        "A major (48 credit points of units of study) from Table A for the Bachelor of Science as set out in Section 7 below"
+      ]
+    }
+  ],
+  "reviewSignals": [
+    {
+      "degreeCode": "BHADVFGB-01",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours) (Food and Agribusiness)",
+      "tableName": "Table A for the Bachelor relevant to that Honours subject area",
+      "requestedComponentTypes": [
+        "STREAM"
+      ],
+      "rawExamples": [
+        "a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area"
+      ],
+      "reason": "CONTEXTUAL_HONOURS_TABLE_REFERENCE"
+    },
+    {
+      "degreeCode": "BHADVMDC-03",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours) (Media and Communications)",
+      "tableName": "Table A for the Bachelor relevant to that Honours subject area",
+      "requestedComponentTypes": [
+        "STREAM"
+      ],
+      "rawExamples": [
+        "a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area"
+      ],
+      "reason": "CONTEXTUAL_HONOURS_TABLE_REFERENCE"
+    },
+    {
+      "degreeCode": "BHADVSTH-02",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours)",
+      "tableName": "Table A for the Bachelor relevant to that Honours subject area",
+      "requestedComponentTypes": [
+        "STREAM"
+      ],
+      "rawExamples": [
+        "a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area"
+      ],
+      "reason": "CONTEXTUAL_HONOURS_TABLE_REFERENCE"
+    },
+    {
+      "degreeCode": "BHADVTWC-01",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours) (Taronga Wildlife Conservation)",
+      "tableName": "Table A for the Bachelor relevant to that Honours subject area",
+      "requestedComponentTypes": [
+        "STREAM"
+      ],
+      "rawExamples": [
+        "a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area"
+      ],
+      "reason": "CONTEXTUAL_HONOURS_TABLE_REFERENCE"
+    },
+    {
+      "degreeCode": "BPACMSCI-01",
+      "degreeTitle": "Bachelor of Advanced Computing and Bachelor of Science",
+      "tableName": "Table A for the Bachelor of Science",
+      "requestedComponentTypes": [
+        "STREAM"
+      ],
+      "rawExamples": [
+        "a stream, requirements for the stream as specified in Table A for the Bachelor of Science or Table D"
+      ],
+      "reason": "STREAM_NOT_DIRECT_COMPONENT_POOL"
+    }
+  ],
+  "reconciliationMetadata": {
+    "source": "usyd-unqualified-table-a-authoritative-role-catalog.json",
+    "generatedAt": "2026-08-26T12:27:42.134Z",
+    "rule": "Candidates not present in the authoritative 2026 role pool are removed. Missing authoritative names are reported but not invented."
+  }
+}

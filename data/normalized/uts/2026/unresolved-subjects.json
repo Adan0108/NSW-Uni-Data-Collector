@@ -1,0 +1,442 @@
+[
+  {
+    "code": "22107",
+    "name": "Accounting for Business Decisions A",
+    "creditPoints": 6,
+    "url": "/subject/2025/22107",
+    "sourceType": "COURSE",
+    "sourceCode": "C10143",
+    "sourceName": "Bachelor of Information Technology (Co-op)",
+    "groupPath": "Electives > Options"
+  },
+  {
+    "code": "21228",
+    "name": "Management Consulting",
+    "creditPoints": 6,
+    "url": "/subject/2026/21228",
+    "sourceType": "COURSE",
+    "sourceCode": "C10143",
+    "sourceName": "Bachelor of Information Technology (Co-op)",
+    "groupPath": "Electives > Options"
+  },
+  {
+    "code": "21129",
+    "name": "Managing People and Organisations",
+    "creditPoints": 6,
+    "url": "/subject/2025/21129",
+    "sourceType": "COURSE",
+    "sourceCode": "C10143",
+    "sourceName": "Bachelor of Information Technology (Co-op)",
+    "groupPath": "Electives > Options"
+  },
+  {
+    "code": "24108",
+    "name": "Marketing Foundations",
+    "creditPoints": 6,
+    "url": "/subject/2025/24108",
+    "sourceType": "COURSE",
+    "sourceCode": "C10143",
+    "sourceName": "Bachelor of Information Technology (Co-op)",
+    "groupPath": "Electives > Options"
+  },
+  {
+    "code": "41308",
+    "name": "Machine Learning and Industrial Data Science",
+    "creditPoints": 6,
+    "url": "/subject/2026/41308",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ03543",
+    "sourceName": "MAJ03543 - Advanced Manufacturing",
+    "groupPath": "Advanced Manufacturing"
+  },
+  {
+    "code": "25627",
+    "name": "Responsible Finance",
+    "creditPoints": 6,
+    "url": "/subject/2026/25627",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ08440",
+    "sourceName": "MAJ08440 - Finance",
+    "groupPath": "Options"
+  },
+  {
+    "code": "25500",
+    "name": "Strategic Investment Management",
+    "creditPoints": 6,
+    "url": "/subject/2026/25500",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ08440",
+    "sourceName": "MAJ08440 - Finance",
+    "groupPath": "Options"
+  },
+  {
+    "code": "48210",
+    "name": "Interrogating Technology: Sustainability, Environment and Social Change",
+    "creditPoints": 6,
+    "url": "/subject/2026/48210",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ03541",
+    "sourceName": "MAJ03541 - Flexible Engineering",
+    "groupPath": "Introduction options"
+  },
+  {
+    "code": "95748",
+    "name": "Global Human Rights and Health Equity",
+    "creditPoints": 6,
+    "url": "/subject/2026/95748",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ06268",
+    "sourceName": "MAJ06268 - Global Health",
+    "groupPath": "Core"
+  },
+  {
+    "code": "95751",
+    "name": "Global Sexual Health",
+    "creditPoints": 6,
+    "url": "/subject/2026/95751",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ06268",
+    "sourceName": "MAJ06268 - Global Health",
+    "groupPath": "Core"
+  },
+  {
+    "code": "95754",
+    "name": "Global Public Health Study Tour",
+    "creditPoints": 6,
+    "url": "/subject/2026/95754",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ06268",
+    "sourceName": "MAJ06268 - Global Health",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "95755",
+    "name": "External Elective Subject",
+    "creditPoints": 6,
+    "url": "/subject/2026/95755",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ06268",
+    "sourceName": "MAJ06268 - Global Health",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "95744",
+    "name": "Intervention Design in Health Promotion",
+    "creditPoints": 6,
+    "url": "/subject/2026/95744",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ06245",
+    "sourceName": "MAJ06245 - Health Promotion",
+    "groupPath": "Core"
+  },
+  {
+    "code": "95732",
+    "name": "Introduction to Digital Health",
+    "creditPoints": 6,
+    "url": "/subject/2025/95732",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ06245",
+    "sourceName": "MAJ06245 - Health Promotion",
+    "groupPath": "Options"
+  },
+  {
+    "code": "22240",
+    "name": "International Accounting",
+    "creditPoints": 6,
+    "url": "/subject/2026/22240",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ08442",
+    "sourceName": "MAJ08442 - International Business",
+    "groupPath": "Options"
+  },
+  {
+    "code": "24205",
+    "name": "Business-to-Business Marketing",
+    "creditPoints": 6,
+    "url": "/subject/2026/24205",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ08441",
+    "sourceName": "MAJ08441 - Marketing",
+    "groupPath": "Options"
+  },
+  {
+    "code": "24212",
+    "name": "Entrepreneurial Marketing",
+    "creditPoints": 6,
+    "url": "/subject/2026/24212",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ08441",
+    "sourceName": "MAJ08441 - Marketing",
+    "groupPath": "Options"
+  },
+  {
+    "code": "49322",
+    "name": "Airconditioning",
+    "creditPoints": 6,
+    "url": "/subject/2026/49322",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03056",
+    "sourceName": "SMJ03056 - Advanced Manufacturing Systems",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16260",
+    "name": "Honours Research 3",
+    "creditPoints": 6,
+    "url": "/subject/2025/16260",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ08206",
+    "sourceName": "SMJ08206 - Research Methods",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16074",
+    "name": "International Construction",
+    "creditPoints": 6,
+    "url": "/subject/2025/16074",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16075",
+    "name": "Sustainable Building Technology",
+    "creditPoints": 6,
+    "url": "/subject/2025/16075",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16076",
+    "name": "Building Assessment",
+    "creditPoints": 6,
+    "url": "/subject/2025/16076",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16077",
+    "name": "Advanced Construction Technologies",
+    "creditPoints": 6,
+    "url": "/subject/2025/16077",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "92577",
+    "name": "Health Project and Program Management and Evaluation",
+    "creditPoints": 6,
+    "url": "/subject/2026/92577",
+    "sourceType": "AOS",
+    "sourceCode": "STM92039",
+    "sourceName": "STM92039 - Electives",
+    "groupPath": "Select options"
+  },
+  {
+    "code": "92574",
+    "name": "Introduction to Public Health",
+    "creditPoints": 6,
+    "url": "/subject/2026/92574",
+    "sourceType": "AOS",
+    "sourceCode": "STM92039",
+    "sourceName": "STM92039 - Electives",
+    "groupPath": "Select options"
+  },
+  {
+    "code": "93470",
+    "name": "Introduction to Speciality Practice: Chronic Care Nursing",
+    "creditPoints": 6,
+    "url": "/subject/2026/93470",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92470",
+    "name": "Introduction to Specialty Practice: Aboriginal Community Engagement",
+    "creditPoints": 6,
+    "url": "/subject/2026/92470",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92471",
+    "name": "Introduction to Specialty Practice: Care of the Older Person",
+    "creditPoints": 6,
+    "url": "/subject/2026/92471",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92472",
+    "name": "Introduction to Specialty Practice: Community Health Nursing",
+    "creditPoints": 6,
+    "url": "/subject/2026/92472",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92474",
+    "name": "Introduction to Specialty Practice: Child and Family Health Nursing",
+    "creditPoints": 6,
+    "url": "/subject/2026/92474",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92478",
+    "name": "Introduction to Specialty Practice: Palliative Care",
+    "creditPoints": 6,
+    "url": "/subject/2026/92478",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92480",
+    "name": "Introduction to Specialty Practice: Reproductive, Maternal and Child Health",
+    "creditPoints": 6,
+    "url": "/subject/2025/92480",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92481",
+    "name": "Introduction to Speciality Practice: Drug and Alcohol Nursing",
+    "creditPoints": 6,
+    "url": "/subject/2026/92481",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "92482",
+    "name": "Introduction to Specialty Practice: Women's Health",
+    "creditPoints": 6,
+    "url": "/subject/2026/92482",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "54420",
+    "name": "Figure Drawing for Animation",
+    "creditPoints": 6,
+    "url": "/subject/2026/54420",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92055",
+    "sourceName": "CBK92055 - Electives",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "99215",
+    "name": "Sustainability in Context",
+    "creditPoints": 6,
+    "url": "/subject/2025/99215",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92230",
+    "sourceName": "CBK92230 - Electives (6cp subjects)",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "260777",
+    "name": "Data Processing Using SAS",
+    "creditPoints": 3,
+    "url": "/subject/2026/260777",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92284",
+    "sourceName": "CBK92284 - Electives (International Relations)",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "260776",
+    "name": "Foundation of Business Analytics",
+    "creditPoints": 3,
+    "url": "/subject/2026/260776",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92284",
+    "sourceName": "CBK92284 - Electives (International Relations)",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "420100",
+    "name": "Leading Organisational Change",
+    "creditPoints": 6,
+    "url": "/subject/2026/420100",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92284",
+    "sourceName": "CBK92284 - Electives (International Relations)",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "96342",
+    "name": "Using Health Care Data for Decision Making",
+    "creditPoints": 6,
+    "url": "/subject/2025/96342",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92284",
+    "sourceName": "CBK92284 - Electives (International Relations)",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "096332",
+    "name": "Fundamentals of Health Information Management",
+    "creditPoints": 6,
+    "url": "/subject/2025/096332",
+    "sourceType": "AOS",
+    "sourceCode": "STM91968",
+    "sourceName": "STM91968 - Flexible Major",
+    "groupPath": "Options"
+  },
+  {
+    "code": "096331",
+    "name": "Planning for Health and Social Services",
+    "creditPoints": 6,
+    "url": "/subject/2026/096331",
+    "sourceType": "AOS",
+    "sourceCode": "STM91968",
+    "sourceName": "STM91968 - Flexible Major",
+    "groupPath": "Options"
+  },
+  {
+    "code": "090044",
+    "name": "Program Evaluation in Public Health",
+    "creditPoints": 6,
+    "url": "/subject/2025/090044",
+    "sourceType": "AOS",
+    "sourceCode": "STM91968",
+    "sourceName": "STM91968 - Flexible Major",
+    "groupPath": "Options"
+  },
+  {
+    "code": "090059",
+    "name": "Introduction to Health Technology Assessment",
+    "creditPoints": 6,
+    "url": "/subject/2026/090059",
+    "sourceType": "AOS",
+    "sourceCode": "STM91968",
+    "sourceName": "STM91968 - Flexible Major",
+    "groupPath": "Options"
+  }
+]

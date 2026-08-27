@@ -1,0 +1,111 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T09:35:05.779Z",
+  "counts": {
+    "unresolvedFamiliesInput": 6,
+    "resolved": 6,
+    "stillUnresolved": 0,
+    "fetchFailed": 0
+  },
+  "records": [
+    {
+      "familyName": "Banking",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/banking/overview.html",
+      "unitTableUrls": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/banking/unit-of-study-table.html"
+      ],
+      "explicitRoles": [
+        "MAJOR"
+      ],
+      "evidenceText": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/banking/unit-of-study-table.html :: Banking major"
+      ],
+      "status": "RESOLVED",
+      "fetchErrors": []
+    },
+    {
+      "familyName": "Design",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/design/overview.html",
+      "unitTableUrls": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/design/unit-of-study-table.html"
+      ],
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "evidenceText": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/design/unit-of-study-table.html :: Design major",
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/design/unit-of-study-table.html :: Design minor"
+      ],
+      "status": "RESOLVED",
+      "fetchErrors": []
+    },
+    {
+      "familyName": "Disability and Participation",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/disability-participation/overview.html",
+      "unitTableUrls": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/disability-participation/unit-of-study-table.html"
+      ],
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "evidenceText": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/disability-participation/unit-of-study-table.html :: Major",
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/disability-participation/unit-of-study-table.html :: Minor"
+      ],
+      "status": "RESOLVED",
+      "fetchErrors": []
+    },
+    {
+      "familyName": "Finance",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/finance/overview.html",
+      "unitTableUrls": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/finance/unit-of-study-table.html"
+      ],
+      "explicitRoles": [
+        "MAJOR"
+      ],
+      "evidenceText": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/finance/unit-of-study-table.html :: Finance major"
+      ],
+      "status": "RESOLVED",
+      "fetchErrors": []
+    },
+    {
+      "familyName": "Music",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/music/overview.html",
+      "unitTableUrls": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/music/unit-of-study-table.html"
+      ],
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "evidenceText": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/music/unit-of-study-table.html :: Major",
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/music/unit-of-study-table.html :: Minor"
+      ],
+      "status": "RESOLVED",
+      "fetchErrors": []
+    },
+    {
+      "familyName": "Urban Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/urban-studies/overview.html",
+      "unitTableUrls": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/urban-studies/unit-of-study-table.html"
+      ],
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "evidenceText": [
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/urban-studies/unit-of-study-table.html :: Urban Studies major",
+        "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/urban-studies/unit-of-study-table.html :: Urban Studies minor"
+      ],
+      "status": "RESOLVED",
+      "fetchErrors": []
+    }
+  ]
+}

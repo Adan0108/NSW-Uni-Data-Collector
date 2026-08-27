@@ -1,0 +1,1158 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T13:28:06.878Z",
+  "counts": {
+    "clauses": 1085,
+    "authoritative": 400,
+    "rawFallback": 576,
+    "nonRequirement": 109,
+    "rawWithExplicitReasons": 576,
+    "rawUnsupportedSafePatternOnly": 114,
+    "rawLargeResolutionBlocks": 63,
+    "rawNestedNumbering": 166,
+    "rawMixedAndOr": 163,
+    "rawConditional": 122,
+    "degreesWithRawFallback": 109,
+    "degreesFullyStructuredAtClauseLevel": 0,
+    "emptyReasonRawFallbacks": 0
+  },
+  "reasons": [
+    {
+      "reason": "QUALIFIED_CREDIT_POINT_BUCKET",
+      "count": 258,
+      "degreeCount": 90,
+      "samples": [
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "(1) Honours in the Bachelor of Laws is available to meritorious students who complete a 12 credit point honours dissertation unit in the final year of the program. Admission requires a minimum WAM of at least 75 in core Law units of study undertaken at the Sydney Law School to that point, with the exception of LAWS1025. Results in elective units will not be included in the WAM. Places in the Honours program are limited by available resources and entry is competitive. A higher WAM may be necessary for entry in any given year. (2) To qualify for the award of the Honours degree, a candidate must successfully complete 144 credit points taken from the Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of core units of study; and (b) 30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and (c) The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study. (a) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (b) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (c) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "102 credit points of core units of study; and"
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and"
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study."
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and"
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and"
+        }
+      ]
+    },
+    {
+      "reason": "NESTED_NUMBERING",
+      "count": 166,
+      "degreeCount": 104,
+      "samples": [
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "(1) Honours in the Bachelor of Laws is available to meritorious students who complete a 12 credit point honours dissertation unit in the final year of the program. Admission requires a minimum WAM of at least 75 in core Law units of study undertaken at the Sydney Law School to that point, with the exception of LAWS1025. Results in elective units will not be included in the WAM. Places in the Honours program are limited by available resources and entry is competitive. A higher WAM may be necessary for entry in any given year. (2) To qualify for the award of the Honours degree, a candidate must successfully complete 144 credit points taken from the Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of core units of study; and (b) 30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and (c) The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study. (a) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (b) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (c) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVSTH-02",
+          "raw": "Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVTWC-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHAGRSCI-01",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Agricultural Science Honours are set out in: (a) Bachelor of Agricultural Science Honours Unit of Study Table. (2) To qualify for the award of the degree Bachelor of Agricultural Science Honours, a candidate must complete 192 credit points, comprising: (a) 90 cps of degree core units of study as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (b) 48 credit points of cognate major from the prescribed list of majors as listed in section 8 below; (c) 6 credit points of 3000 level selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (d) 48 credit points of 4000-level Honours units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (e) One 0 credit point placement core unit, and at least one of three 0 credit point placement selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table (f) Any additional selective units of study from Bachelor of Agricultural Science Honours Unit of Study Table required to make up the 192 credit point total."
+        },
+        {
+          "degreeCode": "BHARCENV-01",
+          "raw": "(1) The units of study that may be taken for this award are set out in Table A. (2) To qualify for the award of the pass degree, a candidate must successfully complete 144 credit points, comprising: (a) 120 credit points of core unit of study (b) 24 credit points of elective units of study, including a minimum of 12 credit points of 2000-level or 3000-level elective units of study as listed in Table A."
+        }
+      ]
+    },
+    {
+      "reason": "MIXED_AND_OR_PRECEDENCE",
+      "count": 163,
+      "degreeCount": 76,
+      "samples": [
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "(1) Honours in the Bachelor of Laws is available to meritorious students who complete a 12 credit point honours dissertation unit in the final year of the program. Admission requires a minimum WAM of at least 75 in core Law units of study undertaken at the Sydney Law School to that point, with the exception of LAWS1025. Results in elective units will not be included in the WAM. Places in the Honours program are limited by available resources and entry is competitive. A higher WAM may be necessary for entry in any given year. (2) To qualify for the award of the Honours degree, a candidate must successfully complete 144 credit points taken from the Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of core units of study; and (b) 30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and (c) The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study. (a) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (b) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (c) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and"
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and"
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and"
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and"
+        }
+      ]
+    },
+    {
+      "reason": "STREAM_SEMANTICS",
+      "count": 163,
+      "degreeCount": 52,
+      "samples": [
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "without a stream"
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "with a stream"
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and"
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "any additional units to complete the requirements of the stream as set out in Table A for that stream; and"
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "without a stream"
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "with a stream"
+        }
+      ]
+    },
+    {
+      "reason": "CONDITIONAL_LANGUAGE",
+      "count": 122,
+      "degreeCount": 55,
+      "samples": [
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "(1) Honours in the Bachelor of Laws is available to meritorious students who complete a 12 credit point honours dissertation unit in the final year of the program. Admission requires a minimum WAM of at least 75 in core Law units of study undertaken at the Sydney Law School to that point, with the exception of LAWS1025. Results in elective units will not be included in the WAM. Places in the Honours program are limited by available resources and entry is competitive. A higher WAM may be necessary for entry in any given year. (2) To qualify for the award of the Honours degree, a candidate must successfully complete 144 credit points taken from the Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of core units of study; and (b) 30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and (c) The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study. (a) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (b) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (c) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study."
+        },
+        {
+          "degreeCode": "BHENGART-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Arts For the Bachelor of Engineering Honours combined with the Bachelor of Arts, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Arts component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Arts; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Arts including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream: a minimum of 12 credit points from Table D; (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study: are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D; (vii) If enrolled in a stream, complete the requirements for the stream as specified in Table A of the degree in which the candidate is enrolled or Table D."
+        },
+        {
+          "degreeCode": "BHENGART-05",
+          "raw": "Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D;"
+        },
+        {
+          "degreeCode": "BHENGCOM-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Commerce For the Bachelor of Engineering Honours combined with the Bachelor of Commerce, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Commerce component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Commerce; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Commerce including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream, a minimum of 12 credit points from table D. (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D."
+        },
+        {
+          "degreeCode": "BHENGCOM-05",
+          "raw": "Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D."
+        },
+        {
+          "degreeCode": "BHENGLAW-04",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Laws For the Bachelor of Engineering Honours combined with the Bachelor of Laws, a candidate must complete a total of 312 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) For the Bachelor of Laws component candidates must complete 144 credit points of Law units of study from the University of Sydney School of Law Undergraduate Table, comprising: (i) 102 credit points of compulsory units of study; and (ii) 42 credit points from the Elective Units of Study Table, of which a maximum of 36 credit points are taken from Part 1 Elective Units of Study and a minimum of 6 credit points are taken from Part 2 Jurisprudence Selective Units of Study. (d) Candidates may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study noting that: (i) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study; (ii) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws; (iii) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table."
+        },
+        {
+          "degreeCode": "BHENGLAW-04",
+          "raw": "enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study;"
+        }
+      ]
+    },
+    {
+      "reason": "UNSUPPORTED_SAFE_PATTERN",
+      "count": 114,
+      "degreeCount": 54,
+      "samples": [
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies"
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies"
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVSTH-02",
+          "raw": "elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVTWC-01",
+          "raw": "elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies"
+        },
+        {
+          "degreeCode": "BHADVTWC-01",
+          "raw": "elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        }
+      ]
+    },
+    {
+      "reason": "MULTIPLE_CREDIT_POINT_CONSTRAINTS",
+      "count": 91,
+      "degreeCount": 67,
+      "samples": [
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "(1) Honours in the Bachelor of Laws is available to meritorious students who complete a 12 credit point honours dissertation unit in the final year of the program. Admission requires a minimum WAM of at least 75 in core Law units of study undertaken at the Sydney Law School to that point, with the exception of LAWS1025. Results in elective units will not be included in the WAM. Places in the Honours program are limited by available resources and entry is competitive. A higher WAM may be necessary for entry in any given year. (2) To qualify for the award of the Honours degree, a candidate must successfully complete 144 credit points taken from the Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of core units of study; and (b) 30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and (c) The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study. (a) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (b) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (c) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and"
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study."
+        },
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVSTH-02",
+          "raw": "Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVTWC-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHAGRSCI-01",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Agricultural Science Honours are set out in: (a) Bachelor of Agricultural Science Honours Unit of Study Table. (2) To qualify for the award of the degree Bachelor of Agricultural Science Honours, a candidate must complete 192 credit points, comprising: (a) 90 cps of degree core units of study as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (b) 48 credit points of cognate major from the prescribed list of majors as listed in section 8 below; (c) 6 credit points of 3000 level selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (d) 48 credit points of 4000-level Honours units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (e) One 0 credit point placement core unit, and at least one of three 0 credit point placement selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table (f) Any additional selective units of study from Bachelor of Agricultural Science Honours Unit of Study Table required to make up the 192 credit point total."
+        }
+      ]
+    },
+    {
+      "reason": "TABLE_A_OR_TABLE_S",
+      "count": 81,
+      "degreeCount": 59,
+      "samples": [
+        {
+          "degreeCode": "BHADVFGB-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVMDC-03",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHADVTWC-01",
+          "raw": "(1) Bachelor of Advanced Studies (Honours) without a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above in a single Honours subject area as set out in Table A for the Bachelor relevant to that Honours subject area; and (ii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees. (2) Bachelor of Advanced Studies (Honours) with a stream (a) A candidate must complete 48 credit points comprising: (i) a minimum of 30 credit points of Honours units at 4000-level or above from Table A for that stream in its faculty handbooks; and (ii) any additional units to complete the requirements of the stream as set out in Table A for that stream; and (iii) elective units from 4000-level Elective Collection from Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BHENGART-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Arts For the Bachelor of Engineering Honours combined with the Bachelor of Arts, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Arts component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Arts; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Arts including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream: a minimum of 12 credit points from Table D; (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study: are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D; (vii) If enrolled in a stream, complete the requirements for the stream as specified in Table A of the degree in which the candidate is enrolled or Table D."
+        },
+        {
+          "degreeCode": "BHENGCOM-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Commerce For the Bachelor of Engineering Honours combined with the Bachelor of Commerce, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Commerce component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Commerce; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Commerce including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream, a minimum of 12 credit points from table D. (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D."
+        },
+        {
+          "degreeCode": "BHENGSCI-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Science For the Bachelor of Engineering Honours combined with the Bachelor Science, a candidate must complete a total of 240 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Science component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Science; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) Candidates must complete 84 credit points in the Bachelor of Science including: (i) 12 credit points of degree core units as set out in Table A; and Note: MATH1xxx units taken from the Engineering Foundations Table of the Bachelor of Engineering Honours fulfill this requirement. (ii) 12 credit points of 1000-level units from any of the areas of study listed in Science Table A, excluding the units listed in Table A degree core; Note: Students may count the units from their major to fulfil this requirement. (iii) a major (48 credit points) or a 3-year program with an embedded major from Table A of the degree in which the candidate is enrolled; (iv) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study from Table O; (v) for students enrolled in the Dalyell stream, a minimum of 12 credit points from D; (vi) where appropriate, additional electives from Table A of the Bachelor of Science, Table S or, for students enrolled in the Dalyell stream, Table D; (vii) if enrolled in a stream, complete the requirements for the stream as specified in Table A of the Bachelor of Science or Table D. (viii) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment"
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        }
+      ]
+    },
+    {
+      "reason": "TABLE_D_CONDITIONAL_BRANCH",
+      "count": 73,
+      "degreeCount": 39,
+      "samples": [
+        {
+          "degreeCode": "BHENGART-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Arts For the Bachelor of Engineering Honours combined with the Bachelor of Arts, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Arts component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Arts; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Arts including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream: a minimum of 12 credit points from Table D; (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study: are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D; (vii) If enrolled in a stream, complete the requirements for the stream as specified in Table A of the degree in which the candidate is enrolled or Table D."
+        },
+        {
+          "degreeCode": "BHENGART-05",
+          "raw": "Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D;"
+        },
+        {
+          "degreeCode": "BHENGCOM-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Commerce For the Bachelor of Engineering Honours combined with the Bachelor of Commerce, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Commerce component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Commerce; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Commerce including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream, a minimum of 12 credit points from table D. (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D."
+        },
+        {
+          "degreeCode": "BHENGCOM-05",
+          "raw": "Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D."
+        },
+        {
+          "degreeCode": "BHENGSCI-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Science For the Bachelor of Engineering Honours combined with the Bachelor Science, a candidate must complete a total of 240 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Science component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Science; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) Candidates must complete 84 credit points in the Bachelor of Science including: (i) 12 credit points of degree core units as set out in Table A; and Note: MATH1xxx units taken from the Engineering Foundations Table of the Bachelor of Engineering Honours fulfill this requirement. (ii) 12 credit points of 1000-level units from any of the areas of study listed in Science Table A, excluding the units listed in Table A degree core; Note: Students may count the units from their major to fulfil this requirement. (iii) a major (48 credit points) or a 3-year program with an embedded major from Table A of the degree in which the candidate is enrolled; (iv) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study from Table O; (v) for students enrolled in the Dalyell stream, a minimum of 12 credit points from D; (vi) where appropriate, additional electives from Table A of the Bachelor of Science, Table S or, for students enrolled in the Dalyell stream, Table D; (vii) if enrolled in a stream, complete the requirements for the stream as specified in Table A of the Bachelor of Science or Table D. (viii) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment"
+        },
+        {
+          "degreeCode": "BHENGSCI-05",
+          "raw": "where appropriate, additional electives from Table A of the Bachelor of Science, Table S or, for students enrolled in the Dalyell stream, Table D;"
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        }
+      ]
+    },
+    {
+      "reason": "PART_OR_SUBTABLE_CONSTRAINT",
+      "count": 28,
+      "degreeCount": 12,
+      "samples": [
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "(1) Honours in the Bachelor of Laws is available to meritorious students who complete a 12 credit point honours dissertation unit in the final year of the program. Admission requires a minimum WAM of at least 75 in core Law units of study undertaken at the Sydney Law School to that point, with the exception of LAWS1025. Results in elective units will not be included in the WAM. Places in the Honours program are limited by available resources and entry is competitive. A higher WAM may be necessary for entry in any given year. (2) To qualify for the award of the Honours degree, a candidate must successfully complete 144 credit points taken from the Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of core units of study; and (b) 30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and (c) The 12 credit point Honours dissertation unit of study. (3) Students may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study. (a) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (b) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (c) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table. (4) The grade of Honours will be determined by the candidate's Honours WAM (HWAM). (5) The HWAM is calculated from a minimum of 96 credit points of Law units of study, including all core and elective units of study undertaken at the Sydney Law School, with the exception LAWS1025. The Honours units carry a weighting of two while all other units carry a weighting of one."
+        },
+        {
+          "degreeCode": "BGLAWLAW-01",
+          "raw": "30 credit points of elective units of study, of which a maximum of 24 credit points are taken from Part 1 and a minimum of 6 credit points are taken from Part 2; and"
+        },
+        {
+          "degreeCode": "BHENGLAW-04",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Laws For the Bachelor of Engineering Honours combined with the Bachelor of Laws, a candidate must complete a total of 312 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) For the Bachelor of Laws component candidates must complete 144 credit points of Law units of study from the University of Sydney School of Law Undergraduate Table, comprising: (i) 102 credit points of compulsory units of study; and (ii) 42 credit points from the Elective Units of Study Table, of which a maximum of 36 credit points are taken from Part 1 Elective Units of Study and a minimum of 6 credit points are taken from Part 2 Jurisprudence Selective Units of Study. (d) Candidates may apply to take up to a maximum of 24 credit points of LAWS6000/JURS6000 units of study as elective units of study noting that: (i) enrolment in LAWS6000/JURS6000 units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study; (ii) enrolment in LAWS6000/JURS6000 units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws; (iii) students may only enrol in LAWS6000/JURS6000 units listed in the Bachelor of Laws Elective units of study Table."
+        },
+        {
+          "degreeCode": "BHENGLAW-04",
+          "raw": "42 credit points from the Elective Units of Study Table, of which a maximum of 36 credit points are taken from Part 1 Elective Units of Study and a minimum of 6 credit points are taken from Part 2 Jurisprudence Selective Units of Study."
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BPARTLAW-04",
+          "raw": "(1) The units of study that may be taken for this combined degree are set out in: (a) Table A for the Bachelor of Arts; (b) the University of Sydney Law School Undergraduate Table; (c) Table S of the Shared Pool for Undergraduate Degrees; (d) Table O of the Shared Pool for Undergraduate Degrees; and (e) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, the University of Sydney Law School Undergraduate Table, Table S, Table O, and Table D mean Table A, the University of Sydney Law School Undergraduate Table, Table S, Table O, and Table D as specified here. (2) To qualify for the award of the pass combined degrees, a candidate must complete 240 credit points, comprising: (a) a major (48 credit points) from Table A as set out in Section 7 below; (b) for students not enrolled in the Dalyell stream, 6 credit points of units from the Open Learning Environment as set out in Table O; (c) For students enrolled in the Dalyell stream; (i) a minimum of 12 credit points of units of study as specified in Table D. (d) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (e) Minimum of 36 credit points of elective units from Table A, Table S, Table O or, for students enrolled in the Dalyell stream, Table D; (f) if enrolled in a stream, complete the requirements for the stream as specified in Table A or Table D; and (g) 144 credit points of Law units of study as specified in the University of Sydney Law School Undergraduate Table, of which 48 credit points are Combined Law compulsory units of study for Years 1, 2 and 3 of the combined degree and are credited towards the requirements for both the Bachelor of Arts and the Bachelor of Laws. (3) Requirements for the Bachelor of Arts: To qualify for the award of the Bachelor of Arts, a candidate must complete 144 credit points, comprising: (a) 96 credit points specified in 6 (2) (a) - (g) above; and (b) 48 credit points of Combined Law compulsory subjects from years 1, 2 and 3 from the University of Sydney Law School Undergraduate Table which shall take the place of the compulsory minor specified in the resolutions for the Bachelor of Arts. (4) Requirements for the Bachelor of Laws: To qualify for the award of the Bachelor of Laws, a candidate must complete 144 credit points taken from the University of Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of compulsory units of study as specified in the University of Sydney Law School Undergraduate Table; and (b) 42 credit points from the Elective Unit of Study Table (undergraduate) for the University of Sydney Law School, of which a maximum of 36 credit points are taken from Part 1, Elective Units of Study or as specified in 6 (5) (c) below, and a minimum of 6 credit points are taken from Part 2, Jurisprudence Selective Units of Study. (c) Students may apply to take up to a maximum of 24 credit points of advanced learning Master's units of study as elective units of study (i) Enrolment in Master's units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (ii) Enrolment in Master’s units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (iii) Students may only enrol in Master’s units listed in the Bachelor of Laws Elective units of study Table."
+        },
+        {
+          "degreeCode": "BPARTLAW-04",
+          "raw": "for the University of Sydney Law School, of which a maximum of 36 credit points are taken from Part 1, Elective Units of Study or as specified in 6 (5)"
+        }
+      ]
+    },
+    {
+      "reason": "MAJOR_OR_PROGRAM_BRANCH",
+      "count": 24,
+      "degreeCount": 22,
+      "samples": [
+        {
+          "degreeCode": "BHENGART-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Arts For the Bachelor of Engineering Honours combined with the Bachelor of Arts, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Arts component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Arts; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Arts including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream: a minimum of 12 credit points from Table D; (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study: are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D; (vii) If enrolled in a stream, complete the requirements for the stream as specified in Table A of the degree in which the candidate is enrolled or Table D."
+        },
+        {
+          "degreeCode": "BHENGCOM-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Commerce For the Bachelor of Engineering Honours combined with the Bachelor of Commerce, a candidate must complete a total of 264 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must: complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Commerce component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Commerce; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) candidates must complete 96 credit points in the Bachelor of Commerce including: (i) any required degree core units as set out in Table A; and (ii) a major (48 credit points) or a 3-year program with an embedded major from Table A; and (iii) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) for students enrolled in the Dalyell stream, a minimum of 12 credit points from table D. (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment. (vi) Where appropriate, additional electives from Table A, Table S or, for students enrolled in the Dalyell stream, Table D."
+        },
+        {
+          "degreeCode": "BHENGSCI-05",
+          "raw": "Bachelor of Engineering Honours and Bachelor of Science For the Bachelor of Engineering Honours combined with the Bachelor Science, a candidate must complete a total of 240 credit points and satisfy any additional requirements specified in the following clauses. (a) For the Bachelor of Engineering Honours component, candidates must complete a minimum of 168 credit points comprising: (i) a minimum of 18 credit points from the Engineering Foundations Table, including all required units; (ii) a minimum 30 credit points from the Engineering Projects Table, including all required units; and (iii) a minimum of 120 credit points from the Engineering Stream Table for the stream being undertaken, including all required units; and (b) must successfully complete the requirements of the Professional Engagement Program. (c) In the Bachelor of Science component the units of study that may be taken are set out in: (i) Table A for the Bachelor of Science; (ii) Table S; (iii) Table O; and (iv) for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (d) Candidates must complete 84 credit points in the Bachelor of Science including: (i) 12 credit points of degree core units as set out in Table A; and Note: MATH1xxx units taken from the Engineering Foundations Table of the Bachelor of Engineering Honours fulfill this requirement. (ii) 12 credit points of 1000-level units from any of the areas of study listed in Science Table A, excluding the units listed in Table A degree core; Note: Students may count the units from their major to fulfil this requirement. (iii) a major (48 credit points) or a 3-year program with an embedded major from Table A of the degree in which the candidate is enrolled; (iv) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study from Table O; (v) for students enrolled in the Dalyell stream, a minimum of 12 credit points from D; (vi) where appropriate, additional electives from Table A of the Bachelor of Science, Table S or, for students enrolled in the Dalyell stream, Table D; (vii) if enrolled in a stream, complete the requirements for the stream as specified in Table A of the Bachelor of Science or Table D. (viii) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment"
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BPACMSCI-01",
+          "raw": "To qualify for the award of the Bachelor of Advanced Computing and Bachelor of Science a candidate must complete 240 credit points comprising: (a) 84 credit points of core units as specified in Table A for the Bachelor of Computing; Bachelor of Advanced Computing; (b) A major (48 credit points) from Table A for the Bachelor of Computing; Bachelor of Advanced Computing and as defined in section 7 below; (c) At least 24 credit points of 4000-level or higher IT electives from Table A for the Bachelor of Computing; Bachelor of Advanced Computing; (d) Degree core: 12 credit points of units of study as set out in Table A Degree Core for the Bachelor of Science (students may count the units from their major(s) or minor(s) to fulfill this requirement) and 12 credit points of 1000-level science elective units of study (excluding units listed as in Table A Degree Core) as set out in Table A (students may count the units from their major(s) or minor(s) to fulfil this requirement); and (e) A major (48 credit points) or a 3-year program with an embedded major from Table A for the Bachelor of Science, and which is different from the major completed to satisfy requirements specified clause 6 (4)(b) above (note: candidates taking Computational Data Science to fulfil requirements specified in clauses 6 (4) (b) may not take Data Science to fulfil requirements for the second major specified in this clause); (f) If enrolled in a stream, requirements for the stream as specified in Table A for the Bachelor of Science or Table D. (g) For students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study in the Open Learning Environment as listed in Table O; (h) For students enrolled in the Dalyell stream: (i) a minimum of 12 credit points of Dalyell units of study as specified in Table D. (i) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment. (j) Where appropriate, additional elective units as required from Table A for the Bachelor of Computing; Bachelor of Advanced Computing, Table A for the Bachelor of Science, Table S, Table O or, for students enrolled in the Dalyell stream, Table D. (5)"
+        },
+        {
+          "degreeCode": "BPARTAVS-01",
+          "raw": "To qualify for the award of the Bachelor of Arts and Bachelor of Advanced Studies, a candidate must complete 192 credit points, comprising: (a) A major (48 credit points) or program as listed and defined in Section 7 below and specified in Table A; (b) A second major (48 credit points) as listed and defined in Section 7 below and specified in Table A or Table S; (c) For students not enrolled in the Dalyell Stream, 6 credit points of units of study in the Open Learning Environment as specified in Table O; (d) For students enrolled in the Dalyell Stream, a minimum of 12 credit points of Dalyell Stream units of study as specified in Table D. (e) Students previously enrolled in the Dalyell Stream in their current degree, who are no longer in the stream and have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (f) A minimum of 24 credit points at 4000 level from Table A or Table S, including a community, industry or entrepreneurship project of at least 12 and up to 36 credit points. (g) Where appropriate, elective units from Table A, Table S, Table O or, for students enrolled in the Dalyell Stream, Table D. (h) 6 credit points of core units of study as specified in Table A unless enrolled in a stream other than the Dalyell stream; (i) If enrolled in a stream, complete the requirements for the stream as specified in Table A or Table D."
+        },
+        {
+          "degreeCode": "BPARTSAR-09",
+          "raw": "To qualify for the award of the Bachelor of Arts degree, candidates must complete 144 credit points in total, comprising: (a) A major (48 credit points) or a program as listed and defined in Section 7 below and as specified in Table A; (b) A minor (36 credit points) or second major (48 credit points) as listed and defined in Section 7 below and as specified in Table A or Table S; (c) For students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as specified in Table O; (d) For students enrolled in the Dalyell Stream: a minimum of 12 credit points of Dalyell units of study as specified in Table D. (e) Students previously but no longer enrolled in the Dalyell Stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (f) Where appropriate, elective units from Table A, Table S, Table O or, for students enrolled in the Dalyell Stream, Table D. (g) 6 credit points of core units of study as specified in Table A unless enrolled in a stream other than the Dalyell stream; (h) If enrolled in a stream, complete the requirements for the stream as specified in Table A or Table D. (3) Bachelor of Arts (Dual Degree: Sciences Po, France)"
+        }
+      ]
+    },
+    {
+      "reason": "MINOR_OR_SECOND_MAJOR_BRANCH",
+      "count": 19,
+      "degreeCount": 19,
+      "samples": [
+        {
+          "degreeCode": "BPACMSCI-01",
+          "raw": "To qualify for the award of the Bachelor of Advanced Computing and Bachelor of Science a candidate must complete 240 credit points comprising: (a) 84 credit points of core units as specified in Table A for the Bachelor of Computing; Bachelor of Advanced Computing; (b) A major (48 credit points) from Table A for the Bachelor of Computing; Bachelor of Advanced Computing and as defined in section 7 below; (c) At least 24 credit points of 4000-level or higher IT electives from Table A for the Bachelor of Computing; Bachelor of Advanced Computing; (d) Degree core: 12 credit points of units of study as set out in Table A Degree Core for the Bachelor of Science (students may count the units from their major(s) or minor(s) to fulfill this requirement) and 12 credit points of 1000-level science elective units of study (excluding units listed as in Table A Degree Core) as set out in Table A (students may count the units from their major(s) or minor(s) to fulfil this requirement); and (e) A major (48 credit points) or a 3-year program with an embedded major from Table A for the Bachelor of Science, and which is different from the major completed to satisfy requirements specified clause 6 (4)(b) above (note: candidates taking Computational Data Science to fulfil requirements specified in clauses 6 (4) (b) may not take Data Science to fulfil requirements for the second major specified in this clause); (f) If enrolled in a stream, requirements for the stream as specified in Table A for the Bachelor of Science or Table D. (g) For students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study in the Open Learning Environment as listed in Table O; (h) For students enrolled in the Dalyell stream: (i) a minimum of 12 credit points of Dalyell units of study as specified in Table D. (i) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment. (j) Where appropriate, additional elective units as required from Table A for the Bachelor of Computing; Bachelor of Advanced Computing, Table A for the Bachelor of Science, Table S, Table O or, for students enrolled in the Dalyell stream, Table D. (5)"
+        },
+        {
+          "degreeCode": "BPADVCMP-01",
+          "raw": "To qualify for the award of the Bachelor of Advanced Computing, a candidate must complete 192 credit points, comprising: (a) 84 credit points of core units as specified in Table A for the Bachelor of Computing; Bachelor of Advanced Computing; (b) A major (48 credit points) from Table A for the Bachelor of Computing; Bachelor of Advanced Computing and as defined in section 7 below; (c) At least 24 credit points of 4000-level or higher Information Technology electives from Table A for the Bachelor of Computing; Bachelor of Advanced Computing; (d) Optionally up to 12 credit points of units of study in the Open Learning Environment as listed in Table O; (e) Optionally, a minor (36 credit points) or second major (48 credit points) from Table S or Table A; (f) For students enrolled in the Dalyell Stream, a minimum of 12 credit points of Dalyell units as specified in Table D; (g) Where appropriate, additional elective units as required from Table A for the Bachelor of Computing; Bachelor of Advanced Computing, Table S or, for students enrolled in the Dalyell stream, Table D. (4)"
+        },
+        {
+          "degreeCode": "BPARTMED-01",
+          "raw": "(1) The units of study that may be taken for the course are set out in; (a) Table A for the Bachelor of Arts; Bachelor of Arts and Bachelor of Advanced Studies; (b) Table S from the Shared Pool for Undergraduate Degrees; (c) Table O from the Shared Pool for Undergraduate Degrees; (d) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees; and (e) The Table of units for the Doctor of Medicine from the University of Sydney Medical School. (2) In these resolutions, except where otherwise specified, Table A, Table S, Table O and Table D mean Table A, Table S, Table O and Table D as specified here. (3) To qualify for the award of both degrees a candidate must successfully complete 336 credit points, comprising: (a) 144 credit points to qualify for the award of the Bachelor of Arts as specified in the resolutions for the Bachelor of Arts, including; (i) A major (48 credit points) listed and defined in Section 7 below and specified in Table A; and (ii) A minor (36 credit points) or second major (48 credit points) as defined in Table A or Table S; and (iii) For students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as listed in Table O; and (iv) For students enrolled in the Dalyell stream; (1) a minimum of 12 credit points of Dalyell units of study as specified in Table D. (v) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (vi) 18 credit points of foundational knowledge units of study for medicine offered by the Faculty of Science comprising BIOL1XX7, PHSI2X07 and ANAT2011 and one zero credit point unit (SMTP3007); and (vii) Where appropriate, elective units from Table A or Table S, Table O or, for students enrolled in the Dalyell stream, Table D; and (viii) If enrolled in a stream, complete the requirements for the stream as specified in Table D; and (b) 192 credit points to qualify for the award of the Doctor of Medicine as specified in the resolutions for the Doctor of Medicine."
+        },
+        {
+          "degreeCode": "BPARTSAR-09",
+          "raw": "To qualify for the award of the Bachelor of Arts degree, candidates must complete 144 credit points in total, comprising: (a) A major (48 credit points) or a program as listed and defined in Section 7 below and as specified in Table A; (b) A minor (36 credit points) or second major (48 credit points) as listed and defined in Section 7 below and as specified in Table A or Table S; (c) For students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as specified in Table O; (d) For students enrolled in the Dalyell Stream: a minimum of 12 credit points of Dalyell units of study as specified in Table D. (e) Students previously but no longer enrolled in the Dalyell Stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (f) Where appropriate, elective units from Table A, Table S, Table O or, for students enrolled in the Dalyell Stream, Table D. (g) 6 credit points of core units of study as specified in Table A unless enrolled in a stream other than the Dalyell stream; (h) If enrolled in a stream, complete the requirements for the stream as specified in Table A or Table D. (3) Bachelor of Arts (Dual Degree: Sciences Po, France)"
+        },
+        {
+          "degreeCode": "BPARTXTD-01",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Arts (Extended) are set out in: (a) Table E for the Bachelor of Arts (Extended) (b) Table A for the Bachelor of Arts (c) Table S of the Shared Pool for Undergraduate Degrees; (d) Table O of the Shared Pool for Undergraduate Degrees; (2) Bachelor of Arts (Extended) To qualify for the award of the Bachelor of Arts (Extended) degree, candidates must complete 168 credit points in total, comprising: (a) 36 credit points from Table E including: (i) 24 credit points of foundation units of study (ii) 6 credit points of foundation core units from Table E (iii) 6 credit points of cultural project unit. (b) 6 credit points of degree core units from Table A for the Bachelor of Arts; (c) A major (48 credit points) as listed and defined in Section 8 below and as specified in Table A; (d) A minor (36 credit points) or second major (48 credit points) as listed and defined in Section 8 below and as specified in Table A or Table S; (e) 6 credit points of units of study in the Open Learning Environment as specified in Table O; (f) Where appropriate, elective units from Table A, Table S or Table O."
+        },
+        {
+          "degreeCode": "BPASESSC-03",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Applied Science (Exercise and Sport Science) are set out in: (a) Table A for the Bachelor of Applied Science (Exercise and Sport Science); (b) Table S of the Shared Pool for Undergraduate Degrees; and (c) Table O of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, Table S and Table O mean Table A, Table S and Table O as specified here. (2) Bachelor of Applied Science (Exercise and Sport Science): To qualify for the award of the Bachelor of Applied Science (Exercise and Sport Science), a candidate must complete 144 credit points, comprising: (a) 12 credit points of core units of study as set out in Table A; (b) a major (48 credit points) in Exercise Science listed and defined in Section 6 below and specified in Table A; (c) a minor (36 credit points) or a major (48 credit points) in Physical Activity and Health as listed and defined in Section 6 below and specified in Table A; and (d) any combination of the following to satisfy a total of 144 credit points for the course: (i) a second minor or second major as defined in Section 6 below and specified in Table S; (ii) 12 credit points of elective units from Table O; (iii) any additional elective units of study from Table A or Table S."
+        },
+        {
+          "degreeCode": "BPCOMMER-06",
+          "raw": "To qualify for the award of the Bachelor of Commerce, a candidate must complete 144 credit points, comprising: (a) 24 credit points of core units of study as set out in Table A; (b) a major (48 credit points) or program listed in section 7 below and specified in Table A; (c) a minor (36 credit points) or second major (48 credit points) as listed and specified in Table A or Table S; (d) for students not enrolled in the Dalyell stream, a minimum of 6 credit points of units of study in the Open Learning Environment as listed in Table O; (e) for students enrolled in the Dalyell stream, a minimum of 12 credit points of Dalyell units of study as specified in Table D; and (f) where appropriate, elective units from Table A for the Bachelor of Commerce, or Table S, Table O or, for students enrolled in the Dalyell stream, Table D. (g) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment. (4) Bachelor of Commerce and Bachelor of Advanced Studies"
+        },
+        {
+          "degreeCode": "BPECONOM-05",
+          "raw": "To qualify for the award of the Bachelor of Economics, a candidate must complete 144 credit points, comprising: (a) a program in Economics (72 credit points) as defined in Table A and Section 7; and (b) a minor (36 credit points) or second major (48 credit points) as defined in Section 7 below and as specified in Table A for the Bachelor of Economics or Table S; (c) For students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as specified in Table O; (d) For students enrolled in the Dalyell stream: a minimum of 12 credit points of Dalyell units of study as specified in Table D. (e) Students previously enrolled in the Dalyell stream in their current degree who are no longer enrolled in the stream and have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment and (f) Where appropriate, elective units from Table A for the Bachelor of Economics, Table S, Table O or, for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (3) Bachelor of Economics and Bachelor of Advanced Studies"
+        }
+      ]
+    },
+    {
+      "reason": "PLACEMENT_OR_CLINICAL_SEMANTICS",
+      "count": 13,
+      "degreeCount": 6,
+      "samples": [
+        {
+          "degreeCode": "BHAGRSCI-01",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Agricultural Science Honours are set out in: (a) Bachelor of Agricultural Science Honours Unit of Study Table. (2) To qualify for the award of the degree Bachelor of Agricultural Science Honours, a candidate must complete 192 credit points, comprising: (a) 90 cps of degree core units of study as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (b) 48 credit points of cognate major from the prescribed list of majors as listed in section 8 below; (c) 6 credit points of 3000 level selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (d) 48 credit points of 4000-level Honours units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (e) One 0 credit point placement core unit, and at least one of three 0 credit point placement selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table (f) Any additional selective units of study from Bachelor of Agricultural Science Honours Unit of Study Table required to make up the 192 credit point total."
+        },
+        {
+          "degreeCode": "BHAGRSCI-01",
+          "raw": "One 0 credit point placement core unit, and at least one of three 0 credit point placement selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table"
+        },
+        {
+          "degreeCode": "BPARTNUR-02",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Arts are set out in; (a) Table A for the Bachelor of Arts; (b) Table S from the Shared Pool for Undergraduate Degrees; (c) Table O from the Shared Pool for Undergraduate Degrees. (d) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, Table S, Table O and Table D mean Table A, Table S, Table O and Table D as specified here. (2) The units of study that may be taken for the Master of Nursing are set out in the Units of Study table for the Bachelor of Arts and Master of Nursing. (3) Requirements for the Bachelor of Arts and Master of Nursing: To qualify for the award of the combined Bachelor of Arts and Master of Nursing, a candidate must complete a total of 192 credit points, including: (a) a major (48 credit points) from Table A for the Bachelor of Arts; (b) for students not enrolled in the Dalyell stream, 6 credit points of units from the Open Learning Environment as specified in Table O; (c) for students enrolled in the Dalyell stream; (i) a minimum of 12 credit points of Dalyell units of study as specified in Table D. (d) for students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (e) a minimum of 36 credit points of elective units from Table A, Table S, Table O or, for students enrolled in the Dalyell stream, Table D. (f) if enrolled in a stream, complete the requirements for the stream as specified in Table D; and (g) 96 credit points of core units as specified in the Units of Study table for the Bachelor of Arts and Master of Nursing. Candidates are required to attend clinical simulation and fieldwork as required for the Master of Nursing component. Where appropriate, the faculty may require individual candidates to undertake further or remedial theoretical, clinical or practical study in addition to the above requirements. (4) Requirements for the Bachelor of Arts: To qualify for the award of the Bachelor of Arts, a candidate must complete 144 credit points, comprising: (a) 96 credit points specified in 7 (3) (a) - (f) above; and (b) 48 credit points of units as specified for years 2 and 3 from the Units of Study Table for the Bachelor of Arts and Master of Nursing which shall take the place of the compulsory minor specified in the resolutions for the Bachelor of Arts. (5) Requirements for the Master of Nursing: To qualify for the award of the Master of Nursing, a candidate must complete 96 credit points as specified in the Units of Study Table for the Bachelor of Arts and Master of Nursing of which 48 credit points are completed in years 2 and 3 of the degree."
+        },
+        {
+          "degreeCode": "BPARTNUR-02",
+          "raw": "96 credit points of core units as specified in the Units of Study table for the Bachelor of Arts and Master of Nursing. Candidates are required to attend clinical simulation and fieldwork as required for the Master of Nursing component. Where appropriate, the faculty may require individual candidates to undertake further or remedial theoretical, clinical or practical study in addition to the above requirements. (4) Requirements for the Bachelor of Arts: To qualify for the award of the Bachelor of Arts, a candidate must complete 144 credit points, comprising:"
+        },
+        {
+          "degreeCode": "BPAVTBSC-01",
+          "raw": "(1) To qualify for the award of the degree, a candidate must complete 144 credit points, comprising: (a) 78 credit points of degree core units of study as set out in the unit of study table for Bachelor of Animal and Veterinary Bioscience; and (b) 6cps of 1000 - level selective unit from List 1 as set out in the unit of study table for Bachelor of Animal and Veterinary Bioscience; and (c) 6cps of 2000 - level selective unit from List 1 as set out in the unit of study table for Bachelor of Animal and Veterinary Bioscience; and (d) a 48‐credit point major from the prescribed list of cognate majors as listed in section 6 below; and (e) four 0 credit point placement units; and (f) for students enrolled in the Dalyell Stream, a minimum of 12 credit points of Dalyell Stream units of study as specified in Table D; or (g) any additional units of study from List 1 or List 2 in the unit of study table for Bachelor of Animal and Veterinary Bioscience to complete 144 credit points in total. (2) If a degree core unit is also a core unit in a major, it satisfies the requirements of both the degree core and the major. However, a student will then need to take selective units from the unit of study table for the Bachelor of Animal and Veterinary Bioscience to make up the total credit point requirements described in section 6 (1)(g). (3) If a student has completed the units from Table D but do not meet the requirements for Dalyell stream, then the completed units can be counted towards meeting the selective requirements for the degree. (4) All candidates are required to undertake a minimum of 40 days of professional experience as a part of the overall training in this degree."
+        },
+        {
+          "degreeCode": "BPAVTBSC-01",
+          "raw": "four 0 credit point placement units; and"
+        },
+        {
+          "degreeCode": "BPNURADS-02",
+          "raw": "(1) The units of study that may be taken for the course are set out in the units of study table for the Bachelor of Nursing (Advanced Studies). (a) To qualify for the award of the Bachelor of Nursing (Advanced Studies) degree candidates must complete a minimum of 144 credit points, including all of the units of study set out in the table and any prescribed clinical experience. (b) Candidates are required to attend clinical simulation and fieldwork as required. Where appropriate, the Faculty may require individual candidates to undertake further or remedial theoretical, clinical or practical study in addition to the above requirements. Clinical requirements are stipulated in the Faculty of Medicine and Health - Sydney Nursing School – Clinical Placement Provisions."
+        },
+        {
+          "degreeCode": "BPNURADS-02",
+          "raw": "To qualify for the award of the Bachelor of Nursing (Advanced Studies) degree candidates must complete a minimum of 144 credit points, including all of the units of study set out in the table and any prescribed clinical experience."
+        }
+      ]
+    },
+    {
+      "reason": "RESIDUAL_CREDIT_POINT_TOTAL",
+      "count": 12,
+      "degreeCount": 6,
+      "samples": [
+        {
+          "degreeCode": "BHAGRSCI-01",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Agricultural Science Honours are set out in: (a) Bachelor of Agricultural Science Honours Unit of Study Table. (2) To qualify for the award of the degree Bachelor of Agricultural Science Honours, a candidate must complete 192 credit points, comprising: (a) 90 cps of degree core units of study as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (b) 48 credit points of cognate major from the prescribed list of majors as listed in section 8 below; (c) 6 credit points of 3000 level selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (d) 48 credit points of 4000-level Honours units as set out in Bachelor of Agricultural Science Honours Unit of Study Table; (e) One 0 credit point placement core unit, and at least one of three 0 credit point placement selective units as set out in Bachelor of Agricultural Science Honours Unit of Study Table (f) Any additional selective units of study from Bachelor of Agricultural Science Honours Unit of Study Table required to make up the 192 credit point total."
+        },
+        {
+          "degreeCode": "BHAGRSCI-01",
+          "raw": "Any additional selective units of study from Bachelor of Agricultural Science Honours Unit of Study Table required to make up the 192 credit point total."
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BHLIARSH-01",
+          "raw": "To qualify for the award of the pass degree, a student must successfully complete 144 credit points of units of study which must include the requirements of a major from either Science Table A or Arts and Social Sciences Table A. The units of study for this course are selected from the Liberal Studies Table, Science Table A, and Arts and Social Sciences Table A, and where required from Table S, O and D, according to the rules below: 1. Liberal Studies: 36 credit points of Liberal studies units must be completed from the Liberal Studies Table. These must include the core units: ATHK1X01 and WRIT1001, 6 credit points from Part C Ethics and 18 credit points of electives from Parts A-F; and 2. Science: A minimum of 36 credit points of units from Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level; a. If a Science major or program is completed, this requirement will be satisfied by the requirements for that major or program. b. If an Arts and Social Science major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A; and 3. Arts and Social Sciences: A minimum of 36 credit points of units of study from Arts and Social Science Table A must be completed. This includes a minimum of 12 credit points at the 2000 or 3000 level. a. If an Arts and Social Sciences major is completed this requirement will be satisfied by the requirements for that major. b. If a Science major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A; and 4. Electives: additional units of study to bring the total credit points completed for the degree to 144 credit points selected from: a. Table S, which includes units from Science, Arts and Social Sciences, and other faculties in the University; and b. Table O – a maximum of 12 credit points; and c. Table D - for students in the Dalyell stream only, a minimum of 12 credit points of Dalyell units of study as specified in Table D 5. Students must complete no more than 84 credit points of 1000-level units of study. 6. No double-counting: Any given unit of study can only be counted once towards the degree requirements. For example, a unit of study counted towards the Liberal Studies requirement cannot also count towards the Arts and Social Sciences requirement or the Science requirement."
+        },
+        {
+          "degreeCode": "BPAGRSCI-01",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Agricultural Science are set out in: (a) Bachelor of Agricultural Science Unit of Study table. (2) To qualify for the award of the degree Bachelor of Agricultural Science, a candidate must complete 144 credit points, comprising: (a) 90 cps of degree core units of study as set out in Bachelor of Agricultural Science Unit of Study Table; (b) 48 credit points of cognate major from the prescribed list of majors as listed in section 8 below; (c) 6 credit points of 3000 level elective units as set out in Bachelor of Agricultural Science Unit of Study Table; (d) Any additional elective units of study from Bachelor of Agricultural Science Unit of Study Table required to make up the 144 credit point total."
+        },
+        {
+          "degreeCode": "BPAGRSCI-01",
+          "raw": "Any additional elective units of study from Bachelor of Agricultural Science Unit of Study Table required to make up the 144 credit point total."
+        },
+        {
+          "degreeCode": "BPAVTBSC-01",
+          "raw": "(1) To qualify for the award of the degree, a candidate must complete 144 credit points, comprising: (a) 78 credit points of degree core units of study as set out in the unit of study table for Bachelor of Animal and Veterinary Bioscience; and (b) 6cps of 1000 - level selective unit from List 1 as set out in the unit of study table for Bachelor of Animal and Veterinary Bioscience; and (c) 6cps of 2000 - level selective unit from List 1 as set out in the unit of study table for Bachelor of Animal and Veterinary Bioscience; and (d) a 48‐credit point major from the prescribed list of cognate majors as listed in section 6 below; and (e) four 0 credit point placement units; and (f) for students enrolled in the Dalyell Stream, a minimum of 12 credit points of Dalyell Stream units of study as specified in Table D; or (g) any additional units of study from List 1 or List 2 in the unit of study table for Bachelor of Animal and Veterinary Bioscience to complete 144 credit points in total. (2) If a degree core unit is also a core unit in a major, it satisfies the requirements of both the degree core and the major. However, a student will then need to take selective units from the unit of study table for the Bachelor of Animal and Veterinary Bioscience to make up the total credit point requirements described in section 6 (1)(g). (3) If a student has completed the units from Table D but do not meet the requirements for Dalyell stream, then the completed units can be counted towards meeting the selective requirements for the degree. (4) All candidates are required to undertake a minimum of 40 days of professional experience as a part of the overall training in this degree."
+        },
+        {
+          "degreeCode": "BPAVTBSC-01",
+          "raw": "any additional units of study from List 1 or List 2 in the unit of study table for Bachelor of Animal and Veterinary Bioscience to complete 144 credit points in total. (2) If a degree core unit is also a core unit in a major, it satisfies the requirements of both the degree core and the major. However, a student will then need to take selective units from the unit of study table for the Bachelor of Animal and Veterinary Bioscience to make up the total credit point requirements described in section 6 (1)(g). (3) If a student has completed the units from Table D but do not meet the requirements for Dalyell stream, then the completed units can be counted towards meeting the selective requirements for the degree. (4) All candidates are required to undertake a minimum of 40 days of professional experience as a part of the overall training in this degree."
+        }
+      ]
+    },
+    {
+      "reason": "PSYCHOLOGY_PROGRAM_SPECIFICITY",
+      "count": 4,
+      "degreeCount": 2,
+      "samples": [
+        {
+          "degreeCode": "BHPSYCHH-02",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Psychology are set out in: (a) Table A for the Bachelor of Science and Bachelor of Science/Bachelor of Advanced Studies; (b) Table S of the Shared Pool for Undergraduate Degrees; and (c) Table O of the Shared Pool for Undergraduate Degrees; and (d) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (e) In the resolutions, except where otherwise specified, Table A, Table S, Table O and Table D mean Table A, Table S, Table O and Table D as specified here. (2) To qualify for the award of the Bachelor of Psychology Honours, students must successfully complete 192 credit points, including all requirements. (3) Requirements for all students (a) a 60 credit point Psychology Program as listed in the Bachelor of Science and Bachelor of Science/Bachelor of Advanced Studies Table A; and (b) an additional 6 credit points of 3000- or 4000-level Psychology selective units of study; and (c) a minimum of 42 credit points of units of study outside of Psychology which must include: (i) 6 credit points of 1000-level MATH or DATA selective units of study as listed in Table A Science Degree Core; and (ii) a minor (36 credit points) from the Bachelor of Science Table A, or Table S; and (d) an additional 36 credit points of electives from Tables A, S, O; or D; (e) 48 credit points of Psychology Honours units of study from the Honours units of study table listed in Table A."
+        },
+        {
+          "degreeCode": "BHPSYCHH-02",
+          "raw": "a 60 credit point Psychology Program as listed in the Bachelor of Science and Bachelor of Science/Bachelor of Advanced Studies Table A; and"
+        },
+        {
+          "degreeCode": "BPPSYCHO-04",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Psychology are set out in: (a) Table A for the Bachelor of Psychology; and (b) Table A for the Bachelor of Science and Bachelor of Science and Bachelor of Advanced Studies; and (c) Table S of the Shared Pool for Undergraduate Degrees; and (d) Table O for the Open Learning Environment; (e) For students enrolled in the Dalyell Stream, Table D of the Shared Pool for Undergraduate Degrees. (2) To qualify for the award of the Bachelor of Psychology, a student must complete 144 credit points, comprising: (a) 60 credit point Psychology program as listed in the Bachelor of Science and Bachelor of Science and Bachelor of Advanced Studies Table A; and (b) 6 credit points of 1000-level MATH or DATA Selective units of study as listed in the Bachelor of Psychology Table A; and (c) 6 credit points of 3000- or 4000-level PSYC Selective units of study as listed in the Bachelor of Psychology Table A; and (d) A 36 credit point minor as listed in the Bachelor of Science Table A, or Table S; (e) 36 credit points of Elective units of study from the Bachelor of Science and Bachelor of Science and Bachelor of Advanced Studies Table A, Table S, Table O or, for students enrolled in the Dalyell Stream, Table D. (3) Requirements for streams (a) The requirements for the completion of the Dalyell Stream are as specified in Table S of the Shared Pool for Undergraduate Degrees."
+        },
+        {
+          "degreeCode": "BPPSYCHO-04",
+          "raw": "60 credit point Psychology program as listed in the Bachelor of Science and Bachelor of Science and Bachelor of Advanced Studies Table A; and"
+        }
+      ]
+    },
+    {
+      "reason": "ARTS_NURSING_NESTED_NUMBERING",
+      "count": 2,
+      "degreeCount": 1,
+      "samples": [
+        {
+          "degreeCode": "BPARTNUR-02",
+          "raw": "(1) The units of study that may be taken for the Bachelor of Arts are set out in; (a) Table A for the Bachelor of Arts; (b) Table S from the Shared Pool for Undergraduate Degrees; (c) Table O from the Shared Pool for Undergraduate Degrees. (d) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, Table S, Table O and Table D mean Table A, Table S, Table O and Table D as specified here. (2) The units of study that may be taken for the Master of Nursing are set out in the Units of Study table for the Bachelor of Arts and Master of Nursing. (3) Requirements for the Bachelor of Arts and Master of Nursing: To qualify for the award of the combined Bachelor of Arts and Master of Nursing, a candidate must complete a total of 192 credit points, including: (a) a major (48 credit points) from Table A for the Bachelor of Arts; (b) for students not enrolled in the Dalyell stream, 6 credit points of units from the Open Learning Environment as specified in Table O; (c) for students enrolled in the Dalyell stream; (i) a minimum of 12 credit points of Dalyell units of study as specified in Table D. (d) for students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (e) a minimum of 36 credit points of elective units from Table A, Table S, Table O or, for students enrolled in the Dalyell stream, Table D. (f) if enrolled in a stream, complete the requirements for the stream as specified in Table D; and (g) 96 credit points of core units as specified in the Units of Study table for the Bachelor of Arts and Master of Nursing. Candidates are required to attend clinical simulation and fieldwork as required for the Master of Nursing component. Where appropriate, the faculty may require individual candidates to undertake further or remedial theoretical, clinical or practical study in addition to the above requirements. (4) Requirements for the Bachelor of Arts: To qualify for the award of the Bachelor of Arts, a candidate must complete 144 credit points, comprising: (a) 96 credit points specified in 7 (3) (a) - (f) above; and (b) 48 credit points of units as specified for years 2 and 3 from the Units of Study Table for the Bachelor of Arts and Master of Nursing which shall take the place of the compulsory minor specified in the resolutions for the Bachelor of Arts. (5) Requirements for the Master of Nursing: To qualify for the award of the Master of Nursing, a candidate must complete 96 credit points as specified in the Units of Study Table for the Bachelor of Arts and Master of Nursing of which 48 credit points are completed in years 2 and 3 of the degree."
+        },
+        {
+          "degreeCode": "BPARTNUR-02",
+          "raw": "96 credit points specified in 7 (3)"
+        }
+      ]
+    }
+  ],
+  "degreeSummary": [
+    {
+      "degreeCode": "BGLAWLAW-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHADVFGB-01",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BHADVMDC-03",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BHADVSTH-02",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHADVTWC-01",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BHAGRSCI-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHARCENV-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHARTSAH-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHAVTBSC-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHDARARC-01",
+      "rawFallbackCount": 9,
+      "authoritativeCount": 3
+    },
+    {
+      "degreeCode": "BHDARCHH-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHDESIGH-02",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHECONOH-02",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHENGART-05",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 13
+    },
+    {
+      "degreeCode": "BHENGCOM-05",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 12
+    },
+    {
+      "degreeCode": "BHENGDAR-03",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BHENGINE-04",
+      "rawFallbackCount": 10,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BHENGLAW-04",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BHENGPRM-05",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BHENGSCI-05",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 14
+    },
+    {
+      "degreeCode": "BHINTSTH-03",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHLANGUA-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHLIARSH-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHMATHSC-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHMEDCOM-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHPHAPHP-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHPHMPHP-01",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHPLPHEC-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHPRJMGT-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BHPSYCHH-02",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BHSCIENH-02",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BHSCIFGB-01",
+      "rawFallbackCount": 1,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHSCITWC-01",
+      "rawFallbackCount": 1,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHVISARH-02",
+      "rawFallbackCount": 1,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BHWLCTRG-01",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPACMCOM-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 4
+    },
+    {
+      "degreeCode": "BPACMSCI-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BPADVCMP-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 3
+    },
+    {
+      "degreeCode": "BPADVMDC-03",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPAGRSCI-01",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPARCENV-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPARTAVS-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BPARTLAW-04",
+      "rawFallbackCount": 15,
+      "authoritativeCount": 10
+    },
+    {
+      "degreeCode": "BPARTMED-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 11
+    },
+    {
+      "degreeCode": "BPARTNUR-02",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 8
+    },
+    {
+      "degreeCode": "BPARTSAR-09",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BPARTSWK-04",
+      "rawFallbackCount": 11,
+      "authoritativeCount": 9
+    },
+    {
+      "degreeCode": "BPARTXTD-01",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 9
+    },
+    {
+      "degreeCode": "BPASDRAD-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BPASESSC-03",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BPASEXPH-02",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPASOCTE-06",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPASPHYS-06",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPASSPPA-06",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPAVTBSC-01",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPBIOMDH-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPCOMART-03",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 10
+    },
+    {
+      "degreeCode": "BPCOMAVS-01",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BPCOMLAW-05",
+      "rawFallbackCount": 16,
+      "authoritativeCount": 7
+    },
+    {
+      "degreeCode": "BPCOMMER-06",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BPCOMPUT-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 3
+    },
+    {
+      "degreeCode": "BPCOMSCI-03",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 10
+    },
+    {
+      "degreeCode": "BPDESIGN-02",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BPDSNAVS-01",
+      "rawFallbackCount": 9,
+      "authoritativeCount": 4
+    },
+    {
+      "degreeCode": "BPECNART-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 9
+    },
+    {
+      "degreeCode": "BPECNAVS-01",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 4
+    },
+    {
+      "degreeCode": "BPECNLAW-07",
+      "rawFallbackCount": 16,
+      "authoritativeCount": 9
+    },
+    {
+      "degreeCode": "BPECONOM-05",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 4
+    },
+    {
+      "degreeCode": "BPEDPRIM-04",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 3
+    },
+    {
+      "degreeCode": "BPEDSAVS-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 3
+    },
+    {
+      "degreeCode": "BPEDUECH-01",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPEDUHPE-01",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 4
+    },
+    {
+      "degreeCode": "BPEDUSEC-01",
+      "rawFallbackCount": 1,
+      "authoritativeCount": 4
+    },
+    {
+      "degreeCode": "BPINTSTD-02",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BPLANGUA-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "rawFallbackCount": 14,
+      "authoritativeCount": 8
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPMATHSC-01",
+      "rawFallbackCount": 10,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPMCOAVS-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPMEDCOM-01",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BPMPEAVS-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 3
+    },
+    {
+      "degreeCode": "BPMUCOMP-01",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BPMUMEDU-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BPMUPERF-01",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPMUSICM-05",
+      "rawFallbackCount": 9,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPNURADS-02",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPPLPHEC-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 6
+    },
+    {
+      "degreeCode": "BPPRJMGT-02",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BPPSYCHO-04",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BPSCIART-03",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 10
+    },
+    {
+      "degreeCode": "BPSCIAVS-01",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BPSCIDMD-01",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 11
+    },
+    {
+      "degreeCode": "BPSCIENC-05",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 5
+    },
+    {
+      "degreeCode": "BPSCILAW-02",
+      "rawFallbackCount": 13,
+      "authoritativeCount": 11
+    },
+    {
+      "degreeCode": "BPSCIMED-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 12
+    },
+    {
+      "degreeCode": "BPSCINUD-02",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 11
+    },
+    {
+      "degreeCode": "BPSCINUR-02",
+      "rawFallbackCount": 6,
+      "authoritativeCount": 11
+    },
+    {
+      "degreeCode": "BPSCIXTD-01",
+      "rawFallbackCount": 8,
+      "authoritativeCount": 7
+    },
+    {
+      "degreeCode": "BPVBLVMD-02",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 4
+    },
+    {
+      "degreeCode": "BPVISART-04",
+      "rawFallbackCount": 4,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BPVISAVS-01",
+      "rawFallbackCount": 7,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BPWLCTRG-01",
+      "rawFallbackCount": 5,
+      "authoritativeCount": 2
+    },
+    {
+      "degreeCode": "BUDARCHI-01",
+      "rawFallbackCount": 3,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BUNUPORE-01",
+      "rawFallbackCount": 1,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BUNUPORE-02",
+      "rawFallbackCount": 1,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "BUORAHEA-01",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "BUSOCWRK-01",
+      "rawFallbackCount": 9,
+      "authoritativeCount": 1
+    },
+    {
+      "degreeCode": "DLARTSAR-04",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    },
+    {
+      "degreeCode": "DLLANSTD-04",
+      "rawFallbackCount": 2,
+      "authoritativeCount": 0
+    }
+  ],
+  "coverage": {
+    "rawFallbackAudit": "COMPLETE",
+    "rawPreservation": "COMPLETE",
+    "semanticFreezeDecision": "READY_FOR_REVIEW"
+  }
+}

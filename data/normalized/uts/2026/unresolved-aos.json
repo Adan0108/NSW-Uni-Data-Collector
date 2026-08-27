@@ -1,0 +1,508 @@
+[
+  {
+    "degreeCode": "C10235",
+    "componentCode": "SMJ08195",
+    "componentName": "Accounting in Practice",
+    "componentType": "SUB_MAJOR",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Sub-Majors",
+    "path": [
+      "Options",
+      "Sub-Majors"
+    ],
+    "containerPath": [
+      "e14fb63f47828310a31de422036d4395",
+      "254fb63f47828310a31de422036d4394"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C10026",
+    "componentCode": "SMJ10198",
+    "componentName": "Accounting Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "8cd0c7fcc3928b10020e061ad0013139",
+      "0cd0c7fcc3928b10020e061ad0013136"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C10026",
+    "componentCode": "SMJ10199",
+    "componentName": "Economics Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "8cd0c7fcc3928b10020e061ad0013139",
+      "0cd0c7fcc3928b10020e061ad0013136"
+    ],
+    "order": 100
+  },
+  {
+    "degreeCode": "C10026",
+    "componentCode": "SMJ10200",
+    "componentName": "Finance Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "8cd0c7fcc3928b10020e061ad0013139",
+      "0cd0c7fcc3928b10020e061ad0013136"
+    ],
+    "order": 200
+  },
+  {
+    "degreeCode": "C10026",
+    "componentCode": "SMJ10201",
+    "componentName": "Management Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "8cd0c7fcc3928b10020e061ad0013139",
+      "0cd0c7fcc3928b10020e061ad0013136"
+    ],
+    "order": 300
+  },
+  {
+    "degreeCode": "C10026",
+    "componentCode": "SMJ10202",
+    "componentName": "Marketing Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "8cd0c7fcc3928b10020e061ad0013139",
+      "0cd0c7fcc3928b10020e061ad0013136"
+    ],
+    "order": 400
+  },
+  {
+    "degreeCode": "C10026",
+    "componentCode": "SMJ08195",
+    "componentName": "Accounting in Practice",
+    "componentType": "SUB_MAJOR",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Sub-Majors",
+    "path": [
+      "Options",
+      "Sub-Majors"
+    ],
+    "containerPath": [
+      "8cd0c7fcc3928b10020e061ad0013139",
+      "8cd0c7fcc3928b10020e061ad0013137"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C10326",
+    "componentCode": "SMJ10198",
+    "componentName": "Accounting Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "bcd00bfcc3928b10020e061ad001317f",
+      "b4d00bfcc3928b10020e061ad0013184",
+      "fcd00bfcc3928b10020e061ad0013183"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C10326",
+    "componentCode": "SMJ10199",
+    "componentName": "Economics Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "bcd00bfcc3928b10020e061ad001317f",
+      "b4d00bfcc3928b10020e061ad0013184",
+      "fcd00bfcc3928b10020e061ad0013183"
+    ],
+    "order": 100
+  },
+  {
+    "degreeCode": "C10326",
+    "componentCode": "SMJ10200",
+    "componentName": "Finance Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "bcd00bfcc3928b10020e061ad001317f",
+      "b4d00bfcc3928b10020e061ad0013184",
+      "fcd00bfcc3928b10020e061ad0013183"
+    ],
+    "order": 200
+  },
+  {
+    "degreeCode": "C10326",
+    "componentCode": "SMJ10201",
+    "componentName": "Management Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "bcd00bfcc3928b10020e061ad001317f",
+      "b4d00bfcc3928b10020e061ad0013184",
+      "fcd00bfcc3928b10020e061ad0013183"
+    ],
+    "order": 300
+  },
+  {
+    "degreeCode": "C10326",
+    "componentCode": "SMJ10202",
+    "componentName": "Marketing Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "bcd00bfcc3928b10020e061ad001317f",
+      "b4d00bfcc3928b10020e061ad0013184",
+      "fcd00bfcc3928b10020e061ad0013183"
+    ],
+    "order": 400
+  },
+  {
+    "degreeCode": "C10326",
+    "componentCode": "SMJ08195",
+    "componentName": "Accounting in Practice",
+    "componentType": "SUB_MAJOR",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Sub-Majors",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Sub-Majors"
+    ],
+    "containerPath": [
+      "bcd00bfcc3928b10020e061ad001317f",
+      "b4d00bfcc3928b10020e061ad0013184",
+      "34d00bfcc3928b10020e061ad0013183"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09133",
+    "componentCode": "SMJ10198",
+    "componentName": "Accounting Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "a8d00bfcc3928b10020e061ad001314a",
+      "28d00bfcc3928b10020e061ad001314b",
+      "e4d00bfcc3928b10020e061ad001314d"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09133",
+    "componentCode": "SMJ10199",
+    "componentName": "Economics Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "a8d00bfcc3928b10020e061ad001314a",
+      "28d00bfcc3928b10020e061ad001314b",
+      "e4d00bfcc3928b10020e061ad001314d"
+    ],
+    "order": 100
+  },
+  {
+    "degreeCode": "C09133",
+    "componentCode": "SMJ10200",
+    "componentName": "Finance Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "a8d00bfcc3928b10020e061ad001314a",
+      "28d00bfcc3928b10020e061ad001314b",
+      "e4d00bfcc3928b10020e061ad001314d"
+    ],
+    "order": 200
+  },
+  {
+    "degreeCode": "C09133",
+    "componentCode": "SMJ10201",
+    "componentName": "Management Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "a8d00bfcc3928b10020e061ad001314a",
+      "28d00bfcc3928b10020e061ad001314b",
+      "e4d00bfcc3928b10020e061ad001314d"
+    ],
+    "order": 300
+  },
+  {
+    "degreeCode": "C09133",
+    "componentCode": "SMJ10202",
+    "componentName": "Marketing Extension",
+    "componentType": "MAJOR_EXTENSION",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Business Major Extensions",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Business Major Extensions"
+    ],
+    "containerPath": [
+      "a8d00bfcc3928b10020e061ad001314a",
+      "28d00bfcc3928b10020e061ad001314b",
+      "e4d00bfcc3928b10020e061ad001314d"
+    ],
+    "order": 400
+  },
+  {
+    "degreeCode": "C09133",
+    "componentCode": "SMJ08195",
+    "componentName": "Accounting in Practice",
+    "componentType": "SUB_MAJOR",
+    "requiredCreditPoints": 24,
+    "parentGroup": "Sub-Majors",
+    "path": [
+      "Bachelor of Business",
+      "Options",
+      "Sub-Majors"
+    ],
+    "containerPath": [
+      "a8d00bfcc3928b10020e061ad001314a",
+      "28d00bfcc3928b10020e061ad001314b",
+      "a0d00bfcc3928b10020e061ad001314c"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C10342",
+    "componentCode": "MAJ08980",
+    "componentName": "Digital Creative Enterprise",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 48,
+    "parentGroup": "Majors",
+    "path": [
+      "Majors"
+    ],
+    "containerPath": [
+      "ec06dc0d477a8310a31de422036d43d9"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C10342",
+    "componentCode": "MAJ08980",
+    "componentName": "Digital Creative Enterprise",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 48,
+    "parentGroup": "Majors",
+    "path": [
+      "Options",
+      "Majors"
+    ],
+    "containerPath": [
+      "2006dc0d477a8310a31de422036d43da",
+      "e806dc0d477a8310a31de422036d43d8"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09153",
+    "componentCode": "MAJ08980",
+    "componentName": "Digital Creative Enterprise",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 48,
+    "parentGroup": "Majors",
+    "path": [
+      "Bachelor of Management",
+      "Majors"
+    ],
+    "containerPath": [
+      "0a06904d477a8310a31de422036d432d",
+      "0e06904d477a8310a31de422036d432e"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09153",
+    "componentCode": "MAJ08980",
+    "componentName": "Digital Creative Enterprise",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 48,
+    "parentGroup": "Majors",
+    "path": [
+      "Bachelor of Management",
+      "Options",
+      "Majors"
+    ],
+    "containerPath": [
+      "0a06904d477a8310a31de422036d432d",
+      "4606904d477a8310a31de422036d432e",
+      "c606904d477a8310a31de422036d432e"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C10412",
+    "componentCode": "MAJ08980",
+    "componentName": "Digital Creative Enterprise",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 48,
+    "parentGroup": "Majors",
+    "path": [
+      "Bachelor of Management",
+      "Majors"
+    ],
+    "containerPath": [
+      "7806104d477a8310a31de422036d4346",
+      "b006104d477a8310a31de422036d4346"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09160",
+    "componentCode": "MAJ01170",
+    "componentName": "Environmental Sciences",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 72,
+    "parentGroup": "Major",
+    "path": [
+      "Bachelor of Science",
+      "Environmental Sciences",
+      "Major"
+    ],
+    "containerPath": [
+      "ea6da9488363f250fed7d4326daad3ac",
+      "266da9488363f250fed7d4326daad3ad",
+      "266da9488363f250fed7d4326daad3b1"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09160",
+    "componentCode": "MAJ01191",
+    "componentName": "Mathematics",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 48,
+    "parentGroup": "Major",
+    "path": [
+      "Bachelor of Science",
+      "Mathematics",
+      "Major"
+    ],
+    "containerPath": [
+      "ea6da9488363f250fed7d4326daad3ac",
+      "226da9488363f250fed7d4326daad3ad",
+      "a66da9488363f250fed7d4326daad3af"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09160",
+    "componentCode": "MAJ01190",
+    "componentName": "Physics",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 48,
+    "parentGroup": "Major",
+    "path": [
+      "Bachelor of Science",
+      "Physics",
+      "Major"
+    ],
+    "containerPath": [
+      "ea6da9488363f250fed7d4326daad3ac",
+      "e66da9488363f250fed7d4326daad3b0",
+      "e26da9488363f250fed7d4326daad3b0"
+    ],
+    "order": 0
+  },
+  {
+    "degreeCode": "C09085",
+    "componentCode": "MAJ01080",
+    "componentName": "Physics",
+    "componentType": "MAJOR",
+    "requiredCreditPoints": 96,
+    "parentGroup": "Majors",
+    "path": [
+      "Bachelor of Science",
+      "Majors"
+    ],
+    "containerPath": [
+      "bb5a8ea5c3428710020e061ad0013176",
+      "bf5a8ea5c3428710020e061ad0013176"
+    ],
+    "order": 600
+  }
+]

@@ -1,0 +1,1868 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T13:45:51.800Z",
+  "counts": {
+    "degrees": 109,
+    "sourcePagesFetched": 109,
+    "sourceFetchFailures": 0,
+    "overviewPagesFetched": 0,
+    "overviewFetchFailures": 21,
+    "degreesWithCandidateLinks": 13,
+    "candidateLinks": 16,
+    "candidatePagesFetched": 16,
+    "candidateFetchFailures": 0,
+    "degreesWithSampleStudyPlan": 3,
+    "sampleStudyPlanPages": 6,
+    "totalPlanTables": 14,
+    "totalPlanRows": 167,
+    "duplicateCandidateUrls": 0
+  },
+  "degreesWithoutCandidateLinks": [
+    {
+      "degreeCode": "BPADVCMP-01",
+      "degreeTitle": "Bachelor of Advanced Computing",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/overview.html"
+    },
+    {
+      "degreeCode": "BPACMCOM-01",
+      "degreeTitle": "Bachelor of Advanced Computing and Bachelor of Commerce",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/overview.html"
+    },
+    {
+      "degreeCode": "BPACMSCI-01",
+      "degreeTitle": "Bachelor of Advanced Computing and Bachelor of Science",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/overview.html"
+    },
+    {
+      "degreeCode": "BHADVSTH-02",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/honours-advanced-studies-media-communications/overview.html"
+    },
+    {
+      "degreeCode": "BHADVFGB-01",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours) (Food and Agribusiness)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/honours-advanced-studies-media-communications/overview.html"
+    },
+    {
+      "degreeCode": "BHADVMDC-03",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours) (Media and Communications)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/honours-advanced-studies-media-communications/overview.html"
+    },
+    {
+      "degreeCode": "BHADVTWC-01",
+      "degreeTitle": "Bachelor of Advanced Studies (Honours) (Taronga Wildlife Conservation)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/honours-advanced-studies-media-communications/overview.html"
+    },
+    {
+      "degreeCode": "BPADVMDC-03",
+      "degreeTitle": "Bachelor of Advanced Studies (Media and Communications)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/advanced-studies-media-communications/overview.html"
+    },
+    {
+      "degreeCode": "BPAGRSCI-01",
+      "degreeTitle": "Bachelor of Agricultural Science",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/agricultural-science/overview.html"
+    },
+    {
+      "degreeCode": "BHAGRSCI-01",
+      "degreeTitle": "Bachelor of Agricultural Science Honours",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/agricultural-science-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPAVTBSC-01",
+      "degreeTitle": "Bachelor of Animal and Veterinary Bioscience",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/animal-veterinary-bioscience/overview.html"
+    },
+    {
+      "degreeCode": "BHAVTBSC-01",
+      "degreeTitle": "Bachelor of Animal and Veterinary Bioscience (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/honours-animal-veterinary-bioscience/overview.html"
+    },
+    {
+      "degreeCode": "BPASDRAD-01",
+      "degreeTitle": "Bachelor of Applied Science (Diagnostic Radiography)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPASESSC-03",
+      "degreeTitle": "Bachelor of Applied Science (Exercise and Sport Science)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html"
+    },
+    {
+      "degreeCode": "BPASEXPH-02",
+      "degreeTitle": "Bachelor of Applied Science (Exercise Physiology)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-physiology/overview.html"
+    },
+    {
+      "degreeCode": "BPASOCTE-06",
+      "degreeTitle": "Bachelor of Applied Science (Occupational Therapy)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPASPHYS-06",
+      "degreeTitle": "Bachelor of Applied Science (Physiotherapy)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/physiotherapy/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPASSPPA-06",
+      "degreeTitle": "Bachelor of Applied Science (Speech Pathology)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPARTSAR-09",
+      "degreeTitle": "Bachelor of Arts",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-arts-advanced-studies/overview.html"
+    },
+    {
+      "degreeCode": "BPARTXTD-01",
+      "degreeTitle": "Bachelor of Arts (Extended)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-extended/overview.html"
+    },
+    {
+      "degreeCode": "BHARTSAH-01",
+      "degreeTitle": "Bachelor of Arts (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPARTAVS-01",
+      "degreeTitle": "Bachelor of Arts and Bachelor of Advanced Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-arts-advanced-studies/overview.html"
+    },
+    {
+      "degreeCode": "BPARTLAW-04",
+      "degreeTitle": "Bachelor of Arts and Bachelor of Laws",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-laws/overview.html"
+    },
+    {
+      "degreeCode": "BPARTSWK-04",
+      "degreeTitle": "Bachelor of Arts and Bachelor of Social Work",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work/overview.html"
+    },
+    {
+      "degreeCode": "BPARTMED-01",
+      "degreeTitle": "Bachelor of Arts and Doctor of Medicine",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-medicine/overview.html"
+    },
+    {
+      "degreeCode": "BPARTNUR-02",
+      "degreeTitle": "Bachelor of Arts and Master of Nursing",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-nursing/overview.html"
+    },
+    {
+      "degreeCode": "BPBIOMDH-01",
+      "degreeTitle": "Bachelor of Biomedicine and Health",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPCOMMER-06",
+      "degreeTitle": "Bachelor of Commerce",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html"
+    },
+    {
+      "degreeCode": "BPCOMAVS-01",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Advanced Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html"
+    },
+    {
+      "degreeCode": "BPCOMART-03",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Arts",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/commerce-arts/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPCOMLAW-05",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Laws",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce-laws/overview.html"
+    },
+    {
+      "degreeCode": "BPCOMSCI-03",
+      "degreeTitle": "Bachelor of Commerce and Bachelor of Science",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce-science/overview.html"
+    },
+    {
+      "degreeCode": "BPCOMPUT-01",
+      "degreeTitle": "Bachelor of Computing",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/overview.html"
+    },
+    {
+      "degreeCode": "BHDESIGH-02",
+      "degreeTitle": "Bachelor of Design (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHECONOH-02",
+      "degreeTitle": "Bachelor of Economics (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPECNLAW-07",
+      "degreeTitle": "Bachelor of Economics and Bachelor of Laws",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-laws/overview.html"
+    },
+    {
+      "degreeCode": "BPEDUECH-01",
+      "degreeTitle": "Bachelor of Education (Early Childhood)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/education-early-childhood/overview.html"
+    },
+    {
+      "degreeCode": "BPEDUHPE-01",
+      "degreeTitle": "Bachelor of Education (Health and Physical Education)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/education-health-physical-education/overview.html"
+    },
+    {
+      "degreeCode": "BPEDPRIM-04",
+      "degreeTitle": "Bachelor of Education (Primary)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/education-primary/overview.html"
+    },
+    {
+      "degreeCode": "BPEDUSEC-01",
+      "degreeTitle": "Bachelor of Education (Secondary)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/education-secondary-advanced/overview.html"
+    },
+    {
+      "degreeCode": "BPEDSAVS-01",
+      "degreeTitle": "Bachelor of Education and Bachelor of Advanced Studies (Secondary)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/education-secondary-advanced/overview.html"
+    },
+    {
+      "degreeCode": "BHENGINE-04",
+      "degreeTitle": "Bachelor of Engineering Honours",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BHENGART-05",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Arts",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-engineering-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHENGCOM-05",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Commerce",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-engineering-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHENGDAR-03",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Design in Architecture",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-engineering-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHENGLAW-04",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Laws",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-engineering-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHENGPRM-05",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Project Management",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-engineering-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHENGSCI-05",
+      "degreeTitle": "Bachelor of Engineering Honours and Bachelor of Science",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-engineering-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPINTSTD-02",
+      "degreeTitle": "Bachelor of International Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-international-studies/overview.html"
+    },
+    {
+      "degreeCode": "BHINTSTH-03",
+      "degreeTitle": "Bachelor of International Studies (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/hons-b-international-studies/overview.html"
+    },
+    {
+      "degreeCode": "BPLANGUA-01",
+      "degreeTitle": "Bachelor of Languages",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-languages/overview.html"
+    },
+    {
+      "degreeCode": "BHLANGUA-01",
+      "degreeTitle": "Bachelor of Languages (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-languages-hons/overview.html"
+    },
+    {
+      "degreeCode": "BGLAWLAW-01",
+      "degreeTitle": "Bachelor of Laws",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/laws/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPMATHSC-01",
+      "degreeTitle": "Bachelor of Mathematical Sciences",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/mathematical-sciences/overview.html"
+    },
+    {
+      "degreeCode": "BHMATHSC-01",
+      "degreeTitle": "Bachelor of Mathematical Sciences (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/honours-mathematical-sciences/overview.html"
+    },
+    {
+      "degreeCode": "BPMEDCOM-01",
+      "degreeTitle": "Bachelor of Media and Communications",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-media-communications/overview.html"
+    },
+    {
+      "degreeCode": "BHMEDCOM-01",
+      "degreeTitle": "Bachelor of Media and Communications (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-media-communications-hons/overview.html"
+    },
+    {
+      "degreeCode": "BPMUSICM-05",
+      "degreeTitle": "Bachelor of Music",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPMUCOMP-01",
+      "degreeTitle": "Bachelor of Music (Composition)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPMUMEDU-01",
+      "degreeTitle": "Bachelor of Music (Music Education)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPMUPERF-01",
+      "degreeTitle": "Bachelor of Music (Performance)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPMCOAVS-01",
+      "degreeTitle": "Bachelor of Music and Bachelor of Advanced Studies (Composition)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPMPEAVS-01",
+      "degreeTitle": "Bachelor of Music and Bachelor of Advanced Studies (Performance)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BPNURADS-02",
+      "degreeTitle": "Bachelor of Nursing (Advanced Studies)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BUNUPORE-02",
+      "degreeTitle": "Bachelor of Nursing (Post-registration) (off-shore)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-singapore/overview.html"
+    },
+    {
+      "degreeCode": "BUNUPORE-01",
+      "degreeTitle": "Bachelor of Nursing (Post-registration) (on-shore)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-singapore/overview.html"
+    },
+    {
+      "degreeCode": "BUORAHEA-01",
+      "degreeTitle": "Bachelor of Oral Health",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/oral-health/course-resolutions.html"
+    },
+    {
+      "degreeCode": "BHPHAPHP-01",
+      "degreeTitle": "Bachelor of Pharmacy (Honours) and Master of Pharmacy Practice",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy/overview.html"
+    },
+    {
+      "degreeCode": "BHPHMPHP-01",
+      "degreeTitle": "Bachelor of Pharmacy and Management (Honours) and Master of Pharmacy Practice",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy-management/overview.html"
+    },
+    {
+      "degreeCode": "BPPLPHEC-01",
+      "degreeTitle": "Bachelor of Politics, Philosophy, and Economics",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-politics-philosophy-economics/overview.html"
+    },
+    {
+      "degreeCode": "BHPLPHEC-01",
+      "degreeTitle": "Bachelor of Politics, Philosophy, and Economics (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/politics-philosophy-economics-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPPRJMGT-02",
+      "degreeTitle": "Bachelor of Project Management",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/engineering/project-management/overview.html"
+    },
+    {
+      "degreeCode": "BHPRJMGT-01",
+      "degreeTitle": "Bachelor of Project Management (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/engineering/project-management/overview.html"
+    },
+    {
+      "degreeCode": "BPPSYCHO-04",
+      "degreeTitle": "Bachelor of Psychology",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/psychology/overview.html"
+    },
+    {
+      "degreeCode": "BHPSYCHH-02",
+      "degreeTitle": "Bachelor of Psychology Honours",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/psychology-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPSCIENC-05",
+      "degreeTitle": "Bachelor of Science",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science/overview.html"
+    },
+    {
+      "degreeCode": "BPSCIXTD-01",
+      "degreeTitle": "Bachelor of Science (Extended)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-extended/overview.html"
+    },
+    {
+      "degreeCode": "BHSCIENH-02",
+      "degreeTitle": "Bachelor of Science (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHSCIFGB-01",
+      "degreeTitle": "Bachelor of Science (Honours) (Food and Agribusiness)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-honours/overview.html"
+    },
+    {
+      "degreeCode": "BHSCITWC-01",
+      "degreeTitle": "Bachelor of Science (Honours) (Taronga Wildlife Conservation)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPSCIAVS-01",
+      "degreeTitle": "Bachelor of Science and Bachelor of Advanced Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science/overview.html"
+    },
+    {
+      "degreeCode": "BPSCIART-03",
+      "degreeTitle": "Bachelor of Science and Bachelor of Arts",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-arts/overview.html"
+    },
+    {
+      "degreeCode": "BPSCILAW-02",
+      "degreeTitle": "Bachelor of Science and Bachelor of Laws",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-laws/overview.html"
+    },
+    {
+      "degreeCode": "BPSCIDMD-01",
+      "degreeTitle": "Bachelor of Science and Doctor of Dental Medicine",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-dental/overview.html"
+    },
+    {
+      "degreeCode": "BPSCIMED-01",
+      "degreeTitle": "Bachelor of Science and Doctor of Medicine",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-medicine/overview.html"
+    },
+    {
+      "degreeCode": "BPSCINUR-02",
+      "degreeTitle": "Bachelor of Science and Master of Nursing",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/science-nursing/overview.html"
+    },
+    {
+      "degreeCode": "BPSCINUD-02",
+      "degreeTitle": "Bachelor of Science and Master of Nutrition and Dietetics",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/science-nutrition-dietetics/overview.html"
+    },
+    {
+      "degreeCode": "BUSOCWRK-01",
+      "degreeTitle": "Bachelor of Social Work",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/social-work/overview.html"
+    },
+    {
+      "degreeCode": "BPVBLVMD-02",
+      "degreeTitle": "Bachelor of Veterinary Biology and Doctor of Veterinary Medicine",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/veterinary-biology/overview.html"
+    },
+    {
+      "degreeCode": "BPVISART-04",
+      "degreeTitle": "Bachelor of Visual Arts",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/visual-arts-visual-arts-advanced-studies/overview.html"
+    },
+    {
+      "degreeCode": "BHVISARH-02",
+      "degreeTitle": "Bachelor of Visual Arts (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/visual-arts-honours/overview.html"
+    },
+    {
+      "degreeCode": "BPVISAVS-01",
+      "degreeTitle": "Bachelor of Visual Arts and Bachelor of Advanced Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/visual-arts-visual-arts-advanced-studies/overview.html"
+    },
+    {
+      "degreeCode": "BPWLCTRG-01",
+      "degreeTitle": "Bachelor of Wildlife Conservation (Taronga)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/wildlife-conservation-taronga/overview.html"
+    },
+    {
+      "degreeCode": "BHWLCTRG-01",
+      "degreeTitle": "Bachelor of Wildlife Conservation (Taronga) (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/hons-wildlife-conservation-taronga/overview.html"
+    },
+    {
+      "degreeCode": "DLARTSAR-04",
+      "degreeTitle": "Diploma of Arts",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/diploma-arts/overview.html"
+    },
+    {
+      "degreeCode": "DLLANSTD-04",
+      "degreeTitle": "Diploma of Language Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/diploma-language-studies/overview.html"
+    }
+  ],
+  "sourceFetchFailures": [],
+  "candidates": [
+    {
+      "degreeCode": "BPARCENV-01",
+      "degreeTitle": "Bachelor of Architecture and Environments",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/course-resolutions.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/enrolment-planner.html",
+      "candidateText": "Enrolment planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BHARCENV-01",
+      "degreeTitle": "Bachelor of Architecture and Environments (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/course-resolutions.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/enrolment-planner.html",
+      "candidateText": "Enrolment planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BPDESIGN-02",
+      "degreeTitle": "Bachelor of Design",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/enrolment-planner.html",
+      "candidateText": "Enrolment planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BPDSNAVS-01",
+      "degreeTitle": "Bachelor of Design and Bachelor of Advanced Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/enrolment-planner.html",
+      "candidateText": "Enrolment planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BUDARCHI-01",
+      "degreeTitle": "Bachelor of Design in Architecture",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/course-resolutions.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/enrolment-planner.html",
+      "candidateText": "Enrolment planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BHDARCHH-01",
+      "degreeTitle": "Bachelor of Design in Architecture (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/course-resolutions.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/enrolment-planner.html",
+      "candidateText": "Enrolment planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BHDARARC-01",
+      "degreeTitle": "Bachelor of Design in Architecture (Honours) and Master of Architecture",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/course-resolutions.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/enrolment-planner.html",
+      "candidateText": "Enrolment planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BPECONOM-05",
+      "degreeTitle": "Bachelor of Economics",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/enrolment-planner.html",
+      "candidateText": "Enrolment Planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BPECNAVS-01",
+      "degreeTitle": "Bachelor of Economics and Bachelor of Advanced Studies",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/enrolment-planner.html",
+      "candidateText": "Enrolment Planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BPECNART-01",
+      "degreeTitle": "Bachelor of Economics and Bachelor of Arts",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-economics-b-arts/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-economics-b-arts/enrolment-planner.html",
+      "candidateText": "Enrolment Planner",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": false,
+      "heading": null,
+      "tableCount": 0,
+      "tableRows": [],
+      "fetchStatus": "NO_SAMPLE_PLAN",
+      "error": null
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "candidateText": "Arts sample enrolment",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": true,
+      "heading": "Sample enrolment",
+      "tableCount": 2,
+      "tableRows": [
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Arts Table A Major 1XXX",
+          "Arts or Science Elective XXXX",
+          "Science Unit 1XXX",
+          "Liberal Arts and Science Unit Analytical Thinking ATHK1001"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Arts Table A Major 1XXX",
+          "Arts or Science Elective XXXX",
+          "Science Unit 1XXX",
+          "Liberal Arts and Science Unit Writing and Rhetoric - Academic Essays WRIT1001"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Arts Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Science Unit 1XXX/2XXX",
+          "Liberal Arts and Science Unit HPSC/PHILXXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Arts Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Science Unit 1XXX/2XXX",
+          "Liberal Arts and Science Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Arts Table A Major 3XXX",
+          "Arts Table A Major 3XXX",
+          "Science Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Arts Table A Major 3XXX",
+          "Arts Table A Major 3XXX",
+          "Science Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ],
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "History Major HSTY1001 Age of Empires",
+          "Arts or Science Elective BIOL1006 Life and Evolution",
+          "Science Unit PSYC1001 Psychology 1001",
+          "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "History Major HSTY1003 Birth of the Present: The world since 1750",
+          "Arts or Science Elective HPSC1001 What is this thing called Science?",
+          "Science Unit PSYC1002 Psychology 1002",
+          "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "History Major HSTY2628 Boom! The History of War",
+          "Table S Elective HPSC2100 The Birth of Modern Science",
+          "Science Unit PSYC2015 Brain and Behavioural Psychology",
+          "Liberal Arts and Science Ethics Unit HPSC1000 Bioethics"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "History Major HSTY2640 Twentieth-century China",
+          "Table S Elective BIOL1007 From Molecules to Ecosystems",
+          "Science Unit PSYC2016 Perception, Cognition and Intelligence",
+          "Liberal Arts and Science Elective Unit INDG1001 Introduction to Indigenous cultures"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "History Major HSTY3903 History and Historians",
+          "History Major HSTY3801 Asian History",
+          "Science Unit PSYC3017 Social Psychology",
+          "Liberal Arts and Science Elective Unit GEOS1001 Earth, Environment and Society"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "History Major FASS3999 Interdisciplinary Impact",
+          "History Major HSTY3805 Australian History",
+          "Science Units PSYC3016 Developmental Psychology",
+          "Liberal Arts and Science Elective Unit ARIN2610 Internet Transformations"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ]
+      ],
+      "fetchStatus": "OK",
+      "error": null
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "candidateText": "Science sample enrolment",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": true,
+      "heading": "Sample enrolment",
+      "tableCount": 3,
+      "tableRows": [
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Science Table A Major 1XXX",
+          "Science or Arts Elective XXXX",
+          "Arts Unit 1XXX",
+          "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Science Table A Major 1XXX",
+          "Science or Arts Elective XXXX",
+          "Arts Unit 1XXX",
+          "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Science Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Arts Unit 1XXX/2XX",
+          "Liberal Arts and Science Ethics HPSC/PHILXXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Science Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Arts Unit 1XXX/2XXX",
+          "Liberal Arts and Science Elective XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Science Table A Major 3XXX",
+          "Science Table A Major 3XXX",
+          "Arts Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Science Table A Major 3XXX",
+          "Science Table A Major 3XXX",
+          "Arts Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ],
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Psychological Science Major PSYC1001 Psychology 1001",
+          "Science or Arts Elective BIOL1006 Life and Evolution",
+          "Arts Unit SCLG1001 Sociology 1",
+          "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Psychological Science Major PSYC1002 Psychology 1002",
+          "Science or Arts Elective BIOL1007 From Molecules to Ecosystems",
+          "Arts Unit SCLG1002 Sociology 2",
+          "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Psychological Science Major PSYC2012 Research Methods for Psych",
+          "Psychology Program PSYC2015 Brain and Behavioural Psychology",
+          "Arts Unit SCLG2601 Explaining Society: Deploying Theory",
+          "Liberal Arts and Science Ethics HPSC1000 Bioethics"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Psychological Science Major PSYC2016 Perception, Cognition and Intelligence",
+          "Psychological Science Major PSYC2017 Personality and Social Psychology",
+          "Arts Unit SCLG2637 Society and Identity",
+          "Liberal Arts and Science Elective INDG1001 Introduction to Indigenous cultures"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Psychological Science Major PSYC3018 Mental Health Conditions",
+          "Psychological Science Major PSYC3011 Learning and Behaviour",
+          "Arts Unit SCPL2601 Australian Social Policy",
+          "Liberal Arts and Science Elective GEOS1002 Introductory Geography"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Psychological Science Major PSYC3014 Behavioural and Cognitive Neuroscience",
+          "Psychology Program PSYC3010 Advanced Research Methods for Psychology",
+          "Arts Unit SCLG2613 Sociology of Childhood and Youth",
+          "Liberal Arts and Science Elective WRIT2002 Arguments that Change the World"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ],
+        [
+          "Date",
+          "Original publication",
+          "Post-publication amendment"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2613 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 2",
+          "SCLG2637 replaced SCLG2613 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 2"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2604 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 1",
+          "SCLG2601 replaced SCLG2604 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 1"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2638 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 1",
+          "SCPL2601 replaced SCLG2638 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 1"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2637 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 2",
+          "SCLG2613 replaced SCLG2637 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 2"
+        ]
+      ],
+      "fetchStatus": "OK",
+      "error": null
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "candidateText": "Arts sample enrolment",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": true,
+      "heading": "Sample enrolment",
+      "tableCount": 2,
+      "tableRows": [
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Foundation Year",
+          "1",
+          "Foundation Unit INLI1001 Indigenous Literacies in Academic Contexts A",
+          "Foundation Unit MATH1100 Power of Number A",
+          "WRIT1001 Writing and Rhetoric - Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "2",
+          "Foundation Unit INLI1002 Indigenous Literacies in Academic Contexts B",
+          "Foundation Unit MATH1200 Power of Number B",
+          "OLE units OLES1602 The Apocalypse in Science and Culture"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Core Unit ATHK1001 Analytical Thinking",
+          "Arts Major 1XXX",
+          "Science Unit 1XXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "2",
+          "Core Unit 1XXX",
+          "Arts Major 1XXX",
+          "Science Unit 1XXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Liberal Studies Elective Unit XXXX",
+          "Arts Major 2XXX",
+          "Science Unit 2XXX",
+          "OLE units XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Liberal Studies Elective Unit XXXX",
+          "Arts Major 2XXX",
+          "Science Unit 2XXX",
+          "Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Liberal Studies Ethics Units XXXX",
+          "Arts Major 3XXX",
+          "Arts Major 3XXX",
+          "Science Unit 3XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Cultural Capstone Unit 4XXX",
+          "Arts Major 3XXX",
+          "Arts Major 3XXX",
+          "Science Unit 3XXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "168"
+        ],
+        [
+          "Date",
+          "Original publication",
+          "Post-publication amendment"
+        ],
+        [
+          "4/3/2026",
+          "WRIT1001 published in: General Pathway (Arts stream), Foundation Year, Semester 1",
+          "Placeholder unit (\"1XXX\") replaced WRIT1001 in: General Pathway (Arts stream), Foundation Year, Semester 1"
+        ],
+        [
+          "4/3/2026",
+          "Placeholder unit (\"XXXX\") published in: General Pathway (Arts stream), Foundation Year, Semester 2",
+          "OLES1602 replaced Placeholder unit (\"XXXX\") in: General Pathway (Arts stream), Foundation Year, Semester 2"
+        ],
+        [
+          "4/3/2026",
+          "WRIT1001 published in: General Pathway (Arts stream), Year 1, Semester 2",
+          "Placeholder unit (\"1XXX\") replaced WRIT1001 in: General Pathway (Arts stream), Year 1, Semester 2"
+        ],
+        [
+          "4/3/2026",
+          "Example Pathway: Arts stream - Sociology major enrolment planner published.",
+          "Example Pathway: Arts stream - Sociology major enrolment planner removed."
+        ]
+      ],
+      "fetchStatus": "OK",
+      "error": null
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "candidateText": "Science sample enrolment",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": true,
+      "heading": "Sample enrolment",
+      "tableCount": 2,
+      "tableRows": [
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Foundation Year",
+          "1",
+          "Foundation Unit INLI1001 Indigenous Literacies in Academic Contexts A",
+          "Foundation Unit MATH1100 Power of Number A",
+          "WRIT1001 Writing and Rhetoric - Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "2",
+          "Foundation Unit INLI1002 Indigenous Literacies in Academic Contexts B",
+          "Foundation Unit MATH1200 Power of Number B",
+          "OLE units OLES1602 The Apocalypse in Science and Culture"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Core Unit ATHK1001 Analytical Thinking",
+          "Science Major or Liberal Studies Elective Unit 1XXX",
+          "Arts Unit 1XXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "2",
+          "Core Unit WRIT1001 Writing and Rhetoric: Academic Essays",
+          "Science Major 1XXX",
+          "Arts Unit 1XXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "18"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Liberal Studies Ethics Units XXXX",
+          "Science Major 2XXX",
+          "Arts Unit 2XXX",
+          "OLE units XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Liberal Studies Elective Unit XXXX",
+          "Science Major 2XXX",
+          "Arts Unit 2XXX",
+          "Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Liberal Studies Elective Unit XXXX",
+          "Science Major 3XXX",
+          "Science Major 3XXX",
+          "Arts Unit 2XXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Cultural Capstone Unit 4XXX",
+          "Science Major 3XXX",
+          "Science Major 3XXX",
+          "Arts Unit 3XXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "168"
+        ],
+        [
+          "Date",
+          "Original publication",
+          "Post-publication amendment"
+        ],
+        [
+          "4/3/2026",
+          "Example pathway: Science stream - Marine Science major enrolment planner published.",
+          "Example pathway: Science stream - Marine Science major enrolment planner removed."
+        ],
+        [
+          "4/3/2026",
+          "Placeholder unit (\"1XXX\") published in: General pathway (Science stream), foundation year, semester 1",
+          "Placeholder unit (\"1XXX\") replaced by WRIT1001 in: General pathway (Science stream), foundation year, semester 1"
+        ],
+        [
+          "4/3/2026",
+          "Placeholder unit (\"XXXX\") published in: General pathway (Science stream), foundation year, semester 2",
+          "Placeholder unit (\"XXXX\") replaced by OLES1602 in: General pathway (Science stream), foundation year, semester 2"
+        ]
+      ],
+      "fetchStatus": "OK",
+      "error": null
+    },
+    {
+      "degreeCode": "BHLIARSH-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "candidateText": "Arts sample enrolment",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": true,
+      "heading": "Sample enrolment",
+      "tableCount": 2,
+      "tableRows": [
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Arts Table A Major 1XXX",
+          "Arts or Science Elective XXXX",
+          "Science Unit 1XXX",
+          "Liberal Arts and Science Unit Analytical Thinking ATHK1001"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Arts Table A Major 1XXX",
+          "Arts or Science Elective XXXX",
+          "Science Unit 1XXX",
+          "Liberal Arts and Science Unit Writing and Rhetoric - Academic Essays WRIT1001"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Arts Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Science Unit 1XXX/2XXX",
+          "Liberal Arts and Science Unit HPSC/PHILXXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Arts Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Science Unit 1XXX/2XXX",
+          "Liberal Arts and Science Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Arts Table A Major 3XXX",
+          "Arts Table A Major 3XXX",
+          "Science Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Arts Table A Major 3XXX",
+          "Arts Table A Major 3XXX",
+          "Science Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective Unit XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ],
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "History Major HSTY1001 Age of Empires",
+          "Arts or Science Elective BIOL1006 Life and Evolution",
+          "Science Unit PSYC1001 Psychology 1001",
+          "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "History Major HSTY1003 Birth of the Present: The world since 1750",
+          "Arts or Science Elective HPSC1001 What is this thing called Science?",
+          "Science Unit PSYC1002 Psychology 1002",
+          "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "History Major HSTY2628 Boom! The History of War",
+          "Table S Elective HPSC2100 The Birth of Modern Science",
+          "Science Unit PSYC2015 Brain and Behavioural Psychology",
+          "Liberal Arts and Science Ethics Unit HPSC1000 Bioethics"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "History Major HSTY2640 Twentieth-century China",
+          "Table S Elective BIOL1007 From Molecules to Ecosystems",
+          "Science Unit PSYC2016 Perception, Cognition and Intelligence",
+          "Liberal Arts and Science Elective Unit INDG1001 Introduction to Indigenous cultures"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "History Major HSTY3903 History and Historians",
+          "History Major HSTY3801 Asian History",
+          "Science Unit PSYC3017 Social Psychology",
+          "Liberal Arts and Science Elective Unit GEOS1001 Earth, Environment and Society"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "History Major FASS3999 Interdisciplinary Impact",
+          "History Major HSTY3805 Australian History",
+          "Science Units PSYC3016 Developmental Psychology",
+          "Liberal Arts and Science Elective Unit ARIN2610 Internet Transformations"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ]
+      ],
+      "fetchStatus": "OK",
+      "error": null
+    },
+    {
+      "degreeCode": "BHLIARSH-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Honours)",
+      "handbookSourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/overview.html",
+      "candidateUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "candidateText": "Science sample enrolment",
+      "discoverySource": "SOURCE_PAGE_LINK",
+      "sampleStudyPlanFound": true,
+      "heading": "Sample enrolment",
+      "tableCount": 3,
+      "tableRows": [
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Science Table A Major 1XXX",
+          "Science or Arts Elective XXXX",
+          "Arts Unit 1XXX",
+          "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Science Table A Major 1XXX",
+          "Science or Arts Elective XXXX",
+          "Arts Unit 1XXX",
+          "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Science Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Arts Unit 1XXX/2XX",
+          "Liberal Arts and Science Ethics HPSC/PHILXXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Science Table A Major 2XXX",
+          "Table S Elective XXXX",
+          "Arts Unit 1XXX/2XXX",
+          "Liberal Arts and Science Elective XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Science Table A Major 3XXX",
+          "Science Table A Major 3XXX",
+          "Arts Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Science Table A Major 3XXX",
+          "Science Table A Major 3XXX",
+          "Arts Unit 2XXX/3XXX",
+          "Liberal Arts and Science Elective XXXX"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ],
+        [
+          "Semester",
+          "Unit of study 1 & credit points",
+          "Unit of study 2 & credit points",
+          "Unit of study 3 & credit points",
+          "Unit of study 4 & credit points",
+          "Total"
+        ],
+        [
+          "Year 1",
+          "1",
+          "Psychological Science Major PSYC1001 Psychology 1001",
+          "Science or Arts Elective BIOL1006 Life and Evolution",
+          "Arts Unit SCLG1001 Sociology 1",
+          "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Psychological Science Major PSYC1002 Psychology 1002",
+          "Science or Arts Elective BIOL1007 From Molecules to Ecosystems",
+          "Arts Unit SCLG1002 Sociology 2",
+          "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 2",
+          "1",
+          "Psychological Science Major PSYC2012 Research Methods for Psych",
+          "Psychology Program PSYC2015 Brain and Behavioural Psychology",
+          "Arts Unit SCLG2601 Explaining Society: Deploying Theory",
+          "Liberal Arts and Science Ethics HPSC1000 Bioethics"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Psychological Science Major PSYC2016 Perception, Cognition and Intelligence",
+          "Psychological Science Major PSYC2017 Personality and Social Psychology",
+          "Arts Unit SCLG2637 Society and Identity",
+          "Liberal Arts and Science Elective INDG1001 Introduction to Indigenous cultures"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Year 3",
+          "1",
+          "Psychological Science Major PSYC3018 Mental Health Conditions",
+          "Psychological Science Major PSYC3011 Learning and Behaviour",
+          "Arts Unit SCPL2601 Australian Social Policy",
+          "Liberal Arts and Science Elective GEOS1002 Introductory Geography"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "2",
+          "Psychological Science Major PSYC3014 Behavioural and Cognitive Neuroscience",
+          "Psychology Program PSYC3010 Advanced Research Methods for Psychology",
+          "Arts Unit SCLG2613 Sociology of Childhood and Youth",
+          "Liberal Arts and Science Elective WRIT2002 Arguments that Change the World"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "24"
+        ],
+        [
+          "Total credit points:",
+          "144"
+        ],
+        [
+          "Date",
+          "Original publication",
+          "Post-publication amendment"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2613 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 2",
+          "SCLG2637 replaced SCLG2613 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 2"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2604 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 1",
+          "SCLG2601 replaced SCLG2604 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 1"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2638 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 1",
+          "SCPL2601 replaced SCLG2638 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 1"
+        ],
+        [
+          "4/2/2026",
+          "SCLG2637 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 2",
+          "SCLG2613 replaced SCLG2637 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 2"
+        ]
+      ],
+      "fetchStatus": "OK",
+      "error": null
+    }
+  ],
+  "coverage": {
+    "handbookLocalPlanDiscovery": "DIAGNOSTIC",
+    "samplePlanExtraction": "DIAGNOSTIC",
+    "recommendedStudyPlans": "NOT_YET_COMPLETE"
+  }
+}

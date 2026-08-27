@@ -1,0 +1,3737 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-25T14:17:28.533Z",
+  "inventoryCount": 3122,
+  "failureCount": 112,
+  "foundInInventoryCount": 112,
+  "missingFromInventoryCount": 0,
+  "retryableCount": 0,
+  "preserveUnresolvedCount": 111,
+  "parserReviewCount": 0,
+  "manualReviewCount": 1,
+  "byCategory": {
+    "PAGE_NOT_FOUND": 107,
+    "NOT_AVAILABLE_OR_UNDER_DEVELOPMENT": 4,
+    "NETWORK_OR_HTTP_ERROR": 0,
+    "PARSER_ERROR": 0,
+    "OTHER": 1
+  },
+  "items": [
+    {
+      "code": "AERO5500",
+      "url": "https://www.sydney.edu.au/units/AERO5500",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "category": "NOT_AVAILABLE_OR_UNDER_DEVELOPMENT",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Aerospace Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/aeronautical-with-space/specialisations/aerospace-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Aerospace Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/aeronautical/specialisations/aerospace-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Aerospace Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/specialisations/aerospace-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Aerospace Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/specialisations/aerospace-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 6,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "AMME4912",
+      "url": "https://www.sydney.edu.au/units/AMME4912",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Computational",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechanical-with-space/specialisations/computational-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Computational",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechanical/specialisations/computational-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Mechanical Design",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechanical-with-space/specialisations/mechanical-design-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Mechanical Design",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechanical/specialisations/mechanical-design-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Computational",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/computational-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Computational",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/computational-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Mechanical Design",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/mechanical-design-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Mechanical Design",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/mechanical-design-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 11,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "ANHS2638",
+      "url": "https://www.sydney.edu.au/units/ANHS2638",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Ancient History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/ancient-history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Ancient History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/ancient-history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/history/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 4,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ARBC3639",
+      "url": "https://www.sydney.edu.au/units/ARBC3639",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Arabic Language and Cultures",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/arabic-language-cultures/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Arabic Language and Cultures",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/arabic-language-cultures/intermediate-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Arabic Language and Cultures",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/arabic-language-cultures/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Arabic Language and Cultures",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/arabic-language-cultures/intermediate-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 4,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ARCH3008",
+      "url": "https://www.sydney.edu.au/units/ARCH3008",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "ARCHITECTURE",
+          "ownerName": "Bachelor of Architecture and Environments",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "ARCHITECTURE",
+          "ownerName": "Bachelor of Design in Architecture (Honours) and Master of Architecture",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "code": "ARHT2640",
+      "url": "https://www.sydney.edu.au/units/ARHT2640",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/art-history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Asian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/asian-studies/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Asian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/asian-studies/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 4,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ARHT2681",
+      "url": "https://www.sydney.edu.au/units/ARHT2681",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/art-history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ARHT2682",
+      "url": "https://www.sydney.edu.au/units/ARHT2682",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/art-history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ARHT3685",
+      "url": "https://www.sydney.edu.au/units/ARHT3685",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/art-history/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Art History",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "BBHE2001",
+      "url": "https://www.sydney.edu.au/units/BBHE2001",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "category": "NOT_AVAILABLE_OR_UNDER_DEVELOPMENT",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE2002",
+      "url": "https://www.sydney.edu.au/units/BBHE2002",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE2003",
+      "url": "https://www.sydney.edu.au/units/BBHE2003",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE2004",
+      "url": "https://www.sydney.edu.au/units/BBHE2004",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE2005",
+      "url": "https://www.sydney.edu.au/units/BBHE2005",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE2011",
+      "url": "https://www.sydney.edu.au/units/BBHE2011",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE2221",
+      "url": "https://www.sydney.edu.au/units/BBHE2221",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE3001",
+      "url": "https://www.sydney.edu.au/units/BBHE3001",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE3002",
+      "url": "https://www.sydney.edu.au/units/BBHE3002",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE3003",
+      "url": "https://www.sydney.edu.au/units/BBHE3003",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE3004",
+      "url": "https://www.sydney.edu.au/units/BBHE3004",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE3005",
+      "url": "https://www.sydney.edu.au/units/BBHE3005",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BBHE3006",
+      "url": "https://www.sydney.edu.au/units/BBHE3006",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Biomedicine and Health",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BIOL3909",
+      "url": "https://www.sydney.edu.au/units/BIOL3909",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Plant Science",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/plant-science/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Plant Science",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/plant-science/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "INTERDISCIPLINARY",
+        "SCIENCE"
+      ]
+    },
+    {
+      "code": "BIOS2172",
+      "url": "https://www.sydney.edu.au/units/BIOS2172",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "BMET4790",
+      "url": "https://www.sydney.edu.au/units/BMET4790",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechatronic-with-space/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechatronic/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 6,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "BMET5996",
+      "url": "https://www.sydney.edu.au/units/BMET5996",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Biocomputation",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/biomedical/specialisations/biocomputation-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Bionics Bioelectronics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/biomedical/specialisations/bionics-bioelectronics-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Biocomputation",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/biocomputation-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bionics Bioelectronics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/bionics-bioelectronics-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 5,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "BPPE3999",
+      "url": "https://www.sydney.edu.au/units/BPPE3999",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Economics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/economics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Philosophy",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/philosophy/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Political Economy",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/political-economy/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/politics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Economics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/economics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Philosophy",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/philosophy/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Political Economy",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/political-economy/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 8,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "CAEL2099",
+      "url": "https://www.sydney.edu.au/units/CAEL2099",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Visual Arts",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/visual-arts/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Visual Arts",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/visual-arts/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "CAEL2100",
+      "url": "https://www.sydney.edu.au/units/CAEL2100",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Visual Arts",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/visual-arts/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Visual Arts",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/visual-arts/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "CHNG5607",
+      "url": "https://www.sydney.edu.au/units/CHNG5607",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Biochemical Food Technologies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/chemical-biomolecular/specialisations/biochemical-food-technologies-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Biochemical Food Technologies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/specialisations/biochemical-food-technologies-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 3,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "CMPN3621",
+      "url": "https://www.sydney.edu.au/units/CMPN3621",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "CONSERVATORIUM",
+          "ownerName": "Composition",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/streams/composition/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "CONSERVATORIUM"
+      ]
+    },
+    {
+      "code": "CSCD2072",
+      "url": "https://www.sydney.edu.au/units/CSCD2072",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD2073",
+      "url": "https://www.sydney.edu.au/units/CSCD2073",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD2074",
+      "url": "https://www.sydney.edu.au/units/CSCD2074",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD2075",
+      "url": "https://www.sydney.edu.au/units/CSCD2075",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD2076",
+      "url": "https://www.sydney.edu.au/units/CSCD2076",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD2077",
+      "url": "https://www.sydney.edu.au/units/CSCD2077",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD2078",
+      "url": "https://www.sydney.edu.au/units/CSCD2078",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD3102",
+      "url": "https://www.sydney.edu.au/units/CSCD3102",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD3103",
+      "url": "https://www.sydney.edu.au/units/CSCD3103",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD3104",
+      "url": "https://www.sydney.edu.au/units/CSCD3104",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD3105",
+      "url": "https://www.sydney.edu.au/units/CSCD3105",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD4066",
+      "url": "https://www.sydney.edu.au/units/CSCD4066",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD4067",
+      "url": "https://www.sydney.edu.au/units/CSCD4067",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD4068",
+      "url": "https://www.sydney.edu.au/units/CSCD4068",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD4069",
+      "url": "https://www.sydney.edu.au/units/CSCD4069",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD4070",
+      "url": "https://www.sydney.edu.au/units/CSCD4070",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "CSCD4071",
+      "url": "https://www.sydney.edu.au/units/CSCD4071",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Speech Pathology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "DECO3001",
+      "url": "https://www.sydney.edu.au/units/DECO3001",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "ARCHITECTURE",
+          "ownerName": "Bachelor of Design; Bachelor of Design and Bachelor of Advanced Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/design-advanced-studies-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "code": "DESA3008",
+      "url": "https://www.sydney.edu.au/units/DESA3008",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "ARCHITECTURE",
+          "ownerName": "Bachelor of Design in Architecture",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "ARCHITECTURE"
+      ]
+    },
+    {
+      "code": "ECON4918",
+      "url": "https://www.sydney.edu.au/units/ECON4918",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Economics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/economics/honours-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS"
+      ]
+    },
+    {
+      "code": "ECOS3036",
+      "url": "https://www.sydney.edu.au/units/ECOS3036",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Economic Policy Analysis",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/economic-policy-analysis/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Economic Policy Analysis",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/economic-policy-analysis/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ELEC3803",
+      "url": "https://www.sydney.edu.au/units/ELEC3803",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "ELEC5701",
+      "url": "https://www.sydney.edu.au/units/ELEC5701",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Intelligent Information Engineering",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/software/specialisations/intelligent-information-engineering-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Intelligent Information",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/intelligent-information-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Intelligent Information Engineering",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/intelligent-information-engineering-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 5,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "ELEC5760",
+      "url": "https://www.sydney.edu.au/units/ELEC5760",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Internet Things",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/electrical/specialisations/internet-things-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Internet Things",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/software/specialisations/internet-things-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Telecommunications",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/electrical/specialisations/telecommunications-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Internet Things",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/internet-things-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Internet Things",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/internet-things-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Telecommunications",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/telecommunications-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 8,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "ENGG3216",
+      "url": "https://www.sydney.edu.au/units/ENGG3216",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Innovation and Entrepreneurship",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/innovation-entrepreneurship/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Innovation and Entrepreneurship",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/innovation-entrepreneurship/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ENGL1012",
+      "url": "https://www.sydney.edu.au/units/ENGL1012",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "English",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/english/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "English",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/english/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ENGL3611",
+      "url": "https://www.sydney.edu.au/units/ENGL3611",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "English",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/english/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "English",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/english/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ENGL3708",
+      "url": "https://www.sydney.edu.au/units/ENGL3708",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "English",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/english/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "English",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/english/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ENVE3001",
+      "url": "https://www.sydney.edu.au/units/ENVE3001",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "ENVE3002",
+      "url": "https://www.sydney.edu.au/units/ENVE3002",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "ENVE3004",
+      "url": "https://www.sydney.edu.au/units/ENVE3004",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "ENVE4800",
+      "url": "https://www.sydney.edu.au/units/ENVE4800",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "EUST2113",
+      "url": "https://www.sydney.edu.au/units/EUST2113",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "European Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/european-studies/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Dalyell enrichment units of study",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/dalyell-stream/enrichment/arts-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "European Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/european-studies/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 3,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "FRNC2630",
+      "url": "https://www.sydney.edu.au/units/FRNC2630",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "European Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/european-studies/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "French and Francophone Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/french-francophone-studies/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "European Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/european-studies/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "French and Francophone Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/french-francophone-studies/advanced-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 4,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "GOVT2111",
+      "url": "https://www.sydney.edu.au/units/GOVT2111",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/politics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "GOVT2617",
+      "url": "https://www.sydney.edu.au/units/GOVT2617",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "International Relations",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/international-relations/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "International Relations",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/international-relations/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "GOVT3643",
+      "url": "https://www.sydney.edu.au/units/GOVT3643",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/politics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "GOVT3654",
+      "url": "https://www.sydney.edu.au/units/GOVT3654",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/politics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "GOVT3987",
+      "url": "https://www.sydney.edu.au/units/GOVT3987",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/politics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Politics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "INMS3614",
+      "url": "https://www.sydney.edu.au/units/INMS3614",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/indonesian-studies/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/indonesian-studies/intermediate-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/indonesian-studies/introductory-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/intermediate-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/introductory-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 6,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "INMS3615",
+      "url": "https://www.sydney.edu.au/units/INMS3615",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/indonesian-studies/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/indonesian-studies/intermediate-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/indonesian-studies/introductory-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/intermediate-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Indonesian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/introductory-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 6,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "ISYS3402",
+      "url": "https://www.sydney.edu.au/units/ISYS3402",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "JAZZ1623",
+      "url": "https://www.sydney.edu.au/units/JAZZ1623",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "CONSERVATORIUM",
+          "ownerName": "Bachelor of Music (Music Education)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/streams/music-education/jazz-voice/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "CONSERVATORIUM"
+      ]
+    },
+    {
+      "code": "JAZZ1624",
+      "url": "https://www.sydney.edu.au/units/JAZZ1624",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "CONSERVATORIUM",
+          "ownerName": "Bachelor of Music (Music Education)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/streams/music-education/jazz-voice/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "CONSERVATORIUM"
+      ]
+    },
+    {
+      "code": "JPNS2671",
+      "url": "https://www.sydney.edu.au/units/JPNS2671",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Japanese Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/japanese-studies/introductory-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Japanese Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/japanese-studies/introductory-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "KRNS2010",
+      "url": "https://www.sydney.edu.au/units/KRNS2010",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Asian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/asian-studies/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Korean Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/korean-studies/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Korean Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/korean-studies/heritage-speakers-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Korean Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/korean-studies/intermediate-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Korean Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/korean-studies/introductory-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Asian Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/asian-studies/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Korean Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/korean-studies/advanced-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Korean Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/korean-studies/intermediate-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Korean Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/korean-studies/introductory-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 9,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "LAWS3490",
+      "url": "https://www.sydney.edu.au/units/LAWS3490",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "LAW",
+          "ownerName": "Undergraduate Coursework",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p1-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "LAW"
+      ]
+    },
+    {
+      "code": "LAWS6933",
+      "url": "https://www.sydney.edu.au/units/LAWS6933",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "LAW",
+          "ownerName": "Undergraduate Coursework",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p1-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "LAW"
+      ]
+    },
+    {
+      "code": "LNGS3705",
+      "url": "https://www.sydney.edu.au/units/LNGS3705",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "category": "NOT_AVAILABLE_OR_UNDER_DEVELOPMENT",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Linguistics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/linguistics/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Linguistics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/linguistics/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "MATH2969",
+      "url": "https://www.sydney.edu.au/units/MATH2969",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Dalyell enrichment units of study",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/dalyell-stream/enrichment/science-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "MATH5430",
+      "url": "https://www.sydney.edu.au/units/MATH5430",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Data Science",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/data-science/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Financial Mathematics and Statistics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/financial-mathematics-statistics/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Mathematics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/mathematics/applied-mathematics-honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Mathematics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/mathematics/pure-mathematics-honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Statistics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/statistics/honours-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 5,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "SCIENCE"
+      ]
+    },
+    {
+      "code": "MATH5550",
+      "url": "https://www.sydney.edu.au/units/MATH5550",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Data Science",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/data-science/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Financial Mathematics and Statistics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/financial-mathematics-statistics/honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Mathematics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/mathematics/applied-mathematics-honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Mathematics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/mathematics/pure-mathematics-honours-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Statistics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/statistics/honours-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 5,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "SCIENCE"
+      ]
+    },
+    {
+      "code": "MTRX4700",
+      "url": "https://www.sydney.edu.au/units/MTRX4700",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechatronic-with-space/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechatronic/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Bachelor of Engineering Honours",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ENGINEERING",
+          "ownerName": "Robotics Intelligent Systems",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/specialisations/robotics-intelligent-systems-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 6,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "ENGINEERING"
+      ]
+    },
+    {
+      "code": "MTRY5000",
+      "url": "https://www.sydney.edu.au/units/MTRY5000",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Applied Science (Diagnostic Radiography)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "MUSC2665",
+      "url": "https://www.sydney.edu.au/units/MUSC2665",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "CONSERVATORIUM",
+          "ownerName": "Composition",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/streams/composition/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "CONSERVATORIUM",
+          "ownerName": "Composition For Creative Industries",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/programs/composition-for-creative-industries/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "CONSERVATORIUM",
+          "ownerName": "Digital Music Composition",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/programs/digital-music-composition/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 3,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "CONSERVATORIUM"
+      ]
+    },
+    {
+      "code": "MUSC2670",
+      "url": "https://www.sydney.edu.au/units/MUSC2670",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "BUSINESS",
+          "ownerName": "Innovation and Entrepreneurship",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/innovation-entrepreneurship/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Innovation and Entrepreneurship",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/innovation-entrepreneurship/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "BUSINESS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "MUSC2682",
+      "url": "https://www.sydney.edu.au/units/MUSC2682",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "CONSERVATORIUM",
+          "ownerName": "Composition",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/streams/composition/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "CONSERVATORIUM"
+      ]
+    },
+    {
+      "code": "NURS2018",
+      "url": "https://www.sydney.edu.au/units/NURS2018",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS2019",
+      "url": "https://www.sydney.edu.au/units/NURS2019",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS2020",
+      "url": "https://www.sydney.edu.au/units/NURS2020",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS2021",
+      "url": "https://www.sydney.edu.au/units/NURS2021",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS2022",
+      "url": "https://www.sydney.edu.au/units/NURS2022",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS2023",
+      "url": "https://www.sydney.edu.au/units/NURS2023",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS3021",
+      "url": "https://www.sydney.edu.au/units/NURS3021",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS3022",
+      "url": "https://www.sydney.edu.au/units/NURS3022",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS3023",
+      "url": "https://www.sydney.edu.au/units/NURS3023",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Nursing (Advanced Studies)",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS6034",
+      "url": "https://www.sydney.edu.au/units/NURS6034",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Arts and Master of Nursing",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/arts-nursing/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS6035",
+      "url": "https://www.sydney.edu.au/units/NURS6035",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Arts and Master of Nursing",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/arts-nursing/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "NURS6036",
+      "url": "https://www.sydney.edu.au/units/NURS6036",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Arts and Master of Nursing",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/arts-nursing/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "PHAR5915",
+      "url": "https://www.sydney.edu.au/units/PHAR5915",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "category": "NOT_AVAILABLE_OR_UNDER_DEVELOPMENT",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Pharmacy (Honours) and Master of Pharmacy Practice",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy/unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Pharmacy and Management (Honours) and Master of Pharmacy Practice",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy-management/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "PHAR5925",
+      "url": "https://www.sydney.edu.au/units/PHAR5925",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Pharmacy (Honours) and Master of Pharmacy Practice",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy/unit-of-study-table.html"
+        },
+        {
+          "kind": "DEGREE_SPECIFIC_TABLE",
+          "handbookCategory": "MEDICINE_HEALTH",
+          "ownerName": "Bachelor of Pharmacy and Management (Honours) and Master of Pharmacy Practice",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy-management/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "DEGREE_SPECIFIC_TABLE"
+      ],
+      "handbookCategories": [
+        "MEDICINE_HEALTH"
+      ]
+    },
+    {
+      "code": "PHSI3011",
+      "url": "https://www.sydney.edu.au/units/PHSI3011",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Dalyell enrichment units of study",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/dalyell-stream/enrichment/medicine-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "PHYS4017",
+      "url": "https://www.sydney.edu.au/units/PHYS4017",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Physics",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/physics/honours-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "SCIENCE"
+      ]
+    },
+    {
+      "code": "PSYC3014",
+      "url": "https://www.sydney.edu.au/units/PSYC3014",
+      "attempts": 3,
+      "originalError": "Could not determine USYD unit year.",
+      "category": "OTHER",
+      "recommendedAction": "MANUAL_REVIEW",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Neuroscience",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/neuroscience/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Psychological Science",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/psychological-science/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Neuroscience",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/neuroscience/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "SCIENCE",
+          "ownerName": "Psychological Science",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/science/table-a/subject-areas/psychological-science/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 4,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "INTERDISCIPLINARY",
+        "SCIENCE"
+      ]
+    },
+    {
+      "code": "SANS2602",
+      "url": "https://www.sydney.edu.au/units/SANS2602",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Sanskrit",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/sanskrit/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Sanskrit",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sanskrit/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "SCLP3604",
+      "url": "https://www.sydney.edu.au/units/SCLP3604",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Sociology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/sociology/unit-of-study-table.html"
+        },
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Sociology",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sociology/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 2,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS",
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "SSLS4103",
+      "url": "https://www.sydney.edu.au/units/SSLS4103",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Socio-Legal Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/socio-legal-studies/honours-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS"
+      ]
+    },
+    {
+      "code": "SSLS4104",
+      "url": "https://www.sydney.edu.au/units/SSLS4104",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "ARTS",
+          "ownerName": "Socio-Legal Studies",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/socio-legal-studies/honours-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "ARTS"
+      ]
+    },
+    {
+      "code": "USSC2607",
+      "url": "https://www.sydney.edu.au/units/USSC2607",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Sustainability",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sustainability/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "WORK3207",
+      "url": "https://www.sydney.edu.au/units/WORK3207",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Sustainability",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sustainability/unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "INTERDISCIPLINARY"
+      ]
+    },
+    {
+      "code": "WRIT3000",
+      "url": "https://www.sydney.edu.au/units/WRIT3000",
+      "attempts": 3,
+      "originalError": "Could not parse USYD unit heading: \"Page not found\"",
+      "category": "PAGE_NOT_FOUND",
+      "recommendedAction": "PRESERVE_UNRESOLVED",
+      "retryable": false,
+      "foundInInventory": true,
+      "sources": [
+        {
+          "kind": "COMPONENT_TABLE",
+          "handbookCategory": "INTERDISCIPLINARY",
+          "ownerName": "Dalyell enrichment units of study",
+          "tableUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/dalyell-stream/enrichment/arts-unit-of-study-table.html"
+        }
+      ],
+      "sourceCount": 1,
+      "sourceKinds": [
+        "COMPONENT_TABLE"
+      ],
+      "handbookCategories": [
+        "INTERDISCIPLINARY"
+      ]
+    }
+  ]
+}

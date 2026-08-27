@@ -1,0 +1,336 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T12:27:42.135Z",
+  "counts": {
+    "originalPools": 18,
+    "reconciledPools": 18,
+    "matchedPools": 0,
+    "correctedPools": 12,
+    "noCatalogPools": 6,
+    "removedCandidateOccurrences": 56,
+    "missingCandidateOccurrences": 0
+  },
+  "reconciliation": [
+    {
+      "degreeCode": "BPACMCOM-01",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "originalCount": 12,
+      "authoritativeCount": 11,
+      "keptCount": 11,
+      "removedCount": 1,
+      "missingCount": 0,
+      "removedNames": [
+        "Accounting (Professional)"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPACMCOM-01",
+      "tableName": "Table A for the Bachelor of Computing",
+      "scope": "COMPUTING",
+      "role": "MAJOR",
+      "originalCount": 4,
+      "authoritativeCount": null,
+      "keptCount": 4,
+      "removedCount": 0,
+      "missingCount": 0,
+      "removedNames": [],
+      "missingNames": [],
+      "status": "NO_AUTHORITATIVE_CATALOG"
+    },
+    {
+      "degreeCode": "BPACMSCI-01",
+      "tableName": "Table A for the Bachelor of Computing",
+      "scope": "COMPUTING",
+      "role": "MAJOR",
+      "originalCount": 4,
+      "authoritativeCount": null,
+      "keptCount": 4,
+      "removedCount": 0,
+      "missingCount": 0,
+      "removedNames": [],
+      "missingNames": [],
+      "status": "NO_AUTHORITATIVE_CATALOG"
+    },
+    {
+      "degreeCode": "BPACMSCI-01",
+      "tableName": "Table A for the Bachelor of Science",
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "originalCount": 46,
+      "authoritativeCount": 38,
+      "keptCount": 38,
+      "removedCount": 8,
+      "missingCount": 0,
+      "removedNames": [
+        "Astrophysics",
+        "Immunology",
+        "Life Sciences",
+        "Nutrition and Dietetics",
+        "Pathology",
+        "Psychology",
+        "Virology",
+        "Wildlife Conservation"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPADVCMP-01",
+      "tableName": "Table A for the Bachelor of Computing",
+      "scope": "COMPUTING",
+      "role": "MAJOR",
+      "originalCount": 4,
+      "authoritativeCount": null,
+      "keptCount": 4,
+      "removedCount": 0,
+      "missingCount": 0,
+      "removedNames": [],
+      "missingNames": [],
+      "status": "NO_AUTHORITATIVE_CATALOG"
+    },
+    {
+      "degreeCode": "BPARTNUR-02",
+      "tableName": "Table A for the Bachelor of Arts",
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "originalCount": 52,
+      "authoritativeCount": 47,
+      "keptCount": 47,
+      "removedCount": 5,
+      "missingCount": 0,
+      "removedNames": [
+        "Diversity Studies",
+        "Exchange, Internships and Projects",
+        "Sanskrit",
+        "Studies in Religion",
+        "International Studies"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPARTSWK-04",
+      "tableName": "Table A for the Bachelor of Arts",
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "originalCount": 52,
+      "authoritativeCount": 47,
+      "keptCount": 47,
+      "removedCount": 5,
+      "missingCount": 0,
+      "removedNames": [
+        "Diversity Studies",
+        "Exchange, Internships and Projects",
+        "Sanskrit",
+        "Studies in Religion",
+        "International Studies"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPCOMART-03",
+      "tableName": "Table A for the Bachelor of Arts",
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "originalCount": 52,
+      "authoritativeCount": 47,
+      "keptCount": 47,
+      "removedCount": 5,
+      "missingCount": 0,
+      "removedNames": [
+        "Diversity Studies",
+        "Exchange, Internships and Projects",
+        "Sanskrit",
+        "Studies in Religion",
+        "International Studies"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPCOMART-03",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "originalCount": 12,
+      "authoritativeCount": 11,
+      "keptCount": 11,
+      "removedCount": 1,
+      "missingCount": 0,
+      "removedNames": [
+        "Accounting (Professional)"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPCOMLAW-05",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "originalCount": 12,
+      "authoritativeCount": 11,
+      "keptCount": 11,
+      "removedCount": 1,
+      "missingCount": 0,
+      "removedNames": [
+        "Accounting (Professional)"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPCOMPUT-01",
+      "tableName": "Table A for the Bachelor of Computing",
+      "scope": "COMPUTING",
+      "role": "MAJOR",
+      "originalCount": 4,
+      "authoritativeCount": null,
+      "keptCount": 4,
+      "removedCount": 0,
+      "missingCount": 0,
+      "removedNames": [],
+      "missingNames": [],
+      "status": "NO_AUTHORITATIVE_CATALOG"
+    },
+    {
+      "degreeCode": "BPCOMSCI-03",
+      "tableName": "Table A for the Bachelor of Commerce",
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "originalCount": 12,
+      "authoritativeCount": 11,
+      "keptCount": 11,
+      "removedCount": 1,
+      "missingCount": 0,
+      "removedNames": [
+        "Accounting (Professional)"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPCOMSCI-03",
+      "tableName": "Table A for the Bachelor of Science",
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "originalCount": 46,
+      "authoritativeCount": 38,
+      "keptCount": 38,
+      "removedCount": 8,
+      "missingCount": 0,
+      "removedNames": [
+        "Astrophysics",
+        "Immunology",
+        "Life Sciences",
+        "Nutrition and Dietetics",
+        "Pathology",
+        "Psychology",
+        "Virology",
+        "Wildlife Conservation"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPECNAVS-01",
+      "tableName": "Table A for the Bachelor of Economics",
+      "scope": "ECONOMICS",
+      "role": "MAJOR",
+      "originalCount": 3,
+      "authoritativeCount": null,
+      "keptCount": 3,
+      "removedCount": 0,
+      "missingCount": 0,
+      "removedNames": [],
+      "missingNames": [],
+      "status": "NO_AUTHORITATIVE_CATALOG"
+    },
+    {
+      "degreeCode": "BPECONOM-05",
+      "tableName": "Table A for the Bachelor of Economics",
+      "scope": "ECONOMICS",
+      "role": "MINOR",
+      "originalCount": 3,
+      "authoritativeCount": null,
+      "keptCount": 3,
+      "removedCount": 0,
+      "missingCount": 0,
+      "removedNames": [],
+      "missingNames": [],
+      "status": "NO_AUTHORITATIVE_CATALOG"
+    },
+    {
+      "degreeCode": "BPSCIART-03",
+      "tableName": "Table A for the Bachelor of Arts",
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "originalCount": 52,
+      "authoritativeCount": 47,
+      "keptCount": 47,
+      "removedCount": 5,
+      "missingCount": 0,
+      "removedNames": [
+        "Diversity Studies",
+        "Exchange, Internships and Projects",
+        "Sanskrit",
+        "Studies in Religion",
+        "International Studies"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPSCIART-03",
+      "tableName": "Table A for the Bachelor of Science",
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "originalCount": 46,
+      "authoritativeCount": 38,
+      "keptCount": 38,
+      "removedCount": 8,
+      "missingCount": 0,
+      "removedNames": [
+        "Astrophysics",
+        "Immunology",
+        "Life Sciences",
+        "Nutrition and Dietetics",
+        "Pathology",
+        "Psychology",
+        "Virology",
+        "Wildlife Conservation"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    },
+    {
+      "degreeCode": "BPSCILAW-02",
+      "tableName": "Table A for the Bachelor of Science",
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "originalCount": 46,
+      "authoritativeCount": 38,
+      "keptCount": 38,
+      "removedCount": 8,
+      "missingCount": 0,
+      "removedNames": [
+        "Astrophysics",
+        "Immunology",
+        "Life Sciences",
+        "Nutrition and Dietetics",
+        "Pathology",
+        "Psychology",
+        "Virology",
+        "Wildlife Conservation"
+      ],
+      "missingNames": [],
+      "status": "CORRECTED"
+    }
+  ]
+}

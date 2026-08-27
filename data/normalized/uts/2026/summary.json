@@ -1,0 +1,37 @@
+{
+  "university": "UTS",
+  "handbookYear": "2026",
+  "collectedAt": "2026-08-17T12:03:21.671Z",
+  "courses": {
+    "total": 162
+  },
+  "aos": {
+    "total": 554,
+    "unresolvedRelationships": 28,
+    "unresolvedUniqueCodes": 11
+  },
+  "subjects": {
+    "globalCatalogue": 3540,
+    "referencedRelationships": 8405,
+    "referencedUnique": 1621,
+    "unresolvedReferenced": 44,
+    "yearMismatchReferences": 14
+  },
+  "studyPlans": {
+    "total": 412,
+    "years": 1582,
+    "periods": 3462,
+    "items": 11042,
+    "subjects": 8774,
+    "choices": 2268
+  },
+  "accessConditions": {
+    "requestedSubjects": 1621,
+    "collected": 1621,
+    "withConditions": 1378,
+    "withoutConditions": 243,
+    "conditionItems": 9228,
+    "failures": 0
+  },
+  "degreeComponentRelationships": 1506
+}

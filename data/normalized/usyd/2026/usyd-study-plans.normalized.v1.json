@@ -1,0 +1,1768 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T14:13:06.743Z",
+  "counts": {
+    "sourcePages": 4,
+    "studyPlans": 6,
+    "studyPlanYears": 20,
+    "studyPlanPeriods": 40,
+    "studyPlanItems": 152,
+    "subjectItems": 67,
+    "choiceItems": 85,
+    "plansWithTotalCreditPoints": 6,
+    "periodsWithoutItems": 0,
+    "periodsWithoutCreditTotal": 0,
+    "duplicatePlanKeys": 0,
+    "duplicatePeriodKeys": 0,
+    "duplicateItemKeys": 0
+  },
+  "studyPlans": [
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "title": "Arts pathway - sample enrolment 1",
+      "pathway": "ARTS",
+      "variantNumber": 1,
+      "handbookYear": 2026,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "sourceType": "OFFICIAL_SAMPLE_ENROLMENT",
+      "isFormalRequirement": false,
+      "totalCreditPoints": 144,
+      "years": [
+        {
+          "yearNumber": 1,
+          "label": "Year 1",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Arts Table A Major 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts or Science Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts or Science Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 1XXX"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "ATHK1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit Analytical Thinking ATHK1001"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Arts Table A Major 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts or Science Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts or Science Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 1XXX"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit Writing and Rhetoric - Academic Essays WRIT1001"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "label": "Year 2",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Arts Table A Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Table S Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Table S Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 1XXX/2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 1XXX/2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Unit HPSC/PHILXXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit HPSC/PHILXXXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Arts Table A Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Table S Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Table S Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 1XXX/2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 1XXX/2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective Unit XXXX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "label": "Year 3",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Arts Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 2XXX/3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 2XXX/3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective Unit XXXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Arts Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 2XXX/3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 2XXX/3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective Unit XXXX"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "title": "Arts pathway - sample enrolment 2",
+      "pathway": "ARTS",
+      "variantNumber": 2,
+      "handbookYear": 2026,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "sourceType": "OFFICIAL_SAMPLE_ENROLMENT",
+      "isFormalRequirement": false,
+      "totalCreditPoints": 144,
+      "years": [
+        {
+          "yearNumber": 1,
+          "label": "Year 1",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HSTY1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "History Major HSTY1001 Age of Empires"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "BIOL1006",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts or Science Elective BIOL1006 Life and Evolution"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit PSYC1001 Psychology 1001"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "ATHK1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HSTY1003",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "History Major HSTY1003 Birth of the Present: The world since 1750"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HPSC1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts or Science Elective HPSC1001 What is this thing called Science?"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC1002",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit PSYC1002 Psychology 1002"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "label": "Year 2",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HSTY2628",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "History Major HSTY2628 Boom! The History of War"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HPSC2100",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Table S Elective HPSC2100 The Birth of Modern Science"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC2015",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit PSYC2015 Brain and Behavioural Psychology"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HPSC1000",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Ethics Unit HPSC1000 Bioethics"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HSTY2640",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "History Major HSTY2640 Twentieth-century China"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "BIOL1007",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Table S Elective BIOL1007 From Molecules to Ecosystems"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC2016",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit PSYC2016 Perception, Cognition and Intelligence"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "INDG1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective Unit INDG1001 Introduction to Indigenous cultures"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "label": "Year 3",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HSTY3903",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "History Major HSTY3903 History and Historians"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HSTY3801",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "History Major HSTY3801 Asian History"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC3017",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit PSYC3017 Social Psychology"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "GEOS1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective Unit GEOS1001 Earth, Environment and Society"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "FASS3999",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "History Major FASS3999 Interdisciplinary Impact"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HSTY3805",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "History Major HSTY3805 Australian History"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC3016",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Units PSYC3016 Developmental Psychology"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "ARIN2610",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective Unit ARIN2610 Internet Transformations"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "title": "Science pathway - sample enrolment 1",
+      "pathway": "SCIENCE",
+      "variantNumber": 1,
+      "handbookYear": 2026,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "sourceType": "OFFICIAL_SAMPLE_ENROLMENT",
+      "isFormalRequirement": false,
+      "totalCreditPoints": 144,
+      "years": [
+        {
+          "yearNumber": 1,
+          "label": "Year 1",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Science Table A Major 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science or Arts Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science or Arts Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 1XXX"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "ATHK1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Science Table A Major 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science or Arts Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science or Arts Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 1XXX"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "label": "Year 2",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Science Table A Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Table S Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Table S Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 1XXX/2XX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 1XXX/2XX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Ethics HPSC/PHILXXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Ethics HPSC/PHILXXXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Science Table A Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Table S Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Table S Elective XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 1XXX/2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 1XXX/2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective XXXX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "label": "Year 3",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Science Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 2XXX/3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 2XXX/3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective XXXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Science Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Table A Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Table A Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 2XXX/3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 2XXX/3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Arts and Science Elective XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective XXXX"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "title": "Science pathway - sample enrolment 2",
+      "pathway": "SCIENCE",
+      "variantNumber": 2,
+      "handbookYear": 2026,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "sourceType": "OFFICIAL_SAMPLE_ENROLMENT",
+      "isFormalRequirement": false,
+      "totalCreditPoints": 144,
+      "years": [
+        {
+          "yearNumber": 1,
+          "label": "Year 1",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Psychological Science Major PSYC1001 Psychology 1001"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "BIOL1006",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science or Arts Elective BIOL1006 Life and Evolution"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "SCLG1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit SCLG1001 Sociology 1"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "ATHK1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC1002",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Psychological Science Major PSYC1002 Psychology 1002"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "BIOL1007",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science or Arts Elective BIOL1007 From Molecules to Ecosystems"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "SCLG1002",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit SCLG1002 Sociology 2"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "label": "Year 2",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC2012",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Psychological Science Major PSYC2012 Research Methods for Psych"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC2015",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Psychology Program PSYC2015 Brain and Behavioural Psychology"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "SCLG2601",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit SCLG2601 Explaining Society: Deploying Theory"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "HPSC1000",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Ethics HPSC1000 Bioethics"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC2016",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Psychological Science Major PSYC2016 Perception, Cognition and Intelligence"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC2017",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Psychological Science Major PSYC2017 Personality and Social Psychology"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "SCLG2637",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit SCLG2637 Society and Identity"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "INDG1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective INDG1001 Introduction to Indigenous cultures"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "label": "Year 3",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC3018",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Psychological Science Major PSYC3018 Mental Health Conditions"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC3011",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Psychological Science Major PSYC3011 Learning and Behaviour"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "SCPL2601",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit SCPL2601 Australian Social Policy"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "GEOS1002",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective GEOS1002 Introductory Geography"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC3014",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Psychological Science Major PSYC3014 Behavioural and Cognitive Neuroscience"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "PSYC3010",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Psychology Program PSYC3010 Advanced Research Methods for Psychology"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "SCLG2613",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit SCLG2613 Sociology of Childhood and Youth"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT2002",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Liberal Arts and Science Elective WRIT2002 Arguments that Change the World"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "title": "Arts pathway - sample enrolment 1",
+      "pathway": "ARTS",
+      "variantNumber": 1,
+      "handbookYear": 2026,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "sourceType": "OFFICIAL_SAMPLE_ENROLMENT",
+      "isFormalRequirement": false,
+      "totalCreditPoints": 168,
+      "years": [
+        {
+          "yearNumber": 0,
+          "label": "Foundation Year",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "INLI1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Foundation Unit INLI1001 Indigenous Literacies in Academic Contexts A"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "MATH1100",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Foundation Unit MATH1100 Power of Number A"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "WRIT1001 Writing and Rhetoric - Academic Essays"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "INLI1002",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Foundation Unit INLI1002 Indigenous Literacies in Academic Contexts B"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "MATH1200",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Foundation Unit MATH1200 Power of Number B"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "OLES1602",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "OLE units OLES1602 The Apocalypse in Science and Culture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "label": "Year 1",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "ATHK1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Core Unit ATHK1001 Analytical Thinking"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Major 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 1XXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Core Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Core Unit 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Major 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 1XXX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "label": "Year 2",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Studies Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Liberal Studies Elective Unit XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "OLE units XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "OLE units XXXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Studies Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Liberal Studies Elective Unit XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Unit 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Elective Unit XXXX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "label": "Year 3",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Studies Ethics Units XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Liberal Studies Ethics Units XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 3XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Science Unit 3XXXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Cultural Capstone Unit 4XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Cultural Capstone Unit 4XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Arts Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Unit 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Science Unit 3XXX"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "title": "Science pathway - sample enrolment 1",
+      "pathway": "SCIENCE",
+      "variantNumber": 1,
+      "handbookYear": 2026,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "sourceType": "OFFICIAL_SAMPLE_ENROLMENT",
+      "isFormalRequirement": false,
+      "totalCreditPoints": 168,
+      "years": [
+        {
+          "yearNumber": 0,
+          "label": "Foundation Year",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "INLI1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Foundation Unit INLI1001 Indigenous Literacies in Academic Contexts A"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "MATH1100",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Foundation Unit MATH1100 Power of Number A"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "WRIT1001 Writing and Rhetoric - Academic Essays"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "INLI1002",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Foundation Unit INLI1002 Indigenous Literacies in Academic Contexts B"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "MATH1200",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Foundation Unit MATH1200 Power of Number B"
+                },
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "OLES1602",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "OLE units OLES1602 The Apocalypse in Science and Culture"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "label": "Year 1",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "ATHK1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Core Unit ATHK1001 Analytical Thinking"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major or Liberal Studies Elective Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Major or Liberal Studies Elective Unit 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 1XXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 18,
+              "items": [
+                {
+                  "itemType": "SUBJECT",
+                  "subjectCode": "WRIT1001",
+                  "choiceText": null,
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Core Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Major 1XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 1XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 1XXX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "label": "Year 2",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Studies Ethics Units XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Liberal Studies Ethics Units XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "OLE units XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "OLE units XXXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Studies Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Liberal Studies Elective Unit XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Major 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Arts Unit 2XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Elective Unit XXXX"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "label": "Year 3",
+          "periods": [
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 1,
+              "name": "Semester 1",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Liberal Studies Elective Unit XXXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Liberal Studies Elective Unit XXXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 2XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Arts Unit 2XXX"
+                }
+              ]
+            },
+            {
+              "periodType": "SEMESTER",
+              "periodNumber": 2,
+              "name": "Semester 2",
+              "totalCreditPoints": 24,
+              "items": [
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Cultural Capstone Unit 4XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 0,
+                  "rawText": "Cultural Capstone Unit 4XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 1,
+                  "rawText": "Science Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Science Major 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 2,
+                  "rawText": "Science Major 3XXX"
+                },
+                {
+                  "itemType": "CHOICE",
+                  "subjectCode": null,
+                  "choiceText": "Arts Unit 3XXX",
+                  "creditPoints": 6,
+                  "sortOrder": 3,
+                  "rawText": "Arts Unit 3XXX"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "authoritativeRecommendationSources": "NORMALIZED",
+    "amendmentRows": "EXCLUDED",
+    "formalRequirementSeparation": "PRESERVED",
+    "recommendedStudyPlans": "COMPLETE_FOR_PROVEN_2026_SOURCES"
+  }
+}

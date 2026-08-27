@@ -1,0 +1,1497 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T09:23:51.741Z",
+  "counts": {
+    "familiesInspected": 108,
+    "fetchSucceeded": 108,
+    "fetchFailed": 0,
+    "majorSupported": 95,
+    "minorSupported": 97,
+    "programSupported": 0,
+    "noExplicitRoleEvidence": 6
+  },
+  "records": [
+    {
+      "familyName": "Accounting",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/accounting/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Accounting is available as Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees. The Accounting major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details. Please note. Students cannot complete both a major and a minor in Accounting for their degree. Students wishing to pursue professional accounting accreditation can complete the Professional Accounting program instead of the Accounting major – please refer to Accounting (Professional) subject area for details."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "American Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/american-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "Requirements for the major and minor in American Studies are listed in the American Studies unit of study table.",
+      "evidenceText": [
+        "Requirements for the major and minor in American Studies are listed in the American Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Anatomy and Histology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/anatomy-histology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Anatomy and Histology major and minor requirements are listed in the Anatomy and Histology unit of study table. Honours Honours in Anatomy and Histology may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Anatomy and Histology – Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Anatomy and Histology major and minor requirements are listed in the Anatomy and Histology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Ancient Greek",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/ancient-greek/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Ancient Greek major and minor requirements are listed in the Ancient Greek unit of study table. There are two pathways through a major or minor in Ancient Greek: one if you have not studied Greek to HSC-level, or equivalent (the non-HSC stream); and one if you have studied Ancient Greek to HSC level (the ex-HSC stream). Non-HSC students begin at 1000-level in their first year; ex-HSC students at 2000-level. Students who commence the major at 2000-level satisfy its requirements by taking additional selective units at 3000-level to make up a quantum of 48 credit points.",
+      "evidenceText": [
+        "The Ancient Greek major and minor requirements are listed in the Ancient Greek unit of study table. There are two pathways through a major or minor in Ancient Greek: one if you have not studied Greek to HSC-level, or equivalent (the non-HSC stream); and one if you have studied Ancient Greek to HSC level (the ex-HSC stream). Non-HSC students begin at 1000-level in their first year; ex-HSC students at 2000-level."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Ancient History",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/ancient-history/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Ancient History major and minor requirements are listed in the Ancient History unit of study table.",
+      "evidenceText": [
+        "The Ancient History major and minor requirements are listed in the Ancient History unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Anthropology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/anthropology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The requirements of the major and minor in Anthropology are listed in the Anthropology unit of study table.",
+      "evidenceText": [
+        "The requirements of the major and minor in Anthropology are listed in the Anthropology unit of study table.",
+        "Requirements for completion section published as: The Anthropology major and minor requirements are listed in the Anthropology unit of study table.",
+        "Requirements for completion section amended to: The requirements of the major and minor in Anthropology are listed in the Anthropology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Applied Medical Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/applied-medical-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Applied Medical Science major and minor requirements are listed in the Applied Medical Science unit of study table.",
+      "evidenceText": [
+        "The Applied Medical Science major and minor requirements are listed in the Applied Medical Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Arabic Language and Cultures",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/arabic-language-cultures/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Arabic language and cultures major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Arabic language and cultures. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Department for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Arabic language and cultures major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Arabic language and cultures."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Archaeology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/archaeology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Archaeology major and minor requirements are listed in the Archaeology unit of study table.",
+      "evidenceText": [
+        "The Archaeology major and minor requirements are listed in the Archaeology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Art History",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Art History major and minor requirements are listed in the Art History unit of study table.",
+      "evidenceText": [
+        "The Art History major and minor requirements are listed in the Art History unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Asian Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/asian-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Asian Studies major and minor requirements are listed in the Asian Studies unit of study table.",
+      "evidenceText": [
+        "The Asian Studies major and minor requirements are listed in the Asian Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Banking",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/banking/overview.html",
+      "explicitRoles": [],
+      "requirementsText": null,
+      "evidenceText": [],
+      "status": "NO_EXPLICIT_ROLE_EVIDENCE",
+      "error": null
+    },
+    {
+      "familyName": "Biochemistry and Molecular Biology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/biochemistry-molecular-biology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Biochemistry and Molecular Biology major and minor requirements are listed in the Biochemistry and Molecular Biology unit of study table. Honours Honours in Biochemistry and Molecular Biology may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Biochemistry and Molecular Biology major and minor requirements are listed in the Biochemistry and Molecular Biology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Biology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/biology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Biology major and minor requirements are listed in the Biology unit of study table. Honours Honours in Biology may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Biology - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Biology major and minor requirements are listed in the Biology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Business Analytics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/business-analytics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Business Analytics is available as Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees. The Business Analytics major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details. Please note. Students cannot complete both a major and a minor in Business Analytics for their degree."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Business Information Systems",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/business-information-systems/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Business Information Systems is available as Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees. The Business Information Systems major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details. Please note. Students cannot complete both a major and a minor in Business Information Systems for their degree.",
+        "The requirements for the major and minor in Business Information Systems can be found in the Unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Business Law",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/business-law/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Business Law is available as Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees. The Business Law major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details. Please note. Students cannot complete both a major and a minor in Business Law for their degree."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Chemistry",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/chemistry/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Chemistry major and minor requirements are listed in the Chemistry unit of study table.",
+      "evidenceText": [
+        "The Chemistry major and minor requirements are listed in the Chemistry unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Chinese Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/chinese-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Chinese Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Chinese Studies. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one placement interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Chair of Chinese Studies for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Chinese Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Chinese Studies."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Computer Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/computer-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Computer Science major and minor requirements are listed in the Computer Science unit of study table. Honours Honours in Computer Science may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Computer Science - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Computer Science major and minor requirements are listed in the Computer Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Computer Systems",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/computer-systems/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Computer Systems major and minor requirements are listed in the Computer Systems unit of study table.",
+      "evidenceText": [
+        "The Computer Systems major and minor requirements are listed in the Computer Systems unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Criminology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/criminology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The requirements of the major and minor in Criminology are listed in the Criminology unit of study table.",
+      "evidenceText": [
+        "The requirements of the major and minor in Criminology are listed in the Criminology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Cultural Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/cultural-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Cultural Studies major and minor requirements are listed in the Cultural Studies unit of study table.",
+      "evidenceText": [
+        "The Cultural Studies major and minor requirements are listed in the Cultural Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Data Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/data-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Data Science major and minor requirements are listed in the Data Science unit of study table. Honours Honours in Data Science may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Data Science - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Data Science major and minor requirements are listed in the Data Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Design",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/design/overview.html",
+      "explicitRoles": [],
+      "requirementsText": null,
+      "evidenceText": [],
+      "status": "NO_EXPLICIT_ROLE_EVIDENCE",
+      "error": null
+    },
+    {
+      "familyName": "Digital Cultures",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/digital-cultures/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Digital Cultures major and minor requirements are listed in the Digital Cultures unit of study table.",
+      "evidenceText": [
+        "The Digital Cultures major and minor requirements are listed in the Digital Cultures unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Digital Music",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/digital-music/overview.html",
+      "explicitRoles": [
+        "MAJOR"
+      ],
+      "requirementsText": "A major in Digital Music requires 48 credit points from the Digital Music Units of Study table including: (i) 6 credit points of 1000-level core units (ii) 6 credit points of 1000-level selective units (iii) 12 credit points of 2000-level selective units of study (iv) 18 credit points of 3000-level selective units of study (v) 6 credit points of 3000-level Interdisciplinary Project unit: PERF3640 Industry and Community Projects A minor in Music requires 36 credit points from the Digital Music Units of Study table including: (i) 6 credit points of 1000-level core units (ii) 6 credit points of 1000-level selective units (ii) 12 credit points of 2000-level selective units (iv) 12 credit points of 3000-level selective units First year The first year Digital Music core units introduce a range of music technologies, and students gain a basic proficiency in sound recording, editing and mixing, as well as notation and sequencing software. Students can also choose to develop music literacy skills through an appropriate level music skills unit or explore communications technology in the 20th century through an analysis and cultural studies unit. Second year In second year Digital Music students can begin to take more specialised subjects, many of which have a strong orientation towards technology based composition processes. Students will learn more advanced interactive sound manipulation in the electroacoustic and computer programming environments. The music theory and analysis skills gained in first year support both compositional and aesthetic potential for the creation of new musical works. Third year The goal of your third year of study is to provide more in depth practice within creative and multimedia contexts, and to engage in interdisciplinary and project-based study. This will allow you to focus your studies on specific, semester-long projects in which you use the full range of skills and abilities you have gained and apply them to complex, large-scale, research-based projects.",
+      "evidenceText": [],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Disability and Participation",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/disability-participation/overview.html",
+      "explicitRoles": [],
+      "requirementsText": null,
+      "evidenceText": [],
+      "status": "NO_EXPLICIT_ROLE_EVIDENCE",
+      "error": null
+    },
+    {
+      "familyName": "Discrete Mathematics and Algorithms",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/discrete-mathematics-algorithms/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Discrete Mathematics and Algorithms major and minor requirements are listed in the Discrete Mathematics and Algorithms unit of study table.",
+      "evidenceText": [
+        "The Discrete Mathematics and Algorithms major and minor requirements are listed in the Discrete Mathematics and Algorithms unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Diversity Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/diversity-studies/overview.html",
+      "explicitRoles": [
+        "MINOR"
+      ],
+      "requirementsText": "The Diversity Studies minor requirements are listed in the Diversity Studies unit of study table.",
+      "evidenceText": [
+        "The Diversity Studies minor requirements are listed in the Diversity Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Ecology and Evolutionary Biology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/ecology-evolutionary-biology/overview.html",
+      "explicitRoles": [
+        "MAJOR"
+      ],
+      "requirementsText": "The Ecology and Evolutionary Biology major requirements are listed in the Ecology and Evolutionary Biology unit of study table.",
+      "evidenceText": [
+        "The Ecology and Evolutionary Biology major requirements are listed in the Ecology and Evolutionary Biology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Econometrics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/econometrics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Econometrics major and minor requirements are listed in the Econometrics unit of study table.",
+      "evidenceText": [
+        "The Econometrics major and minor requirements are listed in the Econometrics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Economic Policy Analysis",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/economic-policy-analysis/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Economic Policy Analysis major and minor requirements are listed in the Economic Policy Analysis unit of study table.",
+      "evidenceText": [
+        "The Economic Policy Analysis major and minor requirements are listed in the Economic Policy Analysis unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Economics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/economics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Economics major and minor requirements are listed in the Economics unit of study table.",
+      "evidenceText": [
+        "The Economics major and minor requirements are listed in the Economics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Education Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/education/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "The Education Studies major and minor is offered by the Sydney School of Education and Social Work."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "English",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/english/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The English major and minor requirements are listed in the English unit of study table.",
+      "evidenceText": [
+        "The English major and minor requirements are listed in the English unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Environmental Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/environmental-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Environmental Studies major and minor requirements are listed in the Environmental Studies unit of study table. Honours onours in Environmental Studies may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Environmental Studies - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Environmental Studies major and minor requirements are listed in the Environmental Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Environmental, Agricultural and Resource Economics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/environmental-agricultural-resource-economics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Environmental, Agricultural and Resource Economics major and minor requirements are listed in the Environmental, Agricultural and Resource Economics unit of study table.",
+      "evidenceText": [
+        "The Environmental, Agricultural and Resource Economics major and minor requirements are listed in the Environmental, Agricultural and Resource Economics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "European Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/european-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The European Studies major and minor requirements are listed in the European Studies unit of study table.",
+      "evidenceText": [
+        "The European Studies major and minor requirements are listed in the European Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Film Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/film-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Film Studies major and minor requirements are listed in the Film Studies unit of study table.",
+      "evidenceText": [
+        "The Film Studies major and minor requirements are listed in the Film Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Finance",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/finance/overview.html",
+      "explicitRoles": [],
+      "requirementsText": null,
+      "evidenceText": [],
+      "status": "NO_EXPLICIT_ROLE_EVIDENCE",
+      "error": null
+    },
+    {
+      "familyName": "Financial Economics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/financial-economics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Financial Economics major and minor requirements are listed in the Financial Economics unit of study table. Please note: students who are NOT enrolled in the Bachelor of Economics or a Bachelor of Economics combined degree or who will not complete ECOS2001/ECOS2901 as part of a different major in economics must complete the 2000-level core unit ECOS2040 Intermediate Financial Economics rather than ECOS2001/ECOS2901. Completion of ECOS2001 Intermediate Microeconomics or ECOS2901 Intermediate Microeconomics Honours alone will not prepare students for the 3000-level core unit in the Financial Economics major. Where a student completes ECOS2001/ECOS2901, they will also need to complete ECOS2002 Intermediate Macroeconomics or ECOS2902 Intermediate Macroeconomics Honours before undertaking the 3000-level core unit ECOS3022 The Economics of Financial Markets.",
+      "evidenceText": [
+        "The Financial Economics major and minor requirements are listed in the Financial Economics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Financial Mathematics and Statistics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/financial-mathematics-statistics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Financial Mathematics and Statistics major and minor requirements are listed in the Financial Mathematics and Statistics unit of study table. Honours Honours in Financial Mathematics and Statistics may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Financial Mathematics and Statistics major and minor requirements are listed in the Financial Mathematics and Statistics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Food Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/food-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Food Science major and minor requirements are listed in the Food Science unit of study table. Honours Honours in Food Science may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Food Science - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Food Science major and minor requirements are listed in the Food Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "French and Francophone Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/french-francophone-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The French and Francophone major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in French and Francophone Studies. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined by language level and grade therein achieved in Higher School Certificate or International Baccalaureate, and/or by a placement questionnaire and if necessary a one-on-one interview prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Discipline's Undergraduate Coordinator for advice. Please note: A 'gap' year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The French and Francophone major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in French and Francophone Studies."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Gender Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/gender-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Gender Studies major and minor requirements are listed in the Gender Studies unit of study table.",
+      "evidenceText": [
+        "The Gender Studies major and minor requirements are listed in the Gender Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Genetics and Genomics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/genetics-genomics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Genetics and Genomics major and minor requirements are listed in the Genetics and Genomics unit of study table.",
+      "evidenceText": [
+        "The Genetics and Genomics major and minor requirements are listed in the Genetics and Genomics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Geography",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/geography/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Geography major and minor requirements are listed in the Geography unit of study table. If you want to explore a particular interest between human or physical geography, then please consult the School of Geosciences to identify appropriate 2000- and 3000-level selectives to select from the unit of study table (see Contact and further information below).",
+      "evidenceText": [
+        "The Geography major and minor requirements are listed in the Geography unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Geology and Geophysics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/geology-geophysics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Geology and Geophysics major and minor requirements are listed in the Geology and Geophysics unit of study table. Honours Honours in Geology and Geophysics may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Geology and Geophysics - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Geology and Geophysics major and minor requirements are listed in the Geology and Geophysics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Germanic Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/germanic-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Germanic Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Germanic Studies. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by palcement tests prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Discipline for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Germanic Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Germanic Studies."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Health",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/health/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Health major and minor requirements are listed in the Health unit of study table.",
+      "evidenceText": [
+        "The Health major and minor is offered by the Discipline of Behavioural and Social Sciences in Health in the Sydney School of Health Sciences. Units of study are interdisciplinary and offered at the standard level.",
+        "The Health major and minor will equip you with a comprehensive understanding of health and health systems at the local, national, and global levels. Through our active, real-world learning approaches, you will learn to navigate the complexity of health in different sociocultural, political and economic contexts. You will develop core skills in critical thinking, complex problem solving, communication and empathy. The Health major and minor provides you with a strong foundation in health and healthcare, while giving you the flexibility for in-depth study in particular areas of health of interest to you.",
+        "The Health major and minor requirements are listed in the Health unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Hearing, Speech and Communication",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/hearing-speech-communication/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Both the Hearing, Speech and Communication major and minor are available as Table S (shared pool) options."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Hebrew (Modern)",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/hebrew-modern/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Hebrew (Modern) major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Hebrew (Modern). Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in the Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Discipline for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Hebrew (Modern) major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Hebrew (Modern)."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "High Performance in Sport",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/high-performance-sport/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The High Performance in Sport major and minor requirements are listed in the High Performance in Sport table.",
+      "evidenceText": [
+        "The High Performance in Sport major and minor requirements are listed in the High Performance in Sport table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "History",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/history/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The History major and minor requirements are listed in the History unit of study table.",
+      "evidenceText": [
+        "The History major and minor requirements are listed in the History unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "History and Philosophy of Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/history-philosophy-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The History and Philosophy of Science major and minor requirements are listed in the History and Philosophy of Science unit of study table. Honours Honours in History and Philosophy of Science may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the History and Philosophy of Science – Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The History and Philosophy of Science major and minor requirements are listed in the History and Philosophy of Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Immunology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/immunology/overview.html",
+      "explicitRoles": [
+        "MINOR"
+      ],
+      "requirementsText": "The Immunology minor requirements are listed in the Immunology unit of study table.",
+      "evidenceText": [
+        "The Immunology minor requirements are listed in the Immunology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Immunology and Pathology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/immunology-pathology/overview.html",
+      "explicitRoles": [
+        "MAJOR"
+      ],
+      "requirementsText": "The Immunology and Pathology major requirements are listed in the Immunology and Pathology unit of study table.",
+      "evidenceText": [
+        "The Immunology and Pathology major requirements are listed in the Immunology and Pathology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Indigenous Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indigenous-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR"
+      ],
+      "requirementsText": "We welcome students from across Australia and the world who wish to complete the Indigenous Studies Major or Minor, or simply enrol in a single unit of study in the Indigenous Studies program. Units of study are taught by Indigenous and non-Indigenous academics from across the University and experts from the wider community to develop your knowledge of the many voices, perspectives and priorities of Indigenous peoples and communities. You will become equipped with the knowledge and skills to engage positively with Indigenous communities and organisations, gain insight into varied experience and perspectives, and learn how to support cultural wellbeing, integrity, and expression. Connect to the Indigenous Studies unit of study table and learn how you can undertake the Indigenous Studies Major or Minor, or enrol in individual units to meet your interests.",
+      "evidenceText": [],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Indonesian Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Indonesian Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Indonesian Studies. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Discipline for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Indonesian Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Indonesian Studies."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Industrial Relations and Human Resource Management",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/industrial-relations-human-resource-management/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Industrial Relations and Human Resource Management is available as both Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees.",
+        "The Industrial Relations and Human Resource Management major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary studies handbook for details.",
+        "The requirements for the major and minor in Industrial Relations and Human Resource Management can be found in the Unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Infectious Diseases",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/infectious-diseases/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Infectious Diseases major and minor requirements are listed in the Infectious Diseases unit of study table. Honours Honours in Infectious Diseases may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Infectious Diseases - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Infectious Diseases major and minor requirements are listed in the Infectious Diseases unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Innovation and Entrepreneurship",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/innovation-entrepreneurship/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Innovation and Entrepreneurship is available as both Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees.",
+        "The Innovation and Entrepreneurship major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details.",
+        "The requirements for the major and minor in Innovation and Entrepreneurship can be found in the Unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "International and Comparative Literary Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/international-comparative-literary-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The International and Comparative Literary Studies major and minor requirements are listed in the International and Comparative Literary Studies unit of study table.",
+      "evidenceText": [
+        "The International and Comparative Literary Studies major and minor requirements are listed in the International and Comparative Literary Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "International Business",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/international-business/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "International Business is available as Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees The International Business major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details. Please note. Students cannot complete both a major and a minor in International Business for their degree.",
+        "The requirements for the major and minor in International Business can be found in the Unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "International Relations",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/international-relations/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The requirements of the major and minor in International Relations are listed in the International Relations unit of study table.",
+      "evidenceText": [
+        "The requirements of the major and minor in International Relations are listed in the International Relations unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Italian Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/italian-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Italian Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Italian Studies. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Discipline for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Italian Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Italian Studies."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Japanese Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/japanese-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Japanese Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Japanese Studies. Introductory pathway Junior Intermediate pathway Senior Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Discipline for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Japanese Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Japanese Studies."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Jewish Civilisation, Thought and Culture",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/jewish-civilisation-thought-culture/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Jewish Civilisation, Thought and Culture major and minor requirements are listed in the Jewish Civilisation, Thought and Culture unit of study table.",
+      "evidenceText": [
+        "The Jewish Civilisation, Thought and Culture major and minor requirements are listed in the Jewish Civilisation, Thought and Culture unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Korean Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/korean-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Korean Studies major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Korean Studies. Introductory pathway Intermediate pathway Advanced pathway Heritage Speakers pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Discipline for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Korean Studies major and minor are available via the pathways indicated below."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Latin",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/latin/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Latin major and minor requirements are listed in the Latin unit of study table. There are two pathways through a major or minor in Latin: one if you have not studied Latin to HSC-level, or equivalent (the non-HSC stream); and one if you have studied Latin to HSC level (the ex-HSC stream). Non-HSC students begin at 1000-level in their first year; ex-HSC students at 2000-level. Students who commence the major at 2000-level satisfy its requirements by taking additional selective units at 3000-level to make up a quantum of 48 credit points.",
+      "evidenceText": [
+        "The Latin major and minor requirements are listed in the Latin unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Linguistics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/linguistics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Linguistics major and minor requirements are listed in the Linguistics unit of study table.",
+      "evidenceText": [
+        "The Linguistics major and minor requirements are listed in the Linguistics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Management and Leadership",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/management-leadership/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "Management and Leadership is available as both Table A major and minor options in the Bachelor of Commerce and the Bachelor of Commerce combined degrees. The Management and Leadership major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details. Please note. Students cannot complete both a major and a minor in Management and Leadership for their degree.",
+        "The requirements for the major and minor in Management and Leadership can be found in the Unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Marine Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/marine-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Marine Science major and minor requirements are listed in the Marine Science unit of study table.",
+      "evidenceText": [
+        "The Marine Science major and minor requirements are listed in the Marine Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Marketing",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/marketing/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": null,
+      "evidenceText": [
+        "The Marketing major and minor are also available to students not enrolled in a Commerce degree through the shared pool (Table S) - see the Interdisciplinary Studies Handbook for details.",
+        "The requirements for the major and minor in Marketing can be found in the Unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Mathematical Modelling and Computation",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/mathematical-modelling-computation/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Mathematical Modelling and Computation major and minor requirements are listed in the Mathematical Modelling and Computation unit of study table.",
+      "evidenceText": [
+        "The Mathematical Modelling and Computation major and minor requirements are listed in the Mathematical Modelling and Computation unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Mathematics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/mathematics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Mathematics major and minor requirements are listed in the Mathematics unit of study table. Honours Honours in Applied Mathematics or Pure Mathematics may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Applied Mathematics - Honours unit of study table and the Pure Mathematics – Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Mathematics major and minor requirements are listed in the Mathematics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Medicinal Chemistry",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/medicinal-chemistry/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Medicinal Chemistry major and minor requirements are listed in the Medicinal Chemistry unit of study table.",
+      "evidenceText": [
+        "The Medicinal Chemistry major and minor requirements are listed in the Medicinal Chemistry unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Microbiology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/microbiology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Microbiology major and minor requirements are listed in the Microbiology unit of study table.",
+      "evidenceText": [
+        "The Microbiology major and minor requirements are listed in the Microbiology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Modern Greek Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/modern-greek-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Modern Greek major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Modern Greek. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Department for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Modern Greek major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Modern Greek."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Music",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/music/overview.html",
+      "explicitRoles": [],
+      "requirementsText": null,
+      "evidenceText": [],
+      "status": "NO_EXPLICIT_ROLE_EVIDENCE",
+      "error": null
+    },
+    {
+      "familyName": "Neuroscience",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/neuroscience/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Neuroscience major and minor requirements are listed in the Neuroscience unit of study table.",
+      "evidenceText": [
+        "The Neuroscience major and minor requirements are listed in the Neuroscience unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Nutrition Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/nutrition-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Nutrition Science major and minor requirements are listed in the Nutrition Science unit of study table.",
+      "evidenceText": [
+        "The Nutrition Science major and minor requirements are listed in the Nutrition Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Pathology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/pathology/overview.html",
+      "explicitRoles": [
+        "MINOR"
+      ],
+      "requirementsText": "The Pathology minor requirements are listed in the Pathology unit of study table.",
+      "evidenceText": [
+        "The Pathology minor requirements are listed in the Pathology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Pharmacology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/pharmacology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The pharmacology major and minor requirements are listed in the Pharmacology unit of study table. Honours Honours in Pharmacology may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Pharmacology – Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The pharmacology major and minor requirements are listed in the Pharmacology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Philosophy",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/philosophy/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Philosophy major and minor requirements are listed in the Philosophy unit of study table.",
+      "evidenceText": [
+        "The Philosophy major and minor requirements are listed in the Philosophy unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Physical Activity and Health",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/physical-activity-health/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Physical Activity and Health major and minor requirements are listed in the Physical Activity and Health table.",
+      "evidenceText": [
+        "The Physical Activity and Health major and minor requirements are listed in the Physical Activity and Health table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Physics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/physics/overview.html",
+      "explicitRoles": [
+        "MAJOR"
+      ],
+      "requirementsText": "The Physics major requirements are listed in the Physics unit of study table. Honours Honours in Physics may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Physics - Honours unit of study table . Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Physics major requirements are listed in the Physics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Physiology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/physiology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The physiology major and minor requirements are listed in the Physiology unit of study table. The physiology major and minor requirements are listed in the Physiology unit of study table. On behalf of all the teaching staff involved in the Physiology major, we invite you to further explore our staff and discipline. We welcome you to begin your journey in discovering the discipline of physiology and hope you develop the same passion and enjoyment in discovering how the body functions as we do! Honours Honours in Physiology may be undertaken in certain appended honours degrees. Admission requirements and unit of study information can be found on the Physiology – Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The physiology major and minor requirements are listed in the Physiology unit of study table. The physiology major and minor requirements are listed in the Physiology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Plant Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/plant-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Plant Science major and minor requirements are listed in the Plant Science unit of study table.",
+      "evidenceText": [
+        "Plant Science is a major and minor offered by the School of Life and Environmental Sciences in the Faculty of Science. Units of study in this major and minor are available at standard and advanced level.",
+        "The Plant Science major and minor requirements are listed in the Plant Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Political Economy",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/political-economy/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The requirements of the major and minor in Political Economy are listed in the Political Economy unit of study table.",
+      "evidenceText": [
+        "The requirements of the major and minor in Political Economy are listed in the Political Economy unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Politics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The requirements of the major and minor in Politics are listed in the Politics unit of study table.",
+      "evidenceText": [
+        "The requirements of the major and minor in Politics are listed in the Politics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Project Management",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/project-management/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Project Management major and minor requirements are listed in the Project Management unit of study table.",
+      "evidenceText": [
+        "The Project Management major and minor requirements are listed in the Project Management unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Psychological Science",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/psychological-science/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Psychological Science major and minor requirements are listed in the Psychological Science unit of study table.",
+      "evidenceText": [
+        "The Psychological Science major and minor requirements are listed in the Psychological Science unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Sanskrit",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sanskrit/overview.html",
+      "explicitRoles": [
+        "MINOR"
+      ],
+      "requirementsText": "The Sanskrit minor requirements are listed in the Sanskrit unit of study table. Students currently undertake third year units by cross-institutional study via ANU flexible delivery (please contact the Department for further details).",
+      "evidenceText": [
+        "The Sanskrit minor requirements are listed in the Sanskrit unit of study table. Students currently undertake third year units by cross-institutional study via ANU flexible delivery (please contact the Department for further details)."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Socio-Legal Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/socio-legal-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The requirements of the major and minor in Socio-legal Studies are listed in the Socio-legal Studies unit of study table.",
+      "evidenceText": [
+        "The requirements of the major and minor in Socio-legal Studies are listed in the Socio-legal Studies unit of study table.",
+        "Socio-Legal Studies section published as: The Requirements for completion section stated that the Socio-Legal Studies major and minor requirements were listed in the Socio-Legal Studies unit of study table. The Advanced coursework section consisted only of a link to the advanced coursework units of study page. Honours was described as a one-year program consisting of two advanced-level seminar courses and an 18,000–20,000 word honours thesis based on original research. The thesis was described as an independent project completed under the supervision of a member of the Discipline. Honours was presented as an opportunity to develop superior research, writing and communication skills and as a pathway to careers in research, policy and related areas and to postgraduate study. Honours admission requirements Admission was via the Bachelor of Arts (Honours) and required completion of a major in Socio-Legal Studies with an average of 70 percent or above. Students needed to have completed all other requirements of their bachelor’s degree, including OLE units, and for pre-July 2024 Bachelor of Advanced Studies students, a second major was also required.",
+        "Socio-Legal Studies section amended to: The Requirements for completion section now states that the requirements of the major and minor in Sociological Studies are listed in the Socio-Legal Studies unit of study table. The Advanced coursework section now specifies that Bachelor of Advanced Studies combined-degree students must complete 24 credit points of advanced coursework, including a minimum of 12 credit points of project units. Honours is now described as an additional year of full-time undergraduate study following completion of a bachelor’s degree with a major in the discipline. The revised section emphasises development of research skills through advanced-level coursework and a supervised independent research project, completed throughout the year and culminating in a thesis of approximately 20,000 words. The research project must make an original contribution to knowledge. The new text highlights Honours as a pathway to higher degree by research and notes employer recognition of the analytical and communication skills developed. Students now complete: • two seminar units of study relevant to their research project (one core and one selective); and • a substantial independent research project culminating in a thesis of approximately 20,000 words, completed under academic supervision. Requirements and units of study for honours are listed in the Socio-Legal Studies honours unit of study table. Admission requirements Honours may be undertaken in appended honours degrees such as the Bachelor of Arts (Honours). Applicants must have completed the requirements of a bachelor’s degree including a major in Socio-Legal Studies with a minimum weighted average mark of 70 (or equivalent). Pre-July 2024 Bachelor of Advanced Studies students must also have a second major. Admission is subject to the availability of appropriate supervision. Students are advised to contact the Discipline Honours Coordinator during the final semester of their bachelor’s degree for application guidance."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Sociology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sociology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The requirements of the major and minor in Sociology are listed in the Sociology unit of study table.",
+      "evidenceText": [
+        "The requirements of the major and minor in Sociology are listed in the Sociology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Software Development",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/software-development/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Software Development major and minor requirements are listed in the Software Development unit of study table. Honours Honours in Software Development may be undertaken via an appended honours degree. Admission requirements and unit of study information can be found on the Software Development - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Software Development major and minor requirements are listed in the Software Development unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Soil Science and Hydrology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/soil-science-hydrology/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Soil Science and Hydrology major and minor requirements are listed in the Soil Science and Hydrology unit of study table.",
+      "evidenceText": [
+        "The Soil Science and Hydrology major and minor requirements are listed in the Soil Science and Hydrology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Spanish and Latin American Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/spanish-latin-american-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Spanish and Latin American major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Spanish and Latin American Studies. Introductory pathway Intermediate pathway Advanced pathway * Appropriate language units are determined either by language level and grade therein achieved in Higher School Certificate (as listed in the pathways linked above) or International Baccalaureate, and/or by one-on-one interviews prior to commencement. If you are unsure of your language level or which pathway is appropriate for you, please contact the Department for advice. Please note: A ‘gap’ year after Year 12 does not normally affect placement.",
+      "evidenceText": [
+        "The Spanish and Latin American major and minor are available via the pathways indicated below. Students will follow the appropriate pathway specified in the unit of study tables, based on their individual language level*. Students completing any of the pathways below will be awarded a major or minor in Spanish and Latin American Studies."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Statistics",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/statistics/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Statistics major and minor requirements are listed in the Statistics unit of study table. Honours Honours in Statistics may be undertaken via an appended honours degree. Admission requirements and unit of study information can be found on the Statistics - Honours unit of study table. Read how to apply for honours as a current student.",
+      "evidenceText": [
+        "The Statistics major and minor requirements are listed in the Statistics unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Studies in Religion",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/studies-religion/overview.html",
+      "explicitRoles": [
+        "MINOR"
+      ],
+      "requirementsText": "The Studies in Religion minor requirements are listed in the Studies in Religion unit of study table.",
+      "evidenceText": [
+        "The Studies in Religion minor requirements are listed in the Studies in Religion unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Sustainability",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sustainability/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Sustainability major and minor requirements are listed in the Sustainability unit of study table.",
+      "evidenceText": [
+        "The Sustainability major and minor requirements are listed in the Sustainability unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Theatre and Performance Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/theatre-and-performance-studies/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Theatre and Performance Studies major and minor requirements are listed in the Theatre and Performance Studies unit of study table.",
+      "evidenceText": [
+        "The Theatre and Performance Studies major and minor requirements are listed in the Theatre and Performance Studies unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Urban Studies",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/urban-studies/overview.html",
+      "explicitRoles": [],
+      "requirementsText": null,
+      "evidenceText": [],
+      "status": "NO_EXPLICIT_ROLE_EVIDENCE",
+      "error": null
+    },
+    {
+      "familyName": "Virology",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/virology/overview.html",
+      "explicitRoles": [
+        "MINOR"
+      ],
+      "requirementsText": "The Virology minor requirements are listed in the Virology unit of study table.",
+      "evidenceText": [
+        "The Virology minor requirements are listed in the Virology unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Visual Arts",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/visual-arts/overview.html",
+      "explicitRoles": [
+        "MAJOR",
+        "MINOR"
+      ],
+      "requirementsText": "The Visual Arts major and minor requirements are listed in the Visual Arts unit of study table.",
+      "evidenceText": [
+        "The Visual Arts major and minor requirements are listed in the Visual Arts unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    },
+    {
+      "familyName": "Wildlife Conservation",
+      "overviewUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/wildlife-conservation/overview.html",
+      "explicitRoles": [
+        "MINOR"
+      ],
+      "requirementsText": "The Wildlife Conservation minor requirements are listed in the Wildlife Conservation unit of study table.",
+      "evidenceText": [
+        "The Wildlife Conservation minor requirements are listed in the Wildlife Conservation unit of study table."
+      ],
+      "status": "SUPPORTED",
+      "error": null
+    }
+  ]
+}

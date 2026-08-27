@@ -1,0 +1,34 @@
+{
+  "name": "university-handbook-collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scrape:uts": "tsx src/index.ts uts",
+    "scrape:unsw": "tsx src/index.ts unsw",
+    "scrape:all": "tsx src/index.ts all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "axios": "^1.19.0",
+    "cheerio": "^1.2.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.4.2",
+    "p-limit": "^7.3.1",
+    "pdf-parse": "^2.4.5",
+    "pg": "^8.23.0",
+    "playwright": "^1.62.1",
+    "prisma": "^7.9.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}

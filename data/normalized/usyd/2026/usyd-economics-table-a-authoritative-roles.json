@@ -1,0 +1,122 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T10:49:39.344Z",
+  "counts": {
+    "families": 3,
+    "roles": 6,
+    "majors": 3,
+    "minors": 3,
+    "supplementalRoles": 3,
+    "unresolvedFamilies": 0
+  },
+  "roles": [
+    {
+      "name": "Economics",
+      "type": "MAJOR",
+      "handbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "authoritative": true,
+      "evidenceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/economics/overview.html",
+      "evidenceText": [
+        "Mathematics is an essential tool in the study of economics. Students entering this major/minor are assumed to have prior knowledge of mathematics equivalent to a minimum result of Band 4 in the NSW Higher School Certificate course, Mathematics Advanced. Students who do not possess the assumed knowledge are strongly advised to enrol in ECON1003 Quantitative Methods in Economics prior to or concurrently with ECON1001 Introductory Microeconomics.",
+        "It has been identified that this curriculum component (Program, Major or Minor) has been affected. To ensure success, make sure you are aware of the required level of mathematics (assumed knowledge) for this curriculum component. Visit the mathematics learning support webpage, to understand your pathway to success, including the sequence of units you should complete and the support services available.",
+        "The Economics major and minor requirements are listed in the Economics unit of study table.",
+        "completed the requirements of a bachelor's degree from the University of Sydney, including a major in Economics with a minimum weighted average mark of 70, or equivalent qualification;",
+        "For pre-July 2024 students undertaking a Bachelor of Advanced Studies; a second major;"
+      ],
+      "existingSourceComponentIndexes": [
+        15
+      ],
+      "supplementalRole": false
+    },
+    {
+      "name": "Economics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "authoritative": true,
+      "evidenceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/economics/overview.html",
+      "evidenceText": [
+        "Mathematics is an essential tool in the study of economics. Students entering this major/minor are assumed to have prior knowledge of mathematics equivalent to a minimum result of Band 4 in the NSW Higher School Certificate course, Mathematics Advanced. Students who do not possess the assumed knowledge are strongly advised to enrol in ECON1003 Quantitative Methods in Economics prior to or concurrently with ECON1001 Introductory Microeconomics.",
+        "It has been identified that this curriculum component (Program, Major or Minor) has been affected. To ensure success, make sure you are aware of the required level of mathematics (assumed knowledge) for this curriculum component. Visit the mathematics learning support webpage, to understand your pathway to success, including the sequence of units you should complete and the support services available.",
+        "The Economics major and minor requirements are listed in the Economics unit of study table.",
+        "completed the requirements of a bachelor's degree from the University of Sydney, including a major in Economics with a minimum weighted average mark of 70, or equivalent qualification;",
+        "For pre-July 2024 students undertaking a Bachelor of Advanced Studies; a second major;"
+      ],
+      "existingSourceComponentIndexes": [],
+      "supplementalRole": true
+    },
+    {
+      "name": "Environmental, Agricultural and Resource Economics",
+      "type": "MAJOR",
+      "handbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "authoritative": true,
+      "evidenceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/environmental-agricultural-resource-economics/overview.html",
+      "evidenceText": [
+        "Mathematics is an essential tool in the study of economics. Students entering this major/minor are assumed to have prior knowledge of mathematics equivalent to a minimum result of Band 4 in the NSW Higher School Certificate course, Mathematics Advanced. Students who do not possess the assumed knowledge are strongly advised to enrol in ECON1003 Quantitative Methods in Economics prior to or concurrently with ECON1001 Introductory Microeconomics.",
+        "It has been identified that this curriculum component (Program, Major or Minor) has been affected. To ensure success, make sure you are aware of the required level of mathematics (assumed knowledge) for this curriculum component. Visit the mathematics learning support webpage, to understand your pathway to success, including the sequence of units you should complete and the support services available.",
+        "The Environmental, Agricultural and Resource Economics major and minor requirements are listed in the Environmental, Agricultural and Resource Economics unit of study table."
+      ],
+      "existingSourceComponentIndexes": [
+        18
+      ],
+      "supplementalRole": false
+    },
+    {
+      "name": "Environmental, Agricultural and Resource Economics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "authoritative": true,
+      "evidenceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/environmental-agricultural-resource-economics/overview.html",
+      "evidenceText": [
+        "Mathematics is an essential tool in the study of economics. Students entering this major/minor are assumed to have prior knowledge of mathematics equivalent to a minimum result of Band 4 in the NSW Higher School Certificate course, Mathematics Advanced. Students who do not possess the assumed knowledge are strongly advised to enrol in ECON1003 Quantitative Methods in Economics prior to or concurrently with ECON1001 Introductory Microeconomics.",
+        "It has been identified that this curriculum component (Program, Major or Minor) has been affected. To ensure success, make sure you are aware of the required level of mathematics (assumed knowledge) for this curriculum component. Visit the mathematics learning support webpage, to understand your pathway to success, including the sequence of units you should complete and the support services available.",
+        "The Environmental, Agricultural and Resource Economics major and minor requirements are listed in the Environmental, Agricultural and Resource Economics unit of study table."
+      ],
+      "existingSourceComponentIndexes": [],
+      "supplementalRole": true
+    },
+    {
+      "name": "Financial Economics",
+      "type": "MAJOR",
+      "handbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "authoritative": true,
+      "evidenceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/financial-economics/overview.html",
+      "evidenceText": [
+        "The major in Financial Economics is focused on the economic models used in finance, and the econometric skills needed to apply these models to financial markets and other economic data. This is an area of high employer demand in a range of diverse fields. The major can be taken in conjunction with other majors offered by the School of Economics: Economics; Econometrics; Environmental, Agricultural and Resource Economics; or majors offered by the Business School, (e.g., Finance) and the Faculty of Science, (e.g., Financial Mathematics and Statistics).",
+        "Mathematics is an essential tool in the study of economics. Students entering this major/minor are assumed to have prior knowledge of mathematics equivalent to a minimum result of Band 4 in the NSW Higher School Certificate course, Mathematics Advanced. Students who do not possess the assumed knowledge are strongly advised to enrol in ECON1003 Quantitative Methods in Economics prior to or concurrently with ECON1001 Introductory Microeconomics.",
+        "It has been identified that this curriculum component (Program, Major or Minor) has been affected. To ensure success, make sure you are aware of the required level of mathematics (assumed knowledge) for this curriculum component. Visit the mathematics learning support webpage, to understand your pathway to success, including the sequence of units you should complete and the support services available.",
+        "The Financial Economics major and minor requirements are listed in the Financial Economics unit of study table.",
+        "Please note: students who are NOT enrolled in the Bachelor of Economics or a Bachelor of Economics combined degree or who will not complete ECOS2001/ECOS2901 as part of a different major in economics must complete the 2000-level core unit ECOS2040 Intermediate Financial Economics rather than ECOS2001/ECOS2901.",
+        "Completion of ECOS2001 Intermediate Microeconomics or ECOS2901 Intermediate Microeconomics Honours alone will not prepare students for the 3000-level core unit in the Financial Economics major. Where a student completes ECOS2001/ECOS2901, they will also need to complete ECOS2002 Intermediate Macroeconomics or ECOS2902 Intermediate Macroeconomics Honours before undertaking the 3000-level core unit ECOS3022 The Economics of Financial Markets."
+      ],
+      "existingSourceComponentIndexes": [
+        22
+      ],
+      "supplementalRole": false
+    },
+    {
+      "name": "Financial Economics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableName": "Table A for the Bachelor of Economics",
+      "authoritative": true,
+      "evidenceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas/financial-economics/overview.html",
+      "evidenceText": [
+        "The major in Financial Economics is focused on the economic models used in finance, and the econometric skills needed to apply these models to financial markets and other economic data. This is an area of high employer demand in a range of diverse fields. The major can be taken in conjunction with other majors offered by the School of Economics: Economics; Econometrics; Environmental, Agricultural and Resource Economics; or majors offered by the Business School, (e.g., Finance) and the Faculty of Science, (e.g., Financial Mathematics and Statistics).",
+        "Mathematics is an essential tool in the study of economics. Students entering this major/minor are assumed to have prior knowledge of mathematics equivalent to a minimum result of Band 4 in the NSW Higher School Certificate course, Mathematics Advanced. Students who do not possess the assumed knowledge are strongly advised to enrol in ECON1003 Quantitative Methods in Economics prior to or concurrently with ECON1001 Introductory Microeconomics.",
+        "It has been identified that this curriculum component (Program, Major or Minor) has been affected. To ensure success, make sure you are aware of the required level of mathematics (assumed knowledge) for this curriculum component. Visit the mathematics learning support webpage, to understand your pathway to success, including the sequence of units you should complete and the support services available.",
+        "The Financial Economics major and minor requirements are listed in the Financial Economics unit of study table.",
+        "Please note: students who are NOT enrolled in the Bachelor of Economics or a Bachelor of Economics combined degree or who will not complete ECOS2001/ECOS2901 as part of a different major in economics must complete the 2000-level core unit ECOS2040 Intermediate Financial Economics rather than ECOS2001/ECOS2901.",
+        "Completion of ECOS2001 Intermediate Microeconomics or ECOS2901 Intermediate Microeconomics Honours alone will not prepare students for the 3000-level core unit in the Financial Economics major. Where a student completes ECOS2001/ECOS2901, they will also need to complete ECOS2002 Intermediate Macroeconomics or ECOS2902 Intermediate Macroeconomics Honours before undertaking the 3000-level core unit ECOS3022 The Economics of Financial Markets."
+      ],
+      "existingSourceComponentIndexes": [],
+      "supplementalRole": true
+    }
+  ],
+  "unresolvedFamilies": []
+}

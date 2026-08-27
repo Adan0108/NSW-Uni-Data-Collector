@@ -1,0 +1,362 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum ComponentType {
+  MAJOR
+  MINOR
+  SUB_MAJOR
+  STREAM
+  SPECIALISATION
+  MAJOR_EXTENSION
+  CHOICE_BLOCK
+  ELECTIVE_POOL
+  GENERAL_EDUCATION
+  CAPSTONE
+  HONOURS
+  PLACEMENT
+  OTHER
+}
+
+enum RequirementLogic {
+  ALL
+  ANY
+  ONE_OF
+  UNKNOWN
+}
+
+enum RequirementItemType {
+  SUBJECT
+  COMPONENT
+  OTHER
+}
+
+enum RequisiteGroupType {
+  REQUISITE
+  ANTI_REQUISITE
+}
+
+enum StudyPlanItemType {
+  SUBJECT
+  CHOICE
+}
+
+model University {
+  id               String            @id @default(cuid())
+  code             String            @unique
+  name             String
+  handbookVersions HandbookVersion[]
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+}
+
+model HandbookVersion {
+  id                   String                   @id @default(cuid())
+  universityId         String
+  year                 Int
+  sourceUrl            String?
+  university           University               @relation(fields: [universityId], references: [id], onDelete: Cascade)
+  degrees              Degree[]
+  components           Component[]
+  subjects             Subject[]
+  accessConditions     SubjectAccessCondition[]
+  sourceRecords        SourceRecord[]
+  unresolvedReferences UnresolvedReference[]
+  createdAt            DateTime                 @default(now())
+  updatedAt            DateTime                 @updatedAt
+
+  @@unique([universityId, year])
+  @@index([year])
+}
+
+model Degree {
+  id                  String                 @id @default(cuid())
+  handbookVersionId   String
+  code                String
+  name                String
+  creditPoints        Int?
+  description         String?
+  rawData             Json?
+  handbookVersion     HandbookVersion        @relation(fields: [handbookVersionId], references: [id], onDelete: Cascade)
+  degreeComponents    DegreeComponent[]
+  requirementGroups   RequirementGroup[]
+  studyPlans          StudyPlan[]
+  requisiteReferences SubjectRequisiteItem[] @relation("RequisiteDegreeReference")
+  createdAt           DateTime               @default(now())
+  updatedAt           DateTime               @updatedAt
+
+  @@unique([handbookVersionId, code])
+  @@index([code])
+}
+
+model Component {
+  id                  String                 @id @default(cuid())
+  handbookVersionId   String
+  code                String
+  name                String
+  type                ComponentType
+  originalType        String?
+  creditPoints        Int?
+  rawData             Json?
+  handbookVersion     HandbookVersion        @relation(fields: [handbookVersionId], references: [id], onDelete: Cascade)
+  degreeComponents    DegreeComponent[]
+  requirementGroups   RequirementGroup[]
+  requirementItems    RequirementItem[]
+  requisiteReferences SubjectRequisiteItem[] @relation("RequisiteComponentReference")
+  createdAt           DateTime               @default(now())
+  updatedAt           DateTime               @updatedAt
+
+  @@unique([handbookVersionId, code])
+  @@index([code])
+  @@index([type])
+}
+
+model DegreeComponent {
+  id                   String            @id @default(cuid())
+  degreeId             String
+  componentId          String?
+  parentGroupId        String?
+  rawComponentCode     String?
+  rawComponentName     String?
+  requiredCreditPoints Int?
+  groupPath            String?
+  containerPath        String?
+  sortOrder            Int?
+  degree               Degree            @relation(fields: [degreeId], references: [id], onDelete: Cascade)
+  component            Component?        @relation(fields: [componentId], references: [id], onDelete: SetNull)
+  parentGroup          RequirementGroup? @relation(fields: [parentGroupId], references: [id], onDelete: SetNull)
+  createdAt            DateTime          @default(now())
+  updatedAt            DateTime          @updatedAt
+
+  @@index([degreeId])
+  @@index([componentId])
+  @@index([parentGroupId])
+}
+
+model RequirementGroup {
+  id                   String             @id @default(cuid())
+  degreeId             String?
+  componentId          String?
+  parentGroupId        String?
+  sourceGroupId        String?
+  title                String?
+  description          String?
+  logic                RequirementLogic   @default(UNKNOWN)
+  requiredCreditPoints Int?
+  maximumCreditPoints  Int?
+  sortOrder            Int?
+  degree               Degree?            @relation(fields: [degreeId], references: [id], onDelete: Cascade)
+  component            Component?         @relation(fields: [componentId], references: [id], onDelete: Cascade)
+  parentGroup          RequirementGroup?  @relation("RequirementGroupHierarchy", fields: [parentGroupId], references: [id], onDelete: Cascade)
+  childGroups          RequirementGroup[] @relation("RequirementGroupHierarchy")
+  items                RequirementItem[]
+  degreeComponents     DegreeComponent[]
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+
+  @@index([degreeId])
+  @@index([componentId])
+  @@index([parentGroupId])
+  @@index([sourceGroupId])
+}
+
+model RequirementItem {
+  id                 String              @id @default(cuid())
+  requirementGroupId String
+  itemType           RequirementItemType
+  subjectId          String?
+  componentId        String?
+  rawCode            String?
+  rawName            String?
+  creditPoints       Int?
+  sourceUrl          String?
+  sortOrder          Int?
+  requirementGroup   RequirementGroup    @relation(fields: [requirementGroupId], references: [id], onDelete: Cascade)
+  subject            Subject?            @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  component          Component?          @relation(fields: [componentId], references: [id], onDelete: SetNull)
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+
+  @@index([requirementGroupId])
+  @@index([subjectId])
+  @@index([componentId])
+}
+
+model Subject {
+  id                  String                  @id @default(cuid())
+  handbookVersionId   String
+  code                String
+  name                String
+  creditPoints        Int?
+  description         String?
+  overview            Json?
+  assessment          Json?
+  learningOutcomes    Json?
+  offerings           Json?
+  rawData             Json?
+  handbookVersion     HandbookVersion         @relation(fields: [handbookVersionId], references: [id], onDelete: Cascade)
+  requirementItems    RequirementItem[]
+  accessCondition     SubjectAccessCondition?
+  requisiteReferences SubjectRequisiteItem[]  @relation("RequisiteSubjectReference")
+  studyPlanItems      StudyPlanItem[]
+  createdAt           DateTime                @default(now())
+  updatedAt           DateTime                @updatedAt
+
+  @@unique([handbookVersionId, code])
+  @@index([code])
+}
+
+model SubjectAccessCondition {
+  id                String                  @id @default(cuid())
+  handbookVersionId String
+  subjectId         String?                 @unique
+  subjectCode       String
+  subjectName       String?
+  hasConditions     Boolean
+  handbookVersion   HandbookVersion         @relation(fields: [handbookVersionId], references: [id], onDelete: Cascade)
+  subject           Subject?                @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  requisiteGroups   SubjectRequisiteGroup[]
+  createdAt         DateTime                @default(now())
+  updatedAt         DateTime                @updatedAt
+
+  @@unique([handbookVersionId, subjectCode])
+  @@index([subjectCode])
+}
+
+model SubjectRequisiteGroup {
+  id                String                 @id @default(cuid())
+  accessConditionId String
+  groupType         RequisiteGroupType
+  rule              String?
+  sortOrder         Int?
+  accessCondition   SubjectAccessCondition @relation(fields: [accessConditionId], references: [id], onDelete: Cascade)
+  items             SubjectRequisiteItem[]
+  createdAt         DateTime               @default(now())
+  updatedAt         DateTime               @updatedAt
+
+  @@index([accessConditionId])
+  @@index([groupType])
+}
+
+model SubjectRequisiteItem {
+  id                    String                @id @default(cuid())
+  requisiteGroupId      String
+  itemKey               String
+  requisiteType         String?
+  details               String
+  referencedSubjectId   String?
+  referencedComponentId String?
+  referencedDegreeId    String?
+  rawReferencedCodes    Json?
+  sortOrder             Int?
+  requisiteGroup        SubjectRequisiteGroup @relation(fields: [requisiteGroupId], references: [id], onDelete: Cascade)
+  referencedSubject     Subject?              @relation("RequisiteSubjectReference", fields: [referencedSubjectId], references: [id], onDelete: SetNull)
+  referencedComponent   Component?            @relation("RequisiteComponentReference", fields: [referencedComponentId], references: [id], onDelete: SetNull)
+  referencedDegree      Degree?               @relation("RequisiteDegreeReference", fields: [referencedDegreeId], references: [id], onDelete: SetNull)
+  createdAt             DateTime              @default(now())
+  updatedAt             DateTime              @updatedAt
+
+  @@index([requisiteGroupId])
+  @@index([referencedSubjectId])
+  @@index([referencedComponentId])
+  @@index([referencedDegreeId])
+}
+
+model StudyPlan {
+  id           String          @id @default(cuid())
+  degreeId     String
+  sourcePlanId String?
+  title        String
+  description  String?
+  sourceUrl    String?
+  degree       Degree          @relation(fields: [degreeId], references: [id], onDelete: Cascade)
+  years        StudyPlanYear[]
+  createdAt    DateTime        @default(now())
+  updatedAt    DateTime        @updatedAt
+
+  @@index([degreeId])
+}
+
+model StudyPlanYear {
+  id          String            @id @default(cuid())
+  studyPlanId String
+  name        String
+  sortOrder   Int?
+  studyPlan   StudyPlan         @relation(fields: [studyPlanId], references: [id], onDelete: Cascade)
+  periods     StudyPlanPeriod[]
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  @@index([studyPlanId])
+}
+
+model StudyPlanPeriod {
+  id              String          @id @default(cuid())
+  studyPlanYearId String
+  name            String
+  sortOrder       Int?
+  studyPlanYear   StudyPlanYear   @relation(fields: [studyPlanYearId], references: [id], onDelete: Cascade)
+  items           StudyPlanItem[]
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+
+  @@index([studyPlanYearId])
+}
+
+model StudyPlanItem {
+  id                String            @id @default(cuid())
+  studyPlanPeriodId String
+  itemType          StudyPlanItemType
+  subjectId         String?
+  rawCode           String?
+  title             String
+  creditPoints      Int?
+  sourceUrl         String?
+  numberOfPeriods   Int?
+  sortOrder         Int?
+  studyPlanPeriod   StudyPlanPeriod   @relation(fields: [studyPlanPeriodId], references: [id], onDelete: Cascade)
+  subject           Subject?          @relation(fields: [subjectId], references: [id], onDelete: SetNull)
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+
+  @@index([studyPlanPeriodId])
+  @@index([subjectId])
+}
+
+model SourceRecord {
+  id                String          @id @default(cuid())
+  handbookVersionId String
+  entityType        String
+  entityCode        String?
+  sourceUrl         String?
+  retrievedAt       DateTime
+  sha256            String?
+  rawData           Json?
+  handbookVersion   HandbookVersion @relation(fields: [handbookVersionId], references: [id], onDelete: Cascade)
+  createdAt         DateTime        @default(now())
+
+  @@index([handbookVersionId])
+  @@index([entityType, entityCode])
+}
+
+model UnresolvedReference {
+  id                String          @id @default(cuid())
+  handbookVersionId String
+  sourceEntityType  String?
+  sourceEntityCode  String?
+  targetType        String?
+  targetCode        String?
+  targetName        String?
+  sourceUrl         String?
+  reason            String?
+  handbookVersion   HandbookVersion @relation(fields: [handbookVersionId], references: [id], onDelete: Cascade)
+  createdAt         DateTime        @default(now())
+
+  @@index([handbookVersionId])
+  @@index([targetCode])
+}

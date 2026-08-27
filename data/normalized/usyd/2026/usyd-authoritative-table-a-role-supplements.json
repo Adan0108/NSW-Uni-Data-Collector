@@ -1,0 +1,2309 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T12:25:05.061Z",
+  "counts": {
+    "authoritativeRoleIdentities": 214,
+    "exactExisting": 102,
+    "supplementsNeeded": 112,
+    "supplementsWithFamilySource": 106,
+    "supplementsCentralSourceOnly": 6,
+    "duplicateSupplementKeys": 0
+  },
+  "existing": [
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "American Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Ancient Greek",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Ancient History",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Anthropology",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Arabic Language and Cultures",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Archaeology",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Art History",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Asian Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Chinese Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Criminology",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Cultural Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Digital Cultures",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Econometrics",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Economic Policy Analysis",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Economics",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Education Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "English",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Environmental, Agricultural and Resource Economics",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "European Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Film Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Financial Economics",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "French and Francophone Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Gender Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Germanic Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Hebrew (modern)",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "History",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Indigenous Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Indonesian Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "International and Comparative Literary Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "International Relations",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Italian Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Japanese Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Jewish Civilisation, Thought and Culture",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Korean Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Latin",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Linguistics",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Media Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Modern Greek Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Music",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Philosophy",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Political Economy",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Politics",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Socio-legal Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Sociology",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Spanish and Latin American Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Theatre and Performance Studies",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "name": "Visual Arts",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "ARTS",
+      "role": "MINOR",
+      "name": "Sociology",
+      "handbook": "ARTS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Accounting",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Banking",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Business Analytics",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Business Information Systems",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Business Law",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Finance",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Industrial Relations and Human Resource Management",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Innovation and Entrepreneurship",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "International Business",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Management and Leadership",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "name": "Marketing",
+      "handbook": "BUSINESS"
+    },
+    {
+      "scope": "CONSERVATORIUM",
+      "role": "PROGRAM",
+      "name": "Composition for Creative Industries",
+      "handbook": "CONSERVATORIUM"
+    },
+    {
+      "scope": "CONSERVATORIUM",
+      "role": "PROGRAM",
+      "name": "Contemporary Music Practice",
+      "handbook": "CONSERVATORIUM"
+    },
+    {
+      "scope": "CONSERVATORIUM",
+      "role": "PROGRAM",
+      "name": "Digital Music Composition",
+      "handbook": "CONSERVATORIUM"
+    },
+    {
+      "scope": "ENGINEERING",
+      "role": "MAJOR",
+      "name": "Built Environment",
+      "handbook": "ENGINEERING"
+    },
+    {
+      "scope": "ENGINEERING",
+      "role": "MAJOR",
+      "name": "Construction",
+      "handbook": "ENGINEERING"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Anatomy and Histology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Animal Health, Disease and Welfare",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Animal Production",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Applied Medical Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Biochemistry and Molecular Biology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Biology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Chemistry",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Computer Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Data Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Discrete Mathematics and Algorithms",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Ecology and Evolutionary Biology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Environmental Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Environmental Studies",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Financial Mathematics and Statistics",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Food Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Genetics and Genomics",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Geography",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Geology and Geophysics",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Health",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "History and Philosophy of Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Immunology and Pathology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Infectious Diseases",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Marine Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Mathematical Modelling and Computation",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Mathematics",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Medical Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Medicinal Chemistry",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Microbiology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Neuroscience",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Nutrition Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Pharmacology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Physics",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Physiology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Plant Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Psychological Science",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Software Development",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Soil Science and Hydrology",
+      "handbook": "SCIENCE"
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "name": "Statistics",
+      "handbook": "SCIENCE"
+    }
+  ],
+  "supplements": [
+    {
+      "name": "American Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Ancient Greek",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Ancient History",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Anthropology",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Arabic Language and Cultures",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Archaeology",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Art History",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Asian Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Chinese Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Criminology",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Cultural Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Digital Cultures",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Diversity Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Econometrics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Economic Policy Analysis",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Economics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Education Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "English",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Environmental, Agricultural and Resource Economics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "European Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Film Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Financial Economics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "French and Francophone Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Gender Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Germanic Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Hebrew (modern)",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "History",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Indigenous Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Indonesian Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "International and Comparative Literary Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "International Relations",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Italian Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Japanese Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Jewish Civilisation, Thought and Culture",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Korean Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Latin",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Linguistics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Media Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Modern Greek Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Music",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Philosophy",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Political Economy",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Politics",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Sanskrit",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Socio-legal Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Spanish and Latin American Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Studies in Religion",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Theatre and Performance Studies",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Visual Arts",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "tableAScope": "ARTS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/subject-areas.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Accounting",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Business Analytics",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Business Information Systems",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Business Law",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Industrial Relations and Human Resource Management",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Innovation and Entrepreneurship",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "International Business",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Management and Leadership",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Marketing",
+      "type": "MINOR",
+      "handbook": "BUSINESS",
+      "tableAScope": "BUSINESS",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/commerce/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/commerce-subject-areas/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Computational Data Science",
+      "type": "MINOR",
+      "handbook": "ENGINEERING",
+      "tableAScope": "COMPUTING",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/advanced-computing-unit-of-study-table.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Computer Science",
+      "type": "MINOR",
+      "handbook": "ENGINEERING",
+      "tableAScope": "COMPUTING",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/advanced-computing-unit-of-study-table.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Cybersecurity",
+      "type": "MINOR",
+      "handbook": "ENGINEERING",
+      "tableAScope": "COMPUTING",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/advanced-computing-unit-of-study-table.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Software Development",
+      "type": "MINOR",
+      "handbook": "ENGINEERING",
+      "tableAScope": "COMPUTING",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/advanced-computing-commerce/advanced-computing-unit-of-study-table.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/advanced-computing/majors.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Community Music",
+      "type": "MINOR",
+      "handbook": "CONSERVATORIUM",
+      "tableAScope": "CONSERVATORIUM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": false,
+        "sourceType": null,
+        "sourceUrl": null
+      },
+      "requirementsSourceResolved": false,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Composition for Creative Industries",
+      "type": "MINOR",
+      "handbook": "CONSERVATORIUM",
+      "tableAScope": "CONSERVATORIUM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "PROGRAM",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/programs/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Digital Music",
+      "type": "MINOR",
+      "handbook": "CONSERVATORIUM",
+      "tableAScope": "CONSERVATORIUM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": false,
+        "sourceType": null,
+        "sourceUrl": null
+      },
+      "requirementsSourceResolved": false,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Ethnomusicology",
+      "type": "MINOR",
+      "handbook": "CONSERVATORIUM",
+      "tableAScope": "CONSERVATORIUM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": false,
+        "sourceType": null,
+        "sourceUrl": null
+      },
+      "requirementsSourceResolved": false,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Indigenous Music",
+      "type": "MINOR",
+      "handbook": "CONSERVATORIUM",
+      "tableAScope": "CONSERVATORIUM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": false,
+        "sourceType": null,
+        "sourceUrl": null
+      },
+      "requirementsSourceResolved": false,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Performance and Ensembles",
+      "type": "MINOR",
+      "handbook": "CONSERVATORIUM",
+      "tableAScope": "CONSERVATORIUM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": false,
+        "sourceType": null,
+        "sourceUrl": null
+      },
+      "requirementsSourceResolved": false,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Performance Science",
+      "type": "MINOR",
+      "handbook": "CONSERVATORIUM",
+      "tableAScope": "CONSERVATORIUM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/minors/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": false,
+        "sourceType": null,
+        "sourceUrl": null
+      },
+      "requirementsSourceResolved": false,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Anatomy and Histology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Animal Health, Disease and Welfare",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Animal Production",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Applied Medical Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Biochemistry and Molecular Biology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Biology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Chemistry",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Computer Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Data Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Discrete Mathematics and Algorithms",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Environmental Studies",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Financial Mathematics and Statistics",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Food Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Genetics and Genomics",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Geography",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Geology and Geophysics",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "History and Philosophy of Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Immunology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Infectious Diseases",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Marine Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Mathematical Modelling and Computation",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Mathematics",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Medicinal Chemistry",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Microbiology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Neuroscience",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Nutrition Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Pathology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Pharmacology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Physics",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Physiology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Plant Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Psychological Science",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Software Development",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Soil Science and Hydrology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Statistics",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Virology",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Wildlife Conservation",
+      "type": "MINOR",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Astrophysics",
+      "type": "PROGRAM",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Environmental Science",
+      "type": "PROGRAM",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Life Sciences",
+      "type": "PROGRAM",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Medical Science",
+      "type": "PROGRAM",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Nutrition and Dietetics",
+      "type": "PROGRAM",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    },
+    {
+      "name": "Psychology",
+      "type": "PROGRAM",
+      "handbook": "SCIENCE",
+      "tableAScope": "SCIENCE",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html",
+      "sourceEvidence": "AUTHORITATIVE_CENTRAL_ROLE_CATALOG",
+      "sourceFamily": {
+        "found": true,
+        "sourceType": "MAJOR",
+        "sourceUrl": "https://www.sydney.edu.au/handbooks/science/table-a/overview.html"
+      },
+      "requirementsSourceResolved": true,
+      "reason": "MISSING_EXACT_ROLE"
+    }
+  ]
+}

@@ -1,0 +1,3110 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T14:10:54.176Z",
+  "counts": {
+    "authoritativeSources": 4,
+    "rows": 106,
+    "headerRows": 6,
+    "planRows": 40,
+    "creditRows": 40,
+    "totalRows": 6,
+    "amendmentHeaderRows": 3,
+    "amendmentRows": 11,
+    "noteRows": 0,
+    "unknownRows": 0,
+    "planRowsWithUnitCodes": 23,
+    "planRowsWithChoices": 24,
+    "planRowsWithYear": 40,
+    "planRowsWithSemester": 40,
+    "orphanCreditRows": 0,
+    "duplicateSourceUrls": 0
+  },
+  "sources": [
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "heading": "Sample enrolment",
+      "tableCount": 2,
+      "rowCount": 28
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "heading": "Sample enrolment",
+      "tableCount": 3,
+      "rowCount": 33
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "heading": "Sample enrolment",
+      "tableCount": 2,
+      "rowCount": 23
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "heading": "Sample enrolment",
+      "tableCount": 2,
+      "rowCount": 22
+    }
+  ],
+  "rows": [
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 0,
+      "cells": [
+        "Semester",
+        "Unit of study 1 & credit points",
+        "Unit of study 2 & credit points",
+        "Unit of study 3 & credit points",
+        "Unit of study 4 & credit points",
+        "Total"
+      ],
+      "kind": "HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 1,
+      "cells": [
+        "Year 1",
+        "1",
+        "Arts Table A Major 1XXX",
+        "Arts or Science Elective XXXX",
+        "Science Unit 1XXX",
+        "Liberal Arts and Science Unit Analytical Thinking ATHK1001"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [
+        "ATHK1001"
+      ],
+      "choiceTexts": [
+        "Arts Table A Major 1XXX",
+        "Arts or Science Elective XXXX",
+        "Science Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 2,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 3,
+      "cells": [
+        "2",
+        "Arts Table A Major 1XXX",
+        "Arts or Science Elective XXXX",
+        "Science Unit 1XXX",
+        "Liberal Arts and Science Unit Writing and Rhetoric - Academic Essays WRIT1001"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [
+        "WRIT1001"
+      ],
+      "choiceTexts": [
+        "Arts Table A Major 1XXX",
+        "Arts or Science Elective XXXX",
+        "Science Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 4,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 5,
+      "cells": [
+        "Year 2",
+        "1",
+        "Arts Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Science Unit 1XXX/2XXX",
+        "Liberal Arts and Science Unit HPSC/PHILXXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Arts Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Science Unit 1XXX/2XXX",
+        "Liberal Arts and Science Unit HPSC/PHILXXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 6,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 7,
+      "cells": [
+        "2",
+        "Arts Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Science Unit 1XXX/2XXX",
+        "Liberal Arts and Science Elective Unit XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Arts Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Science Unit 1XXX/2XXX",
+        "Liberal Arts and Science Elective Unit XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 8,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 9,
+      "cells": [
+        "Year 3",
+        "1",
+        "Arts Table A Major 3XXX",
+        "Arts Table A Major 3XXX",
+        "Science Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective Unit XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Arts Table A Major 3XXX",
+        "Arts Table A Major 3XXX",
+        "Science Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective Unit XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 10,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 11,
+      "cells": [
+        "2",
+        "Arts Table A Major 3XXX",
+        "Arts Table A Major 3XXX",
+        "Science Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective Unit XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Arts Table A Major 3XXX",
+        "Arts Table A Major 3XXX",
+        "Science Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective Unit XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 12,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 13,
+      "cells": [
+        "Total credit points:",
+        "144"
+      ],
+      "kind": "TOTAL_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": 144,
+      "reason": "DEGREE_TOTAL_CREDIT_POINTS"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 14,
+      "cells": [
+        "Semester",
+        "Unit of study 1 & credit points",
+        "Unit of study 2 & credit points",
+        "Unit of study 3 & credit points",
+        "Unit of study 4 & credit points",
+        "Total"
+      ],
+      "kind": "HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 15,
+      "cells": [
+        "Year 1",
+        "1",
+        "History Major HSTY1001 Age of Empires",
+        "Arts or Science Elective BIOL1006 Life and Evolution",
+        "Science Unit PSYC1001 Psychology 1001",
+        "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [
+        "HSTY1001",
+        "BIOL1006",
+        "PSYC1001",
+        "ATHK1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 16,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 17,
+      "cells": [
+        "2",
+        "History Major HSTY1003 Birth of the Present: The world since 1750",
+        "Arts or Science Elective HPSC1001 What is this thing called Science?",
+        "Science Unit PSYC1002 Psychology 1002",
+        "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [
+        "HSTY1003",
+        "HPSC1001",
+        "PSYC1002",
+        "WRIT1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 18,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 19,
+      "cells": [
+        "Year 2",
+        "1",
+        "History Major HSTY2628 Boom! The History of War",
+        "Table S Elective HPSC2100 The Birth of Modern Science",
+        "Science Unit PSYC2015 Brain and Behavioural Psychology",
+        "Liberal Arts and Science Ethics Unit HPSC1000 Bioethics"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [
+        "HSTY2628",
+        "HPSC2100",
+        "PSYC2015",
+        "HPSC1000"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 20,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 21,
+      "cells": [
+        "2",
+        "History Major HSTY2640 Twentieth-century China",
+        "Table S Elective BIOL1007 From Molecules to Ecosystems",
+        "Science Unit PSYC2016 Perception, Cognition and Intelligence",
+        "Liberal Arts and Science Elective Unit INDG1001 Introduction to Indigenous cultures"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [
+        "HSTY2640",
+        "BIOL1007",
+        "PSYC2016",
+        "INDG1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 22,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 23,
+      "cells": [
+        "Year 3",
+        "1",
+        "History Major HSTY3903 History and Historians",
+        "History Major HSTY3801 Asian History",
+        "Science Unit PSYC3017 Social Psychology",
+        "Liberal Arts and Science Elective Unit GEOS1001 Earth, Environment and Society"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [
+        "HSTY3903",
+        "HSTY3801",
+        "PSYC3017",
+        "GEOS1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 24,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 25,
+      "cells": [
+        "2",
+        "History Major FASS3999 Interdisciplinary Impact",
+        "History Major HSTY3805 Australian History",
+        "Science Units PSYC3016 Developmental Psychology",
+        "Liberal Arts and Science Elective Unit ARIN2610 Internet Transformations"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [
+        "FASS3999",
+        "HSTY3805",
+        "PSYC3016",
+        "ARIN2610"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 26,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/arts-enrolment-guide.html",
+      "rowIndex": 27,
+      "cells": [
+        "Total credit points:",
+        "144"
+      ],
+      "kind": "TOTAL_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": 144,
+      "reason": "DEGREE_TOTAL_CREDIT_POINTS"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 0,
+      "cells": [
+        "Semester",
+        "Unit of study 1 & credit points",
+        "Unit of study 2 & credit points",
+        "Unit of study 3 & credit points",
+        "Unit of study 4 & credit points",
+        "Total"
+      ],
+      "kind": "HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 1,
+      "cells": [
+        "Year 1",
+        "1",
+        "Science Table A Major 1XXX",
+        "Science or Arts Elective XXXX",
+        "Arts Unit 1XXX",
+        "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [
+        "ATHK1001"
+      ],
+      "choiceTexts": [
+        "Science Table A Major 1XXX",
+        "Science or Arts Elective XXXX",
+        "Arts Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 2,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 3,
+      "cells": [
+        "2",
+        "Science Table A Major 1XXX",
+        "Science or Arts Elective XXXX",
+        "Arts Unit 1XXX",
+        "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [
+        "WRIT1001"
+      ],
+      "choiceTexts": [
+        "Science Table A Major 1XXX",
+        "Science or Arts Elective XXXX",
+        "Arts Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 4,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 5,
+      "cells": [
+        "Year 2",
+        "1",
+        "Science Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Arts Unit 1XXX/2XX",
+        "Liberal Arts and Science Ethics HPSC/PHILXXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Science Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Arts Unit 1XXX/2XX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 6,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 7,
+      "cells": [
+        "2",
+        "Science Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Arts Unit 1XXX/2XXX",
+        "Liberal Arts and Science Elective XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Science Table A Major 2XXX",
+        "Table S Elective XXXX",
+        "Arts Unit 1XXX/2XXX",
+        "Liberal Arts and Science Elective XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 8,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 9,
+      "cells": [
+        "Year 3",
+        "1",
+        "Science Table A Major 3XXX",
+        "Science Table A Major 3XXX",
+        "Arts Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Science Table A Major 3XXX",
+        "Science Table A Major 3XXX",
+        "Arts Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 10,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 11,
+      "cells": [
+        "2",
+        "Science Table A Major 3XXX",
+        "Science Table A Major 3XXX",
+        "Arts Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Science Table A Major 3XXX",
+        "Science Table A Major 3XXX",
+        "Arts Unit 2XXX/3XXX",
+        "Liberal Arts and Science Elective XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 12,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 13,
+      "cells": [
+        "Total credit points:",
+        "144"
+      ],
+      "kind": "TOTAL_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": 144,
+      "reason": "DEGREE_TOTAL_CREDIT_POINTS"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 14,
+      "cells": [
+        "Semester",
+        "Unit of study 1 & credit points",
+        "Unit of study 2 & credit points",
+        "Unit of study 3 & credit points",
+        "Unit of study 4 & credit points",
+        "Total"
+      ],
+      "kind": "HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 15,
+      "cells": [
+        "Year 1",
+        "1",
+        "Psychological Science Major PSYC1001 Psychology 1001",
+        "Science or Arts Elective BIOL1006 Life and Evolution",
+        "Arts Unit SCLG1001 Sociology 1",
+        "Liberal Arts and Science Unit ATHK1001 Analytical Thinking"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [
+        "PSYC1001",
+        "BIOL1006",
+        "SCLG1001",
+        "ATHK1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 16,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 17,
+      "cells": [
+        "2",
+        "Psychological Science Major PSYC1002 Psychology 1002",
+        "Science or Arts Elective BIOL1007 From Molecules to Ecosystems",
+        "Arts Unit SCLG1002 Sociology 2",
+        "Liberal Arts and Science Unit WRIT1001 Writing and Rhetoric: Academic Essays"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [
+        "PSYC1002",
+        "BIOL1007",
+        "SCLG1002",
+        "WRIT1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 18,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 19,
+      "cells": [
+        "Year 2",
+        "1",
+        "Psychological Science Major PSYC2012 Research Methods for Psych",
+        "Psychology Program PSYC2015 Brain and Behavioural Psychology",
+        "Arts Unit SCLG2601 Explaining Society: Deploying Theory",
+        "Liberal Arts and Science Ethics HPSC1000 Bioethics"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [
+        "PSYC2012",
+        "PSYC2015",
+        "SCLG2601",
+        "HPSC1000"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 20,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 21,
+      "cells": [
+        "2",
+        "Psychological Science Major PSYC2016 Perception, Cognition and Intelligence",
+        "Psychological Science Major PSYC2017 Personality and Social Psychology",
+        "Arts Unit SCLG2637 Society and Identity",
+        "Liberal Arts and Science Elective INDG1001 Introduction to Indigenous cultures"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [
+        "PSYC2016",
+        "PSYC2017",
+        "SCLG2637",
+        "INDG1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 22,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 23,
+      "cells": [
+        "Year 3",
+        "1",
+        "Psychological Science Major PSYC3018 Mental Health Conditions",
+        "Psychological Science Major PSYC3011 Learning and Behaviour",
+        "Arts Unit SCPL2601 Australian Social Policy",
+        "Liberal Arts and Science Elective GEOS1002 Introductory Geography"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [
+        "PSYC3018",
+        "PSYC3011",
+        "SCPL2601",
+        "GEOS1002"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 24,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 25,
+      "cells": [
+        "2",
+        "Psychological Science Major PSYC3014 Behavioural and Cognitive Neuroscience",
+        "Psychology Program PSYC3010 Advanced Research Methods for Psychology",
+        "Arts Unit SCLG2613 Sociology of Childhood and Youth",
+        "Liberal Arts and Science Elective WRIT2002 Arguments that Change the World"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [
+        "PSYC3014",
+        "PSYC3010",
+        "SCLG2613",
+        "WRIT2002"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 26,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 27,
+      "cells": [
+        "Total credit points:",
+        "144"
+      ],
+      "kind": "TOTAL_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": 144,
+      "reason": "DEGREE_TOTAL_CREDIT_POINTS"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 28,
+      "cells": [
+        "Date",
+        "Original publication",
+        "Post-publication amendment"
+      ],
+      "kind": "AMENDMENT_HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "AMENDMENT_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 29,
+      "cells": [
+        "4/2/2026",
+        "SCLG2613 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 2",
+        "SCLG2637 replaced SCLG2613 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 2"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "SCLG2613",
+        "SCLG2637"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 30,
+      "cells": [
+        "4/2/2026",
+        "SCLG2604 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 1",
+        "SCLG2601 replaced SCLG2604 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 2, Semester 1"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "SCLG2604",
+        "SCLG2601"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 31,
+      "cells": [
+        "4/2/2026",
+        "SCLG2638 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 1",
+        "SCPL2601 replaced SCLG2638 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 1"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "SCLG2638",
+        "SCPL2601"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLIARSC-02",
+      "degreeTitle": "Bachelor of Liberal Arts and Science",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science/science-enrolment-guide.html",
+      "rowIndex": 32,
+      "cells": [
+        "4/2/2026",
+        "SCLG2637 published and available for selection from: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 2",
+        "SCLG2613 replaced SCLG2637 as a selectable unit in: Psychology Program (with embedded Psychological Science major ), Year 3, Semester 2"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "SCLG2637",
+        "SCLG2613"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 0,
+      "cells": [
+        "Semester",
+        "Unit of study 1 & credit points",
+        "Unit of study 2 & credit points",
+        "Unit of study 3 & credit points",
+        "Unit of study 4 & credit points",
+        "Total"
+      ],
+      "kind": "HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 1,
+      "cells": [
+        "Foundation Year",
+        "1",
+        "Foundation Unit INLI1001 Indigenous Literacies in Academic Contexts A",
+        "Foundation Unit MATH1100 Power of Number A",
+        "WRIT1001 Writing and Rhetoric - Academic Essays"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 1,
+      "unitCodes": [
+        "INLI1001",
+        "MATH1100",
+        "WRIT1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 2,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 3,
+      "cells": [
+        "2",
+        "Foundation Unit INLI1002 Indigenous Literacies in Academic Contexts B",
+        "Foundation Unit MATH1200 Power of Number B",
+        "OLE units OLES1602 The Apocalypse in Science and Culture"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 2,
+      "unitCodes": [
+        "INLI1002",
+        "MATH1200",
+        "OLES1602"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 4,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 5,
+      "cells": [
+        "Year 1",
+        "1",
+        "Core Unit ATHK1001 Analytical Thinking",
+        "Arts Major 1XXX",
+        "Science Unit 1XXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [
+        "ATHK1001"
+      ],
+      "choiceTexts": [
+        "Arts Major 1XXX",
+        "Science Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 6,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 7,
+      "cells": [
+        "2",
+        "Core Unit 1XXX",
+        "Arts Major 1XXX",
+        "Science Unit 1XXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Core Unit 1XXX",
+        "Arts Major 1XXX",
+        "Science Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 8,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 9,
+      "cells": [
+        "Year 2",
+        "1",
+        "Liberal Studies Elective Unit XXXX",
+        "Arts Major 2XXX",
+        "Science Unit 2XXX",
+        "OLE units XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Liberal Studies Elective Unit XXXX",
+        "Arts Major 2XXX",
+        "Science Unit 2XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 10,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 11,
+      "cells": [
+        "2",
+        "Liberal Studies Elective Unit XXXX",
+        "Arts Major 2XXX",
+        "Science Unit 2XXX",
+        "Elective Unit XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Liberal Studies Elective Unit XXXX",
+        "Arts Major 2XXX",
+        "Science Unit 2XXX",
+        "Elective Unit XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 12,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 13,
+      "cells": [
+        "Year 3",
+        "1",
+        "Liberal Studies Ethics Units XXXX",
+        "Arts Major 3XXX",
+        "Arts Major 3XXX",
+        "Science Unit 3XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Liberal Studies Ethics Units XXXX",
+        "Arts Major 3XXX",
+        "Arts Major 3XXX",
+        "Science Unit 3XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 14,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 15,
+      "cells": [
+        "2",
+        "Cultural Capstone Unit 4XXX",
+        "Arts Major 3XXX",
+        "Arts Major 3XXX",
+        "Science Unit 3XXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Cultural Capstone Unit 4XXX",
+        "Arts Major 3XXX",
+        "Arts Major 3XXX",
+        "Science Unit 3XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 16,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 17,
+      "cells": [
+        "Total credit points:",
+        "168"
+      ],
+      "kind": "TOTAL_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": 168,
+      "reason": "DEGREE_TOTAL_CREDIT_POINTS"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 18,
+      "cells": [
+        "Date",
+        "Original publication",
+        "Post-publication amendment"
+      ],
+      "kind": "AMENDMENT_HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "AMENDMENT_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 19,
+      "cells": [
+        "4/3/2026",
+        "WRIT1001 published in: General Pathway (Arts stream), Foundation Year, Semester 1",
+        "Placeholder unit (\"1XXX\") replaced WRIT1001 in: General Pathway (Arts stream), Foundation Year, Semester 1"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "WRIT1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 20,
+      "cells": [
+        "4/3/2026",
+        "Placeholder unit (\"XXXX\") published in: General Pathway (Arts stream), Foundation Year, Semester 2",
+        "OLES1602 replaced Placeholder unit (\"XXXX\") in: General Pathway (Arts stream), Foundation Year, Semester 2"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "OLES1602"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 21,
+      "cells": [
+        "4/3/2026",
+        "WRIT1001 published in: General Pathway (Arts stream), Year 1, Semester 2",
+        "Placeholder unit (\"1XXX\") replaced WRIT1001 in: General Pathway (Arts stream), Year 1, Semester 2"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "WRIT1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/arts-enrolment-guide.html",
+      "rowIndex": 22,
+      "cells": [
+        "4/3/2026",
+        "Example Pathway: Arts stream - Sociology major enrolment planner published.",
+        "Example Pathway: Arts stream - Sociology major enrolment planner removed."
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 0,
+      "cells": [
+        "Semester",
+        "Unit of study 1 & credit points",
+        "Unit of study 2 & credit points",
+        "Unit of study 3 & credit points",
+        "Unit of study 4 & credit points",
+        "Total"
+      ],
+      "kind": "HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 1,
+      "cells": [
+        "Foundation Year",
+        "1",
+        "Foundation Unit INLI1001 Indigenous Literacies in Academic Contexts A",
+        "Foundation Unit MATH1100 Power of Number A",
+        "WRIT1001 Writing and Rhetoric - Academic Essays"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 1,
+      "unitCodes": [
+        "INLI1001",
+        "MATH1100",
+        "WRIT1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 2,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 3,
+      "cells": [
+        "2",
+        "Foundation Unit INLI1002 Indigenous Literacies in Academic Contexts B",
+        "Foundation Unit MATH1200 Power of Number B",
+        "OLE units OLES1602 The Apocalypse in Science and Culture"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 2,
+      "unitCodes": [
+        "INLI1002",
+        "MATH1200",
+        "OLES1602"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 4,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 0,
+      "yearLabel": "Foundation Year",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 5,
+      "cells": [
+        "Year 1",
+        "1",
+        "Core Unit ATHK1001 Analytical Thinking",
+        "Science Major or Liberal Studies Elective Unit 1XXX",
+        "Arts Unit 1XXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [
+        "ATHK1001"
+      ],
+      "choiceTexts": [
+        "Science Major or Liberal Studies Elective Unit 1XXX",
+        "Arts Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 6,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 7,
+      "cells": [
+        "2",
+        "Core Unit WRIT1001 Writing and Rhetoric: Academic Essays",
+        "Science Major 1XXX",
+        "Arts Unit 1XXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [
+        "WRIT1001"
+      ],
+      "choiceTexts": [
+        "Science Major 1XXX",
+        "Arts Unit 1XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 8,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "18"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 1,
+      "yearLabel": "Year 1",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        18
+      ],
+      "semesterTotalCreditPoints": 18,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 9,
+      "cells": [
+        "Year 2",
+        "1",
+        "Liberal Studies Ethics Units XXXX",
+        "Science Major 2XXX",
+        "Arts Unit 2XXX",
+        "OLE units XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Liberal Studies Ethics Units XXXX",
+        "Science Major 2XXX",
+        "Arts Unit 2XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 10,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 11,
+      "cells": [
+        "2",
+        "Liberal Studies Elective Unit XXXX",
+        "Science Major 2XXX",
+        "Arts Unit 2XXX",
+        "Elective Unit XXXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Liberal Studies Elective Unit XXXX",
+        "Science Major 2XXX",
+        "Arts Unit 2XXX",
+        "Elective Unit XXXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 12,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 2,
+      "yearLabel": "Year 2",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 13,
+      "cells": [
+        "Year 3",
+        "1",
+        "Liberal Studies Elective Unit XXXX",
+        "Science Major 3XXX",
+        "Science Major 3XXX",
+        "Arts Unit 2XXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Liberal Studies Elective Unit XXXX",
+        "Science Major 3XXX",
+        "Science Major 3XXX",
+        "Arts Unit 2XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 14,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 1,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 15,
+      "cells": [
+        "2",
+        "Cultural Capstone Unit 4XXX",
+        "Science Major 3XXX",
+        "Science Major 3XXX",
+        "Arts Unit 3XXX"
+      ],
+      "kind": "PLAN_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [
+        "Cultural Capstone Unit 4XXX",
+        "Science Major 3XXX",
+        "Science Major 3XXX",
+        "Arts Unit 3XXX"
+      ],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PLAN_CONTENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 16,
+      "cells": [
+        "6",
+        "6",
+        "6",
+        "6",
+        "24"
+      ],
+      "kind": "CREDIT_ROW",
+      "year": 3,
+      "yearLabel": "Year 3",
+      "semester": 2,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [
+        6,
+        6,
+        6,
+        6,
+        24
+      ],
+      "semesterTotalCreditPoints": 24,
+      "degreeTotalCreditPoints": null,
+      "reason": "PAIRED_WITH_PREVIOUS_PLAN_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 17,
+      "cells": [
+        "Total credit points:",
+        "168"
+      ],
+      "kind": "TOTAL_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": 168,
+      "reason": "DEGREE_TOTAL_CREDIT_POINTS"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 18,
+      "cells": [
+        "Date",
+        "Original publication",
+        "Post-publication amendment"
+      ],
+      "kind": "AMENDMENT_HEADER",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "AMENDMENT_TABLE_HEADER"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 19,
+      "cells": [
+        "4/3/2026",
+        "Example pathway: Science stream - Marine Science major enrolment planner published.",
+        "Example pathway: Science stream - Marine Science major enrolment planner removed."
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 20,
+      "cells": [
+        "4/3/2026",
+        "Placeholder unit (\"1XXX\") published in: General pathway (Science stream), foundation year, semester 1",
+        "Placeholder unit (\"1XXX\") replaced by WRIT1001 in: General pathway (Science stream), foundation year, semester 1"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "WRIT1001"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    },
+    {
+      "degreeCode": "BPLASXTD-01",
+      "degreeTitle": "Bachelor of Liberal Arts and Science (Extended)",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/science/coursework/liberal-arts-science-extended/science-enrolment-guide.html",
+      "rowIndex": 21,
+      "cells": [
+        "4/3/2026",
+        "Placeholder unit (\"XXXX\") published in: General pathway (Science stream), foundation year, semester 2",
+        "Placeholder unit (\"XXXX\") replaced by OLES1602 in: General pathway (Science stream), foundation year, semester 2"
+      ],
+      "kind": "AMENDMENT_ROW",
+      "year": null,
+      "yearLabel": null,
+      "semester": null,
+      "unitCodes": [
+        "OLES1602"
+      ],
+      "choiceTexts": [],
+      "creditPoints": [],
+      "semesterTotalCreditPoints": null,
+      "degreeTotalCreditPoints": null,
+      "reason": "POST_PUBLICATION_AMENDMENT_ROW"
+    }
+  ],
+  "coverage": {
+    "authoritativeSourceSelection": "COMPLETE",
+    "rowShapeAudit": "COMPLETE",
+    "creditRowPairing": "COMPLETE",
+    "amendmentRowsExcludedFromPlan": "COMPLETE",
+    "finalStudyPlanNormalization": "READY"
+  }
+}

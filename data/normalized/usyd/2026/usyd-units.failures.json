@@ -1,0 +1,786 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-25T14:48:01.205Z",
+  "inventoryCount": 3122,
+  "failureCount": 111,
+  "failures": [
+    {
+      "code": "AERO5500",
+      "url": "https://www.sydney.edu.au/units/AERO5500",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.791Z"
+    },
+    {
+      "code": "AMME4912",
+      "url": "https://www.sydney.edu.au/units/AMME4912",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.721Z"
+    },
+    {
+      "code": "ANHS2638",
+      "url": "https://www.sydney.edu.au/units/ANHS2638",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.725Z"
+    },
+    {
+      "code": "ARBC3639",
+      "url": "https://www.sydney.edu.au/units/ARBC3639",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.712Z"
+    },
+    {
+      "code": "ARCH3008",
+      "url": "https://www.sydney.edu.au/units/ARCH3008",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.849Z"
+    },
+    {
+      "code": "ARHT2640",
+      "url": "https://www.sydney.edu.au/units/ARHT2640",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.844Z"
+    },
+    {
+      "code": "ARHT2681",
+      "url": "https://www.sydney.edu.au/units/ARHT2681",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.851Z"
+    },
+    {
+      "code": "ARHT2682",
+      "url": "https://www.sydney.edu.au/units/ARHT2682",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.857Z"
+    },
+    {
+      "code": "ARHT3685",
+      "url": "https://www.sydney.edu.au/units/ARHT3685",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.908Z"
+    },
+    {
+      "code": "BBHE2001",
+      "url": "https://www.sydney.edu.au/units/BBHE2001",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.983Z"
+    },
+    {
+      "code": "BBHE2002",
+      "url": "https://www.sydney.edu.au/units/BBHE2002",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.907Z"
+    },
+    {
+      "code": "BBHE2003",
+      "url": "https://www.sydney.edu.au/units/BBHE2003",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:58.905Z"
+    },
+    {
+      "code": "BBHE2004",
+      "url": "https://www.sydney.edu.au/units/BBHE2004",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.037Z"
+    },
+    {
+      "code": "BBHE2005",
+      "url": "https://www.sydney.edu.au/units/BBHE2005",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.033Z"
+    },
+    {
+      "code": "BBHE2011",
+      "url": "https://www.sydney.edu.au/units/BBHE2011",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.025Z"
+    },
+    {
+      "code": "BBHE2221",
+      "url": "https://www.sydney.edu.au/units/BBHE2221",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.054Z"
+    },
+    {
+      "code": "BBHE3001",
+      "url": "https://www.sydney.edu.au/units/BBHE3001",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.100Z"
+    },
+    {
+      "code": "BBHE3002",
+      "url": "https://www.sydney.edu.au/units/BBHE3002",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.104Z"
+    },
+    {
+      "code": "BBHE3003",
+      "url": "https://www.sydney.edu.au/units/BBHE3003",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.107Z"
+    },
+    {
+      "code": "BBHE3004",
+      "url": "https://www.sydney.edu.au/units/BBHE3004",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.108Z"
+    },
+    {
+      "code": "BBHE3005",
+      "url": "https://www.sydney.edu.au/units/BBHE3005",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.162Z"
+    },
+    {
+      "code": "BBHE3006",
+      "url": "https://www.sydney.edu.au/units/BBHE3006",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.155Z"
+    },
+    {
+      "code": "BIOL3909",
+      "url": "https://www.sydney.edu.au/units/BIOL3909",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.158Z"
+    },
+    {
+      "code": "BIOS2172",
+      "url": "https://www.sydney.edu.au/units/BIOS2172",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.161Z"
+    },
+    {
+      "code": "BMET4790",
+      "url": "https://www.sydney.edu.au/units/BMET4790",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.240Z"
+    },
+    {
+      "code": "BMET5996",
+      "url": "https://www.sydney.edu.au/units/BMET5996",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.246Z"
+    },
+    {
+      "code": "BPPE3999",
+      "url": "https://www.sydney.edu.au/units/BPPE3999",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.247Z"
+    },
+    {
+      "code": "CAEL2099",
+      "url": "https://www.sydney.edu.au/units/CAEL2099",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.242Z"
+    },
+    {
+      "code": "CAEL2100",
+      "url": "https://www.sydney.edu.au/units/CAEL2100",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.318Z"
+    },
+    {
+      "code": "CHNG5607",
+      "url": "https://www.sydney.edu.au/units/CHNG5607",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.313Z"
+    },
+    {
+      "code": "CMPN3621",
+      "url": "https://www.sydney.edu.au/units/CMPN3621",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.311Z"
+    },
+    {
+      "code": "CSCD2072",
+      "url": "https://www.sydney.edu.au/units/CSCD2072",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.316Z"
+    },
+    {
+      "code": "CSCD2073",
+      "url": "https://www.sydney.edu.au/units/CSCD2073",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.364Z"
+    },
+    {
+      "code": "CSCD2074",
+      "url": "https://www.sydney.edu.au/units/CSCD2074",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.365Z"
+    },
+    {
+      "code": "CSCD2075",
+      "url": "https://www.sydney.edu.au/units/CSCD2075",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.367Z"
+    },
+    {
+      "code": "CSCD2076",
+      "url": "https://www.sydney.edu.au/units/CSCD2076",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.368Z"
+    },
+    {
+      "code": "CSCD2077",
+      "url": "https://www.sydney.edu.au/units/CSCD2077",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.418Z"
+    },
+    {
+      "code": "CSCD2078",
+      "url": "https://www.sydney.edu.au/units/CSCD2078",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.425Z"
+    },
+    {
+      "code": "CSCD3102",
+      "url": "https://www.sydney.edu.au/units/CSCD3102",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.423Z"
+    },
+    {
+      "code": "CSCD3103",
+      "url": "https://www.sydney.edu.au/units/CSCD3103",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.426Z"
+    },
+    {
+      "code": "CSCD3104",
+      "url": "https://www.sydney.edu.au/units/CSCD3104",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.474Z"
+    },
+    {
+      "code": "CSCD3105",
+      "url": "https://www.sydney.edu.au/units/CSCD3105",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.475Z"
+    },
+    {
+      "code": "CSCD4066",
+      "url": "https://www.sydney.edu.au/units/CSCD4066",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.478Z"
+    },
+    {
+      "code": "CSCD4067",
+      "url": "https://www.sydney.edu.au/units/CSCD4067",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.477Z"
+    },
+    {
+      "code": "CSCD4068",
+      "url": "https://www.sydney.edu.au/units/CSCD4068",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.527Z"
+    },
+    {
+      "code": "CSCD4069",
+      "url": "https://www.sydney.edu.au/units/CSCD4069",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.530Z"
+    },
+    {
+      "code": "CSCD4070",
+      "url": "https://www.sydney.edu.au/units/CSCD4070",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.529Z"
+    },
+    {
+      "code": "CSCD4071",
+      "url": "https://www.sydney.edu.au/units/CSCD4071",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.528Z"
+    },
+    {
+      "code": "DECO3001",
+      "url": "https://www.sydney.edu.au/units/DECO3001",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.587Z"
+    },
+    {
+      "code": "DESA3008",
+      "url": "https://www.sydney.edu.au/units/DESA3008",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.575Z"
+    },
+    {
+      "code": "ECON4918",
+      "url": "https://www.sydney.edu.au/units/ECON4918",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.588Z"
+    },
+    {
+      "code": "ECOS3036",
+      "url": "https://www.sydney.edu.au/units/ECOS3036",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.586Z"
+    },
+    {
+      "code": "ELEC3803",
+      "url": "https://www.sydney.edu.au/units/ELEC3803",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.637Z"
+    },
+    {
+      "code": "ELEC5701",
+      "url": "https://www.sydney.edu.au/units/ELEC5701",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.634Z"
+    },
+    {
+      "code": "ELEC5760",
+      "url": "https://www.sydney.edu.au/units/ELEC5760",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.892Z"
+    },
+    {
+      "code": "ENGG3216",
+      "url": "https://www.sydney.edu.au/units/ENGG3216",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.635Z"
+    },
+    {
+      "code": "ENGL1012",
+      "url": "https://www.sydney.edu.au/units/ENGL1012",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.941Z"
+    },
+    {
+      "code": "ENGL3611",
+      "url": "https://www.sydney.edu.au/units/ENGL3611",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.939Z"
+    },
+    {
+      "code": "ENGL3708",
+      "url": "https://www.sydney.edu.au/units/ENGL3708",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.940Z"
+    },
+    {
+      "code": "ENVE3001",
+      "url": "https://www.sydney.edu.au/units/ENVE3001",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:47:59.957Z"
+    },
+    {
+      "code": "ENVE3002",
+      "url": "https://www.sydney.edu.au/units/ENVE3002",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.006Z"
+    },
+    {
+      "code": "ENVE3004",
+      "url": "https://www.sydney.edu.au/units/ENVE3004",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.009Z"
+    },
+    {
+      "code": "ENVE4800",
+      "url": "https://www.sydney.edu.au/units/ENVE4800",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.008Z"
+    },
+    {
+      "code": "EUST2113",
+      "url": "https://www.sydney.edu.au/units/EUST2113",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.012Z"
+    },
+    {
+      "code": "FRNC2630",
+      "url": "https://www.sydney.edu.au/units/FRNC2630",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.401Z"
+    },
+    {
+      "code": "GOVT2111",
+      "url": "https://www.sydney.edu.au/units/GOVT2111",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.067Z"
+    },
+    {
+      "code": "GOVT2617",
+      "url": "https://www.sydney.edu.au/units/GOVT2617",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.071Z"
+    },
+    {
+      "code": "GOVT3643",
+      "url": "https://www.sydney.edu.au/units/GOVT3643",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.070Z"
+    },
+    {
+      "code": "GOVT3654",
+      "url": "https://www.sydney.edu.au/units/GOVT3654",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.444Z"
+    },
+    {
+      "code": "GOVT3987",
+      "url": "https://www.sydney.edu.au/units/GOVT3987",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.441Z"
+    },
+    {
+      "code": "INMS3614",
+      "url": "https://www.sydney.edu.au/units/INMS3614",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.450Z"
+    },
+    {
+      "code": "INMS3615",
+      "url": "https://www.sydney.edu.au/units/INMS3615",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.465Z"
+    },
+    {
+      "code": "ISYS3402",
+      "url": "https://www.sydney.edu.au/units/ISYS3402",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.508Z"
+    },
+    {
+      "code": "JAZZ1623",
+      "url": "https://www.sydney.edu.au/units/JAZZ1623",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.516Z"
+    },
+    {
+      "code": "JAZZ1624",
+      "url": "https://www.sydney.edu.au/units/JAZZ1624",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.513Z"
+    },
+    {
+      "code": "JPNS2671",
+      "url": "https://www.sydney.edu.au/units/JPNS2671",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.514Z"
+    },
+    {
+      "code": "KRNS2010",
+      "url": "https://www.sydney.edu.au/units/KRNS2010",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.562Z"
+    },
+    {
+      "code": "LAWS3490",
+      "url": "https://www.sydney.edu.au/units/LAWS3490",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.559Z"
+    },
+    {
+      "code": "LAWS6933",
+      "url": "https://www.sydney.edu.au/units/LAWS6933",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.560Z"
+    },
+    {
+      "code": "LNGS3705",
+      "url": "https://www.sydney.edu.au/units/LNGS3705",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.633Z"
+    },
+    {
+      "code": "MATH2969",
+      "url": "https://www.sydney.edu.au/units/MATH2969",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.677Z"
+    },
+    {
+      "code": "MATH5430",
+      "url": "https://www.sydney.edu.au/units/MATH5430",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.676Z"
+    },
+    {
+      "code": "MATH5550",
+      "url": "https://www.sydney.edu.au/units/MATH5550",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.674Z"
+    },
+    {
+      "code": "MTRX4700",
+      "url": "https://www.sydney.edu.au/units/MTRX4700",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.701Z"
+    },
+    {
+      "code": "MTRY5000",
+      "url": "https://www.sydney.edu.au/units/MTRY5000",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.756Z"
+    },
+    {
+      "code": "MUSC2665",
+      "url": "https://www.sydney.edu.au/units/MUSC2665",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.751Z"
+    },
+    {
+      "code": "MUSC2670",
+      "url": "https://www.sydney.edu.au/units/MUSC2670",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.755Z"
+    },
+    {
+      "code": "MUSC2682",
+      "url": "https://www.sydney.edu.au/units/MUSC2682",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.757Z"
+    },
+    {
+      "code": "NURS2018",
+      "url": "https://www.sydney.edu.au/units/NURS2018",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.811Z"
+    },
+    {
+      "code": "NURS2019",
+      "url": "https://www.sydney.edu.au/units/NURS2019",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.809Z"
+    },
+    {
+      "code": "NURS2020",
+      "url": "https://www.sydney.edu.au/units/NURS2020",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.806Z"
+    },
+    {
+      "code": "NURS2021",
+      "url": "https://www.sydney.edu.au/units/NURS2021",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.808Z"
+    },
+    {
+      "code": "NURS2022",
+      "url": "https://www.sydney.edu.au/units/NURS2022",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.861Z"
+    },
+    {
+      "code": "NURS2023",
+      "url": "https://www.sydney.edu.au/units/NURS2023",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.860Z"
+    },
+    {
+      "code": "NURS3021",
+      "url": "https://www.sydney.edu.au/units/NURS3021",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.865Z"
+    },
+    {
+      "code": "NURS3022",
+      "url": "https://www.sydney.edu.au/units/NURS3022",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.862Z"
+    },
+    {
+      "code": "NURS3023",
+      "url": "https://www.sydney.edu.au/units/NURS3023",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.916Z"
+    },
+    {
+      "code": "NURS6034",
+      "url": "https://www.sydney.edu.au/units/NURS6034",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.924Z"
+    },
+    {
+      "code": "NURS6035",
+      "url": "https://www.sydney.edu.au/units/NURS6035",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.917Z"
+    },
+    {
+      "code": "NURS6036",
+      "url": "https://www.sydney.edu.au/units/NURS6036",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.928Z"
+    },
+    {
+      "code": "PHAR5915",
+      "url": "https://www.sydney.edu.au/units/PHAR5915",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Sorry, this unit of study is not available and may be under development\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.054Z"
+    },
+    {
+      "code": "PHAR5925",
+      "url": "https://www.sydney.edu.au/units/PHAR5925",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.977Z"
+    },
+    {
+      "code": "PHSI3011",
+      "url": "https://www.sydney.edu.au/units/PHSI3011",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.984Z"
+    },
+    {
+      "code": "PHYS4017",
+      "url": "https://www.sydney.edu.au/units/PHYS4017",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:00.980Z"
+    },
+    {
+      "code": "SANS2602",
+      "url": "https://www.sydney.edu.au/units/SANS2602",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.118Z"
+    },
+    {
+      "code": "SCLP3604",
+      "url": "https://www.sydney.edu.au/units/SCLP3604",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.097Z"
+    },
+    {
+      "code": "SSLS4103",
+      "url": "https://www.sydney.edu.au/units/SSLS4103",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.115Z"
+    },
+    {
+      "code": "SSLS4104",
+      "url": "https://www.sydney.edu.au/units/SSLS4104",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.169Z"
+    },
+    {
+      "code": "USSC2607",
+      "url": "https://www.sydney.edu.au/units/USSC2607",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.167Z"
+    },
+    {
+      "code": "WORK3207",
+      "url": "https://www.sydney.edu.au/units/WORK3207",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.191Z"
+    },
+    {
+      "code": "WRIT3000",
+      "url": "https://www.sydney.edu.au/units/WRIT3000",
+      "attempts": 4,
+      "error": "Could not parse USYD unit heading: \"Page not found\"",
+      "lastAttemptAt": "2026-08-25T14:48:01.192Z"
+    }
+  ]
+}

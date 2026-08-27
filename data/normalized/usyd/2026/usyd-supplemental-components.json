@@ -1,0 +1,258 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T08:52:18.633Z",
+  "sourceNamedEvidenceCount": 36,
+  "uniqueSupplementalComponents": 9,
+  "countsByReason": {
+    "missingRole": 2,
+    "missingFamily": 3,
+    "onlyOtherHandbook": 4
+  },
+  "components": [
+    {
+      "name": "Economics",
+      "type": "PROGRAM",
+      "handbook": "ARTS",
+      "requiredCreditPoints": 72,
+      "supplemental": true,
+      "evidenceKind": "MISSING_ROLE_SAME_NAME_EXISTS",
+      "evidence": [
+        {
+          "degreeCode": "BPECONOM-05",
+          "degreeTitle": "Bachelor of Economics",
+          "rawText": "a program in Economics (72 credit points) as defined in Table A and Section 7; and",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/resolutions.html"
+        },
+        {
+          "degreeCode": "BPECONOM-05",
+          "degreeTitle": "Bachelor of Economics",
+          "rawText": "To qualify for the award of the Bachelor of Economics, a candidate must complete 144 credit points, comprising: (a) a program in Economics (72 credit points) as defined in Table A and Section 7; and (b) a minor (36 credit points) or second major (48 credit points) as defined in Section 7 below and as specified in Table A for the Bachelor of Economics or Table S; (c) For students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as specified in Table O; (d) For students enrolled in the Dalyell stream: a minimum of 12 credit points of Dalyell units of study as specified in Table D. (e) Students previously enrolled in the Dalyell stream in their current degree who are no longer enrolled in the stream and have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment and (f) Where appropriate, elective units from Table A for the Bachelor of Economics, Table S, Table O or, for students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (3) Bachelor of Economics and Bachelor of Advanced Studies",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/resolutions.html"
+        },
+        {
+          "degreeCode": "BPECNAVS-01",
+          "degreeTitle": "Bachelor of Economics and Bachelor of Advanced Studies",
+          "rawText": "a program in Economics (72 credit points) as defined in Table A and Section 7; and",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/resolutions.html"
+        },
+        {
+          "degreeCode": "BPECNAVS-01",
+          "degreeTitle": "Bachelor of Economics and Bachelor of Advanced Studies",
+          "rawText": "To qualify for the award of the Bachelor of Economics and Bachelor of Advanced Studies, a candidate must complete 192 credit points, comprising: (a) a program in Economics (72 credit points) as defined in Table A and Section 7; and (b) a second major (48 credit points) as defined in Section 7 below and as specified in Table A for the Bachelor of Economics or Table S; (c) For students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as specified in Table O; (d) For students enrolled in the Dalyell stream, a minimum of 12 credit points of Dalyell units of study as specified in Table D. (e) For students previously enrolled in the Dalyell stream in their current degree who are no longer enrolled in the stream and have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (f) A minimum of 24 credit points of 4000-level units of study from Table A for the Bachelor of Economics or Table S, including a community, industry or entrepreneurship project of at least 12 and up to 36 credit points; and (g) Where appropriate, elective units from Table A for the Bachelor of Economics, Table S, Table O or, for students enrolled in the Dalyell stream, Table D. (4) Bachelor of Economics (Dual Degree: Sciences Po, France)",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-economics-advanced-studies/resolutions.html"
+        },
+        {
+          "degreeCode": "BPECNLAW-07",
+          "degreeTitle": "Bachelor of Economics and Bachelor of Laws",
+          "rawText": "a program in Economics (72 credit points) as specified in Table A for the Bachelor of Economics as set out in Section 7 below;",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-laws/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-laws/resolutions.html"
+        },
+        {
+          "degreeCode": "BPECNLAW-07",
+          "degreeTitle": "Bachelor of Economics and Bachelor of Laws",
+          "rawText": "(1) The units of study that may be taken for this combined degree are set out in: (a) Table A for the Bachelor of Economics; (b) the University of Sydney Law School Undergraduate Table; (c) Table S of the Shared Pool for Undergraduate Degrees; (d) Table O of the Shared Pool for Undergraduate Degrees; and (e) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, the University of Sydney Law School Undergraduate Table, Table S, Table O, and Table D mean Table A, the University of Sydney Law School Undergraduate Table, Table S, Table O, and Table D as specified here. (2) To qualify for the award of the pass combined degrees, a candidate must complete 240 credit points, comprising: (a) a program in Economics (72 credit points) as specified in Table A for the Bachelor of Economics as set out in Section 7 below; (b) for students not enrolled in the Dalyell stream, 6 credit points of units of study in the Open Learning Environment as specified in Table O; (c) for students enrolled in the Dalyell stream; (i) a minimum of 12 credit points of Dalyell units of study as specified in Table D. (d) for students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (e) 18 credit points of elective units from Table A, Table S, Table O or, for students enrolled in the Dalyell stream, 12 credit points of elective units from Table A, S, O or D; (f) if enrolled in a stream, complete the requirements for the stream as specified in Table A or Table D; and (g) 144 credit points of Law units of study as specified in the University of Sydney Law School Undergraduate Table, of which 48 credit points are Combined Law compulsory units of study for Years 1, 2 and 3 of the combined degree and are credited towards the requirements for both the Bachelor of Economics and the Bachelor of Laws. (3) Requirements for the Bachelor of Economics To qualify for the award of the Bachelor of Economics, a candidate must complete 144 credit points, comprising: (a) 96 credit points specified in 6(2) (a) - (g) above; and (b) 48 credit points of Combined Law compulsory units of study for Years 1, 2 and 3 from the University of Sydney Law School Undergraduate Table which shall take the place of the minor/second major specified in the resolutions for the Bachelor of Economics. (4) Requirements for the Bachelor of Laws To qualify for the award of the Bachelor of Laws, a candidate must complete 144 credit points taken from the University of Sydney Law School Undergraduate Table, comprising: (a) 102 credit points of compulsory units of study as specified in the University of Sydney Law School Undergraduate Table; and (b) 42 credit points from the Elective Unit of Study Table (undergraduate) for the University of Sydney Law School, of which a maximum of 36 credit points are taken from Part 1, Elective Units of Study or as specified in 6 (5) (c) below, and a minimum of 6 credit points are taken from Part 2, Jurisprudence Elective Units of Study. (c) Students may apply to take up to a maximum of 24 credit points of advanced learning Master's units of study as elective units of study. (i) enrolment in Master's units of study will be subject to availability and any unit pre-requisites or assumed knowledge, which may include relevant industry experience or prior specialist study. (ii) enrolment in Master's units is only permitted after a candidate has completed 96 credit points towards the Bachelor of Laws. (iii) students may only enrol in Master's units listed in the Bachelor of Laws Elective units of study Table.",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-laws/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/economics-laws/resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "International Studies",
+      "type": "MAJOR",
+      "handbook": "ARTS",
+      "requiredCreditPoints": 48,
+      "supplemental": true,
+      "evidenceKind": "MISSING_COMPONENT_FAMILY",
+      "evidence": [
+        {
+          "degreeCode": "BPINTSTD-02",
+          "degreeTitle": "Bachelor of International Studies",
+          "rawText": "A major (48 credit points) in International Studies as listed and defined in section 7 and as specified in Table A;",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-international-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-international-studies/course-resolutions.html"
+        },
+        {
+          "degreeCode": "BPINTSTD-02",
+          "degreeTitle": "Bachelor of International Studies",
+          "rawText": "(1) The units of study that may be taken for the Bachelor of International Studies are set out in: (a) Table A for the Bachelor of International Studies: (b) Table S of the Shared Pool for Undergraduate Degrees; (c) Table O of the Shared Pool for Undergraduate Degrees; (d) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate Degrees. (e) In these resolutions, except where otherwise specified, Table A, Table S, Table O and Table D mean Table A, Table S, Table O and Table D as specified here. (2) To qualify for the award of the Bachelor of International Studies degree, candidates must complete 144 credit points in total, comprising: (a) A major (48 credit points) in International Studies as listed and defined in section 7 and as specified in Table A; (b) A minor (36 credit points) or second major (48 credit points) as listed and defined in section 7 and as specified in Table A (c) If the major or minor taken in (b) is not a language major or minor, 24 credit points in units of study designated as language units in language subject areas as listed in 7(1)(a) (d) For students enrolled in the Dalyell Stream, a minimum of 12 credit points of Dalyell Stream units of study as specified in Table D (e) As required, elective units from Table S, or for students enrolled in the Dalyell stream, Table D, or a maximum of 12 credit points of units from Table O.",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-international-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/b-international-studies/course-resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "Sociology",
+      "type": "MINOR",
+      "handbook": "ARTS",
+      "requiredCreditPoints": 36,
+      "supplemental": true,
+      "evidenceKind": "MISSING_ROLE_SAME_NAME_EXISTS",
+      "evidence": [
+        {
+          "degreeCode": "BPARTSWK-04",
+          "degreeTitle": "Bachelor of Arts and Bachelor of Social Work",
+          "rawText": "A minor (36 credit points) in Sociology or, where a major in Sociology has been completed, a minor from Table S;",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work/resolutions.html"
+        },
+        {
+          "degreeCode": "BPARTSWK-04",
+          "degreeTitle": "Bachelor of Arts and Bachelor of Social Work",
+          "rawText": "(1) The units of study that may be taken for the Bachelor of Arts and Bachelor of Social Work in the combined program are set out in; (a) Table A for the Bachelor of Arts/Bachelor of Advanced Studies; (b) Table S from the Shared Pool for Undergraduate Degrees; and (c) Table O for the Shared Pool for Undergraduate Degrees; (d) Table A for the Bachelor of Social Work component of the Bachelor of Arts and Bachelor of Social Work. (e) For students enrolled in the Dalyell stream, Table D of the Shared Pool for Undergraduate degrees; and (f) The enrolment table of units for the Bachelor of Arts and Bachelor of Social Work. In these resolutions, except where otherwise specified, Table S, Table O, and Table D mean Table S, Table O, and Table D as specified here. (2) To qualify for the award of the Bachelor of Arts and Bachelor of Social Work, candidates must complete 240 credit points comprising; (a) A major (48 credit points) from Table A for the Bachelor of Arts and Bachelor of Advanced Studies as set out in Section 7 below; (b) A minor (36 credit points) in Sociology or, where a major in Sociology has been completed, a minor from Table S; (c) For students not enrolled in the Dalyell Stream, 6 credit points of units from the Open Learning Environment as set out in Table O; (d) For students enrolled in the Dalyell Stream; a minimum of 12 credit points of Dalyell units of study as specified in Table D. (e) Students previously but no longer enrolled in the Dalyell stream who have completed at least 6 credit points of Dalyell units of study are not required to complete any units of study in the Open Learning Environment; (f) As appropriate, elective units from Table S; (g) 12 credit points at 1000-level in Social Work core units of study as specified in Table A for the Bachelor of Social Work and the table of units of study for the Bachelor of Arts and Bachelor of Social Work; (h) 36 credit points at 2000-level in Social Work core units of study from Table A for the Bachelor of Social Work as specified in the table of units of study for the Bachelor of Arts and Bachelor of Social Work; (i) 48 credit points at 3000-level in Social Work core units of study as specified in Table A for the Bachelor of Social Work and the table of units of study for the Bachelor of Arts and Bachelor of Social Work; (j) 48 credit points at 4000-level in Social Work core units of study as specified in Table A for the Bachelor of Social Work and the table of units of study for the Bachelor of Arts and Bachelor of Social Work. (3) Students must complete a research unit, from those stated in 3(a) (a) Students are to complete one of: (i) SCLG3701 Social Inquiry: Qualitative Methods (ii) SCLG3702 Social Inquiry: Quantitative Methods",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/arts/coursework/arts-social-work/resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "Musicology",
+      "type": "MAJOR",
+      "handbook": "CONSERVATORIUM",
+      "requiredCreditPoints": 48,
+      "supplemental": true,
+      "evidenceKind": "MISSING_COMPONENT_FAMILY",
+      "evidence": [
+        {
+          "degreeCode": "BPMUSICM-05",
+          "degreeTitle": "Bachelor of Music",
+          "rawText": "a 48 credit point major in Musicology as defined in Section 7 and 12 credit points of core units of study as specified in Table A; and",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+        },
+        {
+          "degreeCode": "BPMUSICM-05",
+          "degreeTitle": "Bachelor of Music",
+          "rawText": "To qualify for the award of the Bachelor of Music without a stream, candidates must complete 192 credit points in total comprising: (a) 48 credit points of core units of study as specified in Table A comprising: i. 24 credit points of Music Skills units of study; and ii. 24 credit points of Analytical, Historical and Cultural Studies units of study. (b) 12 credit points of additional core units of study comprising Performance or Ensemble units of study from Table A; and (c) 12 credit points of Final Year Project units of study as specified in Table A; (d) One of the following: (i) a 72 credit point Program as defined in Section 7 and as specified in Table A; or (ii) a 48 credit point major in Musicology as defined in Section 7 and 12 credit points of core units of study as specified in Table A; and (e) One or more of the following where appropriate: (i) a 48 credit point major from Table S; (ii) a 36 credit point minor from Table A or S; (iii) elective units from Table A, Table S or a maximum of 12 credit points of units of study in the Open Learning Environment as specified in Table O. (3)",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/conservatorium/undergraduate/bachelor-of-music/course-resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "Disability and Participation",
+      "type": "MAJOR",
+      "handbook": "MEDICINE_HEALTH",
+      "requiredCreditPoints": 48,
+      "supplemental": true,
+      "evidenceKind": "ONLY_OTHER_HANDBOOK",
+      "evidence": [
+        {
+          "degreeCode": "BPASOCTE-06",
+          "degreeTitle": "Bachelor of Applied Science (Occupational Therapy)",
+          "rawText": "a major (48 credit points) in Disability and Participation from Table A;",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html"
+        },
+        {
+          "degreeCode": "BPASOCTE-06",
+          "degreeTitle": "Bachelor of Applied Science (Occupational Therapy)",
+          "rawText": "(1) The units of study that may be taken for the Bachelor of Applied Science (Occupational Therapy) are set out in the: (a) Table A for the Bachelor of Applied Science (Occupational Therapy); and (b) Table S. (2) In these resolutions, except where otherwise specified, Table A means Table A for the Bachelor of Applied Science (Occupational Therapy) and Table S means the shared pool of electives for undergraduate degrees. (3) To qualify for the award of the Bachelor of Applied Science (Occupational Therapy), a candidate must complete 192 credit points of units of study comprising: (a) degree core units of study (138 credit points) as set out in Table A; (b) a minor (36 credit points) in Disability and Participation from Table A; or (c) a major (48 credit points) in Disability and Participation from Table A; (d) elective units of study from either Table A of the Bachelor of Applied Science (Occupational Therapy) or Table S to satisfy a total of 192 credit points for the course.",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "Disability and Participation",
+      "type": "MINOR",
+      "handbook": "MEDICINE_HEALTH",
+      "requiredCreditPoints": 36,
+      "supplemental": true,
+      "evidenceKind": "ONLY_OTHER_HANDBOOK",
+      "evidence": [
+        {
+          "degreeCode": "BPASOCTE-06",
+          "degreeTitle": "Bachelor of Applied Science (Occupational Therapy)",
+          "rawText": "a minor (36 credit points) in Disability and Participation from Table A; or",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html"
+        },
+        {
+          "degreeCode": "BPASOCTE-06",
+          "degreeTitle": "Bachelor of Applied Science (Occupational Therapy)",
+          "rawText": "(1) The units of study that may be taken for the Bachelor of Applied Science (Occupational Therapy) are set out in the: (a) Table A for the Bachelor of Applied Science (Occupational Therapy); and (b) Table S. (2) In these resolutions, except where otherwise specified, Table A means Table A for the Bachelor of Applied Science (Occupational Therapy) and Table S means the shared pool of electives for undergraduate degrees. (3) To qualify for the award of the Bachelor of Applied Science (Occupational Therapy), a candidate must complete 192 credit points of units of study comprising: (a) degree core units of study (138 credit points) as set out in Table A; (b) a minor (36 credit points) in Disability and Participation from Table A; or (c) a major (48 credit points) in Disability and Participation from Table A; (d) elective units of study from either Table A of the Bachelor of Applied Science (Occupational Therapy) or Table S to satisfy a total of 192 credit points for the course.",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/course-resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "Exercise Science",
+      "type": "MAJOR",
+      "handbook": "MEDICINE_HEALTH",
+      "requiredCreditPoints": 48,
+      "supplemental": true,
+      "evidenceKind": "MISSING_COMPONENT_FAMILY",
+      "evidence": [
+        {
+          "degreeCode": "BPASESSC-03",
+          "degreeTitle": "Bachelor of Applied Science (Exercise and Sport Science)",
+          "rawText": "a major (48 credit points) in Exercise Science listed and defined in Section 6 below and specified in Table A;",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/course-resolutions.html"
+        },
+        {
+          "degreeCode": "BPASESSC-03",
+          "degreeTitle": "Bachelor of Applied Science (Exercise and Sport Science)",
+          "rawText": "(1) The units of study that may be taken for the Bachelor of Applied Science (Exercise and Sport Science) are set out in: (a) Table A for the Bachelor of Applied Science (Exercise and Sport Science); (b) Table S of the Shared Pool for Undergraduate Degrees; and (c) Table O of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, Table S and Table O mean Table A, Table S and Table O as specified here. (2) Bachelor of Applied Science (Exercise and Sport Science): To qualify for the award of the Bachelor of Applied Science (Exercise and Sport Science), a candidate must complete 144 credit points, comprising: (a) 12 credit points of core units of study as set out in Table A; (b) a major (48 credit points) in Exercise Science listed and defined in Section 6 below and specified in Table A; (c) a minor (36 credit points) or a major (48 credit points) in Physical Activity and Health as listed and defined in Section 6 below and specified in Table A; and (d) any combination of the following to satisfy a total of 144 credit points for the course: (i) a second minor or second major as defined in Section 6 below and specified in Table S; (ii) 12 credit points of elective units from Table O; (iii) any additional elective units of study from Table A or Table S.",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/course-resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "Physical Activity and Health",
+      "type": "MAJOR",
+      "handbook": "MEDICINE_HEALTH",
+      "requiredCreditPoints": 48,
+      "supplemental": true,
+      "evidenceKind": "ONLY_OTHER_HANDBOOK",
+      "evidence": [
+        {
+          "degreeCode": "BPASESSC-03",
+          "degreeTitle": "Bachelor of Applied Science (Exercise and Sport Science)",
+          "rawText": "a minor (36 credit points) or a major (48 credit points) in Physical Activity and Health as listed and defined in Section 6 below and specified in Table A; and",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/course-resolutions.html"
+        },
+        {
+          "degreeCode": "BPASESSC-03",
+          "degreeTitle": "Bachelor of Applied Science (Exercise and Sport Science)",
+          "rawText": "(1) The units of study that may be taken for the Bachelor of Applied Science (Exercise and Sport Science) are set out in: (a) Table A for the Bachelor of Applied Science (Exercise and Sport Science); (b) Table S of the Shared Pool for Undergraduate Degrees; and (c) Table O of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, Table S and Table O mean Table A, Table S and Table O as specified here. (2) Bachelor of Applied Science (Exercise and Sport Science): To qualify for the award of the Bachelor of Applied Science (Exercise and Sport Science), a candidate must complete 144 credit points, comprising: (a) 12 credit points of core units of study as set out in Table A; (b) a major (48 credit points) in Exercise Science listed and defined in Section 6 below and specified in Table A; (c) a minor (36 credit points) or a major (48 credit points) in Physical Activity and Health as listed and defined in Section 6 below and specified in Table A; and (d) any combination of the following to satisfy a total of 144 credit points for the course: (i) a second minor or second major as defined in Section 6 below and specified in Table S; (ii) 12 credit points of elective units from Table O; (iii) any additional elective units of study from Table A or Table S.",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/course-resolutions.html"
+        }
+      ]
+    },
+    {
+      "name": "Physical Activity and Health",
+      "type": "MINOR",
+      "handbook": "MEDICINE_HEALTH",
+      "requiredCreditPoints": 36,
+      "supplemental": true,
+      "evidenceKind": "ONLY_OTHER_HANDBOOK",
+      "evidence": [
+        {
+          "degreeCode": "BPASESSC-03",
+          "degreeTitle": "Bachelor of Applied Science (Exercise and Sport Science)",
+          "rawText": "a minor (36 credit points) or a major (48 credit points) in Physical Activity and Health as listed and defined in Section 6 below and specified in Table A; and",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/course-resolutions.html"
+        },
+        {
+          "degreeCode": "BPASESSC-03",
+          "degreeTitle": "Bachelor of Applied Science (Exercise and Sport Science)",
+          "rawText": "(1) The units of study that may be taken for the Bachelor of Applied Science (Exercise and Sport Science) are set out in: (a) Table A for the Bachelor of Applied Science (Exercise and Sport Science); (b) Table S of the Shared Pool for Undergraduate Degrees; and (c) Table O of the Shared Pool for Undergraduate Degrees. In these resolutions, except where otherwise specified, Table A, Table S and Table O mean Table A, Table S and Table O as specified here. (2) Bachelor of Applied Science (Exercise and Sport Science): To qualify for the award of the Bachelor of Applied Science (Exercise and Sport Science), a candidate must complete 144 credit points, comprising: (a) 12 credit points of core units of study as set out in Table A; (b) a major (48 credit points) in Exercise Science listed and defined in Section 6 below and specified in Table A; (c) a minor (36 credit points) or a major (48 credit points) in Physical Activity and Health as listed and defined in Section 6 below and specified in Table A; and (d) any combination of the following to satisfy a total of 144 credit points for the course: (i) a second minor or second major as defined in Section 6 below and specified in Table S; (ii) 12 credit points of elective units from Table O; (iii) any additional elective units of study from Table A or Table S.",
+          "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html",
+          "resolutionsUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/course-resolutions.html"
+        }
+      ]
+    }
+  ]
+}

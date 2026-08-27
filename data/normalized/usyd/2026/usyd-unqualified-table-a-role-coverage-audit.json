@@ -1,0 +1,356 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T11:17:49.159Z",
+  "counts": {
+    "eligibleSignals": 46,
+    "requestedScopeRolePairs": 11,
+    "pairsWithCandidates": 7,
+    "pairsWithoutCandidates": 4
+  },
+  "records": [
+    {
+      "scope": "ARTS",
+      "role": "MAJOR",
+      "sourceHandbook": "ARTS",
+      "signalCount": 9,
+      "degrees": [
+        "BHENGART-05",
+        "BHLIARSH-01",
+        "BPARTAVS-01",
+        "BPARTMED-01",
+        "BPARTSAR-09",
+        "BPARTXTD-01",
+        "BPLANGUA-01",
+        "BPLIARSC-02"
+      ],
+      "candidateCount": 52,
+      "candidateNames": [
+        "American Studies",
+        "Ancient Greek",
+        "Ancient History",
+        "Anthropology",
+        "Arabic Language and Cultures",
+        "Archaeology",
+        "Art History",
+        "Asian Studies",
+        "Chinese Studies",
+        "Criminology",
+        "Cultural Studies",
+        "Digital Cultures",
+        "Diversity Studies",
+        "Econometrics",
+        "Economic Policy Analysis",
+        "Economics",
+        "Education Studies",
+        "English",
+        "Environmental, Agricultural and Resource Economics",
+        "European Studies",
+        "Exchange, Internships and Projects",
+        "Film Studies",
+        "Financial Economics",
+        "French and Francophone Studies",
+        "Gender Studies",
+        "Germanic Studies",
+        "Hebrew (Modern)",
+        "History",
+        "Indigenous Studies",
+        "Indonesian Studies",
+        "International Relations",
+        "International Studies",
+        "International and Comparative Literary Studies",
+        "Italian Studies",
+        "Japanese Studies",
+        "Jewish Civilisation, Thought and Culture",
+        "Korean Studies",
+        "Latin",
+        "Linguistics",
+        "Media Studies",
+        "Modern Greek Studies",
+        "Music",
+        "Philosophy",
+        "Political Economy",
+        "Politics",
+        "Sanskrit",
+        "Socio-Legal Studies",
+        "Sociology",
+        "Spanish and Latin American Studies",
+        "Studies in Religion",
+        "Theatre and Performance Studies",
+        "Visual Arts"
+      ],
+      "status": "HAS_CANDIDATES_NEEDS_SOURCE_ROLE_AUDIT",
+      "evidenceExamples": [
+        "a major (48 credit points) or a 3-year program with an embedded major from Table A",
+        "a major from either Science Table A or Arts and Social Sciences Table A",
+        "major or program is being completed, units counted towards Arts and Social Sciences can be any combination of units listed in Arts and Social Sciences Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Arts & Social Sciences Table A",
+        "A major (48 credit points) or program as listed and defined in Section 7 below and specified in Table A",
+        "second major (48 credit points) as listed and defined in Section 7 below and specified in Table A or Table S"
+      ]
+    },
+    {
+      "scope": "ARTS",
+      "role": "MINOR",
+      "sourceHandbook": "ARTS",
+      "signalCount": 5,
+      "degrees": [
+        "BPARTMED-01",
+        "BPARTSAR-09",
+        "BPARTXTD-01",
+        "BPINTSTD-02",
+        "BPLANGUA-01"
+      ],
+      "candidateCount": 1,
+      "candidateNames": [
+        "Sociology"
+      ],
+      "status": "HAS_CANDIDATES_NEEDS_SOURCE_ROLE_AUDIT",
+      "evidenceExamples": [
+        "A minor (36 credit points) or second major (48 credit points) as defined in Table A or Table S",
+        "A minor (36 credit points) or second major (48 credit points) as listed and defined in Section 7 below and as specified in Table A or Table S",
+        "A minor (36 credit points) or second major (48 credit points) as listed and defined in Section 8 below and as specified in Table A or Table S",
+        "A minor (36 credit points) or second major (48 credit points) as listed and defined in section 7 and as specified in Table A",
+        "A minor (36 credit points) or second major (48 credit points) as specified in Table A or Table S"
+      ]
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MAJOR",
+      "sourceHandbook": "BUSINESS",
+      "signalCount": 3,
+      "degrees": [
+        "BHENGCOM-05",
+        "BPCOMAVS-01",
+        "BPCOMMER-06"
+      ],
+      "candidateCount": 12,
+      "candidateNames": [
+        "Accounting",
+        "Accounting (Professional)",
+        "Banking",
+        "Business Analytics",
+        "Business Information Systems",
+        "Business Law",
+        "Finance",
+        "Industrial Relations and Human Resource Management",
+        "Innovation and Entrepreneurship",
+        "International Business",
+        "Management and Leadership",
+        "Marketing"
+      ],
+      "status": "HAS_CANDIDATES_NEEDS_SOURCE_ROLE_AUDIT",
+      "evidenceExamples": [
+        "a major (48 credit points) or a 3-year program with an embedded major from Table A",
+        "a major (48 credit points) or program listed in section 7 below and specified in Table A",
+        "second major (48 credit points) as listed and specified in Table A or Table S"
+      ]
+    },
+    {
+      "scope": "BUSINESS",
+      "role": "MINOR",
+      "sourceHandbook": "BUSINESS",
+      "signalCount": 1,
+      "degrees": [
+        "BPCOMMER-06"
+      ],
+      "candidateCount": 0,
+      "candidateNames": [],
+      "status": "NO_EXACT_ROLE_CANDIDATES",
+      "evidenceExamples": [
+        "a minor (36 credit points) or second major (48 credit points) as listed and specified in Table A or Table S"
+      ]
+    },
+    {
+      "scope": "COMPUTING",
+      "role": "MINOR",
+      "sourceHandbook": "ENGINEERING",
+      "signalCount": 2,
+      "degrees": [
+        "BPADVCMP-01",
+        "BPCOMPUT-01"
+      ],
+      "candidateCount": 0,
+      "candidateNames": [],
+      "status": "NO_EXACT_ROLE_CANDIDATES",
+      "evidenceExamples": [
+        "a minor (36 credit points) or second major (48 credit points) from Table S or Table A",
+        "a minor (36 credit points) from Table S or Table A"
+      ]
+    },
+    {
+      "scope": "CONSERVATORIUM",
+      "role": "MINOR",
+      "sourceHandbook": "CONSERVATORIUM",
+      "signalCount": 1,
+      "degrees": [
+        "BPMUCOMP-01"
+      ],
+      "candidateCount": 1,
+      "candidateNames": [
+        "Bachelor of Music - Minors"
+      ],
+      "status": "HAS_CANDIDATES_NEEDS_SOURCE_ROLE_AUDIT",
+      "evidenceExamples": [
+        "minor from Table A or Table S"
+      ]
+    },
+    {
+      "scope": "CONSERVATORIUM",
+      "role": "PROGRAM",
+      "sourceHandbook": "CONSERVATORIUM",
+      "signalCount": 1,
+      "degrees": [
+        "BPMUSICM-05"
+      ],
+      "candidateCount": 3,
+      "candidateNames": [
+        "Composition For Creative Industries",
+        "Contemporary Music Practice",
+        "Digital Music Composition"
+      ],
+      "status": "HAS_CANDIDATES_NEEDS_SOURCE_ROLE_AUDIT",
+      "evidenceExamples": [
+        "Program as defined in Section 7 and as specified in Table A"
+      ]
+    },
+    {
+      "scope": "ENGINEERING",
+      "role": "MAJOR",
+      "sourceHandbook": "ENGINEERING",
+      "signalCount": 1,
+      "degrees": [
+        "BHPRJMGT-01",
+        "BPPRJMGT-02"
+      ],
+      "candidateCount": 6,
+      "candidateNames": [
+        "Built Environment",
+        "Computational Data Science",
+        "Computer Science",
+        "Construction",
+        "Cybersecurity",
+        "Software Development"
+      ],
+      "status": "HAS_CANDIDATES_NEEDS_SOURCE_ROLE_AUDIT",
+      "evidenceExamples": [
+        "a major (48 credit points) from Table A or Table S"
+      ]
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MAJOR",
+      "sourceHandbook": "SCIENCE",
+      "signalCount": 7,
+      "degrees": [
+        "BHLIARSH-01",
+        "BPLIARSC-02",
+        "BPSCIAVS-01",
+        "BPSCIDMD-01",
+        "BPSCIENC-05",
+        "BPSCIMED-01",
+        "BPSCINUR-02",
+        "BPSCIXTD-01"
+      ],
+      "candidateCount": 46,
+      "candidateNames": [
+        "Anatomy and Histology",
+        "Animal Health, Disease and Welfare",
+        "Animal Production",
+        "Applied Medical Science",
+        "Astrophysics",
+        "Biochemistry and Molecular Biology",
+        "Biology",
+        "Chemistry",
+        "Computer Science",
+        "Data Science",
+        "Discrete Mathematics and Algorithms",
+        "Ecology and Evolutionary Biology",
+        "Environmental Science",
+        "Environmental Studies",
+        "Financial Mathematics and Statistics",
+        "Food Science",
+        "Genetics and Genomics",
+        "Geography",
+        "Geology and Geophysics",
+        "Health",
+        "History and Philosophy of Science",
+        "Immunology",
+        "Immunology and Pathology",
+        "Infectious Diseases",
+        "Life Sciences",
+        "Marine Science",
+        "Mathematical Modelling and Computation",
+        "Mathematics",
+        "Medical Science",
+        "Medicinal Chemistry",
+        "Microbiology",
+        "Neuroscience",
+        "Nutrition Science",
+        "Nutrition and Dietetics",
+        "Pathology",
+        "Pharmacology",
+        "Physics",
+        "Physiology",
+        "Plant Science",
+        "Psychological Science",
+        "Psychology",
+        "Software Development",
+        "Soil Science and Hydrology",
+        "Statistics",
+        "Virology",
+        "Wildlife Conservation"
+      ],
+      "status": "HAS_CANDIDATES_NEEDS_SOURCE_ROLE_AUDIT",
+      "evidenceExamples": [
+        "a major from either Science Table A or Arts and Social Sciences Table A",
+        "major is completed, the units counted towards this Science requirement can be any combination of units listed in Science Table A that includes a minimum of 12 credit points at the 2000 or 3000 level and may complete a major or minor from Science Table A",
+        "A major (48 credit points of units of study) or program listed and defined in Section 7 below and specified in Table A",
+        "second major (48 credit points of units of study) as defined in Section 7 below and specified in Table A or Table S",
+        "A major (48 credit points of units of study) or program defined in Section 7 below and listed in Table A"
+      ]
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "MINOR",
+      "sourceHandbook": "SCIENCE",
+      "signalCount": 6,
+      "degrees": [
+        "BHPSYCHH-02",
+        "BPMATHSC-01",
+        "BPPSYCHO-04",
+        "BPSCIDMD-01",
+        "BPSCIENC-05",
+        "BPSCIMED-01",
+        "BPSCINUD-02",
+        "BPSCIXTD-01"
+      ],
+      "candidateCount": 0,
+      "candidateNames": [],
+      "status": "NO_EXACT_ROLE_CANDIDATES",
+      "evidenceExamples": [
+        "a minor (36 credit points) from the Bachelor of Science Table A, or Table S",
+        "a minor (36 credit points of units of study) or second major (48 credit points of units of study) from the Bachelor of Science Table A or Table S",
+        "minor as listed in the Bachelor of Science Table A, or Table S",
+        "A minor (36 credit points of units of study) or second major (48 credit points of units of study) as defined in Section 7 below and listed in Table A or Table S",
+        "a minor (36 credit points of units of study) or second major (48 credit points of units of study) as defined in Table A or Table S"
+      ]
+    },
+    {
+      "scope": "SCIENCE",
+      "role": "PROGRAM",
+      "sourceHandbook": "SCIENCE",
+      "signalCount": 2,
+      "degrees": [
+        "BHPSYCHH-02",
+        "BPPSYCHO-04"
+      ],
+      "candidateCount": 0,
+      "candidateNames": [],
+      "status": "NO_EXACT_ROLE_CANDIDATES",
+      "evidenceExamples": [
+        "Program as listed in the Bachelor of Science and Bachelor of Science/Bachelor of Advanced Studies Table A",
+        "program as listed in the Bachelor of Science and Bachelor of Science and Bachelor of Advanced Studies Table A"
+      ]
+    }
+  ]
+}

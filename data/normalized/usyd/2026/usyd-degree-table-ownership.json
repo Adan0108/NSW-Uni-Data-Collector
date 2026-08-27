@@ -1,0 +1,382 @@
+{
+  "university": "USYD",
+  "handbookYear": 2026,
+  "generatedAt": "2026-08-26T07:46:38.818Z",
+  "discoveredTableCount": 37,
+  "mappedTableCount": 37,
+  "directCount": 34,
+  "sharedCount": 3,
+  "unresolvedCount": 0,
+  "ownership": [
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/exchange/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/exchange/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-architecture-environments",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/honours/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/honours/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-architecture-environments",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-architecture-environments",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-architecture-environments/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/design-exchange/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/design-exchange/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-interaction-design-advanced-studies",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-honours/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-honours/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-design-honours",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-honours/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/exchange/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/exchange/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-design-architecture",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/honours/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/honours/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-design-architecture",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-design-architecture",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/exchange/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/exchange/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-design-architecture-m-architecture",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-design-architecture-m-architecture",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture-m-architecture/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/design-advanced-studies-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/design-advanced-studies-unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-interaction-design-advanced-studies",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "ARCHITECTURE",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/design-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/design-unit-of-study-table.html",
+      "ownerKey": "ARCHITECTURE:b-interaction-design-advanced-studies",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-interaction-design-advanced-studies/overview.html",
+      "status": "DIRECT",
+      "reason": "Architecture degree-specific table is contained inside one undergraduate course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/honours-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/honours-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:diagnostic-radiography",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:diagnostic-radiography",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/diagnostic-radiography/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:exercise-sport-science-advanced-studies",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-sport-science-advanced-studies/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/exercise-sport-science-honours/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/exercise-sport-science-honours/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:honours:exercise-sport-science-honours",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/exercise-sport-science-honours/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-physiology/honours-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-physiology/honours-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:exercise-physiology",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-physiology/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-physiology/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-physiology/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:exercise-physiology",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/exercise-physiology/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/disability-participation-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/disability-participation-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:occupational-therapy",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/honours-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/honours-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:occupational-therapy",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:occupational-therapy",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/occupational-therapy/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/physiotherapy/honours-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/physiotherapy/honours-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:physiotherapy",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/physiotherapy/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/physiotherapy/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/physiotherapy/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:physiotherapy",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/physiotherapy/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/arts-nursing/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/arts-nursing/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:arts-nursing",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/arts-nursing/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:biomedicine-and-health",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/biomedicine-and-health/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/health-sciences-honours/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/health-sciences-honours/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:honours:health-sciences-honours",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/health-sciences-honours/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/full-time-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:nursing-advanced-studies",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/part-time-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:nursing-advanced-studies",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/nursing-advanced-studies/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/nursing-honours/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/nursing-honours/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:honours:nursing-honours",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/honours/nursing-honours/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:pharmacy",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy-management/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy-management/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:pharmacy-management",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/pharmacy-management/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/oral-health/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/oral-health/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:oral-health",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/oral-health/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/honours-unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:speech-pathology",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "MEDICINE_HEALTH",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/unit-of-study-table.html",
+      "ownerKey": "MEDICINE_HEALTH:coursework:speech-pathology",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/medicine-health/coursework/speech-pathology/overview.html",
+      "status": "DIRECT",
+      "reason": "Medicine & Health table is contained inside one coursework/honours course route."
+    },
+    {
+      "handbook": "LAW",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/compulsory-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/compulsory-unit-of-study-table.html",
+      "ownerKey": "LAW:undergraduate-coursework",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate.html",
+      "status": "SHARED",
+      "reason": "The Law compulsory/elective tables are shared undergraduate coursework tables rather than a one-degree-only table."
+    },
+    {
+      "handbook": "LAW",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p1-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p1-unit-of-study-table.html",
+      "ownerKey": "LAW:undergraduate-coursework",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate.html",
+      "status": "SHARED",
+      "reason": "The Law compulsory/elective tables are shared undergraduate coursework tables rather than a one-degree-only table."
+    },
+    {
+      "handbook": "LAW",
+      "degreeTitle": "Unknown",
+      "tableUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p2-jurisprudence-unit-of-study-table.html",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate/electives-p2-jurisprudence-unit-of-study-table.html",
+      "ownerKey": "LAW:undergraduate-coursework",
+      "ownerPageUrl": "https://www.sydney.edu.au/handbooks/law/undergraduate.html",
+      "status": "SHARED",
+      "reason": "The Law compulsory/elective tables are shared undergraduate coursework tables rather than a one-degree-only table."
+    }
+  ]
+}

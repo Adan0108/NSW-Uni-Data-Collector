@@ -1,0 +1,142 @@
+[
+  {
+    "code": "22107",
+    "name": "Accounting for Business Decisions A",
+    "creditPoints": 6,
+    "url": "/subject/2025/22107",
+    "sourceType": "COURSE",
+    "sourceCode": "C10143",
+    "sourceName": "Bachelor of Information Technology (Co-op)",
+    "groupPath": "Electives > Options"
+  },
+  {
+    "code": "21129",
+    "name": "Managing People and Organisations",
+    "creditPoints": 6,
+    "url": "/subject/2025/21129",
+    "sourceType": "COURSE",
+    "sourceCode": "C10143",
+    "sourceName": "Bachelor of Information Technology (Co-op)",
+    "groupPath": "Electives > Options"
+  },
+  {
+    "code": "24108",
+    "name": "Marketing Foundations",
+    "creditPoints": 6,
+    "url": "/subject/2025/24108",
+    "sourceType": "COURSE",
+    "sourceCode": "C10143",
+    "sourceName": "Bachelor of Information Technology (Co-op)",
+    "groupPath": "Electives > Options"
+  },
+  {
+    "code": "95732",
+    "name": "Introduction to Digital Health",
+    "creditPoints": 6,
+    "url": "/subject/2025/95732",
+    "sourceType": "AOS",
+    "sourceCode": "MAJ06245",
+    "sourceName": "MAJ06245 - Health Promotion",
+    "groupPath": "Options"
+  },
+  {
+    "code": "16260",
+    "name": "Honours Research 3",
+    "creditPoints": 6,
+    "url": "/subject/2025/16260",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ08206",
+    "sourceName": "SMJ08206 - Research Methods",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16074",
+    "name": "International Construction",
+    "creditPoints": 6,
+    "url": "/subject/2025/16074",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16075",
+    "name": "Sustainable Building Technology",
+    "creditPoints": 6,
+    "url": "/subject/2025/16075",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16076",
+    "name": "Building Assessment",
+    "creditPoints": 6,
+    "url": "/subject/2025/16076",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "16077",
+    "name": "Advanced Construction Technologies",
+    "creditPoints": 6,
+    "url": "/subject/2025/16077",
+    "sourceType": "AOS",
+    "sourceCode": "SMJ03029",
+    "sourceName": "SMJ03029 - Technology",
+    "groupPath": "Core"
+  },
+  {
+    "code": "92480",
+    "name": "Introduction to Specialty Practice: Reproductive, Maternal and Child Health",
+    "creditPoints": 6,
+    "url": "/subject/2025/92480",
+    "sourceType": "AOS",
+    "sourceCode": "CBK91913",
+    "sourceName": "CBK91913 - Electives",
+    "groupPath": "Options"
+  },
+  {
+    "code": "99215",
+    "name": "Sustainability in Context",
+    "creditPoints": 6,
+    "url": "/subject/2025/99215",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92230",
+    "sourceName": "CBK92230 - Electives (6cp subjects)",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "96342",
+    "name": "Using Health Care Data for Decision Making",
+    "creditPoints": 6,
+    "url": "/subject/2025/96342",
+    "sourceType": "AOS",
+    "sourceCode": "CBK92284",
+    "sourceName": "CBK92284 - Electives (International Relations)",
+    "groupPath": "Electives"
+  },
+  {
+    "code": "096332",
+    "name": "Fundamentals of Health Information Management",
+    "creditPoints": 6,
+    "url": "/subject/2025/096332",
+    "sourceType": "AOS",
+    "sourceCode": "STM91968",
+    "sourceName": "STM91968 - Flexible Major",
+    "groupPath": "Options"
+  },
+  {
+    "code": "090044",
+    "name": "Program Evaluation in Public Health",
+    "creditPoints": 6,
+    "url": "/subject/2025/090044",
+    "sourceType": "AOS",
+    "sourceCode": "STM91968",
+    "sourceName": "STM91968 - Flexible Major",
+    "groupPath": "Options"
+  }
+]
