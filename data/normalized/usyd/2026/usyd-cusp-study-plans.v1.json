@@ -1,0 +1,4808 @@
+{
+  "schemaVersion": "1.0",
+  "universityCode": "USYD",
+  "handbookYear": 2026,
+  "collectedAt": "2026-09-08T09:52:29.915Z",
+  "plans": [
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": null,
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:51:30.918Z"
+    },
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14278/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": "14278",
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering: 1. Stream Specialisation in Computer Engineering",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:51:39.408Z"
+    },
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14279/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": "14279",
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering: 2. Stream Specialisation in Internet of Things (IoT)",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:51:47.827Z"
+    },
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14280/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": "14280",
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering: 3. Stream Specialisation in Intelligent Information Engineering",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:51:55.855Z"
+    },
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14281/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": "14281",
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering: 4. Stream Specialisation in Power Engineering",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:52:04.424Z"
+    },
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14282/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": "14282",
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering: 5. Stream Specialisation in Telecommunications Engineering",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:52:12.704Z"
+    },
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14283/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": "14283",
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering: 6. Breadth Specialisation in Engineering Data Science",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:52:20.726Z"
+    },
+    {
+      "source": "USYD_CUSP",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14284/dvid/6435",
+      "cuspDegreeVersionId": "6435",
+      "cuspStreamId": "14284",
+      "commencementYear": 2026,
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryElectrical Engineering (2026)",
+      "variantTitle": "Electrical Engineering: 7. Breadth Specialisation in Innovation and Entrepreneurship",
+      "underReview": true,
+      "periods": [
+        {
+          "yearNumber": 0,
+          "periodName": "Planning your degree",
+          "title": "Year 0 - Planning your degree",
+          "notes": [
+            "Note: Specialisations in the Electrical Engineering Stream Completion of a specialisation is optional. Students not wishing to complete a specialisations should select `Electrical Stream Electives`. Students may like to initially select the Stream Electives option and choose a specialisation after their first year.",
+            "A stream specialisation is a subset of stream electives relevant to a particular aspect of Electrical Engineering, such as Intelligent Information Engineering or Telecommunications. A breadth specialisation broadens your knowledge outside the field of Electrical Engineering in areas such as Engineering Data Science or Innovation and Entrepreneurship. If you opt to take a breadth specialisation, it takes the place of your free electives.",
+            "You have a few specialisation combinations to choose from in the Electrical Stream:",
+            "1 stream specialisation [30cp] + free electives [24cp] or 1 stream specialisation [30cp] + 1 breadth specialisation [24cp] (no electives) or Stream electives [30cp] + free electives [24cp] (no specialisation option) or Stream electives [30cp] + breadth specialisation [24cp] (no free electives)",
+            "NOTE:"
+          ],
+          "items": []
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 1",
+          "title": "Year 1 - Semester 1",
+          "notes": [
+            "Note: MATH1061 may be replaced by advanced unit MATH1961."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1001",
+                  "name": "Physics 1 (Regular)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1001"
+                }
+              ],
+              "rawText": "PHYS1001: Physics 1 (Regular)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1001",
+                  "name": "Professional Engagement Program 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+                }
+              ],
+              "rawText": "ENGP1001: Professional Engagement Program 1ANote: All students must enrol in ENGP1001 in their first semester of enrolment."
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Introductory Computing Units",
+              "requirementSourceId": "32092",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "INFO1110",
+                  "name": "Introduction to Programming",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1110"
+                }
+              ],
+              "rawText": "INFO1110: Introduction to Programming"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1004",
+                  "name": "Practical Introduction to Electrical Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+                }
+              ],
+              "rawText": "ELEC1004: Practical Introduction to Electrical Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1061",
+                  "name": "Mathematics 1A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1061"
+                }
+              ],
+              "rawText": "MATH1061: Mathematics 1A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 1,
+          "periodName": "Semester 2",
+          "title": "Year 1 - Semester 2",
+          "notes": [
+            "Note: MATH1062 may be replaced by advanced unit MATH1962.IMPORTANT: When choosing your elective units, consider the specialisation(s) you have chosen and the unit levels. For example, if you are completing a stream specialisation that only contains 3000+ level units, you should leave them for later in the degree once you have completed foundational units, and select 1000-level free electives in your first year.If you have chosen to complete both a stream and a breadth specialisation, you don`t have space for free electives. Please speak with an Academic Advisor and plan your degree carefully."
+          ],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS1003",
+                  "name": "Physics 1 (Technological)",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS1003"
+                }
+              ],
+              "rawText": "PHYS1003: Physics 1 (Technological)"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC1601",
+                  "name": "Introduction to Computer Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1601"
+                }
+              ],
+              "rawText": "ELEC1601: Introduction to Computer Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1002",
+                  "name": "Professional Engagement Program 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+                }
+              ],
+              "rawText": "ENGP1002: Professional Engagement Program 1B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Foundation Mathematics Units",
+              "requirementSourceId": "32093",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH1062",
+                  "name": "Mathematics 1B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH1062"
+                }
+              ],
+              "rawText": "MATH1062: Mathematics 1B"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 1",
+          "title": "Year 2 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "COMP2123",
+                  "name": "Data Structures & Algorithms",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/COMP2123"
+                }
+              ],
+              "rawText": "COMP2123: Data Structures & Algorithms"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "MATH2061",
+                  "name": "Linear Mathematics and Vector Calculus",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MATH2061"
+                }
+              ],
+              "rawText": "MATH2061: Linear Mathematics and Vector Calculus"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2602",
+                  "name": "Digital Logic",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2602"
+                }
+              ],
+              "rawText": "ELEC2602: Digital Logic"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP1003",
+                  "name": "Professional Engagement Program 1C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+                }
+              ],
+              "rawText": "ENGP1003: Professional Engagement Program 1C"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2100",
+                  "name": "Fundamentals of Elec and Electronic Eng",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2100"
+                }
+              ],
+              "rawText": "ELEC2100: Fundamentals of Elec and Electronic Eng"
+            }
+          ]
+        },
+        {
+          "yearNumber": 2,
+          "periodName": "Semester 2",
+          "title": "Year 2 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "PHYS2213",
+                  "name": "Physics 2EE",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PHYS2213"
+                }
+              ],
+              "rawText": "PHYS2213: Physics 2EE"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2302",
+                  "name": "Signals and Systems",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2302"
+                }
+              ],
+              "rawText": "ELEC2302: Signals and Systems"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2103",
+                  "name": "Simulation and Numerical Solutions in Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2103"
+                }
+              ],
+              "rawText": "ELEC2103: Simulation and Numerical Solutions in Engineering"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC2104",
+                  "name": "Electronic Devices and Circuits",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC2104"
+                }
+              ],
+              "rawText": "ELEC2104: Electronic Devices and Circuits"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2001",
+                  "name": "Professional Engagement Program 2A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+                }
+              ],
+              "rawText": "ENGP2001: Professional Engagement Program 2A"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 1",
+          "title": "Year 3 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2002",
+                  "name": "Professional Engagement Program 2B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+                }
+              ],
+              "rawText": "ENGP2002: Professional Engagement Program 2B"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG2112",
+                  "name": "Multi-disciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+                }
+              ],
+              "rawText": "ENGG2112: Multi-disciplinary Engineering"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3203",
+                  "name": "Electricity Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3203"
+                }
+              ],
+              "rawText": "ELEC3203: Electricity Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3305",
+                  "name": "Digital Signal Processing",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3305"
+                }
+              ],
+              "rawText": "ELEC3305: Digital Signal Processing"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 3,
+          "periodName": "Semester 2",
+          "title": "Year 3 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP2003",
+                  "name": "Professional Engagement Program 2C",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+                }
+              ],
+              "rawText": "ENGP2003: Professional Engagement Program 2C"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3506",
+                  "name": "Communications Networks",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3506"
+                }
+              ],
+              "rawText": "ELEC3506: Communications Networks"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Core",
+              "requirementSourceId": "32096",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC3304",
+                  "name": "Control",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC3304"
+                }
+              ],
+              "rawText": "ELEC3304: Control"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 1",
+          "title": "Year 4 - Semester 1",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3001",
+                  "name": "Professional Engagement Program 3A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+                }
+              ],
+              "rawText": "ENGP3001: Professional Engagement Program 3A"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4712",
+                  "name": "Thesis A",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+                }
+              ],
+              "rawText": "ELEC4712: Thesis A"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ENGG3112",
+                  "name": "Interdisciplinary Engineering",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+                }
+              ],
+              "rawText": "ENGG3112: Interdisciplinary Engineering"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "List",
+              "requirementSourceId": null,
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Select from Electrical Stream ElectivesFree Electives"
+            }
+          ]
+        },
+        {
+          "yearNumber": 4,
+          "periodName": "Semester 2",
+          "title": "Year 4 - Semester 2",
+          "notes": [],
+          "items": [
+            {
+              "position": 1,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 2,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 3,
+              "requirementLabel": "Projects Table",
+              "requirementSourceId": "32094",
+              "creditPoints": 6,
+              "subjects": [
+                {
+                  "code": "ELEC4713",
+                  "name": "Thesis B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+                }
+              ],
+              "rawText": "ELEC4713: Thesis B"
+            },
+            {
+              "position": 4,
+              "requirementLabel": "Electrical Stream Electives",
+              "requirementSourceId": "32097",
+              "creditPoints": 6,
+              "subjects": [],
+              "rawText": "Electrical Stream Electives"
+            },
+            {
+              "position": 5,
+              "requirementLabel": "Professional Engagement Program (PEP) Units",
+              "requirementSourceId": "32095",
+              "creditPoints": 0,
+              "subjects": [
+                {
+                  "code": "ENGP3002",
+                  "name": "Professional Engagement Program 3B",
+                  "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+                }
+              ],
+              "rawText": "ENGP3002: Professional Engagement Program 3B"
+            }
+          ]
+        }
+      ],
+      "collectedAt": "2026-09-08T09:52:29.163Z"
+    }
+  ]
+}

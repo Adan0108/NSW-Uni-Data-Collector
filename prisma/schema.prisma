@@ -10,6 +10,7 @@ datasource db {
 enum ComponentType {
   MAJOR
   MINOR
+  PROGRAM
   SUB_MAJOR
   STREAM
   SPECIALISATION
@@ -33,12 +34,19 @@ enum RequirementLogic {
 enum RequirementItemType {
   SUBJECT
   COMPONENT
+  TABLE
+  RAW
   OTHER
 }
 
+// UTS keeps its existing broad REQUISITE/ANTI_REQUISITE values. USYD can use
+// its more precise prerequisite, corequisite and prohibition classifications.
 enum RequisiteGroupType {
   REQUISITE
   ANTI_REQUISITE
+  PREREQUISITE
+  COREQUISITE
+  PROHIBITION
 }
 
 enum StudyPlanItemType {
@@ -102,6 +110,7 @@ model Component {
   type                ComponentType
   originalType        String?
   creditPoints        Int?
+  sourceUrl           String?
   rawData             Json?
   handbookVersion     HandbookVersion        @relation(fields: [handbookVersionId], references: [id], onDelete: Cascade)
   degreeComponents    DegreeComponent[]
@@ -123,10 +132,14 @@ model DegreeComponent {
   parentGroupId        String?
   rawComponentCode     String?
   rawComponentName     String?
+  rawComponentType     String?
+  relationshipKind     String?
+  authoritative        Boolean?
   requiredCreditPoints Int?
   groupPath            String?
   containerPath        String?
   sortOrder            Int?
+  rawData              Json?
   degree               Degree            @relation(fields: [degreeId], references: [id], onDelete: Cascade)
   component            Component?        @relation(fields: [componentId], references: [id], onDelete: SetNull)
   parentGroup          RequirementGroup? @relation(fields: [parentGroupId], references: [id], onDelete: SetNull)
@@ -136,6 +149,7 @@ model DegreeComponent {
   @@index([degreeId])
   @@index([componentId])
   @@index([parentGroupId])
+  @@index([relationshipKind])
 }
 
 model RequirementGroup {
@@ -147,9 +161,16 @@ model RequirementGroup {
   title                String?
   description          String?
   logic                RequirementLogic   @default(UNKNOWN)
+  nodeType             String?
+  status               String?
+  sourcePath           String?
+  sourceIndex          Int?
+  sourceUrl            String?
+  authoritative        Boolean?
   requiredCreditPoints Int?
   maximumCreditPoints  Int?
   sortOrder            Int?
+  rawData              Json?
   degree               Degree?            @relation(fields: [degreeId], references: [id], onDelete: Cascade)
   component            Component?         @relation(fields: [componentId], references: [id], onDelete: Cascade)
   parentGroup          RequirementGroup?  @relation("RequirementGroupHierarchy", fields: [parentGroupId], references: [id], onDelete: Cascade)
@@ -163,6 +184,8 @@ model RequirementGroup {
   @@index([componentId])
   @@index([parentGroupId])
   @@index([sourceGroupId])
+  @@index([nodeType])
+  @@index([status])
 }
 
 model RequirementItem {
@@ -176,6 +199,8 @@ model RequirementItem {
   creditPoints       Int?
   sourceUrl          String?
   sortOrder          Int?
+  authoritative      Boolean?
+  rawData            Json?
   requirementGroup   RequirementGroup    @relation(fields: [requirementGroupId], references: [id], onDelete: Cascade)
   subject            Subject?            @relation(fields: [subjectId], references: [id], onDelete: SetNull)
   component          Component?          @relation(fields: [componentId], references: [id], onDelete: SetNull)
@@ -194,6 +219,12 @@ model Subject {
   name                String
   creditPoints        Int?
   description         String?
+  sourceYear          Int?
+  studyLevel          String?
+  academicUnit        String?
+  managingFaculty     String?
+  sourceUrl           String?
+  assumedKnowledge    String?
   overview            Json?
   assessment          Json?
   learningOutcomes    Json?
@@ -209,6 +240,7 @@ model Subject {
 
   @@unique([handbookVersionId, code])
   @@index([code])
+  @@index([sourceYear])
 }
 
 model SubjectAccessCondition {
@@ -229,15 +261,18 @@ model SubjectAccessCondition {
 }
 
 model SubjectRequisiteGroup {
-  id                String                 @id @default(cuid())
-  accessConditionId String
-  groupType         RequisiteGroupType
-  rule              String?
-  sortOrder         Int?
-  accessCondition   SubjectAccessCondition @relation(fields: [accessConditionId], references: [id], onDelete: Cascade)
-  items             SubjectRequisiteItem[]
-  createdAt         DateTime               @default(now())
-  updatedAt         DateTime               @updatedAt
+  id                   String                 @id @default(cuid())
+  accessConditionId    String
+  groupType            RequisiteGroupType
+  rule                 String?
+  sortOrder            Int?
+  authoritative        Boolean?
+  containsUnparsedText Boolean?
+  rawData              Json?
+  accessCondition      SubjectAccessCondition @relation(fields: [accessConditionId], references: [id], onDelete: Cascade)
+  items                SubjectRequisiteItem[]
+  createdAt            DateTime               @default(now())
+  updatedAt            DateTime               @updatedAt
 
   @@index([accessConditionId])
   @@index([groupType])
@@ -254,6 +289,7 @@ model SubjectRequisiteItem {
   referencedDegreeId    String?
   rawReferencedCodes    Json?
   sortOrder             Int?
+  rawData               Json?
   requisiteGroup        SubjectRequisiteGroup @relation(fields: [requisiteGroupId], references: [id], onDelete: Cascade)
   referencedSubject     Subject?              @relation("RequisiteSubjectReference", fields: [referencedSubjectId], references: [id], onDelete: SetNull)
   referencedComponent   Component?            @relation("RequisiteComponentReference", fields: [referencedComponentId], references: [id], onDelete: SetNull)
@@ -268,16 +304,23 @@ model SubjectRequisiteItem {
 }
 
 model StudyPlan {
-  id           String          @id @default(cuid())
-  degreeId     String
-  sourcePlanId String?
-  title        String
-  description  String?
-  sourceUrl    String?
-  degree       Degree          @relation(fields: [degreeId], references: [id], onDelete: Cascade)
-  years        StudyPlanYear[]
-  createdAt    DateTime        @default(now())
-  updatedAt    DateTime        @updatedAt
+  id                  String          @id @default(cuid())
+  degreeId            String
+  sourcePlanId        String?
+  title               String
+  description         String?
+  sourceUrl           String?
+  pathway             String?
+  variantNumber       Int?
+  handbookYear        Int?
+  totalCreditPoints   Int?
+  sourceType          String?
+  isFormalRequirement Boolean?
+  rawData             Json?
+  degree              Degree          @relation(fields: [degreeId], references: [id], onDelete: Cascade)
+  years               StudyPlanYear[]
+  createdAt           DateTime        @default(now())
+  updatedAt           DateTime        @updatedAt
 
   @@index([degreeId])
 }
@@ -286,6 +329,7 @@ model StudyPlanYear {
   id          String            @id @default(cuid())
   studyPlanId String
   name        String
+  yearNumber  Int?
   sortOrder   Int?
   studyPlan   StudyPlan         @relation(fields: [studyPlanId], references: [id], onDelete: Cascade)
   periods     StudyPlanPeriod[]
@@ -296,14 +340,17 @@ model StudyPlanYear {
 }
 
 model StudyPlanPeriod {
-  id              String          @id @default(cuid())
-  studyPlanYearId String
-  name            String
-  sortOrder       Int?
-  studyPlanYear   StudyPlanYear   @relation(fields: [studyPlanYearId], references: [id], onDelete: Cascade)
-  items           StudyPlanItem[]
-  createdAt       DateTime        @default(now())
-  updatedAt       DateTime        @updatedAt
+  id                String          @id @default(cuid())
+  studyPlanYearId   String
+  name              String
+  periodType        String?
+  periodNumber      Int?
+  totalCreditPoints Int?
+  sortOrder         Int?
+  studyPlanYear     StudyPlanYear   @relation(fields: [studyPlanYearId], references: [id], onDelete: Cascade)
+  items             StudyPlanItem[]
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
 
   @@index([studyPlanYearId])
 }
@@ -319,6 +366,7 @@ model StudyPlanItem {
   sourceUrl         String?
   numberOfPeriods   Int?
   sortOrder         Int?
+  rawData           Json?
   studyPlanPeriod   StudyPlanPeriod   @relation(fields: [studyPlanPeriodId], references: [id], onDelete: Cascade)
   subject           Subject?          @relation(fields: [subjectId], references: [id], onDelete: SetNull)
   createdAt         DateTime          @default(now())

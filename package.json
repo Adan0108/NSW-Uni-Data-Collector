@@ -5,7 +5,13 @@
   "scripts": {
     "scrape:uts": "tsx src/index.ts uts",
     "scrape:unsw": "tsx src/index.ts unsw",
-    "scrape:all": "tsx src/index.ts all"
+    "scrape:all": "tsx src/index.ts all",
+    "repair:usyd-components": "tsx src/adapters/usyd/usyd.component-repair.run.ts",
+    "audit:usyd-components": "tsx src/adapters/usyd/usyd.component-audit.run.ts",
+    "finalize:usyd": "tsx src/adapters/usyd/usyd.master-finalizer.run.ts",
+    "import:usyd-components": "tsx src/import/usyd-2026.components-import.ts",
+    "discover:usyd:cusp": "tsx src/adapters/usyd/cusp/discover-cusp-study-plan-seeds.ts",
+    "collect:usyd:cusp": "tsx src/adapters/usyd/cusp/collect-cusp-study-plans.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +20,7 @@
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",
     "@prisma/client": "^7.9.1",
-    "axios": "^1.19.0",
+    "axios": "^1.20.0",
     "cheerio": "^1.2.0",
     "csv-writer": "^1.6.0",
     "dotenv": "^17.4.2",

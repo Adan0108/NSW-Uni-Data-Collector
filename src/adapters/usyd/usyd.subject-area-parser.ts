@@ -459,15 +459,12 @@ function parseUnitRow(
   >[0],
   sourceUrl: string,
 ): UsydRequirementUnit | null {
-  const cells = $(row)
+  const cellElements = $(row)
     .find('th, td')
-    .map(
-      (_, cell) =>
-        normalizeText(
-          $(cell).text(),
-        ),
-    )
-    .get();
+    .toArray();
+  const cells = cellElements.map((cell) =>
+    normalizeText($(cell).text()),
+  );
 
   if (
     cells.length <
@@ -476,62 +473,53 @@ function parseUnitRow(
     return null;
   }
 
-  const match =
-    cells[0].match(
-      /^([A-Z]{4}\d{4})\s+(.+)$/,
-    );
+  let code: string | null = null;
+  let codeCellIndex = -1;
+  let sourceUnitUrl: string | null = null;
 
-  if (!match) {
+  for (const [index, cell] of cellElements.entries()) {
+    const anchor = $(cell).find('a[href*="/units/"]').first();
+    const href = anchor.attr('href');
+    const hrefCode = href?.match(/\/units\/([A-Z]{4}\d{4})(?:[/?#]|$)/i)?.[1];
+    const textCode = cells[index].match(/\b([A-Z]{4}\d{4})\b/)?.[1];
+    const candidate = (hrefCode ?? textCode)?.toUpperCase() ?? null;
+    if (!candidate) continue;
+
+    code = candidate;
+    codeCellIndex = index;
+    if (href) {
+      try {
+        sourceUnitUrl = new URL(href, sourceUrl).toString();
+      } catch {
+        sourceUnitUrl = null;
+      }
+    }
+    break;
+  }
+
+  if (!code || codeCellIndex < 0) {
     return null;
   }
 
-  const code =
-    match[1];
+  const creditPointCellIndex = cells.findIndex((value, index) =>
+    index > codeCellIndex && /^\d+(?:\.\d+)?$/.test(value),
+  );
+  const creditPoints = creditPointCellIndex >= 0
+    ? Number(cells[creditPointCellIndex])
+    : Number.NaN;
+  const inlineName = cells[codeCellIndex]
+    .replace(new RegExp(`^${code}\\s*`, 'i'), '')
+    .trim();
+  const nameCells = cells.slice(
+    codeCellIndex + 1,
+    creditPointCellIndex >= 0 ? creditPointCellIndex : codeCellIndex + 2,
+  ).filter(Boolean);
+  const name = inlineName || nameCells.join(' ');
+  if (!name) return null;
 
-  const name =
-    match[2];
-
-  const creditPoints =
-    Number(
-      cells[1],
-    );
-
-  const ruleText =
-    cells[2] ?? '';
-
-  const anchor = $(row)
-    .find('a[href]')
-    .filter(
-      (_, element) =>
-        normalizeText(
-          $(element).text(),
-        ).includes(
-          code,
-        ),
-    )
-    .first();
-
-  let sourceUnitUrl:
-    string | null =
-    null;
-
-  const href =
-    anchor.attr(
-      'href',
-    );
-
-  if (href) {
-    try {
-      sourceUnitUrl =
-        new URL(
-          href,
-          sourceUrl,
-        ).toString();
-    } catch {
-      sourceUnitUrl =
-        null;
-    }
-  }
+  const ruleText = cells.slice(
+    creditPointCellIndex >= 0 ? creditPointCellIndex + 1 : codeCellIndex + 2,
+  ).join(' ');
 
   return {
     code,
@@ -1027,6 +1015,7 @@ function parsePhysicalGroups(
   let currentGroup:
     UsydRequirementGroup | null =
     null;
+  let currentGroupName = 'Units';
 
   function ensureLevelGroup():
     UsydRequirementGroup {
@@ -1038,7 +1027,7 @@ function parsePhysicalGroups(
 
     currentGroup =
       createPhysicalGroup(
-        'Units',
+        currentGroupName,
         currentLevel,
       );
 
@@ -1085,7 +1074,7 @@ function parsePhysicalGroups(
     if (
       cells.length ===
       1 &&
-      /\b\d000-level units of study\b/i.test(
+      /\b\d000(?:-|\s+)level units of study\b/i.test(
         rowText,
       )
     ) {
@@ -1107,10 +1096,13 @@ function parsePhysicalGroups(
         rowText,
       )
     ) {
+      if (/^(?:if\b|note\b|students?\b)/i.test(rowText)) {
+        continue;
+      }
+
       if (
-        currentGroup &&
         /^selective units$/i.test(
-          currentGroup.name,
+          currentGroupName,
         ) &&
         /^choose a unit not in chosen major[.]?$/i.test(
           rowText,
@@ -1119,15 +1111,8 @@ function parsePhysicalGroups(
         continue;
       }
 
-      currentGroup =
-        createPhysicalGroup(
-          rowText,
-          currentLevel,
-        );
-
-      physicalGroups.push(
-        currentGroup,
-      );
+      currentGroupName = rowText;
+      currentGroup = null;
 
       continue;
     }
@@ -2212,6 +2197,30 @@ function mapFormalRequirement(
   const requirementText =
     requirement.rawText.toLowerCase();
 
+  if (/\bculture units?\b/i.test(requirementText)) {
+    const levels = /\b2000-level or 3000-level\b/i.test(requirementText)
+      ? new Set([2000, 3000])
+      : new Set(level === null ? [] : [level]);
+    const cultureGroups = physicalGroups.filter((group) =>
+      /^culture(?: units?)?$/i.test(group.name)
+      && (levels.size === 0 || (group.level !== null && levels.has(group.level))),
+    );
+    const combined = combineGroups(cultureGroups, requirement.requiredCreditPoints);
+    if (combined) return combined;
+  }
+
+  if (
+    requirement.groupKind === 'UNITS'
+    && /\bat least\s+\d+\s+(?:credit points?\s+)?of which must be language units?\b/i.test(requirementText)
+  ) {
+    const eligible = physicalGroups.filter((group) =>
+      (level === null || group.level === level)
+      && /^(?:language|culture)(?: units?)?$/i.test(group.name),
+    );
+    const combined = combineGroups(eligible, requirement.requiredCreditPoints);
+    if (combined) return combined;
+  }
+
   const streamSelectivePool =
     mapStreamSelectivePool(
       requirement,
@@ -2340,7 +2349,7 @@ function mapFormalRequirement(
           findByNameAndLevel(
             physicalGroups,
             level,
-            /^major core$/i,
+            /^(?:major core|core units? \(major only\))$/i,
           );
       }
 
@@ -2353,7 +2362,7 @@ function mapFormalRequirement(
           findByNameAndLevel(
             physicalGroups,
             level,
-            /^minor core$/i,
+            /^(?:minor core|core units? \(minor only\))$/i,
           );
       }
 
@@ -2379,7 +2388,7 @@ function mapFormalRequirement(
           findByNameAndLevel(
             physicalGroups,
             level,
-            /^major core$/i,
+            /^(?:major core|core units? \(major only\))$/i,
           );
       }
 
@@ -2447,7 +2456,7 @@ function mapFormalRequirement(
           findByNameAndLevel(
             physicalGroups,
             level,
-            /^minor selective$/i,
+            /^(?:minor selective|selective units? \(minor only\))$/i,
           );
       }
 
@@ -2460,7 +2469,7 @@ function mapFormalRequirement(
           findByNameAndLevel(
             physicalGroups,
             level,
-            /^major selective$/i,
+            /^(?:major selective|selective units? \(major only\))$/i,
           );
       }
 
@@ -2495,6 +2504,11 @@ function mapFormalRequirement(
         physicalGroups,
         level,
         /^interdisciplinary project units?$/i,
+      ) ??
+      findByNameAndLevel(
+        physicalGroups,
+        level,
+        /^interdisciplinary project unit of study$/i,
       ) ??
       findByNameAndLevel(
         physicalGroups,
