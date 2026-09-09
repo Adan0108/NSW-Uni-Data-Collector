@@ -11,7 +11,14 @@
     "finalize:usyd": "tsx src/adapters/usyd/usyd.master-finalizer.run.ts",
     "import:usyd-components": "tsx src/import/usyd-2026.components-import.ts",
     "discover:usyd:cusp": "tsx src/adapters/usyd/cusp/discover-cusp-study-plan-seeds.ts",
-    "collect:usyd:cusp": "tsx src/adapters/usyd/cusp/collect-cusp-study-plans.ts"
+    "collect:usyd:cusp": "tsx src/adapters/usyd/cusp/collect-cusp-study-plans.ts",
+    "merge:usyd:cusp": "tsx src/adapters/usyd/cusp/merge-cusp-study-plans.ts",
+    "prepare:usyd:cusp": "npm run discover:usyd:cusp && npm run collect:usyd:cusp && npm run merge:usyd:cusp",
+    "import:usyd:cusp": "cross-env USYD_DATA_FILE=data/normalized/usyd/2026/usyd-master-final.with-cusp.json tsx src/import/usyd-2026.import.ts",
+    "resolve:usyd:cusp-subjects": "tsx src/adapters/usyd/cusp/resolve-cusp-missing-subjects.ts",
+    "validate:usyd:cusp-plans": "tsx src/adapters/usyd/cusp/validate-cusp-study-plans.ts",
+    "prepare:usyd:database-master": "tsx src/adapters/usyd/cusp/prepare-usyd-database-master.ts",
+    "validate:usyd:database-master": "tsx src/adapters/usyd/cusp/validate-usyd-database-master.ts"
   },
   "keywords": [],
   "author": "",
@@ -34,6 +41,7 @@
   "devDependencies": {
     "@types/node": "^26.2.0",
     "@types/pg": "^8.23.1",
+    "cross-env": "^10.1.0",
     "tsx": "^4.23.12",
     "typescript": "^7.0.2"
   }

@@ -1,8 +1,1281 @@
 {
   "targetYear": 2026,
-  "discoveredDegreePages": 0,
-  "degreesWithTargetYear": 0,
+  "discoveredDegreePages": 292,
+  "degreesWithTargetYear": 212,
   "usedCache": false,
-  "generatedAt": "2026-09-08T10:26:40.606Z",
-  "degrees": []
+  "generatedAt": "2026-09-09T09:19:38.695Z",
+  "degrees": [
+    {
+      "degreeId": "442",
+      "dvid": "6185",
+      "name": "Aeronautical Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6185"
+    },
+    {
+      "degreeId": "445",
+      "dvid": "6187",
+      "name": "Aeronautical Engineering with Space",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6187"
+    },
+    {
+      "degreeId": "456",
+      "dvid": "6368",
+      "name": "Biomedical Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6368"
+    },
+    {
+      "degreeId": "455",
+      "dvid": "6397",
+      "name": "Chemical & Biomolecular Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6397"
+    },
+    {
+      "degreeId": "448",
+      "dvid": "6414",
+      "name": "Civil Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6414"
+    },
+    {
+      "degreeId": "449",
+      "dvid": "6435",
+      "name": "Electrical Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6435"
+    },
+    {
+      "degreeId": "1235",
+      "dvid": "6452",
+      "name": "Environmental Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6452"
+    },
+    {
+      "degreeId": "443",
+      "dvid": "6634",
+      "name": "Mechanical Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6634"
+    },
+    {
+      "degreeId": "446",
+      "dvid": "6636",
+      "name": "Mechanical Engineering with Space",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6636"
+    },
+    {
+      "degreeId": "444",
+      "dvid": "6666",
+      "name": "Mechatronic Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6666"
+    },
+    {
+      "degreeId": "447",
+      "dvid": "6668",
+      "name": "Mechatronic Engineering with Space",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6668"
+    },
+    {
+      "degreeId": "454",
+      "dvid": "6701",
+      "name": "Software Engineering",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6701"
+    },
+    {
+      "degreeId": "716",
+      "dvid": "6457",
+      "name": "Flexible First Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6457"
+    },
+    {
+      "degreeId": "738",
+      "dvid": "6186",
+      "name": "Aeronautical Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6186"
+    },
+    {
+      "degreeId": "1132",
+      "dvid": "6188",
+      "name": "Aeronautical Engineering with Space (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6188"
+    },
+    {
+      "degreeId": "739",
+      "dvid": "6369",
+      "name": "Biomedical Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6369"
+    },
+    {
+      "degreeId": "733",
+      "dvid": "6398",
+      "name": "Chemical & Biomolecular Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6398"
+    },
+    {
+      "degreeId": "740",
+      "dvid": "6415",
+      "name": "Civil Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6415"
+    },
+    {
+      "degreeId": "741",
+      "dvid": "6436",
+      "name": "Electrical Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6436"
+    },
+    {
+      "degreeId": "1264",
+      "dvid": "6453",
+      "name": "Environmental Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6453"
+    },
+    {
+      "degreeId": "742",
+      "dvid": "6635",
+      "name": "Mechanical Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6635"
+    },
+    {
+      "degreeId": "1134",
+      "dvid": "6637",
+      "name": "Mechanical Engineering with Space (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6637"
+    },
+    {
+      "degreeId": "743",
+      "dvid": "6667",
+      "name": "Mechatronic Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6667"
+    },
+    {
+      "degreeId": "1133",
+      "dvid": "6669",
+      "name": "Mechatronic Engineering with Space (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6669"
+    },
+    {
+      "degreeId": "744",
+      "dvid": "6702",
+      "name": "Software Engineering (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6702"
+    },
+    {
+      "degreeId": "1178",
+      "dvid": "6180",
+      "name": "Aeronautical / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6180"
+    },
+    {
+      "degreeId": "1181",
+      "dvid": "6201",
+      "name": "Aeronautical with Space / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6201"
+    },
+    {
+      "degreeId": "1169",
+      "dvid": "6361",
+      "name": "Biomedical / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6361"
+    },
+    {
+      "degreeId": "1187",
+      "dvid": "6393",
+      "name": "Chemical & Biomolecular / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6393"
+    },
+    {
+      "degreeId": "1184",
+      "dvid": "6408",
+      "name": "Civil / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6408"
+    },
+    {
+      "degreeId": "1196",
+      "dvid": "6430",
+      "name": "Electrical / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6430"
+    },
+    {
+      "degreeId": "1236",
+      "dvid": "6450",
+      "name": "Environmental / Arts 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6450"
+    },
+    {
+      "degreeId": "1190",
+      "dvid": "6629",
+      "name": "Mechanical / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6629"
+    },
+    {
+      "degreeId": "1193",
+      "dvid": "6653",
+      "name": "Mechanical with Space / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6653"
+    },
+    {
+      "degreeId": "1172",
+      "dvid": "6662",
+      "name": "Mechatronic / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6662"
+    },
+    {
+      "degreeId": "1175",
+      "dvid": "6682",
+      "name": "Mechatronic with Space / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6682"
+    },
+    {
+      "degreeId": "1199",
+      "dvid": "6697",
+      "name": "Software / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6697"
+    },
+    {
+      "degreeId": "1202",
+      "dvid": "6459",
+      "name": "Flexible First Year / Arts 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6459"
+    },
+    {
+      "degreeId": "1302",
+      "dvid": "6181",
+      "name": "Aeronautical / Arts 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6181"
+    },
+    {
+      "degreeId": "1265",
+      "dvid": "6362",
+      "name": "Biomedical / Arts 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6362"
+    },
+    {
+      "degreeId": "1307",
+      "dvid": "6630",
+      "name": "Mechanical / Arts 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6630"
+    },
+    {
+      "degreeId": "1179",
+      "dvid": "6183",
+      "name": "Aeronautical / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6183"
+    },
+    {
+      "degreeId": "1182",
+      "dvid": "6203",
+      "name": "Aeronautical with Space / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6203"
+    },
+    {
+      "degreeId": "1170",
+      "dvid": "6365",
+      "name": "Biomedical / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6365"
+    },
+    {
+      "degreeId": "1188",
+      "dvid": "6395",
+      "name": "Chemical & Biomolecular / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6395"
+    },
+    {
+      "degreeId": "1185",
+      "dvid": "6410",
+      "name": "Civil / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6410"
+    },
+    {
+      "degreeId": "1197",
+      "dvid": "6432",
+      "name": "Electrical / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6432"
+    },
+    {
+      "degreeId": "1237",
+      "dvid": "6451",
+      "name": "Environmental / Commerce 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6451"
+    },
+    {
+      "degreeId": "1191",
+      "dvid": "6632",
+      "name": "Mechanical / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6632"
+    },
+    {
+      "degreeId": "1194",
+      "dvid": "6655",
+      "name": "Mechanical with Space / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6655"
+    },
+    {
+      "degreeId": "1173",
+      "dvid": "6664",
+      "name": "Mechatronic / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6664"
+    },
+    {
+      "degreeId": "1176",
+      "dvid": "6684",
+      "name": "Mechatronic with Space / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6684"
+    },
+    {
+      "degreeId": "1200",
+      "dvid": "6699",
+      "name": "Software / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6699"
+    },
+    {
+      "degreeId": "1203",
+      "dvid": "6460",
+      "name": "Flexible First Year / Commerce 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6460"
+    },
+    {
+      "degreeId": "1303",
+      "dvid": "6184",
+      "name": "Aeronautical / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6184"
+    },
+    {
+      "degreeId": "1304",
+      "dvid": "6366",
+      "name": "Biomedical / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6366"
+    },
+    {
+      "degreeId": "1231",
+      "dvid": "6396",
+      "name": "Chemical & Biomolecular / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6396"
+    },
+    {
+      "degreeId": "1232",
+      "dvid": "6411",
+      "name": "Civil / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6411"
+    },
+    {
+      "degreeId": "1305",
+      "dvid": "6433",
+      "name": "Electrical / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6433"
+    },
+    {
+      "degreeId": "1233",
+      "dvid": "6633",
+      "name": "Mechanical / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6633"
+    },
+    {
+      "degreeId": "1234",
+      "dvid": "6665",
+      "name": "Mechatronic / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6665"
+    },
+    {
+      "degreeId": "1306",
+      "dvid": "6700",
+      "name": "Software / Commerce 2023+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6700"
+    },
+    {
+      "degreeId": "491",
+      "dvid": "6413",
+      "name": "Civil / Design in Architecture",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6413"
+    },
+    {
+      "degreeId": "1180",
+      "dvid": "6190",
+      "name": "Aeronautical / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6190"
+    },
+    {
+      "degreeId": "1183",
+      "dvid": "6205",
+      "name": "Aeronautical with Space / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6205"
+    },
+    {
+      "degreeId": "1171",
+      "dvid": "6372",
+      "name": "Biomedical / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6372"
+    },
+    {
+      "degreeId": "1189",
+      "dvid": "6400",
+      "name": "Chemical & Biomolecular / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6400"
+    },
+    {
+      "degreeId": "1186",
+      "dvid": "6419",
+      "name": "Civil / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6419"
+    },
+    {
+      "degreeId": "1198",
+      "dvid": "6438",
+      "name": "Electrical / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6438"
+    },
+    {
+      "degreeId": "1238",
+      "dvid": "6454",
+      "name": "Environmental / Law 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6454"
+    },
+    {
+      "degreeId": "1192",
+      "dvid": "6639",
+      "name": "Mechanical / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6639"
+    },
+    {
+      "degreeId": "1195",
+      "dvid": "6657",
+      "name": "Mechanical with Space / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6657"
+    },
+    {
+      "degreeId": "1174",
+      "dvid": "6671",
+      "name": "Mechatronic / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6671"
+    },
+    {
+      "degreeId": "1177",
+      "dvid": "6686",
+      "name": "Mechatronic with Space / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6686"
+    },
+    {
+      "degreeId": "1201",
+      "dvid": "6704",
+      "name": "Software / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6704"
+    },
+    {
+      "degreeId": "1204",
+      "dvid": "6461",
+      "name": "Flexible First Year / Law 2023+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6461"
+    },
+    {
+      "degreeId": "808",
+      "dvid": "6193",
+      "name": "Aeronautical / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6193"
+    },
+    {
+      "degreeId": "1135",
+      "dvid": "6206",
+      "name": "Aeronautical with Space / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6206"
+    },
+    {
+      "degreeId": "809",
+      "dvid": "6378",
+      "name": "Biomedical / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6378"
+    },
+    {
+      "degreeId": "810",
+      "dvid": "6403",
+      "name": "Chemical & Biomolecular / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6403"
+    },
+    {
+      "degreeId": "811",
+      "dvid": "6422",
+      "name": "Civil / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6422"
+    },
+    {
+      "degreeId": "812",
+      "dvid": "6442",
+      "name": "Electrical / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6442"
+    },
+    {
+      "degreeId": "1239",
+      "dvid": "6455",
+      "name": "Environmental / Project Management (from 2025)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6455"
+    },
+    {
+      "degreeId": "813",
+      "dvid": "6643",
+      "name": "Mechanical / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6643"
+    },
+    {
+      "degreeId": "1142",
+      "dvid": "6658",
+      "name": "Mechanical with Space / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6658"
+    },
+    {
+      "degreeId": "814",
+      "dvid": "6674",
+      "name": "Mechatronic / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6674"
+    },
+    {
+      "degreeId": "1143",
+      "dvid": "6687",
+      "name": "Mechatronic with Space / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6687"
+    },
+    {
+      "degreeId": "815",
+      "dvid": "6707",
+      "name": "Software / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6707"
+    },
+    {
+      "degreeId": "968",
+      "dvid": "6462",
+      "name": "Flexible First Year / Project Management 2019+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6462"
+    },
+    {
+      "degreeId": "462",
+      "dvid": "6194",
+      "name": "Aeronautical / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6194"
+    },
+    {
+      "degreeId": "463",
+      "dvid": "6207",
+      "name": "Aeronautical with Space / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6207"
+    },
+    {
+      "degreeId": "468",
+      "dvid": "6379",
+      "name": "Biomedical /Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6379"
+    },
+    {
+      "degreeId": "551",
+      "dvid": "6404",
+      "name": "Chemical & Biomolecular / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6404"
+    },
+    {
+      "degreeId": "494",
+      "dvid": "6423",
+      "name": "Civil / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6423"
+    },
+    {
+      "degreeId": "552",
+      "dvid": "6443",
+      "name": "Electrical / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6443"
+    },
+    {
+      "degreeId": "1240",
+      "dvid": "6456",
+      "name": "Environmental / Science (from 2025)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6456"
+    },
+    {
+      "degreeId": "464",
+      "dvid": "6644",
+      "name": "Mechanical / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6644"
+    },
+    {
+      "degreeId": "465",
+      "dvid": "6659",
+      "name": "Mechanical with Space / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6659"
+    },
+    {
+      "degreeId": "466",
+      "dvid": "6675",
+      "name": "Mechatronic / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6675"
+    },
+    {
+      "degreeId": "467",
+      "dvid": "6688",
+      "name": "Mechatronic with Space / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6688"
+    },
+    {
+      "degreeId": "556",
+      "dvid": "6708",
+      "name": "Software / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6708"
+    },
+    {
+      "degreeId": "732",
+      "dvid": "6463",
+      "name": "Flexible First Year / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6463"
+    },
+    {
+      "degreeId": "1215",
+      "dvid": "6197",
+      "name": "Aeronautical / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6197"
+    },
+    {
+      "degreeId": "1216",
+      "dvid": "6209",
+      "name": "Aeronautical with Space / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6209"
+    },
+    {
+      "degreeId": "1217",
+      "dvid": "6383",
+      "name": "Biomedical / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6383"
+    },
+    {
+      "degreeId": "1218",
+      "dvid": "6406",
+      "name": "Chemical & Biomolecular / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6406"
+    },
+    {
+      "degreeId": "1219",
+      "dvid": "6426",
+      "name": "Civil / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6426"
+    },
+    {
+      "degreeId": "1222",
+      "dvid": "6446",
+      "name": "Electrical / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6446"
+    },
+    {
+      "degreeId": "1224",
+      "dvid": "6647",
+      "name": "Mechanical / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6647"
+    },
+    {
+      "degreeId": "1225",
+      "dvid": "6660",
+      "name": "Mechanical with Space / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6660"
+    },
+    {
+      "degreeId": "1220",
+      "dvid": "6678",
+      "name": "Mechatronic / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6678"
+    },
+    {
+      "degreeId": "1221",
+      "dvid": "6690",
+      "name": "Mechatronic with Space / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6690"
+    },
+    {
+      "degreeId": "1223",
+      "dvid": "6711",
+      "name": "Software / Science - Mid Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6711"
+    },
+    {
+      "degreeId": "786",
+      "dvid": "6380",
+      "name": "Biomedical / Science (Health)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6380"
+    },
+    {
+      "degreeId": "774",
+      "dvid": "6382",
+      "name": "Biomedical / Science (Medical Science Stream)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6382"
+    },
+    {
+      "degreeId": "1230",
+      "dvid": "6381",
+      "name": "Biomedical / Science (Medical Science) - Mid-Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6381"
+    },
+    {
+      "degreeId": "1241",
+      "dvid": "6504",
+      "name": "Master of Engineering (Advanced Manufacturing) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6504"
+    },
+    {
+      "degreeId": "1242",
+      "dvid": "6505",
+      "name": "Master of Engineering (Biomedical Engineering) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6505"
+    },
+    {
+      "degreeId": "1243",
+      "dvid": "6506",
+      "name": "Master of Engineering (Chemical & Biomolecular Engineering) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6506"
+    },
+    {
+      "degreeId": "1244",
+      "dvid": "6507",
+      "name": "Master of Engineering (Civil Engineering) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6507"
+    },
+    {
+      "degreeId": "1245",
+      "dvid": "6508",
+      "name": "Master of Engineering (Electrical Engineering) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6508"
+    },
+    {
+      "degreeId": "1246",
+      "dvid": "6509",
+      "name": "Master of Engineering (Mechanical Engineering) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6509"
+    },
+    {
+      "degreeId": "1247",
+      "dvid": "6510",
+      "name": "Master of Engineering (Software Engineering) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6510"
+    },
+    {
+      "degreeId": "1248",
+      "dvid": "6511",
+      "name": "Master of Engineering (Sustainability & Environmental Engineering) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6511"
+    },
+    {
+      "degreeId": "1310",
+      "dvid": "6712",
+      "name": "Master of Engineering (Advanced Manufacturing) 2026+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6712"
+    },
+    {
+      "degreeId": "1311",
+      "dvid": "6713",
+      "name": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6713"
+    },
+    {
+      "degreeId": "1312",
+      "dvid": "6714",
+      "name": "Master of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6714"
+    },
+    {
+      "degreeId": "1313",
+      "dvid": "6715",
+      "name": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6715"
+    },
+    {
+      "degreeId": "1374",
+      "dvid": "7304",
+      "name": "Master of Engineering (Civil) Structures specialisation 2026 (mid-year)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/7304"
+    },
+    {
+      "degreeId": "1249",
+      "dvid": "6550",
+      "name": "Master of Professional Engineering (Aerospace) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6550"
+    },
+    {
+      "degreeId": "1250",
+      "dvid": "6558",
+      "name": "Master of Professional Engineering (Biomedical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6558"
+    },
+    {
+      "degreeId": "1251",
+      "dvid": "6567",
+      "name": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6567"
+    },
+    {
+      "degreeId": "1252",
+      "dvid": "6573",
+      "name": "Master of Professional Engineering (Civil) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6573"
+    },
+    {
+      "degreeId": "1253",
+      "dvid": "6579",
+      "name": "Master of Professional Engineering (Electrical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6579"
+    },
+    {
+      "degreeId": "1254",
+      "dvid": "6597",
+      "name": "Master of Professional Engineering (Mechanical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6597"
+    },
+    {
+      "degreeId": "1255",
+      "dvid": "6611",
+      "name": "Master of Professional Engineering (Software) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6611"
+    },
+    {
+      "degreeId": "1256",
+      "dvid": "6618",
+      "name": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6618"
+    },
+    {
+      "degreeId": "1287",
+      "dvid": "6551",
+      "name": "Master of Professional Engineering (Aerospace) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6551"
+    },
+    {
+      "degreeId": "1288",
+      "dvid": "6559",
+      "name": "Master of Professional Engineering (Biomedical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6559"
+    },
+    {
+      "degreeId": "1289",
+      "dvid": "6566",
+      "name": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6566"
+    },
+    {
+      "degreeId": "1290",
+      "dvid": "6574",
+      "name": "Master of Professional Engineering (Civil) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6574"
+    },
+    {
+      "degreeId": "1291",
+      "dvid": "6580",
+      "name": "Master of Professional Engineering (Electrical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6580"
+    },
+    {
+      "degreeId": "1292",
+      "dvid": "6598",
+      "name": "Master of Professional Engineering (Mechanical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6598"
+    },
+    {
+      "degreeId": "1293",
+      "dvid": "6610",
+      "name": "Master of Professional Engineering (Software) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6610"
+    },
+    {
+      "degreeId": "1294",
+      "dvid": "6619",
+      "name": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6619"
+    },
+    {
+      "degreeId": "955",
+      "dvid": "6522",
+      "name": "Master of Professional Engineering (Accelerated) (Aerospace)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6522"
+    },
+    {
+      "degreeId": "956",
+      "dvid": "6525",
+      "name": "Master of Professional Engineering (Accelerated) (Biomedical)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6525"
+    },
+    {
+      "degreeId": "957",
+      "dvid": "6528",
+      "name": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6528"
+    },
+    {
+      "degreeId": "958",
+      "dvid": "6531",
+      "name": "Master of Professional Engineering (Accelerated) (Civil)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6531"
+    },
+    {
+      "degreeId": "959",
+      "dvid": "6534",
+      "name": "Master of Professional Engineering (Accelerated) (Electrical)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6534"
+    },
+    {
+      "degreeId": "1082",
+      "dvid": "6539",
+      "name": "Master of Professional Engineering (Accelerated) (Intelligent Information Engineering)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6539"
+    },
+    {
+      "degreeId": "962",
+      "dvid": "6540",
+      "name": "Master of Professional Engineering (Accelerated) (Mechanical)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6540"
+    },
+    {
+      "degreeId": "963",
+      "dvid": "6543",
+      "name": "Master of Professional Engineering (Accelerated) (Power)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6543"
+    },
+    {
+      "degreeId": "964",
+      "dvid": "6544",
+      "name": "Master of Professional Engineering (Accelerated) (Software)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6544"
+    },
+    {
+      "degreeId": "965",
+      "dvid": "6547",
+      "name": "Master of Professional Engineering (Accelerated) (Structural)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6547"
+    },
+    {
+      "degreeId": "966",
+      "dvid": "6548",
+      "name": "Master of Professional Engineering (Accelerated) (Telecommunications)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6548"
+    },
+    {
+      "degreeId": "1257",
+      "dvid": "6523",
+      "name": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6523"
+    },
+    {
+      "degreeId": "1258",
+      "dvid": "6526",
+      "name": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6526"
+    },
+    {
+      "degreeId": "1259",
+      "dvid": "6530",
+      "name": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6530"
+    },
+    {
+      "degreeId": "1260",
+      "dvid": "6532",
+      "name": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6532"
+    },
+    {
+      "degreeId": "1261",
+      "dvid": "6536",
+      "name": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6536"
+    },
+    {
+      "degreeId": "1262",
+      "dvid": "6541",
+      "name": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6541"
+    },
+    {
+      "degreeId": "1263",
+      "dvid": "6546",
+      "name": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6546"
+    },
+    {
+      "degreeId": "1295",
+      "dvid": "6524",
+      "name": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6524"
+    },
+    {
+      "degreeId": "1296",
+      "dvid": "6527",
+      "name": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6527"
+    },
+    {
+      "degreeId": "1297",
+      "dvid": "6529",
+      "name": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6529"
+    },
+    {
+      "degreeId": "1298",
+      "dvid": "6533",
+      "name": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6533"
+    },
+    {
+      "degreeId": "1299",
+      "dvid": "6535",
+      "name": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6535"
+    },
+    {
+      "degreeId": "1300",
+      "dvid": "6542",
+      "name": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6542"
+    },
+    {
+      "degreeId": "1301",
+      "dvid": "6545",
+      "name": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6545"
+    },
+    {
+      "degreeId": "973",
+      "dvid": "6477",
+      "name": "Graduate Certificate in Transport",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6477"
+    },
+    {
+      "degreeId": "972",
+      "dvid": "6488",
+      "name": "Graduate Diploma in Transport",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6488"
+    },
+    {
+      "degreeId": "971",
+      "dvid": "6627",
+      "name": "Master of Transport",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6627"
+    },
+    {
+      "degreeId": "754",
+      "dvid": "6217",
+      "name": "Bachelor of Advanced Computing (Computational Data Science)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6217"
+    },
+    {
+      "degreeId": "751",
+      "dvid": "6222",
+      "name": "Bachelor of Advanced Computing (Computer Science)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6222"
+    },
+    {
+      "degreeId": "1154",
+      "dvid": "6227",
+      "name": "Bachelor of Advanced Computing (Cybersecurity)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6227"
+    },
+    {
+      "degreeId": "753",
+      "dvid": "6233",
+      "name": "Bachelor of Advanced Computing (Software Development)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6233"
+    },
+    {
+      "degreeId": "1266",
+      "dvid": "6221",
+      "name": "Bachelor of Advanced Computing (Computational Data Science) - Mid-Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6221"
+    },
+    {
+      "degreeId": "1267",
+      "dvid": "6226",
+      "name": "Bachelor of Advanced Computing (Computer Science) - Mid-Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6226"
+    },
+    {
+      "degreeId": "1268",
+      "dvid": "6228",
+      "name": "Bachelor of Advanced Computing (Cybersecurity) - Mid-Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6228"
+    },
+    {
+      "degreeId": "1269",
+      "dvid": "6237",
+      "name": "Bachelor of Advanced Computing (Software Development) - Mid-Year",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6237"
+    },
+    {
+      "degreeId": "770",
+      "dvid": "6174",
+      "name": "Advanced Computing / Commerce",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6174"
+    },
+    {
+      "degreeId": "771",
+      "dvid": "6176",
+      "name": "Advanced Computing / Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6176"
+    },
+    {
+      "degreeId": "773",
+      "dvid": "6177",
+      "name": "Advanced Computing / Science (Medical Science)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6177"
+    },
+    {
+      "degreeId": "1226",
+      "dvid": "6466",
+      "name": "Graduate Certificate in Computer Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6466"
+    },
+    {
+      "degreeId": "1227",
+      "dvid": "6479",
+      "name": "Graduate Diploma in Computer Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6479"
+    },
+    {
+      "degreeId": "1229",
+      "dvid": "6493",
+      "name": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6493"
+    },
+    {
+      "degreeId": "1272",
+      "dvid": "6494",
+      "name": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6494"
+    },
+    {
+      "degreeId": "1273",
+      "dvid": "6495",
+      "name": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6495"
+    },
+    {
+      "degreeId": "1228",
+      "dvid": "6496",
+      "name": "Master of Computer Science (Capstone Pathway)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6496"
+    },
+    {
+      "degreeId": "1270",
+      "dvid": "6497",
+      "name": "Master of Computer Science (Research Pathway)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6497"
+    },
+    {
+      "degreeId": "1271",
+      "dvid": "6498",
+      "name": "Master of Computer Science (Work Integrated Pathway)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6498"
+    },
+    {
+      "degreeId": "736",
+      "dvid": "6478",
+      "name": "Graduate Diploma in Complex Systems",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6478"
+    },
+    {
+      "degreeId": "1130",
+      "dvid": "6491",
+      "name": "Master of Complex Systems",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6491"
+    },
+    {
+      "degreeId": "1209",
+      "dvid": "6468",
+      "name": "Graduate Certificate in Cybersecurity",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6468"
+    },
+    {
+      "degreeId": "1210",
+      "dvid": "6481",
+      "name": "Graduate Diploma in Cybersecurity",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6481"
+    },
+    {
+      "degreeId": "1208",
+      "dvid": "6499",
+      "name": "Master of Cybersecurity",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6499"
+    },
+    {
+      "degreeId": "1205",
+      "dvid": "6470",
+      "name": "Graduate Certificate in Data Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6470"
+    },
+    {
+      "degreeId": "1206",
+      "dvid": "6482",
+      "name": "Graduate Diploma in Data Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6482"
+    },
+    {
+      "degreeId": "1207",
+      "dvid": "6500",
+      "name": "Master of Data Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6500"
+    },
+    {
+      "degreeId": "1146",
+      "dvid": "6471",
+      "name": "Graduate Certificate in Digital Health and Data Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6471"
+    },
+    {
+      "degreeId": "1145",
+      "dvid": "6502",
+      "name": "Master of Digital Health and Data Science",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6502"
+    },
+    {
+      "degreeId": "436",
+      "dvid": "6483",
+      "name": "Graduate Diploma in Health Technology Innovation",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6483"
+    },
+    {
+      "degreeId": "430",
+      "dvid": "6512",
+      "name": "Master of Health Technology Innovation",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6512"
+    },
+    {
+      "degreeId": "420",
+      "dvid": "6480",
+      "name": "Graduate Diploma in Computing",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6480"
+    },
+    {
+      "degreeId": "912",
+      "dvid": "6340",
+      "name": "Bachelor of Project Management (Built Environment major (Table A))",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6340"
+    },
+    {
+      "degreeId": "911",
+      "dvid": "6344",
+      "name": "Bachelor of Project Management (Construction major (Table A))",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6344"
+    },
+    {
+      "degreeId": "805",
+      "dvid": "6348",
+      "name": "Bachelor of Project Management (Table S major)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6348"
+    },
+    {
+      "degreeId": "299",
+      "dvid": "6345",
+      "name": "Bachelor of Project Management (Honours)",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6345"
+    },
+    {
+      "degreeId": "434",
+      "dvid": "6476",
+      "name": "Graduate Certificate in Project Management",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6476"
+    },
+    {
+      "degreeId": "435",
+      "dvid": "6487",
+      "name": "Graduate Diploma in Project Management",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6487"
+    },
+    {
+      "degreeId": "433",
+      "dvid": "6626",
+      "name": "Master of Project Management",
+      "seedUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6626"
+    }
+  ]
 }

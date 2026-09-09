@@ -219,6 +219,10 @@ const parsePeriod = (
 export const parseCuspStudyPlan = (
   html: string,
   pageUrl: string,
+  degree?: {
+    degreeId: string;
+    name: string;
+  },
 ): CuspStudyPlan => {
   const $ = cheerio.load(html);
   const identifiers = parsePageIdentifiers(pageUrl);
@@ -277,6 +281,8 @@ export const parseCuspStudyPlan = (
     source: "USYD_CUSP",
     sourceUrl: pageUrl,
     cuspDegreeVersionId: identifiers.degreeVersionId,
+    cuspDegreeId: degree?.degreeId ?? null,
+    cuspDegreeName: degree?.name ?? null,
     cuspStreamId: identifiers.streamId,
     commencementYear,
     title,

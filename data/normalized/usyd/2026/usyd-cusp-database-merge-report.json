@@ -1,0 +1,3850 @@
+{
+  "generatedAt": "2026-09-09T11:37:28.887Z",
+  "cuspPlans": 928,
+  "matchedPlans": 525,
+  "unmatchedPlans": 0,
+  "outOfScopePlans": 403,
+  "matchedHandbookDegrees": 12,
+  "handbookDegreesWithCuspPlans": [
+    {
+      "code": "BPADVCMP-01",
+      "title": "Bachelor of Advanced Computing",
+      "planCount": 64
+    },
+    {
+      "code": "BPACMCOM-01",
+      "title": "Bachelor of Advanced Computing and Bachelor of Commerce",
+      "planCount": 6
+    },
+    {
+      "code": "BPACMSCI-01",
+      "title": "Bachelor of Advanced Computing and Bachelor of Science",
+      "planCount": 12
+    },
+    {
+      "code": "BHENGINE-04",
+      "title": "Bachelor of Engineering Honours",
+      "planCount": 196
+    },
+    {
+      "code": "BHENGART-05",
+      "title": "Bachelor of Engineering Honours and Bachelor of Arts",
+      "planCount": 40
+    },
+    {
+      "code": "BHENGCOM-05",
+      "title": "Bachelor of Engineering Honours and Bachelor of Commerce",
+      "planCount": 61
+    },
+    {
+      "code": "BHENGDAR-03",
+      "title": "Bachelor of Engineering Honours and Bachelor of Design in Architecture",
+      "planCount": 1
+    },
+    {
+      "code": "BHENGLAW-04",
+      "title": "Bachelor of Engineering Honours and Bachelor of Laws",
+      "planCount": 33
+    },
+    {
+      "code": "BHENGPRM-05",
+      "title": "Bachelor of Engineering Honours and Bachelor of Project Management",
+      "planCount": 28
+    },
+    {
+      "code": "BHENGSCI-05",
+      "title": "Bachelor of Engineering Honours and Bachelor of Science",
+      "planCount": 79
+    },
+    {
+      "code": "BPPRJMGT-02",
+      "title": "Bachelor of Project Management",
+      "planCount": 4
+    },
+    {
+      "code": "BHPRJMGT-01",
+      "title": "Bachelor of Project Management (Honours)",
+      "planCount": 1
+    }
+  ],
+  "handbookDegreesWithoutCuspPlans": [
+    {
+      "code": "BHADVSTH-02",
+      "title": "Bachelor of Advanced Studies (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BHADVFGB-01",
+      "title": "Bachelor of Advanced Studies (Honours) (Food and Agribusiness)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BHADVMDC-03",
+      "title": "Bachelor of Advanced Studies (Honours) (Media and Communications)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BHADVTWC-01",
+      "title": "Bachelor of Advanced Studies (Honours) (Taronga Wildlife Conservation)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPADVMDC-03",
+      "title": "Bachelor of Advanced Studies (Media and Communications)",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPAGRSCI-01",
+      "title": "Bachelor of Agricultural Science",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHAGRSCI-01",
+      "title": "Bachelor of Agricultural Science Honours",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPAVTBSC-01",
+      "title": "Bachelor of Animal and Veterinary Bioscience",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BHAVTBSC-01",
+      "title": "Bachelor of Animal and Veterinary Bioscience (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPASDRAD-01",
+      "title": "Bachelor of Applied Science (Diagnostic Radiography)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPASESSC-03",
+      "title": "Bachelor of Applied Science (Exercise and Sport Science)",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPASEXPH-02",
+      "title": "Bachelor of Applied Science (Exercise Physiology)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPASOCTE-06",
+      "title": "Bachelor of Applied Science (Occupational Therapy)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPASPHYS-06",
+      "title": "Bachelor of Applied Science (Physiotherapy)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPASSPPA-06",
+      "title": "Bachelor of Applied Science (Speech Pathology)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPARCENV-01",
+      "title": "Bachelor of Architecture and Environments",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BHARCENV-01",
+      "title": "Bachelor of Architecture and Environments (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPARTSAR-09",
+      "title": "Bachelor of Arts",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPARTXTD-01",
+      "title": "Bachelor of Arts (Extended)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHARTSAH-01",
+      "title": "Bachelor of Arts (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPARTAVS-01",
+      "title": "Bachelor of Arts and Bachelor of Advanced Studies",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPARTLAW-04",
+      "title": "Bachelor of Arts and Bachelor of Laws",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPARTSWK-04",
+      "title": "Bachelor of Arts and Bachelor of Social Work",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPARTMED-01",
+      "title": "Bachelor of Arts and Doctor of Medicine",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPARTNUR-02",
+      "title": "Bachelor of Arts and Master of Nursing",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPBIOMDH-01",
+      "title": "Bachelor of Biomedicine and Health",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPCOMMER-06",
+      "title": "Bachelor of Commerce",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPCOMAVS-01",
+      "title": "Bachelor of Commerce and Bachelor of Advanced Studies",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPCOMART-03",
+      "title": "Bachelor of Commerce and Bachelor of Arts",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPCOMLAW-05",
+      "title": "Bachelor of Commerce and Bachelor of Laws",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPCOMSCI-03",
+      "title": "Bachelor of Commerce and Bachelor of Science",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPCOMPUT-01",
+      "title": "Bachelor of Computing",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPDESIGN-02",
+      "title": "Bachelor of Design",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHDESIGH-02",
+      "title": "Bachelor of Design (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPDSNAVS-01",
+      "title": "Bachelor of Design and Bachelor of Advanced Studies",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BUDARCHI-01",
+      "title": "Bachelor of Design in Architecture",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHDARCHH-01",
+      "title": "Bachelor of Design in Architecture (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BHDARARC-01",
+      "title": "Bachelor of Design in Architecture (Honours) and Master of Architecture",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPECONOM-05",
+      "title": "Bachelor of Economics",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHECONOH-02",
+      "title": "Bachelor of Economics (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPECNAVS-01",
+      "title": "Bachelor of Economics and Bachelor of Advanced Studies",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPECNART-01",
+      "title": "Bachelor of Economics and Bachelor of Arts",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPECNLAW-07",
+      "title": "Bachelor of Economics and Bachelor of Laws",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPEDUECH-01",
+      "title": "Bachelor of Education (Early Childhood)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPEDUHPE-01",
+      "title": "Bachelor of Education (Health and Physical Education)",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPEDPRIM-04",
+      "title": "Bachelor of Education (Primary)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPEDUSEC-01",
+      "title": "Bachelor of Education (Secondary)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPEDSAVS-01",
+      "title": "Bachelor of Education and Bachelor of Advanced Studies (Secondary)",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPINTSTD-02",
+      "title": "Bachelor of International Studies",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHINTSTH-03",
+      "title": "Bachelor of International Studies (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPLANGUA-01",
+      "title": "Bachelor of Languages",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHLANGUA-01",
+      "title": "Bachelor of Languages (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BGLAWLAW-01",
+      "title": "Bachelor of Laws",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPLIARSC-02",
+      "title": "Bachelor of Liberal Arts and Science",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPLASXTD-01",
+      "title": "Bachelor of Liberal Arts and Science (Extended)",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BHLIARSH-01",
+      "title": "Bachelor of Liberal Arts and Science (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPMATHSC-01",
+      "title": "Bachelor of Mathematical Sciences",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHMATHSC-01",
+      "title": "Bachelor of Mathematical Sciences (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPMEDCOM-01",
+      "title": "Bachelor of Media and Communications",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BHMEDCOM-01",
+      "title": "Bachelor of Media and Communications (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPMUSICM-05",
+      "title": "Bachelor of Music",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPMUCOMP-01",
+      "title": "Bachelor of Music (Composition)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPMUMEDU-01",
+      "title": "Bachelor of Music (Music Education)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPMUPERF-01",
+      "title": "Bachelor of Music (Performance)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPMCOAVS-01",
+      "title": "Bachelor of Music and Bachelor of Advanced Studies (Composition)",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPMPEAVS-01",
+      "title": "Bachelor of Music and Bachelor of Advanced Studies (Performance)",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPNURADS-02",
+      "title": "Bachelor of Nursing (Advanced Studies)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BUNUPORE-02",
+      "title": "Bachelor of Nursing (Post-registration) (off-shore)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BUNUPORE-01",
+      "title": "Bachelor of Nursing (Post-registration) (on-shore)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BUORAHEA-01",
+      "title": "Bachelor of Oral Health",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHPHAPHP-01",
+      "title": "Bachelor of Pharmacy (Honours) and Master of Pharmacy Practice",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BHPHMPHP-01",
+      "title": "Bachelor of Pharmacy and Management (Honours) and Master of Pharmacy Practice",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPPLPHEC-01",
+      "title": "Bachelor of Politics, Philosophy, and Economics",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BHPLPHEC-01",
+      "title": "Bachelor of Politics, Philosophy, and Economics (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPPSYCHO-04",
+      "title": "Bachelor of Psychology",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHPSYCHH-02",
+      "title": "Bachelor of Psychology Honours",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPSCIENC-05",
+      "title": "Bachelor of Science",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPSCIXTD-01",
+      "title": "Bachelor of Science (Extended)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHSCIENH-02",
+      "title": "Bachelor of Science (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BHSCIFGB-01",
+      "title": "Bachelor of Science (Honours) (Food and Agribusiness)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BHSCITWC-01",
+      "title": "Bachelor of Science (Honours) (Taronga Wildlife Conservation)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPSCIAVS-01",
+      "title": "Bachelor of Science and Bachelor of Advanced Studies",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPSCIART-03",
+      "title": "Bachelor of Science and Bachelor of Arts",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPSCILAW-02",
+      "title": "Bachelor of Science and Bachelor of Laws",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPSCIDMD-01",
+      "title": "Bachelor of Science and Doctor of Dental Medicine",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPSCIMED-01",
+      "title": "Bachelor of Science and Doctor of Medicine",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPSCINUR-02",
+      "title": "Bachelor of Science and Master of Nursing",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPSCINUD-02",
+      "title": "Bachelor of Science and Master of Nutrition and Dietetics",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BUSOCWRK-01",
+      "title": "Bachelor of Social Work",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BPVBLVMD-02",
+      "title": "Bachelor of Veterinary Biology and Doctor of Veterinary Medicine",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPVISART-04",
+      "title": "Bachelor of Visual Arts",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHVISARH-02",
+      "title": "Bachelor of Visual Arts (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "BPVISAVS-01",
+      "title": "Bachelor of Visual Arts and Bachelor of Advanced Studies",
+      "level": "COMBINED"
+    },
+    {
+      "code": "BPWLCTRG-01",
+      "title": "Bachelor of Wildlife Conservation (Taronga)",
+      "level": "UNDERGRADUATE"
+    },
+    {
+      "code": "BHWLCTRG-01",
+      "title": "Bachelor of Wildlife Conservation (Taronga) (Honours)",
+      "level": "HONOURS"
+    },
+    {
+      "code": "DLARTSAR-04",
+      "title": "Diploma of Arts",
+      "level": "DIPLOMA"
+    },
+    {
+      "code": "DLLANSTD-04",
+      "title": "Diploma of Language Studies",
+      "level": "DIPLOMA"
+    }
+  ],
+  "preservedExistingPlans": 0,
+  "unresolvedSubjectCodes": [
+    "AERO1560",
+    "AMME4111",
+    "AMME4112",
+    "BMET1960",
+    "BMET4111",
+    "BMET4112",
+    "BUSS1000",
+    "BUSS2000",
+    "CHNG1108",
+    "CHNG4811",
+    "CHNG4812",
+    "CIVL4022",
+    "CIVL4023",
+    "DESA3011",
+    "ELEC1004",
+    "ELEC1005",
+    "ELEC4712",
+    "ELEC4713",
+    "ENGF1112",
+    "ENGF1661",
+    "ENGF1662",
+    "ENGG1800",
+    "ENGG1810",
+    "ENGG1860",
+    "ENGG2112",
+    "ENGG3112",
+    "ENGP1001",
+    "ENGP1002",
+    "ENGP1003",
+    "ENGP2001",
+    "ENGP2002",
+    "ENGP2003",
+    "ENGP3001",
+    "ENGP3002",
+    "ENVE1001",
+    "ENVE3001",
+    "ENVE3002",
+    "ENVE3004",
+    "ENVE4800",
+    "ENVE4811",
+    "ENVE4812",
+    "INFO1111",
+    "INFO1112",
+    "INFO2222",
+    "INFO3333",
+    "INFO4001",
+    "INFO4002",
+    "INFO4444",
+    "MECH1560",
+    "MTRX1701",
+    "PMGT1711",
+    "PMGT1850",
+    "PMGT1852",
+    "PMGT1863",
+    "PMGT2821",
+    "PMGT2822",
+    "PMGT2851",
+    "PMGT3854",
+    "PMGT3858",
+    "PMGT4850",
+    "PMGT4851",
+    "PMGT5811",
+    "PMGT5862"
+  ],
+  "unmatched": [],
+  "outOfScope": [
+    {
+      "cuspDegreeId": "716",
+      "cuspDegreeName": "Flexible First Year",
+      "title": "ProgramsEngENGI (UG)BEHonsS1 EntryFlexible First Year (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6457",
+      "family": "NON_DEGREE_PATHWAY",
+      "reason": "NON_DEGREE_PATHWAY"
+    },
+    {
+      "cuspDegreeId": "1226",
+      "cuspDegreeName": "Graduate Certificate in Computer Science",
+      "title": "ProgramsSCSCS(PG)CompSciGraduate Certificate in Computer Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6466",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1209",
+      "cuspDegreeName": "Graduate Certificate in Cybersecurity",
+      "title": "ProgramsSCSCS(PG)MCybersecGraduate Certificate in Cybersecurity (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6468",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1205",
+      "cuspDegreeName": "Graduate Certificate in Data Science",
+      "title": "ProgramsSCSCS(PG)DataSciGraduate Certificate in Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6470",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1146",
+      "cuspDegreeName": "Graduate Certificate in Digital Health and Data Science",
+      "title": "ProgramsSCSCS(PG)DHDSGraduate Certificate in Digital Health and Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6471",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "434",
+      "cuspDegreeName": "Graduate Certificate in Project Management",
+      "title": "ProgramsPMPM (PG)GradPM2015Graduate Certificate in Project Management (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6476",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "973",
+      "cuspDegreeName": "Graduate Certificate in Transport",
+      "title": "ProgramsEngENGI (PG)TrGraduate Certificate in Transport (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6477",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "736",
+      "cuspDegreeName": "Graduate Diploma in Complex Systems",
+      "title": "ProgramsSCSCS(PG)CXSGraduate Diploma in Complex Systems (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6478",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1227",
+      "cuspDegreeName": "Graduate Diploma in Computer Science",
+      "title": "ProgramsSCSCS(PG)CompSciGraduate Diploma in Computer Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6479",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "420",
+      "cuspDegreeName": "Graduate Diploma in Computing",
+      "title": "ProgramsSCSCS(PG)GDCompGraduate Diploma in Computing (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6480",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1210",
+      "cuspDegreeName": "Graduate Diploma in Cybersecurity",
+      "title": "ProgramsSCSCS(PG)MCybersecGraduate Diploma in Cybersecurity (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6481",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1206",
+      "cuspDegreeName": "Graduate Diploma in Data Science",
+      "title": "ProgramsSCSCS(PG)DataSciGraduate Diploma in Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6482",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "436",
+      "cuspDegreeName": "Graduate Diploma in Health Technology Innovation",
+      "title": "ProgramsSCSCS(PG)HTIGraduate Diploma in Health Technology Innovation (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6483",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "435",
+      "cuspDegreeName": "Graduate Diploma in Project Management",
+      "title": "ProgramsPMPM (PG)GradPM2015Graduate Diploma in Project Management (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6487",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "972",
+      "cuspDegreeName": "Graduate Diploma in Transport",
+      "title": "ProgramsEngENGI (PG)TrGraduate Diploma in Transport (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6488",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1130",
+      "cuspDegreeName": "Master of Complex Systems",
+      "title": "ProgramsSCSCS(PG)CXSMaster of Complex Systems (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6491",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1130",
+      "cuspDegreeName": "Master of Complex Systems",
+      "title": "ProgramsSCSCS(PG)CXSMaster of Complex Systems (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14350/dvid/6491",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1130",
+      "cuspDegreeName": "Master of Complex Systems",
+      "title": "ProgramsSCSCS(PG)CXSMaster of Complex Systems (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14351/dvid/6491",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1130",
+      "cuspDegreeName": "Master of Complex Systems",
+      "title": "ProgramsSCSCS(PG)CXSMaster of Complex Systems (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14352/dvid/6491",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1130",
+      "cuspDegreeName": "Master of Complex Systems",
+      "title": "ProgramsSCSCS(PG)CXSMaster of Complex Systems (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14353/dvid/6491",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14358/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14359/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14360/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14361/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14362/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14363/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14364/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1229",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14365/dvid/6493",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14366/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14367/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14368/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14369/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14370/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14371/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14372/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1272",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14373/dvid/6494",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14374/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14375/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14376/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14377/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14378/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14379/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14380/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1273",
+      "cuspDegreeName": "Master of Computer Science (advanced entry) (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (advanced entry) (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14381/dvid/6495",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14382/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14383/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14384/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14385/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14386/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14387/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14388/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1228",
+      "cuspDegreeName": "Master of Computer Science (Capstone Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Capstone Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14389/dvid/6496",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14390/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14391/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14392/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14393/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14394/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14395/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14396/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1270",
+      "cuspDegreeName": "Master of Computer Science (Research Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Research Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14397/dvid/6497",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14398/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14399/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14400/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14401/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14402/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14403/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14404/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1271",
+      "cuspDegreeName": "Master of Computer Science (Work Integrated Pathway)",
+      "title": "ProgramsSCSCS(PG)CompSciMCSMaster of Computer Science (Work Integrated Pathway) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14405/dvid/6498",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1208",
+      "cuspDegreeName": "Master of Cybersecurity",
+      "title": "ProgramsSCSCS(PG)MCybersecMaster of Cybersecurity (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6499",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1208",
+      "cuspDegreeName": "Master of Cybersecurity",
+      "title": "ProgramsSCSCS(PG)MCybersecMaster of Cybersecurity (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14406/dvid/6499",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1208",
+      "cuspDegreeName": "Master of Cybersecurity",
+      "title": "ProgramsSCSCS(PG)MCybersecMaster of Cybersecurity (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14407/dvid/6499",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1208",
+      "cuspDegreeName": "Master of Cybersecurity",
+      "title": "ProgramsSCSCS(PG)MCybersecMaster of Cybersecurity (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14408/dvid/6499",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1208",
+      "cuspDegreeName": "Master of Cybersecurity",
+      "title": "ProgramsSCSCS(PG)MCybersecMaster of Cybersecurity (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14409/dvid/6499",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1207",
+      "cuspDegreeName": "Master of Data Science",
+      "title": "ProgramsSCSCS(PG)DataSciMaster of Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6500",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1207",
+      "cuspDegreeName": "Master of Data Science",
+      "title": "ProgramsSCSCS(PG)DataSciMaster of Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14410/dvid/6500",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1207",
+      "cuspDegreeName": "Master of Data Science",
+      "title": "ProgramsSCSCS(PG)DataSciMaster of Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14411/dvid/6500",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1207",
+      "cuspDegreeName": "Master of Data Science",
+      "title": "ProgramsSCSCS(PG)DataSciMaster of Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14412/dvid/6500",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1145",
+      "cuspDegreeName": "Master of Digital Health and Data Science",
+      "title": "ProgramsSCSCS(PG)DHDSMaster of Digital Health and Data Science (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6502",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1241",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Advanced Manufacturing) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6504",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1241",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Advanced Manufacturing) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14427/dvid/6504",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1241",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Advanced Manufacturing) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14428/dvid/6504",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1241",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Advanced Manufacturing) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14429/dvid/6504",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1242",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Biomedical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6505",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1242",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Biomedical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14430/dvid/6505",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1242",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Biomedical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14431/dvid/6505",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1242",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Biomedical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14432/dvid/6505",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1242",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Biomedical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14433/dvid/6505",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1242",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Biomedical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14434/dvid/6505",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1242",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Biomedical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14435/dvid/6505",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1243",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6506",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1243",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14436/dvid/6506",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1243",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14437/dvid/6506",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1243",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14438/dvid/6506",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1244",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Civil Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6507",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1244",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Civil Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14439/dvid/6507",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1244",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Civil Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14440/dvid/6507",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1244",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Civil Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14441/dvid/6507",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1244",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Civil Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14442/dvid/6507",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1244",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Civil Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14443/dvid/6507",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1244",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Civil Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14444/dvid/6507",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14445/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14446/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14447/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14448/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14449/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14450/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1245",
+      "cuspDegreeName": "Master of Engineering (Electrical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Electrical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14451/dvid/6508",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14452/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14453/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14454/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14455/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14456/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14457/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1246",
+      "cuspDegreeName": "Master of Engineering (Mechanical Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Mechanical Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14458/dvid/6509",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1247",
+      "cuspDegreeName": "Master of Engineering (Software Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Software Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6510",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1247",
+      "cuspDegreeName": "Master of Engineering (Software Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Software Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14459/dvid/6510",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1247",
+      "cuspDegreeName": "Master of Engineering (Software Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Software Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14460/dvid/6510",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1247",
+      "cuspDegreeName": "Master of Engineering (Software Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Software Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14461/dvid/6510",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1248",
+      "cuspDegreeName": "Master of Engineering (Sustainability & Environmental Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Sustainability & Environmental Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6511",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1248",
+      "cuspDegreeName": "Master of Engineering (Sustainability & Environmental Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Sustainability & Environmental Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14462/dvid/6511",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1248",
+      "cuspDegreeName": "Master of Engineering (Sustainability & Environmental Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Sustainability & Environmental Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14463/dvid/6511",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1248",
+      "cuspDegreeName": "Master of Engineering (Sustainability & Environmental Engineering) 2025+",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S1 EntryMaster of Engineering (Sustainability & Environmental Engineering) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14464/dvid/6511",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "430",
+      "cuspDegreeName": "Master of Health Technology Innovation",
+      "title": "ProgramsSCSCS(PG)HTIMaster of Health Technology Innovation (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6512",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "430",
+      "cuspDegreeName": "Master of Health Technology Innovation",
+      "title": "ProgramsSCSCS(PG)HTIMaster of Health Technology Innovation (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14465/dvid/6512",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "430",
+      "cuspDegreeName": "Master of Health Technology Innovation",
+      "title": "ProgramsSCSCS(PG)HTIMaster of Health Technology Innovation (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14466/dvid/6512",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "955",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Aerospace) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6522",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "955",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Aerospace) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14517/dvid/6522",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "955",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Aerospace) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14518/dvid/6522",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "955",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Aerospace) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14519/dvid/6522",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "955",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Aerospace) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14520/dvid/6522",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1257",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6523",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1257",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14521/dvid/6523",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1257",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14522/dvid/6523",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1257",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14523/dvid/6523",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1295",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6524",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1295",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14524/dvid/6524",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1295",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14525/dvid/6524",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1295",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14526/dvid/6524",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "956",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Biomedical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6525",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "956",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Biomedical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14527/dvid/6525",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "956",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Biomedical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14528/dvid/6525",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "956",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Biomedical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14529/dvid/6525",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "956",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Biomedical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14530/dvid/6525",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1258",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6526",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1258",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14531/dvid/6526",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1258",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14532/dvid/6526",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1258",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14533/dvid/6526",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1258",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14534/dvid/6526",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1258",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14535/dvid/6526",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1258",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14536/dvid/6526",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1296",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6527",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1296",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14537/dvid/6527",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1296",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14538/dvid/6527",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1296",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14539/dvid/6527",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1296",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14540/dvid/6527",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1296",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14541/dvid/6527",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1296",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14542/dvid/6527",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "957",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6528",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "957",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14543/dvid/6528",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "957",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14544/dvid/6528",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "957",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14545/dvid/6528",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "957",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14546/dvid/6528",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1297",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6529",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1297",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14547/dvid/6529",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1297",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14548/dvid/6529",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1297",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14549/dvid/6529",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1259",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6530",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1259",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14550/dvid/6530",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1259",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14551/dvid/6530",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1259",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14552/dvid/6530",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "958",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Civil) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6531",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "958",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Civil) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14553/dvid/6531",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "958",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Civil) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14554/dvid/6531",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "958",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Civil) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14555/dvid/6531",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "958",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Civil) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14556/dvid/6531",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14557/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14558/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14559/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14560/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14561/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14562/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1260",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14563/dvid/6532",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14564/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14565/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14566/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14567/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14568/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14569/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1298",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14570/dvid/6533",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "959",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Electrical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6534",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "959",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Electrical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14571/dvid/6534",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "959",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Electrical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14572/dvid/6534",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "959",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Electrical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14573/dvid/6534",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "959",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Electrical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14574/dvid/6534",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14575/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14576/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14577/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14578/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14579/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14580/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14581/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1299",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14582/dvid/6535",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14583/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14584/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14585/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14586/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14587/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14588/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14589/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1261",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14590/dvid/6536",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1082",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Intelligent Information Engineering)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Intelligent Information Engineering) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6539",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1082",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Intelligent Information Engineering)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Intelligent Information Engineering) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14599/dvid/6539",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1082",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Intelligent Information Engineering)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Intelligent Information Engineering) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14600/dvid/6539",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1082",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Intelligent Information Engineering)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Intelligent Information Engineering) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14601/dvid/6539",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1082",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Intelligent Information Engineering)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Intelligent Information Engineering) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14602/dvid/6539",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "962",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Mechanical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6540",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "962",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Mechanical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14603/dvid/6540",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "962",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Mechanical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14604/dvid/6540",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "962",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Mechanical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14605/dvid/6540",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "962",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Mechanical) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14606/dvid/6540",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14607/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14608/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14609/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14610/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14611/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14612/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1262",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14613/dvid/6541",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14614/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14615/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14616/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14617/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14618/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14619/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1300",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14620/dvid/6542",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "963",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Power)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Power) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6543",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "963",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Power)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Power) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14621/dvid/6543",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "963",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Power)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Power) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14622/dvid/6543",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "963",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Power)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Power) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14623/dvid/6543",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "963",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Power)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Power) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14624/dvid/6543",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "964",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Software) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6544",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "964",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Software) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14625/dvid/6544",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "964",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Software) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14626/dvid/6544",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "964",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Software) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14627/dvid/6544",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "964",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Software) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14628/dvid/6544",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1301",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6545",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1301",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14629/dvid/6545",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1301",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14630/dvid/6545",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1301",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)MPE Sem 2MPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14631/dvid/6545",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1263",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6546",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1263",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14632/dvid/6546",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1263",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14633/dvid/6546",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1263",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) 2025+Master of Professional Engineering (Accelerated) (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14634/dvid/6546",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "965",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Structural)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Structural) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6547",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "965",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Structural)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Structural) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14635/dvid/6547",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "965",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Structural)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Structural) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14636/dvid/6547",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "965",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Structural)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Structural) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14637/dvid/6547",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "965",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Structural)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Structural) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14638/dvid/6547",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "966",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Telecommunications)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Telecommunications) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6548",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "966",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Telecommunications)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Telecommunications) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14639/dvid/6548",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "966",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Telecommunications)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Telecommunications) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14640/dvid/6548",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "966",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Telecommunications)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Telecommunications) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14641/dvid/6548",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "966",
+      "cuspDegreeName": "Master of Professional Engineering (Accelerated) (Telecommunications)",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPE(Accel)S1 entryMPE(Accel) to 2024Master of Professional Engineering (Accelerated) (Telecommunications) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14642/dvid/6548",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1249",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6550",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1249",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14647/dvid/6550",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1249",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14648/dvid/6550",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1249",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14649/dvid/6550",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1287",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6551",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1287",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14650/dvid/6551",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1287",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14651/dvid/6551",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1287",
+      "cuspDegreeName": "Master of Professional Engineering (Aerospace) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Aerospace) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14652/dvid/6551",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1250",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6558",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1250",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14665/dvid/6558",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1250",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14666/dvid/6558",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1250",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14667/dvid/6558",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1250",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14668/dvid/6558",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1250",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14669/dvid/6558",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1250",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14670/dvid/6558",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1288",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6559",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1288",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14671/dvid/6559",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1288",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14672/dvid/6559",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1288",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14673/dvid/6559",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1288",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14674/dvid/6559",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1288",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14675/dvid/6559",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1288",
+      "cuspDegreeName": "Master of Professional Engineering (Biomedical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Biomedical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14676/dvid/6559",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1289",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6566",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1289",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14689/dvid/6566",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1289",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14690/dvid/6566",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1289",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14691/dvid/6566",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1251",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6567",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1251",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14692/dvid/6567",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1251",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14693/dvid/6567",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1251",
+      "cuspDegreeName": "Master of Professional Engineering (Chemical & Biomolecular) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Chemical & Biomolecular) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14694/dvid/6567",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14706/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14707/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14708/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14709/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14710/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14711/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1252",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14712/dvid/6573",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14713/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14714/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14715/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14716/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14717/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14718/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1290",
+      "cuspDegreeName": "Master of Professional Engineering (Civil) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Civil) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14719/dvid/6574",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14729/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14730/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14731/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14732/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14733/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14734/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14735/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1253",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14736/dvid/6579",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14737/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14738/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14739/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14740/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14741/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14742/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14743/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1291",
+      "cuspDegreeName": "Master of Professional Engineering (Electrical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Electrical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14744/dvid/6580",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14781/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14782/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14783/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14784/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14785/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14786/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1254",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14787/dvid/6597",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14788/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14789/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14790/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14791/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14792/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14793/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1292",
+      "cuspDegreeName": "Master of Professional Engineering (Mechanical) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Mechanical) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14794/dvid/6598",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1293",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6610",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1293",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14819/dvid/6610",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1293",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14820/dvid/6610",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1293",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14821/dvid/6610",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1255",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6611",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1255",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14822/dvid/6611",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1255",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14823/dvid/6611",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1255",
+      "cuspDegreeName": "Master of Professional Engineering (Software) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Software) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14824/dvid/6611",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1256",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6618",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1256",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14841/dvid/6618",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1256",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14842/dvid/6618",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1256",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPES1 EntryMPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14843/dvid/6618",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1294",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6619",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1294",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14844/dvid/6619",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1294",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14845/dvid/6619",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1294",
+      "cuspDegreeName": "Master of Professional Engineering (Sustainability & Environmental) 2025+",
+      "title": "ProgramsEngENGI (PG)MPE/MPEAMPEMPE Sem2MPE 2025+Master of Professional Engineering (Sustainability & Environmental) 2025+ (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14846/dvid/6619",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "433",
+      "cuspDegreeName": "Master of Project Management",
+      "title": "ProgramsPMPM (PG)GradPM2015Master of Project Management (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6626",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "971",
+      "cuspDegreeName": "Master of Transport",
+      "title": "ProgramsEngENGI (PG)TrMaster of Transport (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6627",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "971",
+      "cuspDegreeName": "Master of Transport",
+      "title": "ProgramsEngENGI (PG)TrMaster of Transport (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14856/dvid/6627",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "971",
+      "cuspDegreeName": "Master of Transport",
+      "title": "ProgramsEngENGI (PG)TrMaster of Transport (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14857/dvid/6627",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1310",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Advanced Manufacturing) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6712",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1310",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Advanced Manufacturing) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14973/dvid/6712",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1310",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Advanced Manufacturing) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14974/dvid/6712",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1310",
+      "cuspDegreeName": "Master of Engineering (Advanced Manufacturing) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Advanced Manufacturing) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14975/dvid/6712",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1311",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Biomedical Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6713",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1311",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Biomedical Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14976/dvid/6713",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1311",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Biomedical Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14977/dvid/6713",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1311",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Biomedical Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14978/dvid/6713",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1311",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Biomedical Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14979/dvid/6713",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1311",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Biomedical Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14980/dvid/6713",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1311",
+      "cuspDegreeName": "Master of Engineering (Biomedical Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Biomedical Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14981/dvid/6713",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1312",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6714",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1312",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14982/dvid/6714",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1312",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14983/dvid/6714",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1312",
+      "cuspDegreeName": "Master of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Chemical & Biomolecular Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14984/dvid/6714",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14985/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14986/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14987/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14988/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14989/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/14990/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1313",
+      "cuspDegreeName": "Master of Engineering (Civil Engineering) 2026+ (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryMaster of Engineering (Civil Engineering) 2026+ (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/16373/dvid/6715",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1374",
+      "cuspDegreeName": "Master of Engineering (Civil) Structures specialisation 2026 (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryME (Civil) 2026+ MYEMaster of Engineering (Civil) Structures specialisation 2026 (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/dvid/7304",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1374",
+      "cuspDegreeName": "Master of Engineering (Civil) Structures specialisation 2026 (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryME (Civil) 2026+ MYEMaster of Engineering (Civil) Structures specialisation 2026 (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/16383/dvid/7304",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1374",
+      "cuspDegreeName": "Master of Engineering (Civil) Structures specialisation 2026 (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryME (Civil) 2026+ MYEMaster of Engineering (Civil) Structures specialisation 2026 (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/16384/dvid/7304",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    },
+    {
+      "cuspDegreeId": "1374",
+      "cuspDegreeName": "Master of Engineering (Civil) Structures specialisation 2026 (mid-year)",
+      "title": "ProgramsEngENGI (PG)ME/GDE/GEME/GDE/GEME 2025+S2 EntryME (Civil) 2026+ MYEMaster of Engineering (Civil) Structures specialisation 2026 (mid-year) (2026)",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-degree-page/stream/16385/dvid/7304",
+      "family": "POSTGRADUATE",
+      "reason": "OUT_OF_HANDBOOK_SCOPE"
+    }
+  ]
+}

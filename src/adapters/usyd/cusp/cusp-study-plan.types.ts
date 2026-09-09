@@ -30,6 +30,8 @@ export type CuspStudyPlan = {
 
   // CUSP identifiers, not your Prisma database IDs.
   cuspDegreeVersionId: string;
+  cuspDegreeId: string | null;
+  cuspDegreeName: string | null;
   cuspStreamId: string | null;
   commencementYear: number | null;
 

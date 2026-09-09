@@ -26,6 +26,14 @@ const SEED_FILE = path.resolve(
 );
 
 const REQUEST_DELAY_MS = 750;
+const RETRIES = 4;
+const RETRY_BASE_DELAY_MS = 5_000;
+
+type DiscoveryEntry = {
+  degreeId: string;
+  dvid: string;
+  name: string;
+};
 
 const client = axios.create({
   timeout: 30_000,
@@ -41,15 +49,56 @@ const wait = (milliseconds: number): Promise<void> =>
   new Promise((resolve) => setTimeout(resolve, milliseconds));
 
 const downloadPage = async (url: string): Promise<string> => {
-  console.log(`Downloading ${url}`);
+  for (let attempt = 1; attempt <= RETRIES; attempt += 1) {
+    try {
+      console.log(`Downloading ${url} (attempt ${attempt}/${RETRIES})`);
+      const response = await client.get<string>(url);
 
-  const response = await client.get<string>(url);
+      if (typeof response.data !== "string" || !response.data.trim()) {
+        throw new Error(`CUSP returned an empty response for ${url}`);
+      }
 
-  if (typeof response.data !== "string" || !response.data.trim()) {
-    throw new Error(`CUSP returned an empty response for ${url}`);
+      return response.data;
+    } catch (error) {
+      if (attempt === RETRIES) {
+        throw error;
+      }
+
+      const delay = RETRY_BASE_DELAY_MS * 2 ** (attempt - 1);
+      console.warn(`Download failed; retrying in ${delay / 1_000}s`);
+      await wait(delay);
+    }
   }
 
-  return response.data;
+  throw new Error(`Unreachable retry state for ${url}`);
+};
+
+const readDiscoveryByDvid = async (): Promise<Map<string, DiscoveryEntry>> => {
+  const reportFile = path.resolve(
+    "data/normalized/usyd/2026/cusp-degree-discovery-report.json",
+  );
+
+  try {
+    const parsed = JSON.parse(await readFile(reportFile, "utf8")) as {
+      degrees?: DiscoveryEntry[];
+    };
+
+    return new Map(
+      (parsed.degrees ?? []).map((degree) => [degree.dvid, degree]),
+    );
+  } catch {
+    return new Map();
+  }
+};
+
+const readExistingCollection = async (): Promise<CuspStudyPlan[]> => {
+  try {
+    const parsed = JSON.parse(await readFile(OUTPUT_FILE, "utf8")) as
+      Partial<CuspCollectionFile>;
+    return Array.isArray(parsed.plans) ? parsed.plans : [];
+  } catch {
+    return [];
+  }
 };
 
 const readSeedUrls = async (): Promise<string[]> => {
@@ -75,24 +124,35 @@ const planIdentity = (plan: CuspStudyPlan): string =>
 
 const run = async (): Promise<void> => {
   const seedUrls = await readSeedUrls();
+  const discoveryByDvid = await readDiscoveryByDvid();
   const discoveredUrls = new Set<string>();
 
   for (const seedUrl of seedUrls) {
-    const html = await downloadPage(seedUrl);
+    try {
+      const html = await downloadPage(seedUrl);
 
-    for (const variantUrl of discoverCuspVariants(html, seedUrl)) {
-      discoveredUrls.add(variantUrl);
+      for (const variantUrl of discoverCuspVariants(html, seedUrl)) {
+        discoveredUrls.add(variantUrl);
+      }
+    } catch (error) {
+      console.error(`Failed to discover variants for ${seedUrl}`, error);
     }
 
     await wait(REQUEST_DELAY_MS);
   }
 
-  const plansByIdentity = new Map<string, CuspStudyPlan>();
+  /* Preserve successful prior results so a temporary CUSP outage cannot
+   * replace a complete collection with a partial or empty file. */
+  const plansByIdentity = new Map<string, CuspStudyPlan>(
+    (await readExistingCollection()).map((plan) => [planIdentity(plan), plan]),
+  );
 
   for (const pageUrl of discoveredUrls) {
     try {
       const html = await downloadPage(pageUrl);
-      const plan = parseCuspStudyPlan(html, pageUrl);
+      const dvid = new URL(pageUrl).pathname.match(/\/dvid\/(\d+)/)?.[1];
+      const degree = dvid ? discoveryByDvid.get(dvid) : undefined;
+      const plan = parseCuspStudyPlan(html, pageUrl, degree);
 
       plansByIdentity.set(planIdentity(plan), plan);
 

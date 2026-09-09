@@ -14,6 +14,7 @@ const TARGET_YEAR = 2026;
 const REQUEST_DELAY_MS = 750;
 const NAVIGATION_RETRIES = 3;
 const TREE_EXPANSION_ATTEMPTS = 30;
+const RETRY_BASE_DELAY_MS = 5_000;
 
 /*
  * This plan was already collected and verified successfully.
@@ -63,6 +64,10 @@ type DegreeCacheFile = {
   degrees: DiscoveredDegree[];
 };
 
+type DiscoveryReportFile = {
+  degrees?: DiscoveryMapping[];
+};
+
 const client = axios.create({
   timeout: 30_000,
   responseType: "text",
@@ -75,6 +80,9 @@ const client = axios.create({
 
 const wait = (milliseconds: number): Promise<void> =>
   new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+const retryDelay = (attempt: number): number =>
+  RETRY_BASE_DELAY_MS * 2 ** (attempt - 1);
 
 const cleanText = (
   value: string | null | undefined,
@@ -122,6 +130,18 @@ const readDegreeCache = async (): Promise<DiscoveredDegree[]> => {
         typeof degree?.name === "string" &&
         typeof degree?.sourceUrl === "string",
     );
+  } catch {
+    return [];
+  }
+};
+
+const readExistingMappings = async (): Promise<DiscoveryMapping[]> => {
+  try {
+    const parsed = JSON.parse(
+      await readFile(REPORT_FILE, "utf8"),
+    ) as DiscoveryReportFile;
+
+    return Array.isArray(parsed.degrees) ? parsed.degrees : [];
   } catch {
     return [];
   }
@@ -327,7 +347,9 @@ const collectLinksFromProgramPage = async (
     }
 
     if (navigationAttempt < NAVIGATION_RETRIES) {
-      await wait(3_000);
+      const delay = retryDelay(navigationAttempt);
+      console.warn(`Waiting ${delay / 1_000}s before retry`);
+      await wait(delay);
     }
   }
 
@@ -344,7 +366,13 @@ const discoverDegreeLinks =
       headless: true,
     });
 
-    const degrees = new Map<string, DiscoveredDegree>();
+    /* Start with the durable cache. A partial live run must add to it, not
+     * replace degree pages successfully discovered by an earlier run. */
+    const cachedDegrees = await readDegreeCache();
+    const degrees = new Map<string, DiscoveredDegree>(
+      cachedDegrees.map((degree) => [degree.degreeId, degree]),
+    );
+    let liveDiscoveryCount = 0;
 
     try {
       for (const programListUrl of PROGRAM_LIST_URLS) {
@@ -359,6 +387,8 @@ const discoverDegreeLinks =
         for (const degree of discovered) {
           degrees.set(degree.degreeId, degree);
         }
+
+        liveDiscoveryCount += discovered.length;
 
         if (degrees.size > 0) {
           /*
@@ -378,11 +408,9 @@ const discoverDegreeLinks =
       await browser.close();
     }
 
-    if (degrees.size > 0) {
+    if (liveDiscoveryCount > 0) {
       return [...degrees.values()];
     }
-
-    const cachedDegrees = await readDegreeCache();
 
     if (cachedDegrees.length > 0) {
       console.warn(
@@ -403,65 +431,54 @@ const findTargetYearDvid = async (
       `(degree_id ${degree.degreeId})`,
   );
 
-  try {
-    const response = await client.get<string>(
-      degree.sourceUrl,
-    );
+  for (let attempt = 1; attempt <= NAVIGATION_RETRIES; attempt += 1) {
+    try {
+      const response = await client.get<string>(degree.sourceUrl);
 
-    const $ = cheerio.load(response.data);
+      const $ = cheerio.load(response.data);
 
-    let targetDvid: string | null = null;
+      let targetDvid: string | null = null;
 
-    $("#selected-degree-version-id option").each(
-      (_, option) => {
-        const optionYear = cleanText(
-          $(option).text(),
-        );
+      $("#selected-degree-version-id option").each(
+        (_, option) => {
+          const optionYear = cleanText(
+            $(option).text(),
+          );
 
-        const optionValue = cleanText(
-          $(option).attr("value"),
-        );
+          const optionValue = cleanText(
+            $(option).attr("value"),
+          );
 
-        if (
-          optionYear === String(TARGET_YEAR) &&
-          /^\d+$/.test(optionValue)
-        ) {
-          targetDvid = optionValue;
-        }
-      },
-    );
-
-    if (!targetDvid) {
-      console.warn(
-        `No ${TARGET_YEAR} version: ${degree.name}`,
+          if (
+            optionYear === String(TARGET_YEAR) &&
+            /^\d+$/.test(optionValue)
+          ) {
+            targetDvid = optionValue;
+          }
+        },
       );
 
-      return null;
+      if (!targetDvid) {
+        console.warn(`No ${TARGET_YEAR} version: ${degree.name}`);
+        return null;
+      }
+
+      return targetDvid;
+    } catch (error) {
+      console.warn(
+        `Degree check ${attempt}/${NAVIGATION_RETRIES} failed for ` +
+          `${degree.name}: ${axios.isAxiosError(error)
+            ? `HTTP ${error.response?.status ?? "request failed"}`
+            : error instanceof Error ? error.message : String(error)}`,
+      );
+
+      if (attempt < NAVIGATION_RETRIES) {
+        await wait(retryDelay(attempt));
+      }
     }
-
-    return targetDvid;
-  } catch (error) {
-    if (axios.isAxiosError(error)) {
-      console.warn(
-        `Skipping ${degree.name}: HTTP ` +
-          `${
-            error.response?.status ??
-            "request failed"
-          }`,
-      );
-    } else {
-      console.warn(
-        `Skipping ${degree.name}: ` +
-          `${
-            error instanceof Error
-              ? error.message
-              : String(error)
-          }`,
-      );
-    }
-
-    return null;
   }
+
+  return null;
 };
 
 const saveReport = async (
@@ -493,6 +510,7 @@ const saveReport = async (
 
 const run = async (): Promise<void> => {
   const existingSeeds = await readExistingSeeds();
+  const existingMappings = await readExistingMappings();
 
   /*
    * Preserve all existing seeds and restore the verified seed
@@ -520,7 +538,9 @@ const run = async (): Promise<void> => {
     `Found ${degrees.length} unique CUSP degree pages`,
   );
 
-  const discoveredMappings: DiscoveryMapping[] = [];
+  const mappingByDegreeId = new Map<string, DiscoveryMapping>(
+    existingMappings.map((mapping) => [mapping.degreeId, mapping]),
+  );
 
   if (degrees.length === 0) {
     console.warn(
@@ -531,7 +551,7 @@ const run = async (): Promise<void> => {
 
     await saveReport(
       0,
-      discoveredMappings,
+      [...mappingByDegreeId.values()],
       false,
     );
 
@@ -555,7 +575,7 @@ const run = async (): Promise<void> => {
 
       seedUrls.add(seedUrl);
 
-      discoveredMappings.push({
+      mappingByDegreeId.set(degree.degreeId, {
         degreeId: degree.degreeId,
         dvid,
         name: degree.name,
@@ -570,7 +590,7 @@ const run = async (): Promise<void> => {
 
   await saveReport(
     degrees.length,
-    discoveredMappings,
+    [...mappingByDegreeId.values()],
     usedCache,
   );
 
@@ -581,7 +601,7 @@ const run = async (): Promise<void> => {
 
   console.log(
     `${TARGET_YEAR} degree versions found: ` +
-      `${discoveredMappings.length}`,
+      `${mappingByDegreeId.size}`,
   );
 
   console.log(

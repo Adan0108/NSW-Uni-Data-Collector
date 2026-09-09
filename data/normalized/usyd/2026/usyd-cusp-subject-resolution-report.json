@@ -1,0 +1,327 @@
+{
+  "generatedAt": "2026-09-09T12:05:23.654Z",
+  "requestedUnresolvedCodes": 63,
+  "foundInCuspPlans": 63,
+  "addedSubjects": 63,
+  "unresolvedAfterScan": 0,
+  "conflictCount": 0,
+  "subjects": [
+    {
+      "code": "AERO1560",
+      "name": "Introduction to Aerospace Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/AERO1560"
+    },
+    {
+      "code": "AMME4111",
+      "name": "Thesis A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/AMME4111"
+    },
+    {
+      "code": "AMME4112",
+      "name": "Thesis B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/AMME4112"
+    },
+    {
+      "code": "BMET1960",
+      "name": "Biomedical Engineering 1A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/BMET1960"
+    },
+    {
+      "code": "BMET4111",
+      "name": "Thesis A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/BMET4111"
+    },
+    {
+      "code": "BMET4112",
+      "name": "Thesis B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/BMET4112"
+    },
+    {
+      "code": "BUSS1000",
+      "name": "Future of Business",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/BUSS1000"
+    },
+    {
+      "code": "BUSS2000",
+      "name": "Leading and Influencing in Business",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/BUSS2000"
+    },
+    {
+      "code": "CHNG1108",
+      "name": "Introduction to Chemical Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/CHNG1108"
+    },
+    {
+      "code": "CHNG4811",
+      "name": "Thesis A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/CHNG4811"
+    },
+    {
+      "code": "CHNG4812",
+      "name": "Thesis B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/CHNG4812"
+    },
+    {
+      "code": "CIVL4022",
+      "name": "Thesis A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/CIVL4022"
+    },
+    {
+      "code": "CIVL4023",
+      "name": "Thesis B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/CIVL4023"
+    },
+    {
+      "code": "DESA3011",
+      "name": "Introduction to Building Construction",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/DESA3011"
+    },
+    {
+      "code": "ELEC1004",
+      "name": "Practical Introduction to Electrical Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1004"
+    },
+    {
+      "code": "ELEC1005",
+      "name": "Introduction to Software Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC1005"
+    },
+    {
+      "code": "ELEC4712",
+      "name": "Thesis A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4712"
+    },
+    {
+      "code": "ELEC4713",
+      "name": "Thesis B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ELEC4713"
+    },
+    {
+      "code": "ENGF1112",
+      "name": "Introduction to Engineering B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGF1112"
+    },
+    {
+      "code": "ENGF1661",
+      "name": "Flexible First Year Enrolment 1",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGF1661"
+    },
+    {
+      "code": "ENGF1662",
+      "name": "Flexible First Year Enrolment 2",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGF1662"
+    },
+    {
+      "code": "ENGG1800",
+      "name": "Introduction to Engineering A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG1800"
+    },
+    {
+      "code": "ENGG1810",
+      "name": "Introduction to Engineering Computing",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG1810"
+    },
+    {
+      "code": "ENGG1860",
+      "name": "Project Initiation & Scope",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG1860"
+    },
+    {
+      "code": "ENGG2112",
+      "name": "Multi-disciplinary Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG2112"
+    },
+    {
+      "code": "ENGG3112",
+      "name": "Interdisciplinary Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGG3112"
+    },
+    {
+      "code": "ENGP1001",
+      "name": "Professional Engagement Program 1A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1001"
+    },
+    {
+      "code": "ENGP1002",
+      "name": "Professional Engagement Program 1B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1002"
+    },
+    {
+      "code": "ENGP1003",
+      "name": "Professional Engagement Program 1C",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP1003"
+    },
+    {
+      "code": "ENGP2001",
+      "name": "Professional Engagement Program 2A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2001"
+    },
+    {
+      "code": "ENGP2002",
+      "name": "Professional Engagement Program 2B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2002"
+    },
+    {
+      "code": "ENGP2003",
+      "name": "Professional Engagement Program 2C",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP2003"
+    },
+    {
+      "code": "ENGP3001",
+      "name": "Professional Engagement Program 3A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3001"
+    },
+    {
+      "code": "ENGP3002",
+      "name": "Professional Engagement Program 3B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENGP3002"
+    },
+    {
+      "code": "ENVE1001",
+      "name": "Introduction to Environmental Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENVE1001"
+    },
+    {
+      "code": "ENVE3001",
+      "name": "Water Supply and Management",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENVE3001"
+    },
+    {
+      "code": "ENVE3002",
+      "name": "Air and Noise Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENVE3002"
+    },
+    {
+      "code": "ENVE3004",
+      "name": "Waste Management",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENVE3004"
+    },
+    {
+      "code": "ENVE4800",
+      "name": "Environmental Engineering Design",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENVE4800"
+    },
+    {
+      "code": "ENVE4811",
+      "name": "Thesis A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENVE4811"
+    },
+    {
+      "code": "ENVE4812",
+      "name": "Thesis B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/ENVE4812"
+    },
+    {
+      "code": "INFO1111",
+      "name": "Computing 1A Professionalism",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1111"
+    },
+    {
+      "code": "INFO1112",
+      "name": "Computing 1B OS & Network Platforms",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO1112"
+    },
+    {
+      "code": "INFO2222",
+      "name": "Computing 2 Usability and Security",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO2222"
+    },
+    {
+      "code": "INFO3333",
+      "name": "Computing 3 Management",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO3333"
+    },
+    {
+      "code": "INFO4001",
+      "name": "Thesis A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO4001"
+    },
+    {
+      "code": "INFO4002",
+      "name": "Thesis B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO4002"
+    },
+    {
+      "code": "INFO4444",
+      "name": "Computing 4 Innovation",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/INFO4444"
+    },
+    {
+      "code": "MECH1560",
+      "name": "Introduction to Mechanical Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MECH1560"
+    },
+    {
+      "code": "MTRX1701",
+      "name": "Introduction to Mechatronic Engineering",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/MTRX1701"
+    },
+    {
+      "code": "PMGT1711",
+      "name": "Systems Thinking in Projects",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT1711"
+    },
+    {
+      "code": "PMGT1850",
+      "name": "Introduction to Project Management",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT1850"
+    },
+    {
+      "code": "PMGT1852",
+      "name": "Facilitation and Stakeholder Engagement",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT1852"
+    },
+    {
+      "code": "PMGT1863",
+      "name": "Effective Project Communication",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT1863"
+    },
+    {
+      "code": "PMGT2821",
+      "name": "Project Conflict Management",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT2821"
+    },
+    {
+      "code": "PMGT2822",
+      "name": "Reframing Projects",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT2822"
+    },
+    {
+      "code": "PMGT2851",
+      "name": "Project Analysis",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT2851"
+    },
+    {
+      "code": "PMGT3854",
+      "name": "Legal Aspects of Projects",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT3854"
+    },
+    {
+      "code": "PMGT3858",
+      "name": "Adapting to Project Context",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT3858"
+    },
+    {
+      "code": "PMGT4850",
+      "name": "Project Management Honours Project A",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT4850"
+    },
+    {
+      "code": "PMGT4851",
+      "name": "Project Management Honours Project B",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT4851"
+    },
+    {
+      "code": "PMGT5811",
+      "name": "Critical and Systems Thinking",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT5811"
+    },
+    {
+      "code": "PMGT5862",
+      "name": "Introduction to Research in Project Studies",
+      "sourceUrl": "https://cusp.sydney.edu.au/students/view-unit-page/alpha/PMGT5862"
+    }
+  ],
+  "conflicts": [],
+  "unresolvedCodes": []
+}

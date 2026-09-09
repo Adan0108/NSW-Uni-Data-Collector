@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-09-09T12:10:43.235Z",
+  "existingHandbookPlans": 6,
+  "cuspPlans": 525,
+  "finalStudyPlans": 531,
+  "degreesWithCuspPlans": 12,
+  "subjects": 3081,
+  "cuspPlansWithSourcePlanId": 525,
+  "cuspPlansByFamily": {
+    "ADVANCED_COMPUTING": 82,
+    "ENGINEERING": 438,
+    "PROJECT_MANAGEMENT": 4,
+    "EXACT": 1
+  }
+}
