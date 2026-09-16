@@ -784,7 +784,7 @@ function main(): void {
   }
 
   if (
-    subjects.length !== 3081
+    subjects.length !== 3087
   ) {
     issues.push({
       severity: 'ERROR',
@@ -793,7 +793,7 @@ function main(): void {
         'UNEXPECTED_SUBJECT_TOTAL',
 
       message:
-        `Expected 3081 subjects, got ${subjects.length}.`,
+        `Expected 3087 subjects, got ${subjects.length}.`,
     });
   }
 

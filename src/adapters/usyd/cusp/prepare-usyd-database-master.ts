@@ -161,7 +161,7 @@ const INPUT_PATH = path.join(
   'normalized',
   'usyd',
   '2026',
-  'usyd-master-final.with-cusp.subjects-resolved.json',
+  'usyd-master-final.engineering-repaired.subjects-resolved.json',
 );
 
 const OUTPUT_PATH = path.join(

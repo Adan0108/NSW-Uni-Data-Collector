@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-09-16T08:49:50.173Z",
+  "requestedCodes": [
+    "AERO5500",
+    "AMME4912",
+    "BMET4790",
+    "BMET5996",
+    "CHNG5607",
+    "ELEC5760"
+  ],
+  "alreadyPresent": [],
+  "addedSubjects": [
+    {
+      "code": "AERO5500",
+      "name": "Flight Test and Evaluation",
+      "creditPoints": 6,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/aeronautical/specialisations/aerospace-systems-unit-of-study-table.html",
+      "evidenceCount": 6
+    },
+    {
+      "code": "AMME4912",
+      "name": "Crash Analysis and Design",
+      "creditPoints": 6,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechanical/specialisations/computational-unit-of-study-table.html",
+      "evidenceCount": 11
+    },
+    {
+      "code": "BMET4790",
+      "name": "Introduction to Biomechatronics",
+      "creditPoints": 6,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/mechatronic/specialisations/robotics-intelligent-systems-unit-of-study-table.html",
+      "evidenceCount": 6
+    },
+    {
+      "code": "BMET5996",
+      "name": "Biomedical Technology Software",
+      "creditPoints": 6,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/biomedical/specialisations/biocomputation-unit-of-study-table.html",
+      "evidenceCount": 5
+    },
+    {
+      "code": "CHNG5607",
+      "name": "Advanced Biochemical Engineering",
+      "creditPoints": 6,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/chemical-biomolecular/specialisations/biochemical-food-technologies-unit-of-study-table.html",
+      "evidenceCount": 3
+    },
+    {
+      "code": "ELEC5760",
+      "name": "Intelligent Networked Control",
+      "creditPoints": 6,
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/business-school/coursework/engineering-commerce/engineering-honours-streams/electrical/specialisations/internet-things-unit-of-study-table.html",
+      "evidenceCount": 8
+    }
+  ],
+  "remainingUnresolved": [],
+  "conflicts": []
+}

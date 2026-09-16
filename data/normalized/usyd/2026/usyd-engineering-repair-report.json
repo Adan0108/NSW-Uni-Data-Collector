@@ -1,0 +1,959 @@
+{
+  "generatedAt": "2026-09-16T08:46:10.167Z",
+  "renamedStreams": [
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Aeronautical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Aeronautical Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Biomedical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Chemical and Biomolecular Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Civil Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Electrical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Environmental Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechanical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechanical Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechatronic Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechatronic Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Software Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Aeronautical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Aeronautical Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Biomedical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Chemical and Biomolecular Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Civil Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Electrical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Environmental Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechanical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechanical Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechatronic Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Mechatronic Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html"
+    },
+    {
+      "oldName": "Bachelor of Engineering Honours",
+      "newName": "Software Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html"
+    }
+  ],
+  "repairedSources": [
+    {
+      "componentName": "Aerospace Research",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/specialisations/aerospace-research-unit-of-study-table.html",
+      "groups": 1,
+      "units": 4
+    },
+    {
+      "componentName": "Aerospace Research",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/specialisations/aerospace-research-unit-of-study-table.html",
+      "groups": 1,
+      "units": 4
+    },
+    {
+      "componentName": "Aerospace Systems",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/specialisations/aerospace-systems-unit-of-study-table.html",
+      "groups": 2,
+      "units": 13
+    },
+    {
+      "componentName": "Aerospace Systems",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/specialisations/aerospace-systems-unit-of-study-table.html",
+      "groups": 2,
+      "units": 13
+    },
+    {
+      "componentName": "Biochemical Food Technologies",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/specialisations/biochemical-food-technologies-unit-of-study-table.html",
+      "groups": 1,
+      "units": 6
+    },
+    {
+      "componentName": "Biocomputation",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/biocomputation-unit-of-study-table.html",
+      "groups": 1,
+      "units": 7
+    },
+    {
+      "componentName": "Biomedical Modelling Design",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/biomedical-modelling-design-unit-of-study-table.html",
+      "groups": 2,
+      "units": 6
+    },
+    {
+      "componentName": "Bionics Bioelectronics",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/bionics-bioelectronics-unit-of-study-table.html",
+      "groups": 2,
+      "units": 9
+    },
+    {
+      "componentName": "Chemical",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/specialisations/chemical-unit-of-study-table.html",
+      "groups": 1,
+      "units": 3
+    },
+    {
+      "componentName": "Chemical Digital Technologies",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/specialisations/chemical-digital-technologies-unit-of-study-table.html",
+      "groups": 1,
+      "units": 4
+    },
+    {
+      "componentName": "Chemical Engineering Energy",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/specialisations/chemical-engineering-energy-unit-of-study-table.html",
+      "groups": 1,
+      "units": 5
+    },
+    {
+      "componentName": "Chemical Engineering Environment",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/specialisations/chemical-engineering-environment-unit-of-study-table.html",
+      "groups": 1,
+      "units": 4
+    },
+    {
+      "componentName": "Computational",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/computational-unit-of-study-table.html",
+      "groups": 2,
+      "units": 6
+    },
+    {
+      "componentName": "Computational",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/computational-unit-of-study-table.html",
+      "groups": 2,
+      "units": 6
+    },
+    {
+      "componentName": "Computer",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/computer-unit-of-study-table.html",
+      "groups": 2,
+      "units": 8
+    },
+    {
+      "componentName": "Computer",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/computer-unit-of-study-table.html",
+      "groups": 2,
+      "units": 10
+    },
+    {
+      "componentName": "Energy Environment",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/specialisations/energy-environment-unit-of-study-table.html",
+      "groups": 2,
+      "units": 6
+    },
+    {
+      "componentName": "Energy Environment",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/energy-environment-unit-of-study-table.html",
+      "groups": 2,
+      "units": 8
+    },
+    {
+      "componentName": "Energy Environment",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/energy-environment-unit-of-study-table.html",
+      "groups": 2,
+      "units": 8
+    },
+    {
+      "componentName": "Engineering Data Science",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/engineering-data-science-unit-of-study-table.html",
+      "groups": 2,
+      "units": 10
+    },
+    {
+      "componentName": "Geotechnical",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/specialisations/geotechnical-unit-of-study-table.html",
+      "groups": 2,
+      "units": 6
+    },
+    {
+      "componentName": "Geotechnical",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/specialisations/geotechnical-unit-of-study-table.html",
+      "groups": 2,
+      "units": 5
+    },
+    {
+      "componentName": "Humanitarian",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/specialisations/humanitarian-unit-of-study-table.html",
+      "groups": 2,
+      "units": 4
+    },
+    {
+      "componentName": "Industrial Product Design",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/industrial-product-design-unit-of-study-table.html",
+      "groups": 2,
+      "units": 5
+    },
+    {
+      "componentName": "Industrial Product Design",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/industrial-product-design-unit-of-study-table.html",
+      "groups": 2,
+      "units": 5
+    },
+    {
+      "componentName": "Integrated Building",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/specialisations/integrated-building-unit-of-study-table.html",
+      "groups": 2,
+      "units": 4
+    },
+    {
+      "componentName": "Intelligent Information",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/intelligent-information-unit-of-study-table.html",
+      "groups": 2,
+      "units": 8
+    },
+    {
+      "componentName": "Intelligent Information Engineering",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/intelligent-information-engineering-unit-of-study-table.html",
+      "groups": 2,
+      "units": 10
+    },
+    {
+      "componentName": "Internet Things",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/internet-things-unit-of-study-table.html",
+      "groups": 2,
+      "units": 11
+    },
+    {
+      "componentName": "Internet Things",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/internet-things-unit-of-study-table.html",
+      "groups": 2,
+      "units": 12
+    },
+    {
+      "componentName": "Materials Science",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/materials-science-unit-of-study-table.html",
+      "groups": 1,
+      "units": 5
+    },
+    {
+      "componentName": "Materials Science",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/materials-science-unit-of-study-table.html",
+      "groups": 1,
+      "units": 5
+    },
+    {
+      "componentName": "Mechanical Design",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/mechanical-design-unit-of-study-table.html",
+      "groups": 1,
+      "units": 5
+    },
+    {
+      "componentName": "Mechanical Design",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/mechanical-design-unit-of-study-table.html",
+      "groups": 1,
+      "units": 5
+    },
+    {
+      "componentName": "Nanoscale Biotechnology",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/nanoscale-biotechnology-unit-of-study-table.html",
+      "groups": 2,
+      "units": 9
+    },
+    {
+      "componentName": "Power",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/power-unit-of-study-table.html",
+      "groups": 2,
+      "units": 10
+    },
+    {
+      "componentName": "Project Management",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/specialisations/project-management-unit-of-study-table.html",
+      "groups": 2,
+      "units": 4
+    },
+    {
+      "componentName": "Robotics Intelligent Systems",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/specialisations/robotics-intelligent-systems-unit-of-study-table.html",
+      "groups": 2,
+      "units": 6
+    },
+    {
+      "componentName": "Robotics Intelligent Systems",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/specialisations/robotics-intelligent-systems-unit-of-study-table.html",
+      "groups": 2,
+      "units": 6
+    },
+    {
+      "componentName": "Structures",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/specialisations/structures-unit-of-study-table.html",
+      "groups": 3,
+      "units": 8
+    },
+    {
+      "componentName": "Telecommunications",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/telecommunications-unit-of-study-table.html",
+      "groups": 2,
+      "units": 12
+    },
+    {
+      "componentName": "Thermofluids",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/thermofluids-unit-of-study-table.html",
+      "groups": 1,
+      "units": 6
+    },
+    {
+      "componentName": "Thermofluids",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/thermofluids-unit-of-study-table.html",
+      "groups": 1,
+      "units": 6
+    },
+    {
+      "componentName": "Transport",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/specialisations/transport-unit-of-study-table.html",
+      "groups": 2,
+      "units": 5
+    },
+    {
+      "componentName": "Water Engineering",
+      "componentType": "SPECIALISATION",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/specialisations/water-engineering-unit-of-study-table.html",
+      "groups": 1,
+      "units": 5
+    },
+    {
+      "componentName": "Aeronautical Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html",
+      "groups": 5,
+      "units": 37
+    },
+    {
+      "componentName": "Aeronautical Engineering with Space",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html",
+      "groups": 5,
+      "units": 38
+    },
+    {
+      "componentName": "Biomedical Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/unit-of-study-table.html",
+      "groups": 4,
+      "units": 47
+    },
+    {
+      "componentName": "Chemical and Biomolecular Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/unit-of-study-table.html",
+      "groups": 4,
+      "units": 72
+    },
+    {
+      "componentName": "Civil Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/unit-of-study-table.html",
+      "groups": 5,
+      "units": 64
+    },
+    {
+      "componentName": "Electrical Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "groups": 2,
+      "units": 68
+    },
+    {
+      "componentName": "Environmental Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html",
+      "groups": 2,
+      "units": 38
+    },
+    {
+      "componentName": "Mechanical Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html",
+      "groups": 2,
+      "units": 45
+    },
+    {
+      "componentName": "Mechanical Engineering with Space",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html",
+      "groups": 2,
+      "units": 47
+    },
+    {
+      "componentName": "Mechatronic Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html",
+      "groups": 3,
+      "units": 26
+    },
+    {
+      "componentName": "Mechatronic Engineering with Space",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html",
+      "groups": 4,
+      "units": 36
+    },
+    {
+      "componentName": "Software Engineering",
+      "componentType": "STREAM",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "groups": 3,
+      "units": 123
+    }
+  ],
+  "addedDegreeRelationships": 1,
+  "streamCandidates": [
+    {
+      "name": "Aeronautical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/overview.html"
+    },
+    {
+      "name": "Aeronautical Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/overview.html"
+    },
+    {
+      "name": "Biomedical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/overview.html"
+    },
+    {
+      "name": "Chemical and Biomolecular Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/overview.html"
+    },
+    {
+      "name": "Civil Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/overview.html"
+    },
+    {
+      "name": "Electrical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/overview.html"
+    },
+    {
+      "name": "Environmental Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/overview.html"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/overview.html"
+    },
+    {
+      "name": "Mechanical Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/overview.html"
+    },
+    {
+      "name": "Mechatronic Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/overview.html"
+    },
+    {
+      "name": "Mechatronic Engineering with Space",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/overview.html"
+    },
+    {
+      "name": "Software Engineering",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/overview.html"
+    }
+  ],
+  "skippedSections": [
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/specialisations/aerospace-research-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/specialisations/aerospace-research-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/specialisations/aerospace-systems-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/specialisations/aerospace-systems-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/biocomputation-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/biocomputation-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/specialisations/bionics-bioelectronics-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/computer-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/computer-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/specialisations/energy-environment-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/energy-environment-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/energy-environment-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/specialisations/geotechnical-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/industrial-product-design-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/industrial-product-design-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/industrial-product-design-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/industrial-product-design-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/intelligent-information-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/specialisations/intelligent-information-engineering-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/materials-science-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/materials-science-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/materials-science-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/materials-science-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/mechanical-design-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/mechanical-design-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/power-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/specialisations/robotics-intelligent-systems-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/specialisations/robotics-intelligent-systems-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/specialisations/telecommunications-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/specialisations/thermofluids-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/specialisations/thermofluids-unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/aeronautical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/biomedical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/chemical-biomolecular/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/civil/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/electrical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/environmental/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechanical-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/mechatronic-with-space/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    },
+    {
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/streams/software/unit-of-study-table.html",
+      "section": "Date Original publication Post-publication amendment"
+    }
+  ],
+  "unresolvedSubjectCodes": [
+    "AERO5500",
+    "AMME4912",
+    "BMET4790",
+    "BMET5996",
+    "CHNG5607",
+    "ELEC5760"
+  ]
+}
