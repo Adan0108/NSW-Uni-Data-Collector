@@ -784,18 +784,18 @@ function main(): void {
   }
 
   if (
-    subjects.length !== 3087
-  ) {
-    issues.push({
-      severity: 'ERROR',
+  subjects.length !== 3119
+) {
+  issues.push({
+    severity: 'ERROR',
 
-      type:
-        'UNEXPECTED_SUBJECT_TOTAL',
+    type:
+      'UNEXPECTED_SUBJECT_TOTAL',
 
-      message:
-        `Expected 3087 subjects, got ${subjects.length}.`,
-    });
-  }
+    message:
+      `Expected 3119 subjects, got ${subjects.length}.`,
+  });
+}
 
   if (
     studyPlans.length !== 531

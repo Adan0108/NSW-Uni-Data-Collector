@@ -8,7 +8,7 @@ import { prisma } from '../db/prisma.js';
 const DATA_FILE = resolve(
   process.cwd(),
   process.env.USYD_DATA_FILE ??
-    'data/normalized/usyd/2026/usyd-master-final.database-ready.json',
+  'data/normalized/usyd/2026/usyd-master-final.database-ready.json',
 );
 
 const UNIVERSITY_CODE = 'USYD';
@@ -39,6 +39,7 @@ interface UsydMaster {
     data: JsonObject;
   }>;
   degreeRequirements: JsonObject[];
+  requirementCandidateSources: JsonObject[];
   degreeRequirementRoots: JsonObject[];
   studyPlans: JsonObject[];
 }
@@ -54,6 +55,8 @@ interface ImportCounts {
   degreeComponentRows: number;
   requirementGroups: number;
   requirementItems: number;
+  candidateSources: number;
+  candidateSubjects: number;
   studyPlans: number;
   studyPlanYears: number;
   studyPlanPeriods: number;
@@ -86,7 +89,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         update: { name: UNIVERSITY_NAME },
         create: { code: UNIVERSITY_CODE, name: UNIVERSITY_NAME },
       });
-      
+
       const previous = await tx.handbookVersion.findUnique({
         where: {
           universityId_year: {
@@ -96,12 +99,12 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         },
         select: { id: true },
       });
-      
+
       if (previous) {
         console.log('Existing USYD 2026 data found. Replacing only that handbook...');
         await tx.handbookVersion.delete({ where: { id: previous.id } });
       }
-      
+
       const handbook = await tx.handbookVersion.create({
         data: {
           universityId: university.id,
@@ -109,7 +112,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
           sourceUrl: HANDBOOK_URL,
         },
       });
-      
+
       const counts: ImportCounts = {
         degrees: 0,
         components: 0,
@@ -121,15 +124,17 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         degreeComponentRows: 0,
         requirementGroups: 0,
         requirementItems: 0,
+        candidateSources: 0,
+        candidateSubjects: 0,
         studyPlans: 0,
         studyPlanYears: 0,
         studyPlanPeriods: 0,
         studyPlanItems: 0,
         unresolvedReferences: 0,
       };
-      
+
       const componentCodeByRecord = buildComponentCodes(master.components);
-      
+
       await tx.degree.createMany({
         data: master.degrees.map((degree) => ({
           handbookVersionId: handbook.id,
@@ -140,7 +145,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
           rawData: toJson(degree),
         })),
       });
-      
+
       const degreeIdByCode = await idMap(
         tx.degree.findMany({
           where: { handbookVersionId: handbook.id },
@@ -148,7 +153,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         }),
       );
       counts.degrees = degreeIdByCode.size;
-      
+
       /* USYD components have no native code. This deterministic code is stable
        * across reruns and distinguishes same-named roles in different handbooks. */
       await tx.component.createMany({
@@ -163,7 +168,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
             firstString(component.handbookCategory, component.handbook),
             `component ${name}.handbookCategory/handbook`,
           );
-      
+
           return {
             handbookVersionId: handbook.id,
             code: requiredMapValue(
@@ -184,7 +189,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
           };
         }),
       });
-      
+
       const componentRows = await tx.component.findMany({
         where: { handbookVersionId: handbook.id },
         select: { id: true, code: true },
@@ -193,7 +198,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         componentRows.map((row) => [row.code, row.id]),
       );
       counts.components = componentIdByCode.size;
-      
+
       await tx.subject.createMany({
         data: master.subjects.map((subject) => ({
           handbookVersionId: handbook.id,
@@ -212,7 +217,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
           rawData: toJson(subject),
         })),
       });
-      
+
       const subjectIdByCode = await idMap(
         tx.subject.findMany({
           where: { handbookVersionId: handbook.id },
@@ -220,7 +225,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         }),
       );
       counts.subjects = subjectIdByCode.size;
-      
+
       /*
        * Batch access-condition rows first. The previous importer inserted one
        * SubjectAccessCondition per query and then scanned every requisite rule
@@ -306,14 +311,63 @@ export async function importUsyd2026(): Promise<ImportCounts> {
           for (const [itemIndex, code] of itemCodes.entries()) {
             requisiteItemRows.push({
               id: randomUUID(),
-              requisiteGroupId: groupId,
-              itemKey: `${unitCode}:${type}:${ruleIndex}:${itemIndex}`,
-              requisiteType: type,
-              details: rawText,
-              referencedSubjectId: code ? subjectIdByCode.get(code) ?? null : null,
-              rawReferencedCodes: code ? toJson([code]) : optionalJson(parsed.unitPatterns),
-              sortOrder: itemIndex,
-              rawData: toJson({ parsedRoot: parsed.root ?? null, referencedCode: code }),
+
+              requisiteGroupId:
+                groupId,
+
+              itemKey:
+                `${unitCode}:${type}:${ruleIndex}:${itemIndex}`,
+
+              requisiteType:
+                type,
+
+              /*
+               * The complete logical expression belongs to:
+               *
+               * SubjectRequisiteGroup.rule
+               *
+               * Do NOT duplicate that full expression into every
+               * referenced child item.
+               *
+               * For a resolved subject reference, the child identity is
+               * already represented by referencedSubjectId /
+               * rawReferencedCodes.
+               *
+               * Only a raw/unresolved fallback item needs the original
+               * text in details.
+               */
+              details:
+                code ??
+                rawText,
+
+              referencedSubjectId:
+                code
+                  ? subjectIdByCode.get(
+                    code,
+                  ) ?? null
+                  : null,
+
+              rawReferencedCodes:
+                code
+                  ? toJson(
+                    [code],
+                  )
+                  : optionalJson(
+                    parsed.unitPatterns,
+                  ),
+
+              sortOrder:
+                itemIndex,
+
+              rawData:
+                toJson({
+                  parsedRoot:
+                    parsed.root ??
+                    null,
+
+                  referencedCode:
+                    code,
+                }),
             });
           }
         }
@@ -341,7 +395,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
       console.log(
         `Imported ${counts.requisiteGroups} requisite groups and ${counts.requisiteItems} requisite items.`,
       );
-      
+
       /* The flattened componentRequirementObjects array deliberately omits its
        * parent subject-area identity. componentSources retains that identity, so
        * import from it to avoid attaching a generic "Major" requirement to the
@@ -351,30 +405,30 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         const componentName = stringOrNull(sourceComponent.name);
         const handbookCategory = stringOrNull(sourceComponent.handbookCategory);
         if (!componentName || !handbookCategory) continue;
-      
+
         for (const parsedTable of arrayOfObjects(source.parsedTables)) {
           const structure = objectOrEmpty(parsedTable.structure);
           for (const requirement of arrayOfObjects(structure.components)) {
             const type = stringOrNull(requirement.type);
             if (!type) continue;
-      
-        const canonicalRecord = resolveComponentRecord({
-          handbookCategory,
-          type,
-          name: componentName,
-          evidence: sourceComponent,
-          components: master.components,
-        });
-        const code = canonicalRecord
-          ? componentCodeByRecord.get(canonicalRecord)
-          : undefined;
-        const componentId = code ? componentIdByCode.get(code) : undefined;
-      
+
+            const canonicalRecord = resolveComponentRecord({
+              handbookCategory,
+              type,
+              name: componentName,
+              evidence: sourceComponent,
+              components: master.components,
+            });
+            const code = canonicalRecord
+              ? componentCodeByRecord.get(canonicalRecord)
+              : undefined;
+            const componentId = code ? componentIdByCode.get(code) : undefined;
+
             /* The six known role supplements have authoritative identities but no
              * parsed requirement source. Missing identities here remain a hard
              * skip because guessing would create a false foreign-key relation. */
             if (!componentId) continue;
-      
+
             for (const [index, rawGroup] of arrayOfObjects(requirement.requirementGroups).entries()) {
               const group = await tx.requirementGroup.create({
                 data: {
@@ -393,7 +447,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
                 },
               });
               counts.requirementGroups += 1;
-      
+
               const units =
                 arrayOfObjects(
                   rawGroup.units,
@@ -435,8 +489,8 @@ export async function importUsyd2026(): Promise<ImportCounts> {
                   subjectId:
                     codeValue
                       ? subjectIdByCode.get(
-                          codeValue,
-                        ) ?? null
+                        codeValue,
+                      ) ?? null
                       : null,
 
                   componentId:
@@ -497,7 +551,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
                   componentIndex,
                   candidate,
                 ] of
-                  componentChoices.entries()
+                componentChoices.entries()
               ) {
                 const candidateName =
                   requiredString(
@@ -635,73 +689,555 @@ export async function importUsyd2026(): Promise<ImportCounts> {
           }
         }
       }
-      
-      /* Each semantic degree clause is preserved as a queryable group. Complex
-       * AST nodes remain lossless in rawData instead of being guessed into an
-       * incorrect relational meaning. */
-      for (const clause of master.degreeRequirements) {
-        const degreeCode = requiredString(clause.degreeCode, 'degreeRequirement.degreeCode');
-        const degreeId = requiredMapValue(degreeIdByCode, degreeCode, 'degree');
-        const node = objectOrEmpty(clause.node);
-        const status = stringOrNull(clause.status);
-        const group = await tx.requirementGroup.create({
-          data: {
+
+      /*
+ * ------------------------------------------------------------
+ * DEGREE REQUIREMENTS
+ * ------------------------------------------------------------
+ *
+ * Most historical USYD clauses are still imported using the
+ * original conservative flattened-reference behaviour.
+ *
+ * Dedicated generated Engineering Core clauses now contain
+ * authoritative nested GROUP nodes:
+ *
+ * Foundation
+ *   -> Computing Units
+ *   -> Mathematics Units
+ *
+ * Engineering Projects
+ *   -> Project 1
+ *   -> Project 2 & 3
+ *   -> Thesis Units
+ *
+ * The shared schema already supports RequirementGroup
+ * hierarchy through parentGroupId, so preserve that hierarchy
+ * instead of flattening it.
+ */
+      const candidateSourceGroupIdByKey =
+        new Map<string, string>();
+
+      for (
+        const clause
+        of master.degreeRequirements
+      ) {
+        const degreeCode =
+          requiredString(
+            clause.degreeCode,
+            'degreeRequirement.degreeCode',
+          );
+
+        const degreeId =
+          requiredMapValue(
+            degreeIdByCode,
+            degreeCode,
+            'degree',
+          );
+
+        const node =
+          objectOrEmpty(
+            clause.node,
+          );
+
+        const isNestedEngineeringCore =
+          clause.generatedRelationshipKind ===
+          'ENGINEERING_CORE_TABLE' &&
+          stringOrNull(
+            node.nodeType,
+          ) ===
+          'GROUP';
+
+        /*
+         * ----------------------------------------------------------
+         * NEW AUTHORITATIVE NESTED ENGINEERING CORE
+         * ----------------------------------------------------------
+         */
+        if (
+          isNestedEngineeringCore
+        ) {
+          const rootGroupId =
+            await importNestedDegreeRequirementNode({
+            tx,
+
             degreeId,
-            sourceGroupId: `USYD:DEGREE:${degreeCode}:${String(clause.sourcePath)}:${String(clause.sourceIndex)}`,
-            title: firstString(node.title, node.label, clause.sourcePath),
-            description: stringOrNull(clause.raw),
-            logic: mapNodeLogic(node),
-            nodeType: stringOrNull(node.nodeType),
-            status,
-            sourcePath: stringOrNull(clause.sourcePath),
-            sourceIndex: integerOrNull(clause.sourceIndex),
-            authoritative: status === 'AUTHORITATIVE',
-            requiredCreditPoints: findCreditPoints(node),
-            sortOrder: integerOrNull(clause.sourceIndex),
-            rawData: toJson(clause),
-          },
-        });
-        counts.requirementGroups += 1;
-      
-        const references = collectRequirementReferences(node);
-        if (references.length > 0) {
-          await tx.requirementItem.createMany({
-            data: references.map((reference, index) => ({
-              requirementGroupId: group.id,
-              itemType: reference.kind,
-              subjectId:
-                reference.kind === 'SUBJECT'
-                  ? subjectIdByCode.get(reference.value) ?? null
-                  : null,
-              componentId:
-                reference.kind === 'COMPONENT'
-                  ? findComponentIdByLooseReference(reference.value, master.components, componentIdByCode)
-                  : null,
-              rawCode: reference.kind === 'SUBJECT' ? reference.value : null,
-              rawName: reference.kind !== 'SUBJECT' ? reference.value : null,
-              sortOrder: index,
-              authoritative: status === 'AUTHORITATIVE',
-              rawData: toJson(reference.raw),
-            })),
+
+            degreeCode,
+
+            clause,
+
+            node,
+
+            parentGroupId:
+              null,
+
+            path:
+              [],
+
+            sortOrder:
+              integerOrNull(
+                clause.sourceIndex,
+              ),
+
+            subjectIdByCode,
+
+            componentIdByCode,
+
+            components:
+              master.components,
+
+            counts,
           });
-          counts.requirementItems += references.length;
+
+          for (
+            const candidateSourceId
+            of stringArray(
+              node.candidateSourceIds,
+            )
+          ) {
+            candidateSourceGroupIdByKey.set(
+              candidateSourceId,
+              rootGroupId,
+            );
+          }
+
+          continue;
+        }
+
+        /*
+         * ----------------------------------------------------------
+         * EXISTING CONSERVATIVE BEHAVIOUR
+         * ----------------------------------------------------------
+         *
+         * Keep this unchanged for other degree clauses so this
+         * Engineering repair does not reinterpret unrelated USYD
+         * requirements.
+         */
+        const status =
+          stringOrNull(
+            clause.status,
+          );
+
+        const group =
+          await tx.requirementGroup.create({
+            data: {
+              degreeId,
+
+              sourceGroupId:
+                `USYD:DEGREE:${degreeCode}:${String(
+                  clause.sourcePath,
+                )}:${String(
+                  clause.sourceIndex,
+                )}`,
+
+              title:
+                firstString(
+                  node.title,
+                  node.label,
+                  clause.sourcePath,
+                ),
+
+              description:
+                stringOrNull(
+                  clause.raw,
+                ),
+
+              logic:
+                mapNodeLogic(
+                  node,
+                ),
+
+              nodeType:
+                stringOrNull(
+                  node.nodeType,
+                ),
+
+              status,
+
+              sourcePath:
+                stringOrNull(
+                  clause.sourcePath,
+                ),
+
+              sourceIndex:
+                integerOrNull(
+                  clause.sourceIndex,
+                ),
+
+              authoritative:
+                status ===
+                'AUTHORITATIVE',
+
+              requiredCreditPoints:
+                findCreditPoints(
+                  node,
+                ),
+
+              maximumCreditPoints:
+                numberOrNull(
+                  node.maximumCreditPoints,
+                ),
+
+              sortOrder:
+                integerOrNull(
+                  clause.sourceIndex,
+                ),
+
+              rawData:
+                toJson(
+                  clause,
+                ),
+            },
+          });
+
+        counts.requirementGroups +=
+          1;
+
+        for (
+          const candidateSourceId
+          of stringArray(
+            node.candidateSourceIds,
+          )
+        ) {
+          candidateSourceGroupIdByKey.set(
+            candidateSourceId,
+            group.id,
+          );
+        }
+
+        const references =
+          collectRequirementReferences(
+            node,
+          );
+
+        if (
+          references.length >
+          0
+        ) {
+          await tx.requirementItem.createMany({
+            data:
+              references.map(
+                (
+                  reference,
+                  index,
+                ) => ({
+                  requirementGroupId:
+                    group.id,
+
+                  itemType:
+                    reference.kind,
+
+                  subjectId:
+                    reference.kind ===
+                      'SUBJECT'
+                      ? subjectIdByCode.get(
+                        reference.value,
+                      ) ??
+                      null
+                      : null,
+
+                  componentId:
+                    reference.kind ===
+                      'COMPONENT'
+                      ? findComponentIdByLooseReference(
+                        reference.value,
+                        master.components,
+                        componentIdByCode,
+                      )
+                      : null,
+
+                  rawCode:
+                    reference.kind ===
+                      'SUBJECT'
+                      ? reference.value
+                      : null,
+
+                  rawName:
+                    reference.kind !==
+                      'SUBJECT'
+                      ? reference.value
+                      : null,
+
+                  creditPoints:
+                    numberOrNull(
+                      objectOrEmpty(
+                        reference.raw,
+                      ).creditPoints,
+                    ),
+
+                  sourceUrl:
+                    stringOrNull(
+                      objectOrEmpty(
+                        reference.raw,
+                      ).sourceUrl,
+                    ),
+
+                  sortOrder:
+                    index,
+
+                  authoritative:
+                    status ===
+                    'AUTHORITATIVE',
+
+                  rawData:
+                    toJson(
+                      reference.raw,
+                    ),
+                                }),
+              ),
+          });
+
+          counts.requirementItems +=
+            references.length;
         }
       }
-      
+
+      /*
+       * ------------------------------------------------------------
+       * REQUIREMENT CANDIDATE SOURCES
+       * ------------------------------------------------------------
+       *
+       * Candidate sources describe eligible subject pools for a
+       * requirement. They are not RequirementItems because the
+       * subjects are selectable candidates rather than mandatory
+       * children of the requirement.
+       *
+       * Example for BHENGINE-04 Free Electives:
+       * - Engineering undergraduate units
+       * - Table S units
+       *
+       * The collector writes candidateSourceIds onto the requirement
+       * node. That gives us a source-backed link from each pool to its
+       * RequirementGroup without relying on UI titles.
+       */
+      console.log('Importing requirement candidate sources...');
+
+      const candidateSourceRows:
+        Prisma.RequirementCandidateSourceCreateManyInput[] =
+        [];
+
+      const candidateSubjectRows:
+        Prisma.RequirementCandidateSubjectCreateManyInput[] =
+        [];
+
+      for (
+        const source
+        of master.requirementCandidateSources
+      ) {
+        const sourceKey =
+          requiredString(
+            source.id,
+            'requirementCandidateSource.id',
+          );
+
+        const requirementGroupId =
+          candidateSourceGroupIdByKey.get(
+            sourceKey,
+          );
+
+        if (
+          !requirementGroupId
+        ) {
+          throw new Error(
+            `No RequirementGroup references candidate source ${sourceKey}.`,
+          );
+        }
+
+        const sourceType =
+          mapRequirementCandidateSourceType(
+            requiredString(
+              source.sourceType,
+              `${sourceKey}.sourceType`,
+            ),
+          );
+
+        const candidateSourceId =
+          randomUUID();
+
+        candidateSourceRows.push({
+          id:
+            candidateSourceId,
+
+          requirementGroupId,
+
+          sourceKey,
+
+          type:
+            sourceType,
+
+          title:
+            requiredString(
+              source.title,
+              `${sourceKey}.title`,
+            ),
+
+          authoritative:
+            booleanOrNull(
+              source.authoritative,
+            ) ??
+            false,
+
+          tableName:
+            stringOrNull(
+              source.tableName,
+            ),
+
+          predicate:
+            optionalJson(
+              source.predicate,
+            ),
+
+          sourceUrls:
+            optionalJson(
+              source.sourceUrls,
+            ),
+
+          rawData:
+            toJson(
+              source,
+            ),
+        });
+
+        const subjectCodes =
+          stringArray(
+            source.subjectCodes,
+          );
+
+        if (
+          subjectCodes.length ===
+          0
+        ) {
+          throw new Error(
+            `Requirement candidate source ${sourceKey} has no subjectCodes.`,
+          );
+        }
+
+        const seenCodes =
+          new Set<string>();
+
+        for (
+          const [
+            subjectIndex,
+            subjectCode,
+          ]
+          of subjectCodes.entries()
+        ) {
+          if (
+            seenCodes.has(
+              subjectCode,
+            )
+          ) {
+            throw new Error(
+              `Requirement candidate source ${sourceKey} contains duplicate subject ${subjectCode}.`,
+            );
+          }
+
+          seenCodes.add(
+            subjectCode,
+          );
+
+          candidateSubjectRows.push({
+            id:
+              randomUUID(),
+
+            candidateSourceId,
+
+            subjectId:
+              requiredMapValue(
+                subjectIdByCode,
+                subjectCode,
+                `candidate subject for ${sourceKey}`,
+              ),
+
+            sortOrder:
+              subjectIndex,
+          });
+        }
+      }
+
+      await createManyInChunks(
+        candidateSourceRows,
+        500,
+        async (data) => {
+          await tx.requirementCandidateSource.createMany({
+            data,
+          });
+        },
+      );
+
+      await createManyInChunks(
+        candidateSubjectRows,
+        2_000,
+        async (data) => {
+          await tx.requirementCandidateSubject.createMany({
+            data,
+          });
+        },
+      );
+
+      counts.candidateSources =
+        candidateSourceRows.length;
+
+      counts.candidateSubjects =
+        candidateSubjectRows.length;
+
+      console.log(
+        `Imported ${counts.candidateSources} requirement candidate sources and ${counts.candidateSubjects} candidate subject memberships.`,
+      );
+            /*
+       * ------------------------------------------------------------
+       * DEGREE -> COMPONENT RELATIONSHIPS
+       * ------------------------------------------------------------
+       *
+       * EXPLICIT_NAMED:
+       *   Degree directly references one canonical component.
+       *
+       * CHOICE_POOL:
+       *   Degree exposes a ONE_OF component pool, e.g.
+       *   Bachelor of Engineering Honours -> Engineering Streams.
+       *
+       * The source relationship count and the materialised
+       * DegreeComponent row count are intentionally different:
+       * one CHOICE_POOL source record can expand to many candidate rows.
+       */
+      console.log('Importing degree-component relationships...');
+
       for (const relationship of master.degreeComponents) {
+        /*
+         * ----------------------------------------------------------
+         * EXPLICIT NAMED COMPONENT
+         * ----------------------------------------------------------
+         */
         if (relationship.relationshipKind === 'EXPLICIT_NAMED') {
           const data = relationship.data;
-          const degreeCode = requiredString(data.degreeCode, 'explicit relationship.degreeCode');
-          const componentName = requiredString(data.componentName, 'explicit relationship.componentName');
-          const componentType = requiredString(data.componentType, 'explicit relationship.componentType');
+
+          const degreeCode = requiredString(
+            data.degreeCode,
+            'explicit relationship.degreeCode',
+          );
+
+          const componentName = requiredString(
+            data.componentName,
+            'explicit relationship.componentName',
+          );
+
+          const componentType = requiredString(
+            data.componentType,
+            'explicit relationship.componentType',
+          );
+
           const componentHandbook = requiredString(
             data.componentHandbook,
             'explicit relationship.componentHandbook',
           );
-      
+
           await tx.degreeComponent.create({
             data: {
-              degreeId: requiredMapValue(degreeIdByCode, degreeCode, 'degree'),
+              degreeId: requiredMapValue(
+                degreeIdByCode,
+                degreeCode,
+                'degree',
+              ),
+
               componentId: resolveComponentId({
                 handbookCategory: componentHandbook,
                 type: componentType,
@@ -711,83 +1247,231 @@ export async function importUsyd2026(): Promise<ImportCounts> {
                 componentCodeByRecord,
                 componentIdByCode,
               }),
-              rawComponentCode: stringOrNull(data.componentKey),
-              rawComponentName: componentName,
-              rawComponentType: componentType,
-              relationshipKind: 'EXPLICIT_NAMED',
-              authoritative: booleanOrNull(data.authoritative),
-              rawData: toJson(data),
+
+              rawComponentCode: stringOrNull(
+                data.componentKey,
+              ),
+
+              rawComponentName:
+                componentName,
+
+              rawComponentType:
+                componentType,
+
+              relationshipKind:
+                'EXPLICIT_NAMED',
+
+              authoritative:
+                booleanOrNull(
+                  data.authoritative,
+                ),
+
+              rawData:
+                toJson(data),
             },
           });
+
           counts.degreeComponentRows += 1;
+
           continue;
         }
-      
+
+        /*
+         * ----------------------------------------------------------
+         * COMPONENT CHOICE POOL
+         * ----------------------------------------------------------
+         *
+         * Example:
+         *
+         * Bachelor of Engineering Honours
+         *   -> Engineering Streams
+         *      -> Aeronautical Engineering
+         *      -> Civil Engineering
+         *      -> Software Engineering
+         *      -> ...
+         */
         const data = relationship.data;
-        const degreeCode = requiredString(data.degreeCode, 'choice pool.degreeCode');
-        const candidates = arrayOfObjects(data.candidates);
-        const pool = await tx.requirementGroup.create({
-          data: {
-            degreeId: requiredMapValue(degreeIdByCode, degreeCode, 'degree'),
-            sourceGroupId: `USYD:CHOICE_POOL:${degreeCode}:${String(data.tableName)}:${String(data.requestedComponentType)}`,
-            title: `${String(data.tableName)} ${String(data.requestedComponentType)} choice pool`,
-            logic: 'ONE_OF',
-            nodeType: 'COMPONENT',
-            status: 'AUTHORITATIVE',
-            authoritative: booleanOrNull(data.authoritative),
-            rawData: toJson(data),
-          },
-        });
-        counts.requirementGroups += 1;
-      
-        if (candidates.length > 0) {
-          await tx.degreeComponent.createMany({
-            data: candidates.map((candidate, index) => {
-              /* Table S and the two Table A collectors use different field names
-               * for the same candidate identity. Normalize both shapes here. */
-              const name = requiredString(
-                firstString(candidate.componentName, candidate.name),
-                'choice candidate.componentName/name',
-              );
-              const canonicalType = requiredString(
-                firstString(candidate.componentType, candidate.type),
-                'choice candidate.componentType/type',
-              );
-              const handbookCategory = requiredString(
-                firstString(candidate.componentHandbook, candidate.handbook, candidate.scope),
-                'choice candidate.componentHandbook/handbook/scope',
-              );
-      
-              return {
-                degreeId: requiredMapValue(degreeIdByCode, degreeCode, 'degree'),
-                /* A requested MINOR can legitimately resolve to the same canonical
-                 * subject-area page catalogued under MAJOR. Prefer an exact role,
-                 * then fall back to a unique same-handbook/name identity. The six
-                 * audited Conservatorium warnings intentionally remain null. */
-                componentId: resolveComponentIdentity({
-                  handbookCategory,
-                  type: canonicalType,
-                  name,
-                  evidence: candidate,
-                  components: master.components,
-                  componentCodeByRecord,
-                  componentIdByCode,
-                }),
-                parentGroupId: pool.id,
-                rawComponentName: name,
-                rawComponentType: stringOrNull(data.requestedComponentType),
-                relationshipKind: 'CHOICE_POOL_CANDIDATE',
-                authoritative: booleanOrNull(data.authoritative),
-                groupPath: stringOrNull(data.tableName),
-                sortOrder: index,
-                rawData: toJson(candidate),
-              };
-            }),
+
+        const degreeCode = requiredString(
+          data.degreeCode,
+          'choice pool.degreeCode',
+        );
+
+        const candidates =
+          arrayOfObjects(
+            data.candidates,
+          );
+
+        const pool =
+          await tx.requirementGroup.create({
+            data: {
+              degreeId:
+                requiredMapValue(
+                  degreeIdByCode,
+                  degreeCode,
+                  'degree',
+                ),
+
+              sourceGroupId:
+                `USYD:CHOICE_POOL:${degreeCode}:${String(
+                  data.tableName,
+                )}:${String(
+                  data.requestedComponentType,
+                )}`,
+
+              title:
+                `${String(
+                  data.tableName,
+                )} ${String(
+                  data.requestedComponentType,
+                )} choice pool`,
+
+              logic:
+                'ONE_OF',
+
+              nodeType:
+                'COMPONENT',
+
+              status:
+                'AUTHORITATIVE',
+
+              authoritative:
+                booleanOrNull(
+                  data.authoritative,
+                ),
+
+              rawData:
+                toJson(data),
+            },
           });
-          counts.degreeComponentRows += candidates.length;
+
+        counts.requirementGroups += 1;
+
+        if (
+          candidates.length >
+          0
+        ) {
+          await tx.degreeComponent.createMany({
+            data:
+              candidates.map(
+                (
+                  candidate,
+                  index,
+                ) => {
+                  /*
+                   * Different USYD collectors use slightly different
+                   * candidate field names. Normalize them here.
+                   */
+                  const name =
+                    requiredString(
+                      firstString(
+                        candidate.componentName,
+                        candidate.name,
+                      ),
+
+                      'choice candidate.componentName/name',
+                    );
+
+                  const canonicalType =
+                    requiredString(
+                      firstString(
+                        candidate.componentType,
+                        candidate.type,
+                      ),
+
+                      'choice candidate.componentType/type',
+                    );
+
+                  const handbookCategory =
+                    requiredString(
+                      firstString(
+                        candidate.componentHandbook,
+                        candidate.handbook,
+                        candidate.scope,
+                      ),
+
+                      'choice candidate.componentHandbook/handbook/scope',
+                    );
+
+                  return {
+                    degreeId:
+                      requiredMapValue(
+                        degreeIdByCode,
+                        degreeCode,
+                        'degree',
+                      ),
+
+                    /*
+                     * Prefer exact canonical role resolution.
+                     * A few source relationships may legitimately
+                     * resolve to null when the source itself is
+                     * intentionally unresolved.
+                     */
+                    componentId:
+                      resolveComponentIdentity({
+                        handbookCategory,
+
+                        type:
+                          canonicalType,
+
+                        name,
+
+                        evidence:
+                          candidate,
+
+                        components:
+                          master.components,
+
+                        componentCodeByRecord,
+
+                        componentIdByCode,
+                      }),
+
+                    parentGroupId:
+                      pool.id,
+
+                    rawComponentName:
+                      name,
+
+                    rawComponentType:
+                      stringOrNull(
+                        data.requestedComponentType,
+                      ),
+
+                    relationshipKind:
+                      'CHOICE_POOL_CANDIDATE',
+
+                    authoritative:
+                      booleanOrNull(
+                        data.authoritative,
+                      ),
+
+                    groupPath:
+                      stringOrNull(
+                        data.tableName,
+                      ),
+
+                    sortOrder:
+                      index,
+
+                    rawData:
+                      toJson(
+                        candidate,
+                      ),
+                  };
+                },
+              ),
+          });
+
+          counts.degreeComponentRows +=
+            candidates.length;
         }
       }
-      
+
+      console.log(
+        `Imported ${counts.degreeComponentRows} degree-component rows.`,
+      );
+
       console.log('Importing study plans...');
 
       /*
@@ -883,10 +1567,10 @@ export async function importUsyd2026(): Promise<ImportCounts> {
                 itemType: itemType === 'SUBJECT' ? 'SUBJECT' : 'CHOICE',
                 subjectId: subjectCode
                   ? requiredMapValue(
-                      subjectIdByCode,
-                      subjectCode,
-                      'study-plan subject',
-                    )
+                    subjectIdByCode,
+                    subjectCode,
+                    'study-plan subject',
+                  )
                   : null,
                 rawCode: subjectCode,
                 title:
@@ -905,7 +1589,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
 
       console.log(
         `Prepared ${studyPlanRows.length} plans, ${studyPlanYearRows.length} years, ` +
-          `${studyPlanPeriodRows.length} periods and ${studyPlanItemRows.length} items.`,
+        `${studyPlanPeriodRows.length} periods and ${studyPlanItemRows.length} items.`,
       );
 
       await createManyInChunks(studyPlanRows, 25, async (data) => {
@@ -941,7 +1625,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         });
       }
       counts.unresolvedReferences = master.unresolvedSubjectDetails.length;
-      
+
       const rootGeneratedAt = stringOrNull(master.metadata.generatedAt);
       await tx.sourceRecord.create({
         data: {
@@ -960,7 +1644,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
           }),
         },
       });
-      
+
       verifyImportedCounts(master, counts);
       await verifyPersistedCounts(tx, handbook.id, master);
       return counts;
@@ -1006,6 +1690,17 @@ function validateMaster(master: UsydMaster): void {
     expected.totalDegreeComponentRelationshipRecords,
   );
   assertCount('degreeRequirementClauses', master.degreeRequirements.length, expected.degreeRequirementClauses);
+
+  if (!Array.isArray(master.requirementCandidateSources)) {
+    throw new Error('USYD master is missing requirementCandidateSources[].');
+  }
+
+  assertCount(
+    'requirementCandidateSources',
+    master.requirementCandidateSources.length,
+    expected.requirementCandidateSources,
+  );
+
   assertCount('studyPlans', master.studyPlans.length, expected.studyPlans);
 }
 
@@ -1053,6 +1748,25 @@ function verifyImportedCounts(master: UsydMaster, counts: ImportCounts): void {
   if (counts.relationshipSourceRecords !== master.degreeComponents.length) {
     throw new Error('Degree-component source relationship count mismatch.');
   }
+
+  if (counts.candidateSources !== master.requirementCandidateSources.length) {
+    throw new Error('Requirement candidate-source count mismatch.');
+  }
+
+  const expectedCandidateSubjects =
+    master.requirementCandidateSources.reduce(
+      (total, source) =>
+        total +
+        stringArray(
+          source.subjectCodes,
+        ).length,
+      0,
+    );
+
+  if (counts.candidateSubjects !== expectedCandidateSubjects) {
+    throw new Error('Requirement candidate-subject count mismatch.');
+  }
+
   if (counts.studyPlans !== master.studyPlans.length) throw new Error('Imported study-plan count mismatch.');
   if (counts.unresolvedReferences !== master.unresolvedSubjectDetails.length) {
     throw new Error('Imported unresolved-reference count mismatch.');
@@ -1068,7 +1782,15 @@ async function verifyPersistedCounts(
     (plan) => stringOrNull(plan.sourceType) === 'CUSP',
   ).length;
 
-  const [degrees, components, subjects, studyPlans, cuspStudyPlans] =
+  const [
+    degrees,
+    components,
+    subjects,
+    candidateSources,
+    candidateSubjects,
+    studyPlans,
+    cuspStudyPlans,
+  ] =
     await Promise.all([
       tx.degree.count({
         where: { handbookVersionId },
@@ -1078,6 +1800,26 @@ async function verifyPersistedCounts(
       }),
       tx.subject.count({
         where: { handbookVersionId },
+      }),
+      tx.requirementCandidateSource.count({
+        where: {
+          requirementGroup: {
+            degree: {
+              handbookVersionId,
+            },
+          },
+        },
+      }),
+      tx.requirementCandidateSubject.count({
+        where: {
+          candidateSource: {
+            requirementGroup: {
+              degree: {
+                handbookVersionId,
+              },
+            },
+          },
+        },
       }),
       tx.studyPlan.count({
         where: {
@@ -1111,6 +1853,28 @@ async function verifyPersistedCounts(
   if (subjects !== master.subjects.length) {
     throw new Error(
       `Persisted subject count mismatch: expected ${master.subjects.length}, found ${subjects}.`,
+    );
+  }
+
+  if (candidateSources !== master.requirementCandidateSources.length) {
+    throw new Error(
+      `Persisted requirement candidate-source count mismatch: expected ${master.requirementCandidateSources.length}, found ${candidateSources}.`,
+    );
+  }
+
+  const expectedCandidateSubjects =
+    master.requirementCandidateSources.reduce(
+      (total, source) =>
+        total +
+        stringArray(
+          source.subjectCodes,
+        ).length,
+      0,
+    );
+
+  if (candidateSubjects !== expectedCandidateSubjects) {
+    throw new Error(
+      `Persisted requirement candidate-subject count mismatch: expected ${expectedCandidateSubjects}, found ${candidateSubjects}.`,
     );
   }
 
@@ -1155,6 +1919,21 @@ function mapRequisiteType(value: string) {
 
 function mapRequirementLogic(value: unknown) {
   return value === 'ALL' || value === 'ANY' || value === 'ONE_OF' ? value : 'UNKNOWN';
+}
+
+function mapRequirementCandidateSourceType(
+  value: string,
+): 'SUBJECT_FILTER' | 'TABLE_SUBJECT_POOL' {
+  if (
+    value === 'SUBJECT_FILTER' ||
+    value === 'TABLE_SUBJECT_POOL'
+  ) {
+    return value;
+  }
+
+  throw new Error(
+    `Unsupported requirement candidate source type: ${value}`,
+  );
 }
 
 function mapNodeLogic(node: JsonObject) {
@@ -1302,6 +2081,510 @@ function componentUrls(component: JsonObject): Set<string> {
     stringOrNull(component.evidenceUrl),
     ...stringArray(component.tableUrls),
   ].filter((value): value is string => value !== null));
+}
+interface NestedDegreeRequirementImportParams {
+  tx:
+  Prisma.TransactionClient;
+
+  degreeId:
+  string;
+
+  degreeCode:
+  string;
+
+  clause:
+  JsonObject;
+
+  node:
+  JsonObject;
+
+  parentGroupId:
+  string | null;
+
+  path:
+  number[];
+
+  sortOrder:
+  number | null;
+
+  subjectIdByCode:
+  Map<
+    string,
+    string
+  >;
+
+  componentIdByCode:
+  Map<
+    string,
+    string
+  >;
+
+  components:
+  JsonObject[];
+
+  counts:
+  ImportCounts;
+}
+
+/**
+ * Import one authoritative nested degree requirement node.
+ *
+ * GROUP nodes become RequirementGroup rows.
+ *
+ * SUBJECT / COMPONENT / TABLE leaves become RequirementItem
+ * rows attached to their immediate parent group.
+ */
+async function importNestedDegreeRequirementNode(
+  params:
+    NestedDegreeRequirementImportParams,
+): Promise<string> {
+  const {
+    tx,
+    degreeId,
+    degreeCode,
+    clause,
+    node,
+    parentGroupId,
+    path,
+    sortOrder,
+    subjectIdByCode,
+    componentIdByCode,
+    components,
+    counts,
+  } =
+    params;
+
+  const status =
+    stringOrNull(
+      clause.status,
+    );
+
+  const sourcePath =
+    stringOrNull(
+      clause.sourcePath,
+    );
+
+  const sourceIndex =
+    integerOrNull(
+      clause.sourceIndex,
+    );
+
+  const pathSuffix =
+    path.length >
+      0
+      ? `:${path.join('.')}`
+      : ':ROOT';
+
+  const group =
+    await tx.requirementGroup.create({
+      data: {
+        degreeId,
+
+        parentGroupId,
+
+        sourceGroupId:
+          `USYD:DEGREE:${degreeCode}:${String(
+            sourcePath,
+          )}:${String(
+            sourceIndex,
+          )}${pathSuffix}`,
+
+        title:
+          firstString(
+            node.title,
+            node.label,
+            sourcePath,
+          ),
+
+        /*
+         * Full degree-clause description belongs on the root.
+         * Nested groups keep their own source semantics in
+         * rawData instead of duplicating the parent text.
+         */
+        description:
+          parentGroupId ===
+            null
+            ? stringOrNull(
+              clause.raw,
+            )
+            : firstString(
+              node.semanticNote,
+            ),
+
+        logic:
+          mapNodeLogic(
+            node,
+          ),
+
+        nodeType:
+          stringOrNull(
+            node.nodeType,
+          ) ??
+          'GROUP',
+
+        status,
+
+        sourcePath:
+          parentGroupId ===
+            null
+            ? sourcePath
+            : sourcePath
+              ? `${sourcePath}.${path.join('.')}`
+              : path.join('.'),
+
+        sourceIndex:
+          parentGroupId ===
+            null
+            ? sourceIndex
+            : null,
+
+        sourceUrl:
+          firstString(
+            node.sourceUrl,
+            clause.sourceUrl,
+          ),
+
+        authoritative:
+          status ===
+          'AUTHORITATIVE',
+
+        requiredCreditPoints:
+          findCreditPoints(
+            node,
+          ),
+
+        maximumCreditPoints:
+          numberOrNull(
+            node.maximumCreditPoints,
+          ),
+
+        sortOrder,
+
+        rawData:
+          parentGroupId ===
+            null
+            ? toJson(
+              clause,
+            )
+            : toJson(
+              node,
+            ),
+      },
+    });
+
+  counts.requirementGroups +=
+    1;
+
+  const children =
+    arrayOfObjects(
+      node.children,
+    );
+
+  const itemRows:
+    Prisma.RequirementItemCreateManyInput[] =
+    [];
+
+  for (
+    const [
+      childIndex,
+      child,
+    ]
+    of children.entries()
+  ) {
+    const childNodeType =
+      stringOrNull(
+        child.nodeType,
+      );
+
+    /*
+     * --------------------------------------------------------
+     * NESTED GROUP
+     * --------------------------------------------------------
+     */
+    if (
+      childNodeType ===
+      'GROUP'
+    ) {
+      await importNestedDegreeRequirementNode({
+        tx,
+
+        degreeId,
+
+        degreeCode,
+
+        clause,
+
+        node:
+          child,
+
+        parentGroupId:
+          group.id,
+
+        path:
+          [
+            ...path,
+            childIndex,
+          ],
+
+        sortOrder:
+          integerOrNull(
+            child.sortOrder,
+          ) ??
+          childIndex,
+
+        subjectIdByCode,
+
+        componentIdByCode,
+
+        components,
+
+        counts,
+      });
+
+      continue;
+    }
+
+    /*
+     * --------------------------------------------------------
+     * SUBJECT
+     * --------------------------------------------------------
+     */
+    if (
+      childNodeType ===
+      'SUBJECT'
+    ) {
+      const code =
+        requiredString(
+          firstString(
+            child.code,
+            child.subjectCode,
+          ),
+
+          'nested degree requirement subject code',
+        );
+
+      itemRows.push({
+        requirementGroupId:
+          group.id,
+
+        itemType:
+          'SUBJECT',
+
+        subjectId:
+          subjectIdByCode.get(
+            code,
+          ) ??
+          null,
+
+        componentId:
+          null,
+
+        rawCode:
+          code,
+
+        rawName:
+          firstString(
+            child.name,
+            child.title,
+          ),
+
+        /*
+         * RequirementItem CP is contextual table CP.
+         *
+         * 0 must remain 0.
+         */
+        creditPoints:
+          numberOrNull(
+            child.creditPoints,
+          ),
+
+        sourceUrl:
+          stringOrNull(
+            child.sourceUrl,
+          ),
+
+        sortOrder:
+          integerOrNull(
+            child.sortOrder,
+          ) ??
+          childIndex,
+
+        authoritative:
+          status ===
+          'AUTHORITATIVE',
+
+        rawData:
+          toJson(
+            child,
+          ),
+      });
+
+      continue;
+    }
+
+    /*
+     * --------------------------------------------------------
+     * COMPONENT
+     * --------------------------------------------------------
+     */
+    if (
+      childNodeType ===
+      'COMPONENT'
+    ) {
+      const name =
+        requiredString(
+          firstString(
+            child.componentName,
+            child.name,
+            child.title,
+          ),
+
+          'nested degree requirement component',
+        );
+
+      itemRows.push({
+        requirementGroupId:
+          group.id,
+
+        itemType:
+          'COMPONENT',
+
+        subjectId:
+          null,
+
+        componentId:
+          findComponentIdByLooseReference(
+            name,
+            components,
+            componentIdByCode,
+          ),
+
+        rawCode:
+          null,
+
+        rawName:
+          name,
+
+        creditPoints:
+          numberOrNull(
+            child.creditPoints,
+          ),
+
+        sourceUrl:
+          stringOrNull(
+            child.sourceUrl,
+          ),
+
+        sortOrder:
+          integerOrNull(
+            child.sortOrder,
+          ) ??
+          childIndex,
+
+        authoritative:
+          status ===
+          'AUTHORITATIVE',
+
+        rawData:
+          toJson(
+            child,
+          ),
+      });
+
+      continue;
+    }
+
+    /*
+     * --------------------------------------------------------
+     * TABLE
+     * --------------------------------------------------------
+     */
+    if (
+      childNodeType ===
+      'TABLE'
+    ) {
+      const tableName =
+        firstString(
+          child.tableName,
+          child.name,
+          child.title,
+          child.raw,
+        );
+
+      if (
+        tableName
+      ) {
+        itemRows.push({
+          requirementGroupId:
+            group.id,
+
+          itemType:
+            'TABLE',
+
+          subjectId:
+            null,
+
+          componentId:
+            null,
+
+          rawCode:
+            null,
+
+          rawName:
+            tableName,
+
+          creditPoints:
+            numberOrNull(
+              child.creditPoints,
+            ),
+
+          sourceUrl:
+            stringOrNull(
+              child.sourceUrl,
+            ),
+
+          sortOrder:
+            integerOrNull(
+              child.sortOrder,
+            ) ??
+            childIndex,
+
+          authoritative:
+            status ===
+            'AUTHORITATIVE',
+
+          rawData:
+            toJson(
+              child,
+            ),
+        });
+      }
+
+      continue;
+    }
+
+    /*
+     * Unknown nested children remain preserved inside the
+     * parent group's rawData.
+     *
+     * Do not invent relational semantics for them.
+     */
+  }
+
+  if (
+    itemRows.length >
+    0
+  ) {
+    await tx.requirementItem.createMany({
+      data:
+        itemRows,
+    });
+
+    counts.requirementItems +=
+      itemRows.length;
+  }
+
+  return group.id;
 }
 
 function collectRequirementReferences(node: unknown): Array<{

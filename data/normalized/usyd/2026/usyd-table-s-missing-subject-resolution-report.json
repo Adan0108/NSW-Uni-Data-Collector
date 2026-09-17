@@ -1,0 +1,201 @@
+{
+  "generatedAt": "2026-09-17T11:15:04.003Z",
+  "missingBefore": 32,
+  "resolvedFromUnitPages": 0,
+  "tableBackedPartial": 32,
+  "stillMissing": 0,
+  "results": [
+    {
+      "code": "ANHS2638",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/ancient-history/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ARBC3639",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/arabic-language-cultures/advanced-unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ARHT2640",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ARHT2681",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ARHT2682",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ARHT3685",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/art-history/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "BIOL3909",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/plant-science/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "BPPE3999",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/economics/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "CAEL2099",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/visual-arts/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "CAEL2100",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/visual-arts/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ECOS3036",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/economic-policy-analysis/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ENGG3216",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/innovation-entrepreneurship/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ENGL1012",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/english/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ENGL3611",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/english/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ENGL3708",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/english/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "EUST2113",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/european-studies/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "FRNC2630",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/european-studies/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "GOVT2111",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "GOVT2617",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/international-relations/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "GOVT3643",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "GOVT3654",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "GOVT3987",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/politics/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "INMS3614",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/advanced-unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "INMS3615",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/indonesian-studies/advanced-unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "JPNS2671",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/japanese-studies/introductory-unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "KRNS2010",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/asian-studies/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "LNGS3705",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/linguistics/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "MUSC2670",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/innovation-entrepreneurship/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "SANS2602",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sanskrit/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "SCLP3604",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sociology/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "USSC2607",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sustainability/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "WORK3207",
+      "mode": "TABLE_FALLBACK",
+      "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/table-s/subject-areas/sustainability/unit-of-study-table.html",
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    }
+  ]
+}

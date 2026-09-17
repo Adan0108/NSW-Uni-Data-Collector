@@ -1,72 +1,133 @@
 {
-  "generatedAt": "2026-09-16T11:29:58.007Z",
+  "generatedAt": "2026-09-17T10:57:50.924Z",
   "engineeringCore": {
     "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/core-unit-of-study-table.html",
-    "fetchedUnits": 47,
+    "fetchedUnits": 41,
+    "actualCoreUnits": 41,
     "groups": [
       {
         "key": "FOUNDATION",
         "name": "Foundation",
+        "logic": "ALL",
         "requiredCreditPoints": 18,
-        "sections": [
-          "Computing Units",
-          "Mathematics Units"
+        "directSubjectCodes": [],
+        "subgroups": [
+          {
+            "key": "COMPUTING",
+            "name": "Computing Units",
+            "logic": "ONE_OF",
+            "requiredCreditPoints": 6,
+            "subjectCodes": [
+              "INFO1110",
+              "INFO1910",
+              "ENGG1810"
+            ],
+            "narratives": []
+          },
+          {
+            "key": "MATHEMATICS",
+            "name": "Mathematics Units",
+            "logic": "ALL",
+            "requiredCreditPoints": 12,
+            "subjectCodes": [
+              "MATH1061",
+              "MATH1062"
+            ],
+            "narratives": [
+              "MATH units of study offered by the Faculty of Science shown in the tables can be replaced by an equivalent advanced level unit, subject to prerequisite conditions (as required by the Faculty of Science) being met. Students considering doing advanced options should seek advice from their school before enrolling."
+            ]
+          }
         ],
-        "subjectCodes": [
-          "INFO1110",
-          "INFO1910",
-          "ENGG1810",
-          "MATH1061",
-          "MATH1062"
+        "narratives": [
+          "Students are required to take 6 credit points of introductory computing units and 12 credit points of Mathematics.",
+          "Students in the Electrical and Software streams are strongly recommended to take INFO1110 or INFO1910 as their introductory computing unit.",
+          "Students in other streams are recommended to take ENGG1810 as their introductory computing unit although are free to select INFO1110/INFO1910 if they prefer."
         ]
       },
       {
         "key": "PROJECTS",
         "name": "Engineering Projects",
+        "logic": "ALL",
         "requiredCreditPoints": 30,
-        "sections": [
-          "Students must complete 6 credit points from the following:",
-          "Students must complete 12 credit points from the following:"
+        "directSubjectCodes": [],
+        "subgroups": [
+          {
+            "key": "PROJECT_1",
+            "name": "Project 1",
+            "logic": "ONE_OF",
+            "requiredCreditPoints": 6,
+            "subjectCodes": [
+              "AERO1560",
+              "BMET1960",
+              "CHNG1108",
+              "CIVL1900",
+              "ELEC1004",
+              "ELEC1005",
+              "ENVE1001",
+              "MECH1560",
+              "MTRX1701"
+            ],
+            "narratives": [
+              "Students are to select the introduction unit relevant to their stream.",
+              "Students must complete 6 credit points from the following:"
+            ]
+          },
+          {
+            "key": "PROJECT_2_3",
+            "name": "Project 2 & 3",
+            "logic": "ALL",
+            "requiredCreditPoints": 12,
+            "subjectCodes": [
+              "ENGG2112",
+              "ENGG3112"
+            ],
+            "narratives": [
+              "Students must complete 12 credit points from the following:"
+            ]
+          },
+          {
+            "key": "THESIS",
+            "name": "Thesis Units",
+            "logic": "UNKNOWN",
+            "requiredCreditPoints": 12,
+            "subjectCodes": [
+              "AMME4111",
+              "AMME4112",
+              "BMET4111",
+              "BMET4112",
+              "CHNG4811",
+              "CHNG4812",
+              "CIVL4022",
+              "CIVL4023",
+              "ELEC4712",
+              "ELEC4713",
+              "ENVE4811",
+              "ENVE4812",
+              "AMME4010",
+              "BMET4010",
+              "CHNG4203",
+              "CIVL4203",
+              "ELEC4714"
+            ],
+            "narratives": [
+              "Students are to select the thesis units relevant to their stream. Aeronautical, Mechanical and Mechatronic students are to enrol in the AMME coded units. Students in both Electrical and Software are to enrol in the ELEC coded units.",
+              "Where approved by the Faculty, students undertaking a 24cp Major Industrial Project unit will have the requirement for Thesis A and B waived.",
+              "Students must complete 12 credit points from the following:",
+              "Date Original publication Post-publication amendment",
+              "30/03/2026 Prerequisites (P) for AMME4112 published as: \"P 36 credit points of any 3000-level or higher Engineering units of study\" Prerequisites (P) for AMME4112 amended to: \"P AMME4111\"",
+              "30/03/2026 Prohibition (N) for ENGG2112 published as: \"N ENGG1111\" Prohibition (N) for ENGG2112 amended to: \"N ENGG1111 and ENGF1112\"",
+              "15/07/2026 Prohibition (N) for ENGG2112 published as: \"N ENGG1111 and ENGF1112\" Prohibition (N) for ENGG2112 amended to: \"N ENGG1111 or ENGF1112\""
+            ]
+          }
         ],
-        "subjectCodes": [
-          "AERO1560",
-          "BMET1960",
-          "CHNG1108",
-          "CIVL1900",
-          "ELEC1004",
-          "ELEC1005",
-          "ENVE1001",
-          "MECH1560",
-          "MTRX1701",
-          "ENGG2112",
-          "ENGG3112",
-          "AMME4111",
-          "AMME4112",
-          "BMET4111",
-          "BMET4112",
-          "CHNG4811",
-          "CHNG4812",
-          "CIVL4022",
-          "CIVL4023",
-          "ELEC4712",
-          "ELEC4713",
-          "ENVE4811",
-          "ENVE4812",
-          "AMME4010",
-          "BMET4010",
-          "CHNG4203",
-          "CIVL4203",
-          "ELEC4714"
-        ]
+        "narratives": []
       },
       {
         "key": "PEP",
         "name": "Professional Engagement Program",
+        "logic": "ALL",
         "requiredCreditPoints": null,
-        "sections": [
-          "Students must complete the Professional Engagement Program units of study."
-        ],
-        "subjectCodes": [
+        "directSubjectCodes": [
           "ENGP1001",
           "ENGP1002",
           "ENGP1003",
@@ -75,6 +136,11 @@
           "ENGP2003",
           "ENGP3001",
           "ENGP3002"
+        ],
+        "subgroups": [],
+        "narratives": [
+          "Students must complete the Professional Engagement Program units of study.",
+          "Note: Students must enrol in ENGP1001 in their first semester of study unless credit has been granted."
         ]
       }
     ]

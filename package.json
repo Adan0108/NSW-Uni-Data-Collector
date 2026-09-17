@@ -28,7 +28,10 @@
     "prepare:usyd:database-master": "tsx src/adapters/usyd/cusp/prepare-usyd-database-master.ts",
     "validate:usyd:database-master": "tsx src/adapters/usyd/cusp/validate-usyd-database-master.ts",
 
-    "import:usyd:database": "cross-env USYD_DATA_FILE=data/normalized/usyd/2026/usyd-master-final.database-ready.json tsx src/import/usyd-2026.import.ts"
+    "import:usyd:database": "cross-env USYD_DATA_FILE=data/normalized/usyd/2026/usyd-master-final.database-ready.json tsx src/import/usyd-2026.import.ts",
+    "enrich:usyd:engineering-core-subjects": "tsx src/adapters/usyd/engineering/enrich-engineering-core-subjects.ts",
+    "build:usyd:engineering-free-electives": "tsx src/adapters/usyd/engineering/build-engineering-free-elective-pools.ts",
+    "resolve:usyd:table-s-subjects": "tsx src/adapters/usyd/engineering/resolve-table-s-missing-subjects.ts"
   },
   "keywords": [],
   "author": "",

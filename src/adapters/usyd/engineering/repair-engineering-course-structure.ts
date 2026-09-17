@@ -9,6 +9,7 @@ import {
 
 import {
   fetchUsydGlobalUnitTable,
+  type UsydGlobalTableStructureRow,
   type UsydGlobalTableUnit,
 } from '../usyd.global-unit-table-parser';
 
@@ -43,9 +44,11 @@ interface ParsedTable
 
 interface ComponentSource
   extends JsonObject {
-  component: ComponentRecord;
+  component:
+    ComponentRecord;
 
-  parsedTables: ParsedTable[];
+  parsedTables:
+    ParsedTable[];
 }
 
 interface DegreeComponentRelationship {
@@ -53,7 +56,8 @@ interface DegreeComponentRelationship {
     | 'EXPLICIT_NAMED'
     | 'CHOICE_POOL';
 
-  data: JsonObject;
+  data:
+    JsonObject;
 }
 
 interface MasterFile {
@@ -62,18 +66,22 @@ interface MasterFile {
     name: string;
   };
 
-  handbookYear: number;
+  handbookYear:
+    number;
 
-  metadata: JsonObject & {
-    counts?: Record<
-      string,
-      number
-    >;
-  };
+  metadata:
+    JsonObject & {
+      counts?: Record<
+        string,
+        number
+      >;
+    };
 
-  degrees: JsonObject[];
+  degrees:
+    JsonObject[];
 
-  subjects: JsonObject[];
+  subjects:
+    JsonObject[];
 
   components:
     ComponentRecord[];
@@ -90,70 +98,160 @@ interface MasterFile {
   degreeRequirements:
     JsonObject[];
 
-  [key: string]: unknown;
+  [key: string]:
+    unknown;
 }
 
-interface EngineeringCoreGroup {
-  key:
-    | 'FOUNDATION'
-    | 'PROJECTS'
-    | 'PEP';
+type EngineeringCoreGroupKey =
+  | 'FOUNDATION'
+  | 'PROJECTS'
+  | 'PEP';
 
-  name: string;
+type FoundationSubgroupKey =
+  | 'COMPUTING'
+  | 'MATHEMATICS';
+
+type ProjectSubgroupKey =
+  | 'PROJECT_1'
+  | 'PROJECT_2_3'
+  | 'THESIS';
+
+interface EngineeringCoreSubgroup {
+  key:
+    string;
+
+  name:
+    string;
+
+  logic:
+    'ALL' |
+    'ONE_OF' |
+    'UNKNOWN';
 
   requiredCreditPoints:
     number | null;
 
-  sections: string[];
+  units:
+    UsydGlobalTableUnit[];
 
-  units: UsydGlobalTableUnit[];
+  narratives:
+    string[];
+}
+
+interface EngineeringCoreGroup {
+  key:
+    EngineeringCoreGroupKey;
+
+  name:
+    string;
+
+  logic:
+    'ALL' |
+    'ONE_OF' |
+    'UNKNOWN';
+
+  requiredCreditPoints:
+    number | null;
+
+  subgroups:
+    EngineeringCoreSubgroup[];
+
+  directUnits:
+    UsydGlobalTableUnit[];
+
+  narratives:
+    string[];
 }
 
 interface SpecialisationRelationship {
-  streamSlug: string;
+  streamSlug:
+    string;
 
-  streamName: string;
+  streamName:
+    string;
 
-  specialisationName: string;
+  specialisationName:
+    string;
 
-  sourceUrl: string;
+  sourceUrl:
+    string;
 
-  handbookCategory: string;
+  handbookCategory:
+    string;
 }
 
 interface RepairReport {
-  generatedAt: string;
+  generatedAt:
+    string;
 
   engineeringCore: {
-    sourceUrl: string;
+    sourceUrl:
+      string;
 
-    fetchedUnits: number;
+    fetchedUnits:
+      number;
 
-    groups: Array<{
-      key: string;
+    actualCoreUnits:
+      number;
 
-      name: string;
+    groups:
+      Array<{
+        key:
+          string;
 
-      requiredCreditPoints:
-        number | null;
+        name:
+          string;
 
-      sections: string[];
+        logic:
+          string;
 
-      subjectCodes: string[];
-    }>;
+        requiredCreditPoints:
+          number | null;
+
+        directSubjectCodes:
+          string[];
+
+        subgroups:
+          Array<{
+            key:
+              string;
+
+            name:
+              string;
+
+            logic:
+              string;
+
+            requiredCreditPoints:
+              number | null;
+
+            subjectCodes:
+              string[];
+
+            narratives:
+              string[];
+          }>;
+
+        narratives:
+          string[];
+      }>;
   };
 
   specialisations: {
-    relationships: number;
+    relationships:
+      number;
 
-    streams: Array<{
-      streamSlug: string;
+    streams:
+      Array<{
+        streamSlug:
+          string;
 
-      streamName: string;
+        streamName:
+          string;
 
-      specialisations:
-        string[];
-    }>;
+        specialisations:
+          string[];
+      }>;
   };
 
   unresolvedCoreSubjectCodes:
@@ -174,18 +272,6 @@ const INPUT_FILE =
       'usyd-master-final.engineering-repaired.subjects-resolved.json',
   );
 
-/*
- * Deliberately overwrite the existing resolved Engineering master.
- *
- * The next existing pipeline step:
- *
- * prepare:usyd:database-master
- *
- * already reads this filename, so we do not need to change the
- * CUSP/database preparation pipeline again.
- *
- * A backup is written before replacement.
- */
 const OUTPUT_FILE =
   INPUT_FILE;
 
@@ -223,14 +309,8 @@ const ENGINEERING_CORE_URL =
 const CANONICAL_ENGINEERING_STREAM_PREFIX =
   '/handbooks/engineering/engineering-honours/streams/';
 
-/*
- * These are only used to map the official stream URL slug back
- * to the already-normalised canonical stream component name.
- *
- * Specialisation names are NOT hard-coded.
- */
 const ENGINEERING_STREAM_NAMES:
-  Record<string, string> = {
+Record<string, string> = {
   aeronautical:
     'Aeronautical Engineering',
 
@@ -268,8 +348,14 @@ const ENGINEERING_STREAM_NAMES:
     'Software Engineering',
 };
 
+/*
+ * ============================================================
+ * MAIN
+ * ============================================================
+ */
+
 async function main():
-  Promise<void> {
+Promise<void> {
   const master =
     await readJson<MasterFile>(
       INPUT_FILE,
@@ -279,20 +365,18 @@ async function main():
     master,
   );
 
-  const originalJson =
+  /*
+   * Always keep a pre-repair backup.
+   */
+  await writeFile(
+    BACKUP_FILE,
+
     JSON.stringify(
       master,
       null,
       2,
-    ) + '\n';
+    ) + '\n',
 
-  /*
-   * Always preserve the pre-repair state so this script is
-   * easy to audit/reverse locally.
-   */
-  await writeFile(
-    BACKUP_FILE,
-    originalJson,
     'utf8',
   );
 
@@ -317,9 +401,32 @@ async function main():
       ENGINEERING_CORE_URL,
     );
 
+  console.log(
+    'Engineering Core explicit headings:',
+    coreTable
+      .structureRows
+      .filter(
+        (
+          row,
+        ) =>
+          row.kind ===
+          'HEADING',
+      )
+      .map(
+        (
+          row,
+        ) =>
+          row.kind ===
+          'HEADING'
+            ? `h${row.level}: ${row.text}`
+            : '',
+      ),
+  );
+
   const coreGroups =
     buildEngineeringCoreGroups(
-      coreTable.units,
+      coreTable
+        .structureRows,
     );
 
   const unresolvedCoreSubjectCodes =
@@ -328,16 +435,9 @@ async function main():
       subjectByCode,
     );
 
-  /*
-   * Do not silently create subjects here.
-   *
-   * All Course Structure RequirementItems must resolve to the
-   * canonical subject catalogue. If a new official core unit
-   * is missing, stop and resolve it deliberately before import.
-   */
   if (
-    unresolvedCoreSubjectCodes
-      .length > 0
+    unresolvedCoreSubjectCodes.length >
+    0
   ) {
     throw new Error(
       [
@@ -346,7 +446,9 @@ async function main():
         unresolvedCoreSubjectCodes.join(
           ', ',
         ),
-      ].join(' '),
+      ].join(
+        ' ',
+      ),
     );
   }
 
@@ -359,7 +461,7 @@ async function main():
   /*
    * ==========================================================
    * PART B
-   * ALL STREAM -> SPECIALISATION RELATIONSHIPS
+   * STREAM -> SPECIALISATION
    * ==========================================================
    */
 
@@ -383,13 +485,15 @@ async function main():
     );
 
   const streamSourcesUpdated:
-    string[] = [];
+    string[] =
+    [];
 
   for (
     const [
       streamSlug,
       streamRelationships,
-    ] of relationshipsByStream
+    ]
+    of relationshipsByStream
   ) {
     const streamSource =
       findCanonicalStreamSource(
@@ -397,7 +501,9 @@ async function main():
         streamSlug,
       );
 
-    if (!streamSource) {
+    if (
+      !streamSource
+    ) {
       throw new Error(
         `Missing canonical stream source for ${streamSlug}.`,
       );
@@ -428,21 +534,11 @@ async function main():
    */
 
   const counts =
-    master.metadata.counts ?? {};
+    master.metadata.counts ??
+    {};
 
   counts.degreeRequirementClauses =
-  master.degreeRequirements.length;
-
-  console.log(
-    'DEBUG degreeRequirementClauses:',
-    {
-      actual:
-        master.degreeRequirements.length,
-
-      metadata:
-        counts.degreeRequirementClauses,
-    },
-  );
+    master.degreeRequirements.length;
 
   counts.canonicalComponents =
     master.components.length;
@@ -451,7 +547,9 @@ async function main():
     master.componentSources.length;
 
   counts.componentRequirementObjects =
-    master.componentRequirementObjects.length;
+    master
+      .componentRequirementObjects
+      .length;
 
   counts.totalDegreeComponentRelationshipRecords =
     master.degreeComponents.length;
@@ -478,8 +576,13 @@ async function main():
     relationshipsByStream,
   );
 
+  const allCoreUnits =
+    collectAllCoreUnits(
+      coreGroups,
+    );
+
   const report:
-    RepairReport = {
+  RepairReport = {
     generatedAt:
       new Date()
         .toISOString(),
@@ -491,26 +594,74 @@ async function main():
       fetchedUnits:
         coreTable.units.length,
 
+      actualCoreUnits:
+        allCoreUnits.length,
+
       groups:
         coreGroups.map(
-          (group) => ({
+          (
+            group,
+          ) => ({
             key:
               group.key,
 
             name:
               group.name,
 
+            logic:
+              group.logic,
+
             requiredCreditPoints:
               group.requiredCreditPoints,
 
-            sections:
-              group.sections,
+            directSubjectCodes:
+              group
+                .directUnits
+                .map(
+                  (
+                    unit,
+                  ) =>
+                    unit.code,
+                ),
 
-            subjectCodes:
-              group.units.map(
-                (unit) =>
-                  unit.code,
-              ),
+            subgroups:
+              group
+                .subgroups
+                .map(
+                  (
+                    subgroup,
+                  ) => ({
+                    key:
+                      subgroup.key,
+
+                    name:
+                      subgroup.name,
+
+                    logic:
+                      subgroup.logic,
+
+                    requiredCreditPoints:
+                      subgroup
+                        .requiredCreditPoints,
+
+                    subjectCodes:
+                      subgroup
+                        .units
+                        .map(
+                          (
+                            unit,
+                          ) =>
+                            unit.code,
+                        ),
+
+                    narratives:
+                      subgroup
+                        .narratives,
+                  }),
+                ),
+
+            narratives:
+              group.narratives,
           }),
         ),
     },
@@ -537,7 +688,9 @@ async function main():
 
             specialisations:
               entries.map(
-                (entry) =>
+                (
+                  entry,
+                ) =>
                   entry
                     .specialisationName,
               ),
@@ -575,16 +728,38 @@ async function main():
   );
 
   console.log(
-    `Core table units collected: ${coreTable.units.length}`,
+    `Core table rows parsed as units: ${coreTable.units.length}`,
+  );
+
+  console.log(
+    `Actual Core subjects: ${allCoreUnits.length}`,
   );
 
   for (
-    const group of
-    coreGroups
+    const group
+    of coreGroups
   ) {
     console.log(
-      `${group.name}: ${group.units.length} subjects`,
+      `${group.name}:`,
     );
+
+    if (
+      group.directUnits.length >
+      0
+    ) {
+      console.log(
+        `  Direct subjects: ${group.directUnits.length}`,
+      );
+    }
+
+    for (
+      const subgroup
+      of group.subgroups
+    ) {
+      console.log(
+        `  ${subgroup.name}: ${subgroup.units.length} subjects`,
+      );
+    }
   }
 
   console.log(
@@ -622,75 +797,489 @@ async function main():
 
 /*
  * ============================================================
- * ENGINEERING CORE
+ * ENGINEERING CORE STRUCTURAL PARSING
  * ============================================================
  */
 
 function buildEngineeringCoreGroups(
-  units: UsydGlobalTableUnit[],
-): EngineeringCoreGroup[] {
-  console.log(
-    'Engineering Core parsed sections:',
-    [
-      ...new Set(
-        units.map((unit) =>
-          normalizeText(
-            unit.section ?? '',
-          ),
-        ),
-      ),
-    ],
-  );
-
-  console.log(
-    'Engineering Core parsed units:',
-    units.map((unit) => ({
-      code: unit.code,
-      title: unit.title,
-      section: normalizeText(
-        unit.section ?? '',
-      ),
-    })),
-  );
-
+  rows:
+    UsydGlobalTableStructureRow[],
+):
+EngineeringCoreGroup[] {
   const foundation:
-    UsydGlobalTableUnit[] =
-    [];
+  EngineeringCoreGroup = {
+    key:
+      'FOUNDATION',
+
+    name:
+      'Foundation',
+
+    logic:
+      'ALL',
+
+    requiredCreditPoints:
+      18,
+
+    subgroups:
+      [
+        {
+          key:
+            'COMPUTING',
+
+          name:
+            'Computing Units',
+
+          logic:
+            'ONE_OF',
+
+          requiredCreditPoints:
+            6,
+
+          units:
+            [],
+
+          narratives:
+            [],
+        },
+
+        {
+          key:
+            'MATHEMATICS',
+
+          name:
+            'Mathematics Units',
+
+          logic:
+            'ALL',
+
+          requiredCreditPoints:
+            12,
+
+          units:
+            [],
+
+          narratives:
+            [],
+        },
+      ],
+
+    directUnits:
+      [],
+
+    narratives:
+      [],
+  };
 
   const projects:
-    UsydGlobalTableUnit[] =
-    [];
+  EngineeringCoreGroup = {
+    key:
+      'PROJECTS',
+
+    name:
+      'Engineering Projects',
+
+    logic:
+      'ALL',
+
+    requiredCreditPoints:
+      30,
+
+    subgroups:
+      [
+        {
+          key:
+            'PROJECT_1',
+
+          name:
+            'Project 1',
+
+          logic:
+            'ONE_OF',
+
+          requiredCreditPoints:
+            6,
+
+          units:
+            [],
+
+          narratives:
+            [],
+        },
+
+        {
+          key:
+            'PROJECT_2_3',
+
+          name:
+            'Project 2 & 3',
+
+          logic:
+            'ALL',
+
+          requiredCreditPoints:
+            12,
+
+          units:
+            [],
+
+          narratives:
+            [],
+        },
+
+        {
+          key:
+            'THESIS',
+
+          name:
+            'Thesis Units',
+
+          /*
+           * The source has stream-dependent thesis pairs
+           * plus Faculty-approved 24 CP MIP alternatives.
+           *
+           * Do not reduce this to a false ONE_OF / ALL rule.
+           */
+          logic:
+            'UNKNOWN',
+
+          requiredCreditPoints:
+            12,
+
+          units:
+            [],
+
+          narratives:
+            [],
+        },
+      ],
+
+    directUnits:
+      [],
+
+    narratives:
+      [],
+  };
 
   const pep:
-    UsydGlobalTableUnit[] =
-    [];
+  EngineeringCoreGroup = {
+    key:
+      'PEP',
 
-  const foundationSections =
-    new Set<string>();
+    name:
+      'Professional Engagement Program',
 
-  const projectSections =
-    new Set<string>();
+    logic:
+      'ALL',
 
-  const pepSections =
-    new Set<string>();
+    requiredCreditPoints:
+      null,
 
-  for (const unit of units) {
-    const section =
-      normalizeText(
-        unit.section ?? '',
-      );
+    subgroups:
+      [],
 
-    if (!section) {
+    directUnits:
+      [],
+
+    narratives:
+      [],
+  };
+
+  const groups =
+    [
+      foundation,
+      projects,
+      pep,
+    ];
+
+  let activeGroup:
+    EngineeringCoreGroup |
+    null =
+    null;
+
+  let activeSubgroup:
+    EngineeringCoreSubgroup |
+    null =
+    null;
+
+  for (
+    const row
+    of rows
+  ) {
+    /*
+     * --------------------------------------------------------
+     * EXPLICIT HEADING
+     * --------------------------------------------------------
+     */
+
+    if (
+      row.kind ===
+      'HEADING'
+    ) {
+      const heading =
+        normalizeText(
+          row.text,
+        );
+
+      const key =
+        heading
+          .toLowerCase();
+
+      /*
+       * Ignore the overall page/table heading.
+       */
+      if (
+        key.includes(
+          'bachelor of engineering honours core',
+        )
+      ) {
+        activeGroup =
+          null;
+
+        activeSubgroup =
+          null;
+
+        continue;
+      }
+
+      if (
+        key ===
+          'foundations' ||
+        key ===
+          'foundation'
+      ) {
+        activeGroup =
+          foundation;
+
+        activeSubgroup =
+          null;
+
+        continue;
+      }
+
+      if (
+        key ===
+        'computing units'
+      ) {
+        activeGroup =
+          foundation;
+
+        activeSubgroup =
+          findSubgroup(
+            foundation,
+            'COMPUTING',
+          );
+
+        continue;
+      }
+
+      if (
+        key ===
+        'mathematics units'
+      ) {
+        activeGroup =
+          foundation;
+
+        activeSubgroup =
+          findSubgroup(
+            foundation,
+            'MATHEMATICS',
+          );
+
+        continue;
+      }
+
+      if (
+        key.includes(
+          'professional engagement program',
+        )
+      ) {
+        activeGroup =
+          pep;
+
+        activeSubgroup =
+          null;
+
+        continue;
+      }
+
+      if (
+        key ===
+          'projects table' ||
+        key ===
+          'engineering projects' ||
+        key ===
+          'engineering projects table'
+      ) {
+        activeGroup =
+          projects;
+
+        activeSubgroup =
+          null;
+
+        continue;
+      }
+
+      if (
+        key ===
+        'project 1'
+      ) {
+        activeGroup =
+          projects;
+
+        activeSubgroup =
+          findSubgroup(
+            projects,
+            'PROJECT_1',
+          );
+
+        continue;
+      }
+
+      if (
+        key ===
+          'project 2 & 3' ||
+        key ===
+          'project 2 and 3'
+      ) {
+        activeGroup =
+          projects;
+
+        activeSubgroup =
+          findSubgroup(
+            projects,
+            'PROJECT_2_3',
+          );
+
+        continue;
+      }
+
+      if (
+        key ===
+          'thesis units' ||
+        key ===
+          'thesis'
+      ) {
+        activeGroup =
+          projects;
+
+        activeSubgroup =
+          findSubgroup(
+            projects,
+            'THESIS',
+          );
+
+        continue;
+      }
+
+      /*
+       * Unknown heading:
+       *
+       * do not accidentally move a unit into a different
+       * semantic group. Preserve it only as narrative context
+       * when currently inside a known Core group.
+       */
+      if (
+        activeSubgroup
+      ) {
+        activeSubgroup
+          .narratives
+          .push(
+            heading,
+          );
+      } else if (
+        activeGroup
+      ) {
+        activeGroup
+          .narratives
+          .push(
+            heading,
+          );
+      }
+
       continue;
     }
 
     /*
-     * Ignore rows that are not real subject table entries.
-     *
-     * The generic parser can pick up narrative text or
-     * amendment-history rows whenever they contain something
-     * that looks like a valid unit code.
+     * --------------------------------------------------------
+     * NARRATIVE / GENERIC SECTION
+     * --------------------------------------------------------
      */
+
+    if (
+      row.kind ===
+        'NARRATIVE' ||
+      row.kind ===
+        'SECTION'
+    ) {
+      const text =
+        normalizeText(
+          row.text,
+        );
+
+      if (
+        !text
+      ) {
+        continue;
+      }
+
+      /*
+       * Ignore standard column headings.
+       */
+      if (
+        /unit of study/i.test(
+          text,
+        ) &&
+        /credit points/i.test(
+          text,
+        )
+      ) {
+        continue;
+      }
+
+      if (
+        activeSubgroup
+      ) {
+        activeSubgroup
+          .narratives
+          .push(
+            text,
+          );
+      } else if (
+        activeGroup
+      ) {
+        activeGroup
+          .narratives
+          .push(
+            text,
+          );
+      }
+
+      continue;
+    }
+
+    /*
+     * --------------------------------------------------------
+     * UNIT
+     * --------------------------------------------------------
+     */
+
+    const unit =
+      structureRowToUnit(
+        row,
+      );
+
+    if (
+      !unit
+    ) {
+      continue;
+    }
+
+    const section =
+      normalizeText(
+        unit.section ??
+        '',
+      );
+
     if (
       isNonSubjectCoreRow(
         unit,
@@ -700,240 +1289,446 @@ function buildEngineeringCoreGroups(
       continue;
     }
 
-    const classification =
-      classifyCoreSection(
-        section,
-      );
-
     if (
-      classification ===
-      'FOUNDATION'
+      !activeGroup
     ) {
-      foundation.push(
-        unit,
-      );
-
-      foundationSections.add(
-        section,
-      );
-
+      /*
+       * We deliberately do not guess membership before the
+       * first recognised official Core heading.
+       */
       continue;
     }
 
     if (
-      classification ===
-      'PROJECTS'
+      activeSubgroup
     ) {
-      projects.push(
-        unit,
-      );
-
-      projectSections.add(
-        section,
-      );
-
-      continue;
-    }
-
-    if (
-      classification ===
-      'PEP'
-    ) {
-      pep.push(
-        unit,
-      );
-
-      pepSections.add(
-        section,
-      );
+      activeSubgroup
+        .units
+        .push(
+          unit,
+        );
+    } else {
+      activeGroup
+        .directUnits
+        .push(
+          unit,
+        );
     }
   }
 
-  const result:
-    EngineeringCoreGroup[] =
-    [
-      {
-        key:
-          'FOUNDATION',
+  /*
+   * Deduplicate safely while preserving official source order.
+   */
+  for (
+    const group
+    of groups
+  ) {
+    group.directUnits =
+      dedupeUnits(
+        group.directUnits,
+      );
 
-        name:
-          'Foundation',
+    group.narratives =
+      dedupeStrings(
+        group.narratives,
+      );
 
-        requiredCreditPoints:
-          18,
+    for (
+      const subgroup
+      of group.subgroups
+    ) {
+      subgroup.units =
+        dedupeUnits(
+          subgroup.units,
+        );
 
-        sections:
-          [
-            ...foundationSections,
-          ],
+      subgroup.narratives =
+        dedupeStrings(
+          subgroup.narratives,
+        );
+    }
+  }
 
-        units:
-          dedupeUnits(
-            foundation,
-          ),
-      },
-
-      {
-        key:
-          'PROJECTS',
-
-        name:
-          'Engineering Projects',
-
-        requiredCreditPoints:
-          30,
-
-        sections:
-          [
-            ...projectSections,
-          ],
-
-        units:
-          dedupeUnits(
-            projects,
-          ),
-      },
-
-      {
-        key:
-          'PEP',
-
-        name:
-          'Professional Engagement Program',
-
-        requiredCreditPoints:
-          null,
-
-        sections:
-          [
-            ...pepSections,
-          ],
-
-        units:
-          dedupeUnits(
-            pep,
-          ),
-      },
-    ];
-
-  console.log(
-    'Engineering Core classified groups:',
-    result.map((group) => ({
-      key: group.key,
-      name: group.name,
-      sections: group.sections,
-      units: group.units.map(
-        (unit) => unit.code,
-      ),
-    })),
+  validateParsedCoreStructure(
+    groups,
   );
 
-  for (const group of result) {
-    if (
-      group.units.length ===
-      0
-    ) {
-      throw new Error(
-        [
-          `Engineering Core parser found zero units for ${group.name}.`,
-          'Inspect the official table headings before continuing.',
-        ].join(
-          ' ',
-        ),
+  return groups;
+}
+
+function structureRowToUnit(
+  row:
+    UsydGlobalTableStructureRow,
+):
+UsydGlobalTableUnit |
+null {
+  if (
+    row.kind !==
+    'UNIT'
+  ) {
+    return null;
+  }
+
+  return {
+    code:
+      row.code,
+
+    title:
+      row.title,
+
+    creditPoints:
+      row.creditPoints,
+
+    accessConditionsRaw:
+      row.accessConditionsRaw,
+
+    section:
+      row.section,
+
+    headingPath:
+      row.headingPath,
+
+    sourceUrl:
+      ENGINEERING_CORE_URL,
+  };
+}
+
+function findSubgroup(
+  group:
+    EngineeringCoreGroup,
+
+  key:
+    string,
+):
+EngineeringCoreSubgroup {
+  const subgroup =
+    group
+      .subgroups
+      .find(
+        (
+          candidate,
+        ) =>
+          candidate.key ===
+          key,
       );
-    }
+
+  if (
+    !subgroup
+  ) {
+    throw new Error(
+      `Missing Engineering Core subgroup ${group.key}.${key}`,
+    );
+  }
+
+  return subgroup;
+}
+
+function validateParsedCoreStructure(
+  groups:
+    EngineeringCoreGroup[],
+): void {
+  const foundation =
+    getCoreGroup(
+      groups,
+      'FOUNDATION',
+    );
+
+  const projects =
+    getCoreGroup(
+      groups,
+      'PROJECTS',
+    );
+
+  const pep =
+    getCoreGroup(
+      groups,
+      'PEP',
+    );
+
+  const computing =
+    findSubgroup(
+      foundation,
+      'COMPUTING',
+    );
+
+  const mathematics =
+    findSubgroup(
+      foundation,
+      'MATHEMATICS',
+    );
+
+  const project1 =
+    findSubgroup(
+      projects,
+      'PROJECT_1',
+    );
+
+  const project23 =
+    findSubgroup(
+      projects,
+      'PROJECT_2_3',
+    );
+
+  const thesis =
+    findSubgroup(
+      projects,
+      'THESIS',
+    );
+
+  assertCodes(
+    'Foundation / Computing Units',
+    computing.units,
+    [
+      'INFO1110',
+      'INFO1910',
+      'ENGG1810',
+    ],
+  );
+
+  assertCodes(
+    'Foundation / Mathematics Units',
+    mathematics.units,
+    [
+      'MATH1061',
+      'MATH1062',
+    ],
+  );
+
+  assertCodes(
+    'Engineering Projects / Project 1',
+    project1.units,
+    [
+      'AERO1560',
+      'BMET1960',
+      'CHNG1108',
+      'CIVL1900',
+      'ELEC1004',
+      'ELEC1005',
+      'ENVE1001',
+      'MECH1560',
+      'MTRX1701',
+    ],
+  );
+
+  assertCodes(
+    'Engineering Projects / Project 2 & 3',
+    project23.units,
+    [
+      'ENGG2112',
+      'ENGG3112',
+    ],
+  );
+
+  assertCodes(
+    'Engineering Projects / Thesis Units',
+    thesis.units,
+    [
+      'AMME4111',
+      'AMME4112',
+      'BMET4111',
+      'BMET4112',
+      'CHNG4811',
+      'CHNG4812',
+      'CIVL4022',
+      'CIVL4023',
+      'ELEC4712',
+      'ELEC4713',
+      'ENVE4811',
+      'ENVE4812',
+      'AMME4010',
+      'BMET4010',
+      'CHNG4203',
+      'CIVL4203',
+      'ELEC4714',
+    ],
+  );
+
+  assertCodes(
+    'Professional Engagement Program',
+    pep.directUnits,
+    [
+      'ENGP1001',
+      'ENGP1002',
+      'ENGP1003',
+      'ENGP2001',
+      'ENGP2002',
+      'ENGP2003',
+      'ENGP3001',
+      'ENGP3002',
+    ],
+  );
+
+  if (
+    foundation.directUnits.length !==
+    0
+  ) {
+    throw new Error(
+      'Foundation unexpectedly contains direct subjects outside its official subgroups.',
+    );
+  }
+
+  if (
+    projects.directUnits.length !==
+    0
+  ) {
+    throw new Error(
+      'Engineering Projects unexpectedly contains direct subjects outside its official subgroups.',
+    );
+  }
+
+  const all =
+    collectAllCoreUnits(
+      groups,
+    );
+
+  if (
+    all.length !==
+    41
+  ) {
+    throw new Error(
+      `Expected exactly 41 Engineering Core subjects, found ${all.length}.`,
+    );
+  }
+
+  const unique =
+    new Set(
+      all.map(
+        (
+          unit,
+        ) =>
+          unit.code,
+      ),
+    );
+
+  if (
+    unique.size !==
+    41
+  ) {
+    throw new Error(
+      `Engineering Core contains duplicate subject membership: 41 expected, ${unique.size} unique.`,
+    );
+  }
+}
+
+function assertCodes(
+  label:
+    string,
+
+  units:
+    UsydGlobalTableUnit[],
+
+  expected:
+    string[],
+): void {
+  const actual =
+    units.map(
+      (
+        unit,
+      ) =>
+        unit.code,
+    );
+
+  if (
+    actual.length !==
+    expected.length ||
+    actual.some(
+      (
+        code,
+        index,
+      ) =>
+        code !==
+        expected[index],
+    )
+  ) {
+    throw new Error(
+      [
+        `${label} does not match the audited official source.`,
+        `Expected: ${expected.join(', ')}`,
+        `Actual: ${actual.join(', ')}`,
+      ].join(
+        ' ',
+      ),
+    );
+  }
+}
+
+function getCoreGroup(
+  groups:
+    EngineeringCoreGroup[],
+
+  key:
+    EngineeringCoreGroupKey,
+):
+EngineeringCoreGroup {
+  const result =
+    groups.find(
+      (
+        group,
+      ) =>
+        group.key ===
+        key,
+    );
+
+  if (
+    !result
+  ) {
+    throw new Error(
+      `Missing Engineering Core group ${key}`,
+    );
   }
 
   return result;
 }
 
-function classifyCoreSection(
-  section: string,
-):
-  | 'FOUNDATION'
-  | 'PROJECTS'
-  | 'PEP'
-  | null {
-  const normalized =
-    normalizeText(section)
-      .toLowerCase();
+/*
+ * ============================================================
+ * NORMALIZED DEGREE REQUIREMENT AST
+ * ============================================================
+ */
 
-  /*
-   * Foundation
-   */
-  if (
-    normalized ===
-      'computing units' ||
-    normalized ===
-      'mathematics units'
-  ) {
-    return 'FOUNDATION';
-  }
-
-  /*
-   * Professional Engagement Program
-   */
-  if (
-    normalized.includes(
-      'professional engagement program',
-    )
-  ) {
-    return 'PEP';
-  }
-
-  /*
-   * Engineering Projects
-   *
-   * The generic table parser loses the higher-level headings
-   * such as Project 1 / Project 2 & 3 / Thesis Units and keeps
-   * the immediate requirement sentence instead.
-   */
-  if (
-    normalized ===
-      'students must complete 6 credit points from the following:' ||
-    normalized ===
-      'students must complete 12 credit points from the following:'
-  ) {
-    return 'PROJECTS';
-  }
-
-  return null;
-}
 function attachCoreGroupsToDegreeRequirements(
-  master: MasterFile,
-  groups: EngineeringCoreGroup[],
-): string[] {
+  master:
+    MasterFile,
+
+  groups:
+    EngineeringCoreGroup[],
+):
+string[] {
   const updated:
-    string[] = [];
+    string[] =
+    [];
 
   /*
-   * Remove only requirements previously generated by this repair.
+   * Rerun safety.
    *
-   * The original BHENGINE-04 handbook requirement clauses are preserved
-   * unchanged as provenance. We create three dedicated authoritative
-   * requirement clauses instead of overwriting an existing broad clause.
-   *
-   * This is important because one original handbook clause can mention
-   * Foundation, Engineering Projects and PEP together. Reusing that same
-   * clause for all three groups causes the later group to overwrite the
-   * earlier one.
+   * Remove only clauses generated by this dedicated repair.
+   * Original handbook requirement clauses remain untouched.
    */
   master.degreeRequirements =
-    master.degreeRequirements.filter(
-      (requirement) =>
-        requirement.generatedRelationshipKind !==
-        'ENGINEERING_CORE_TABLE',
-    );
+    master
+      .degreeRequirements
+      .filter(
+        (
+          requirement,
+        ) =>
+          requirement
+            .generatedRelationshipKind !==
+          'ENGINEERING_CORE_TABLE',
+      );
 
   const sourceTextByGroup =
     new Map<
-      EngineeringCoreGroup['key'],
+      EngineeringCoreGroupKey,
       string | null
     >();
 
-  for (const group of groups) {
+  for (
+    const group
+    of groups
+  ) {
     sourceTextByGroup.set(
       group.key,
+
       findDegreeRequirementSourceText(
         master.degreeRequirements,
         group.key,
@@ -947,7 +1742,10 @@ function attachCoreGroupsToDegreeRequirements(
     );
 
   groups.forEach(
-    (group, groupIndex) => {
+    (
+      group,
+      groupIndex,
+    ) => {
       const raw =
         sourceTextByGroup.get(
           group.key,
@@ -955,7 +1753,7 @@ function attachCoreGroupsToDegreeRequirements(
         `${group.name} requirement from the official Engineering Core unit-of-study table.`;
 
       const generatedClause:
-        JsonObject = {
+      JsonObject = {
         degreeCode:
           ENGINEERING_DEGREE_CODE,
 
@@ -980,56 +1778,17 @@ function attachCoreGroupsToDegreeRequirements(
         generatedCoreGroupKey:
           group.key,
 
-        node: {
-          nodeType:
-            'GROUP',
-
-          title:
-            group.name,
-
-          logic:
-            'UNKNOWN',
-
-          requiredCreditPoints:
-            group.requiredCreditPoints,
-
-          sourceUrl:
-            ENGINEERING_CORE_URL,
-
-          sourceSections:
-            group.sections,
-
-          children:
-            group.units.map(
-              (
-                unit,
-                index,
-              ) => ({
-                nodeType:
-                  'SUBJECT',
-
-                code:
-                  unit.code,
-
-                name:
-                  unit.title,
-
-                creditPoints:
-                  unit.creditPoints,
-
-                sourceUrl:
-                  unit.sourceUrl,
-
-                sortOrder:
-                  index,
-              }),
-            ),
-        },
+        node:
+          buildGroupNode(
+            group,
+          ),
       };
 
-      master.degreeRequirements.push(
-        generatedClause,
-      );
+      master
+        .degreeRequirements
+        .push(
+          generatedClause,
+        );
 
       updated.push(
         group.name,
@@ -1040,21 +1799,236 @@ function attachCoreGroupsToDegreeRequirements(
   return updated;
 }
 
-function findDegreeRequirementSourceText(
-  requirements: JsonObject[],
-  key:
-    EngineeringCoreGroup['key'],
-): string | null {
-  const degreeRequirements =
-    requirements.filter(
-      (requirement) =>
-        requirement.degreeCode ===
-        ENGINEERING_DEGREE_CODE &&
-        requirement.generatedRelationshipKind !==
-        'ENGINEERING_CORE_TABLE',
+function buildGroupNode(
+  group:
+    EngineeringCoreGroup,
+):
+JsonObject {
+  const children:
+    JsonObject[] =
+    [];
+
+  /*
+   * Nested subgroups first, preserving official structural
+   * order defined in buildEngineeringCoreGroups().
+   */
+  group
+    .subgroups
+    .forEach(
+      (
+        subgroup,
+        index,
+      ) => {
+        children.push(
+          buildSubgroupNode(
+            subgroup,
+            index,
+          ),
+        );
+      },
     );
 
-  for (const requirement of degreeRequirements) {
+  /*
+   * PEP currently has direct subject children.
+   */
+  group
+    .directUnits
+    .forEach(
+      (
+        unit,
+        index,
+      ) => {
+        children.push(
+          buildSubjectNode(
+            unit,
+            group.subgroups.length +
+              index,
+          ),
+        );
+      },
+    );
+
+  return {
+    nodeType:
+      'GROUP',
+
+    title:
+      group.name,
+
+    logic:
+      group.logic,
+
+    requiredCreditPoints:
+      group.requiredCreditPoints,
+
+    sourceUrl:
+      ENGINEERING_CORE_URL,
+
+    sourceNarratives:
+      group.narratives,
+
+    children,
+  };
+}
+
+function buildSubgroupNode(
+  subgroup:
+    EngineeringCoreSubgroup,
+
+  sortOrder:
+    number,
+):
+JsonObject {
+  const children =
+    subgroup
+      .units
+      .map(
+        (
+          unit,
+          index,
+        ) =>
+          buildSubjectNode(
+            unit,
+            index,
+          ),
+      );
+
+  const node:
+  JsonObject = {
+    nodeType:
+      'GROUP',
+
+    title:
+      subgroup.name,
+
+    logic:
+      subgroup.logic,
+
+    requiredCreditPoints:
+      subgroup.requiredCreditPoints,
+
+    sourceUrl:
+      ENGINEERING_CORE_URL,
+
+    sourceNarratives:
+      subgroup.narratives,
+
+    sortOrder,
+
+    children,
+  };
+
+  /*
+   * Thesis semantics are intentionally not over-normalised.
+   *
+   * Preserve the known distinction between normal 6 CP thesis
+   * subjects and 24 CP Major Industrial Project alternatives
+   * as audit metadata without claiming a false logical operator.
+   */
+  if (
+    subgroup.key ===
+    'THESIS'
+  ) {
+    node.normalThesisSubjectCodes =
+      subgroup.units
+        .filter(
+          (
+            unit,
+          ) =>
+            unit.creditPoints ===
+            6,
+        )
+        .map(
+          (
+            unit,
+          ) =>
+            unit.code,
+        );
+
+    node.majorIndustrialProjectAlternativeCodes =
+      subgroup.units
+        .filter(
+          (
+            unit,
+          ) =>
+            unit.creditPoints ===
+            24,
+        )
+        .map(
+          (
+            unit,
+          ) =>
+            unit.code,
+        );
+
+    node.semanticNote =
+      'Normally 12 credit points of stream-relevant thesis units. Faculty-approved 24 credit point Major Industrial Project alternatives are preserved as source-backed alternatives; exact stream-to-thesis pairing is not inferred here.';
+  }
+
+  return node;
+}
+
+function buildSubjectNode(
+  unit:
+    UsydGlobalTableUnit,
+
+  sortOrder:
+    number,
+):
+JsonObject {
+  return {
+    nodeType:
+      'SUBJECT',
+
+    code:
+      unit.code,
+
+    name:
+      unit.title,
+
+    /*
+     * Contextual table CP, including valid 0 CP.
+     */
+    creditPoints:
+      unit.creditPoints,
+
+    sourceUrl:
+      unit.sourceUrl,
+
+    sortOrder,
+  };
+}
+
+/*
+ * ============================================================
+ * DEGREE SOURCE TEXT
+ * ============================================================
+ */
+
+function findDegreeRequirementSourceText(
+  requirements:
+    JsonObject[],
+
+  key:
+    EngineeringCoreGroupKey,
+):
+string | null {
+  const degreeRequirements =
+    requirements.filter(
+      (
+        requirement,
+      ) =>
+        requirement.degreeCode ===
+          ENGINEERING_DEGREE_CODE &&
+        requirement
+          .generatedRelationshipKind !==
+          'ENGINEERING_CORE_TABLE',
+    );
+
+  for (
+    const requirement
+    of degreeRequirements
+  ) {
     const raw =
       normalizeText(
         stringOrNull(
@@ -1066,7 +2040,9 @@ function findDegreeRequirementSourceText(
     const lower =
       raw.toLowerCase();
 
-    if (!lower) {
+    if (
+      !lower
+    ) {
       continue;
     }
 
@@ -1130,17 +2106,23 @@ function findDegreeRequirementSourceText(
 }
 
 function getNextEngineeringCoreSourceIndex(
-  requirements: JsonObject[],
-): number {
+  requirements:
+    JsonObject[],
+):
+number {
   const indexes =
     requirements
       .filter(
-        (requirement) =>
+        (
+          requirement,
+        ) =>
           requirement.degreeCode ===
           ENGINEERING_DEGREE_CODE,
       )
       .map(
-        (requirement) =>
+        (
+          requirement,
+        ) =>
           typeof requirement.sourceIndex ===
             'number'
             ? requirement.sourceIndex
@@ -1150,13 +2132,15 @@ function getNextEngineeringCoreSourceIndex(
         (
           value,
         ): value is number =>
-          value !== null &&
+          value !==
+            null &&
           Number.isFinite(
             value,
           ),
       );
 
-  return indexes.length > 0
+  return indexes.length >
+    0
     ? Math.max(
         ...indexes,
       ) + 1
@@ -1164,61 +2148,100 @@ function getNextEngineeringCoreSourceIndex(
 }
 
 function findGeneratedEngineeringCoreRequirement(
-  requirements: JsonObject[],
+  requirements:
+    JsonObject[],
+
   key:
-    EngineeringCoreGroup['key'],
-): JsonObject | null {
+    EngineeringCoreGroupKey,
+):
+JsonObject | null {
   const matches =
     requirements.filter(
-      (requirement) =>
+      (
+        requirement,
+      ) =>
         requirement.degreeCode ===
           ENGINEERING_DEGREE_CODE &&
-        requirement.generatedRelationshipKind ===
+        requirement
+          .generatedRelationshipKind ===
           'ENGINEERING_CORE_TABLE' &&
-        requirement.generatedCoreGroupKey ===
+        requirement
+          .generatedCoreGroupKey ===
           key,
     );
 
-  if (
-    matches.length !==
+  return matches.length ===
     1
-  ) {
-    return null;
-  }
-
-  return matches[0];
+    ? matches[0]
+    : null;
 }
 
 function findMissingSubjects(
-  groups: EngineeringCoreGroup[],
+  groups:
+    EngineeringCoreGroup[],
+
   subjectByCode:
-    Map<string, JsonObject>,
-): string[] {
+    Map<
+      string,
+      JsonObject
+    >,
+):
+string[] {
   const missing =
     new Set<string>();
 
   for (
-    const group of groups
+    const unit
+    of collectAllCoreUnits(
+      groups,
+    )
   ) {
-    for (
-      const unit of
-      group.units
+    if (
+      !subjectByCode.has(
+        unit.code,
+      )
     ) {
-      if (
-        !subjectByCode.has(
-          unit.code,
-        )
-      ) {
-        missing.add(
-          unit.code,
-        );
-      }
+      missing.add(
+        unit.code,
+      );
     }
   }
 
   return [
     ...missing,
   ].sort();
+}
+
+function collectAllCoreUnits(
+  groups:
+    EngineeringCoreGroup[],
+):
+UsydGlobalTableUnit[] {
+  const units:
+    UsydGlobalTableUnit[] =
+    [];
+
+  for (
+    const group
+    of groups
+  ) {
+    units.push(
+      ...group.directUnits,
+    );
+
+    for (
+      const subgroup
+      of group.subgroups
+    ) {
+      units.push(
+        ...subgroup.units,
+      );
+    }
+  }
+
+  return dedupeUnits(
+    units,
+  );
 }
 
 /*
@@ -1228,8 +2251,10 @@ function findMissingSubjects(
  */
 
 function discoverEngineeringSpecialisationRelationships(
-  sources: ComponentSource[],
-): SpecialisationRelationship[] {
+  sources:
+    ComponentSource[],
+):
+SpecialisationRelationship[] {
   const found =
     new Map<
       string,
@@ -1237,8 +2262,8 @@ function discoverEngineeringSpecialisationRelationships(
     >();
 
   for (
-    const source of
-    sources
+    const source
+    of sources
   ) {
     const component =
       source.component;
@@ -1267,15 +2292,14 @@ function discoverEngineeringSpecialisationRelationships(
         component.overviewUrl,
       );
 
-    if (!url) {
+    if (
+      !url
+    ) {
       continue;
     }
 
     /*
-     * Only use the canonical Engineering handbook path.
-     *
-     * Do not duplicate relationships from the mirrored
-     * business-school/coursework engineering-commerce pages.
+     * Only canonical Engineering pages.
      */
     if (
       !url.includes(
@@ -1290,7 +2314,9 @@ function discoverEngineeringSpecialisationRelationships(
         url,
       );
 
-    if (!identity) {
+    if (
+      !identity
+    ) {
       continue;
     }
 
@@ -1299,7 +2325,9 @@ function discoverEngineeringSpecialisationRelationships(
         identity.streamSlug
       ];
 
-    if (!streamName) {
+    if (
+      !streamName
+    ) {
       throw new Error(
         `Unknown Engineering stream slug in specialisation URL: ${identity.streamSlug}`,
       );
@@ -1314,6 +2342,7 @@ function discoverEngineeringSpecialisationRelationships(
     const key =
       [
         identity.streamSlug,
+
         normalizeText(
           specialisationName,
         ).toLowerCase(),
@@ -1343,11 +2372,15 @@ function discoverEngineeringSpecialisationRelationships(
   return [
     ...found.values(),
   ].sort(
-    (a, b) => {
+    (
+      left,
+      right,
+    ) => {
       const streamCompare =
-        a.streamName.localeCompare(
-          b.streamName,
-        );
+        left.streamName
+          .localeCompare(
+            right.streamName,
+          );
 
       if (
         streamCompare !==
@@ -1356,26 +2389,34 @@ function discoverEngineeringSpecialisationRelationships(
         return streamCompare;
       }
 
-      return a.specialisationName
+      return left
+        .specialisationName
         .localeCompare(
-          b.specialisationName,
+          right
+            .specialisationName,
         );
     },
   );
 }
 
 function parseSpecialisationUrl(
-  url: string,
+  url:
+    string,
 ): {
-  streamSlug: string;
-  specialisationSlug: string;
+  streamSlug:
+    string;
+
+  specialisationSlug:
+    string;
 } | null {
   const match =
     url.match(
       /\/engineering\/engineering-honours\/streams\/([^/]+)\/specialisations\/([^/]+?)(?:-unit-of-study-table)?\.html$/i,
     );
 
-  if (!match) {
+  if (
+    !match
+  ) {
     return null;
   }
 
@@ -1394,10 +2435,10 @@ function groupSpecialisationsByStream(
   relationships:
     SpecialisationRelationship[],
 ):
-  Map<
-    string,
-    SpecialisationRelationship[]
-  > {
+Map<
+  string,
+  SpecialisationRelationship[]
+> {
   const result =
     new Map<
       string,
@@ -1405,13 +2446,14 @@ function groupSpecialisationsByStream(
     >();
 
   for (
-    const relationship of
-    relationships
+    const relationship
+    of relationships
   ) {
     const current =
       result.get(
         relationship.streamSlug,
-      ) ?? [];
+      ) ??
+      [];
 
     current.push(
       relationship,
@@ -1427,15 +2469,21 @@ function groupSpecialisationsByStream(
 }
 
 function findCanonicalStreamSource(
-  sources: ComponentSource[],
-  streamSlug: string,
-): ComponentSource | null {
+  sources:
+    ComponentSource[],
+
+  streamSlug:
+    string,
+):
+ComponentSource | null {
   const suffix =
     `/engineering/engineering-honours/streams/${streamSlug}/unit-of-study-table.html`;
 
   const matches =
     sources.filter(
-      (source) => {
+      (
+        source,
+      ) => {
         if (
           source.component.type !==
           'STREAM'
@@ -1458,21 +2506,19 @@ function findCanonicalStreamSource(
       },
     );
 
-  if (
-    matches.length !==
+  return matches.length ===
     1
-  ) {
-    return null;
-  }
-
-  return matches[0];
+    ? matches[0]
+    : null;
 }
 
 function attachSpecialisationChoiceGroup(
   params: {
-    source: ComponentSource;
+    source:
+      ComponentSource;
 
-    streamSlug: string;
+    streamSlug:
+      string;
 
     relationships:
       SpecialisationRelationship[];
@@ -1497,13 +2543,11 @@ function attachSpecialisationChoiceGroup(
     );
   }
 
-  /*
-   * The canonical direct stream table is expected to be the
-   * one containing the actual stream requirement structure.
-   */
   const table =
     tables.find(
-      (candidate) => {
+      (
+        candidate,
+      ) => {
         const url =
           stringOrNull(
             candidate.url,
@@ -1552,8 +2596,11 @@ function attachSpecialisationChoiceGroup(
    */
   const filtered =
     groups.filter(
-      (group) =>
-        group.generatedRelationshipKind !==
+      (
+        group,
+      ) =>
+        group
+          .generatedRelationshipKind !==
         'STREAM_SPECIALISATION_CHOICE',
     );
 
@@ -1578,42 +2625,46 @@ function attachSpecialisationChoiceGroup(
 
     sourceUrl:
       table.url ??
-      params.source.component
+      params
+        .source
+        .component
         .unitTableUrl ??
       null,
 
     components:
-      params.relationships.map(
-        (
-          relationship,
-          index,
-        ) => ({
-          name:
-            relationship
-              .specialisationName,
-
-          type:
-            'SPECIALISATION',
-
-          handbookCategory:
-            relationship
-              .handbookCategory,
-
-          evidenceUrl:
-            relationship
-              .sourceUrl,
-
-          sourceUrl:
-            relationship
-              .sourceUrl,
-
-          sortOrder:
+      params
+        .relationships
+        .map(
+          (
+            relationship,
             index,
+          ) => ({
+            name:
+              relationship
+                .specialisationName,
 
-          authoritative:
-            true,
-        }),
-      ),
+            type:
+              'SPECIALISATION',
+
+            handbookCategory:
+              relationship
+                .handbookCategory,
+
+            evidenceUrl:
+              relationship
+                .sourceUrl,
+
+            sourceUrl:
+              relationship
+                .sourceUrl,
+
+            sortOrder:
+              index,
+
+            authoritative:
+              true,
+          }),
+        ),
   });
 
   streamRequirement
@@ -1634,19 +2685,38 @@ function attachSpecialisationChoiceGroup(
  */
 
 function validateEngineeringCoreRepair(
-  master: MasterFile,
-  groups: EngineeringCoreGroup[],
+  master:
+    MasterFile,
+
+  groups:
+    EngineeringCoreGroup[],
 ): void {
-  for (const group of groups) {
+  for (
+    const group
+    of groups
+  ) {
     const clause =
       findGeneratedEngineeringCoreRequirement(
         master.degreeRequirements,
         group.key,
       );
 
-    if (!clause) {
+    if (
+      !clause
+    ) {
       throw new Error(
         `Post-repair validation cannot find exactly one generated ${group.name} requirement.`,
+      );
+    }
+
+    if (
+      stringOrNull(
+        clause.sourceUrl,
+      ) !==
+      ENGINEERING_CORE_URL
+    ) {
+      throw new Error(
+        `${group.name}: generated requirement is missing the official Engineering Core source URL.`,
       );
     }
 
@@ -1655,46 +2725,50 @@ function validateEngineeringCoreRepair(
         clause.node,
       );
 
-    const children =
-      arrayOfObjects(
-        node.children,
-      );
-
-    const subjectChildren =
-      children.filter(
-        (child) =>
-          child.nodeType ===
-          'SUBJECT',
-      );
-
     if (
-      subjectChildren.length !==
-      group.units.length
+      stringOrNull(
+        node.nodeType,
+      ) !==
+      'GROUP'
     ) {
       throw new Error(
-        `${group.name}: expected ${group.units.length} subject references, found ${subjectChildren.length}.`,
+        `${group.name}: root node must be GROUP.`,
       );
     }
 
-    const actualCodes =
-      subjectChildren
-        .map(
-          (child) =>
-            stringOrNull(
-              child.code,
-            ),
-        )
-        .filter(
-          (
-            code,
-          ): code is string =>
-            code !== null,
-        );
+    if (
+      stringOrNull(
+        node.title,
+      ) !==
+      group.name
+    ) {
+      throw new Error(
+        `${group.name}: generated root title mismatch.`,
+      );
+    }
 
     const expectedCodes =
-      group.units.map(
-        (unit) =>
+      [
+        ...group.directUnits,
+
+        ...group
+          .subgroups
+          .flatMap(
+            (
+              subgroup,
+            ) =>
+              subgroup.units,
+          ),
+      ].map(
+        (
+          unit,
+        ) =>
           unit.code,
+      );
+
+    const actualCodes =
+      collectSubjectCodesFromNode(
+        node,
       );
 
     if (
@@ -1710,25 +2784,245 @@ function validateEngineeringCoreRepair(
       )
     ) {
       throw new Error(
-        `${group.name}: generated subject references do not match the classified Engineering Core units.`,
+        [
+          `${group.name}: nested requirement subject membership mismatch.`,
+          `Expected: ${expectedCodes.join(', ')}`,
+          `Actual: ${actualCodes.join(', ')}`,
+        ].join(
+          ' ',
+        ),
       );
     }
 
-    if (
-      stringOrNull(
-        clause.sourceUrl,
-      ) !==
-      ENGINEERING_CORE_URL
-    ) {
-      throw new Error(
-        `${group.name}: generated requirement is missing the official Engineering Core source URL.`,
+    /*
+     * Validate subgroup AST itself.
+     */
+    const rootChildren =
+      arrayOfObjects(
+        node.children,
       );
+
+    for (
+      const subgroup
+      of group.subgroups
+    ) {
+      const subgroupNode =
+        rootChildren.find(
+          (
+            child,
+          ) =>
+            child.nodeType ===
+              'GROUP' &&
+            child.title ===
+              subgroup.name,
+        );
+
+      if (
+        !subgroupNode
+      ) {
+        throw new Error(
+          `${group.name}: missing nested subgroup ${subgroup.name}.`,
+        );
+      }
+
+      if (
+        stringOrNull(
+          subgroupNode.logic,
+        ) !==
+        subgroup.logic
+      ) {
+        throw new Error(
+          `${group.name}/${subgroup.name}: logic mismatch.`,
+        );
+      }
+
+      if (
+        numberOrNull(
+          subgroupNode
+            .requiredCreditPoints,
+        ) !==
+        subgroup
+          .requiredCreditPoints
+      ) {
+        throw new Error(
+          `${group.name}/${subgroup.name}: required CP mismatch.`,
+        );
+      }
     }
+  }
+
+  /*
+   * Explicit regression checks.
+   */
+  const foundation =
+    findGeneratedEngineeringCoreRequirement(
+      master.degreeRequirements,
+      'FOUNDATION',
+    );
+
+  const projects =
+    findGeneratedEngineeringCoreRequirement(
+      master.degreeRequirements,
+      'PROJECTS',
+    );
+
+  const pep =
+    findGeneratedEngineeringCoreRequirement(
+      master.degreeRequirements,
+      'PEP',
+    );
+
+  if (
+    !foundation ||
+    !projects ||
+    !pep
+  ) {
+    throw new Error(
+      'Engineering Core validation could not resolve all three generated clauses.',
+    );
+  }
+
+  const foundationNode =
+    objectOrEmpty(
+      foundation.node,
+    );
+
+  const foundationChildren =
+    arrayOfObjects(
+      foundationNode.children,
+    );
+
+  if (
+    foundationChildren.length !==
+    2
+  ) {
+    throw new Error(
+      `Foundation must contain exactly 2 nested groups, found ${foundationChildren.length}.`,
+    );
+  }
+
+  const projectNode =
+    objectOrEmpty(
+      projects.node,
+    );
+
+  const projectChildren =
+    arrayOfObjects(
+      projectNode.children,
+    );
+
+  if (
+    projectChildren.length !==
+    3
+  ) {
+    throw new Error(
+      `Engineering Projects must contain exactly 3 nested groups, found ${projectChildren.length}.`,
+    );
+  }
+
+  const pepNode =
+    objectOrEmpty(
+      pep.node,
+    );
+
+  const pepCodes =
+    collectSubjectCodesFromNode(
+      pepNode,
+    );
+
+  if (
+    pepCodes.length !==
+    8
+  ) {
+    throw new Error(
+      `PEP must contain exactly 8 units, found ${pepCodes.length}.`,
+    );
   }
 }
 
+function collectSubjectCodesFromNode(
+  value:
+    unknown,
+):
+string[] {
+  const result:
+    string[] =
+    [];
+
+  function visit(
+    current:
+      unknown,
+  ): void {
+    if (
+      Array.isArray(
+        current,
+      )
+    ) {
+      for (
+        const item
+        of current
+      ) {
+        visit(
+          item,
+        );
+      }
+
+      return;
+    }
+
+    if (
+      !isObject(
+        current,
+      )
+    ) {
+      return;
+    }
+
+    if (
+      current.nodeType ===
+      'SUBJECT'
+    ) {
+      const code =
+        stringOrNull(
+          current.code,
+        );
+
+      if (
+        code
+      ) {
+        result.push(
+          code,
+        );
+      }
+
+      return;
+    }
+
+    const children =
+      current.children;
+
+    if (
+      Array.isArray(
+        children,
+      )
+    ) {
+      visit(
+        children,
+      );
+    }
+  }
+
+  visit(
+    value,
+  );
+
+  return result;
+}
+
 function validateSpecialisationRepair(
-  master: MasterFile,
+  master:
+    MasterFile,
+
   relationshipsByStream:
     Map<
       string,
@@ -1744,29 +3038,40 @@ function validateSpecialisationRepair(
     );
   }
 
+  let totalRelationships =
+    0;
+
   for (
     const [
       streamSlug,
       expected,
-    ] of
-    relationshipsByStream
+    ]
+    of relationshipsByStream
   ) {
+    totalRelationships +=
+      expected.length;
+
     const source =
       findCanonicalStreamSource(
         master.componentSources,
         streamSlug,
       );
 
-    if (!source) {
+    if (
+      !source
+    ) {
       throw new Error(
         `Missing repaired stream source ${streamSlug}.`,
       );
     }
 
     const groups =
-      source.parsedTables
+      source
+        .parsedTables
         .flatMap(
-          (table) =>
+          (
+            table,
+          ) =>
             arrayOfObjects(
               objectOrEmpty(
                 table.structure,
@@ -1774,7 +3079,9 @@ function validateSpecialisationRepair(
             ),
         )
         .flatMap(
-          (component) =>
+          (
+            component,
+          ) =>
             arrayOfObjects(
               component
                 .requirementGroups,
@@ -1783,13 +3090,17 @@ function validateSpecialisationRepair(
 
     const choiceGroup =
       groups.find(
-        (group) =>
+        (
+          group,
+        ) =>
           group
             .generatedRelationshipKind ===
           'STREAM_SPECIALISATION_CHOICE',
       );
 
-    if (!choiceGroup) {
+    if (
+      !choiceGroup
+    ) {
       throw new Error(
         `${streamSlug}: missing Specialisation choice group.`,
       );
@@ -1808,6 +3119,50 @@ function validateSpecialisationRepair(
         `${streamSlug}: expected ${expected.length} Specialisations, found ${candidates.length}.`,
       );
     }
+
+    const actualNames =
+      candidates.map(
+        (
+          candidate,
+        ) =>
+          requiredString(
+            candidate.name,
+            `${streamSlug} specialisation candidate name`,
+          ),
+      );
+
+    const expectedNames =
+      expected.map(
+        (
+          relationship,
+        ) =>
+          relationship
+            .specialisationName,
+      );
+
+    if (
+      actualNames.some(
+        (
+          name,
+          index,
+        ) =>
+          name !==
+          expectedNames[index],
+      )
+    ) {
+      throw new Error(
+        `${streamSlug}: Specialisation candidates do not match canonical relationships.`,
+      );
+    }
+  }
+
+  if (
+    totalRelationships !==
+    45
+  ) {
+    throw new Error(
+      `Expected 45 Stream -> Specialisation relationships, found ${totalRelationships}.`,
+    );
   }
 }
 
@@ -1818,9 +3173,13 @@ function validateSpecialisationRepair(
  */
 
 function buildSubjectMap(
-  subjects: JsonObject[],
+  subjects:
+    JsonObject[],
 ):
-  Map<string, JsonObject> {
+Map<
+  string,
+  JsonObject
+> {
   const result =
     new Map<
       string,
@@ -1828,20 +3187,37 @@ function buildSubjectMap(
     >();
 
   for (
-    const subject of
-    subjects
+    const subject
+    of subjects
   ) {
     const code =
       stringOrNull(
         subject.code,
       );
 
-    if (code) {
-      result.set(
-        code.toUpperCase(),
-        subject,
+    if (
+      !code
+    ) {
+      continue;
+    }
+
+    const normalized =
+      code.toUpperCase();
+
+    if (
+      result.has(
+        normalized,
+      )
+    ) {
+      throw new Error(
+        `Duplicate canonical subject ${normalized}`,
       );
     }
+
+    result.set(
+      normalized,
+      subject,
+    );
   }
 
   return result;
@@ -1851,7 +3227,7 @@ function dedupeUnits(
   units:
     UsydGlobalTableUnit[],
 ):
-  UsydGlobalTableUnit[] {
+UsydGlobalTableUnit[] {
   const result =
     new Map<
       string,
@@ -1859,7 +3235,8 @@ function dedupeUnits(
     >();
 
   for (
-    const unit of units
+    const unit
+    of units
   ) {
     if (
       !result.has(
@@ -1878,9 +3255,53 @@ function dedupeUnits(
   ];
 }
 
+function dedupeStrings(
+  values:
+    string[],
+):
+string[] {
+  const result:
+    string[] =
+    [];
+
+  const seen =
+    new Set<string>();
+
+  for (
+    const value
+    of values
+  ) {
+    const normalized =
+      normalizeText(
+        value,
+      );
+
+    if (
+      !normalized ||
+      seen.has(
+        normalized,
+      )
+    ) {
+      continue;
+    }
+
+    seen.add(
+      normalized,
+    );
+
+    result.push(
+      normalized,
+    );
+  }
+
+  return result;
+}
+
 function normalizeText(
-  value: string,
-): string {
+  value:
+    string,
+):
+string {
   return value
     .replace(
       /[\u200B-\u200D\uFEFF]/g,
@@ -1898,8 +3319,10 @@ function normalizeText(
 }
 
 function objectOrEmpty(
-  value: unknown,
-): JsonObject {
+  value:
+    unknown,
+):
+JsonObject {
   return isObject(
     value,
   )
@@ -1908,12 +3331,14 @@ function objectOrEmpty(
 }
 
 function isObject(
-  value: unknown,
+  value:
+    unknown,
 ): value is JsonObject {
   return (
     typeof value ===
       'object' &&
-    value !== null &&
+    value !==
+      null &&
     !Array.isArray(
       value,
     )
@@ -1921,8 +3346,10 @@ function isObject(
 }
 
 function arrayOfObjects(
-  value: unknown,
-): JsonObject[] {
+  value:
+    unknown,
+):
+JsonObject[] {
   return Array.isArray(
     value,
   )
@@ -1933,8 +3360,10 @@ function arrayOfObjects(
 }
 
 function stringOrNull(
-  value: unknown,
-): string | null {
+  value:
+    unknown,
+):
+string | null {
   return (
     typeof value ===
       'string' &&
@@ -1944,18 +3373,39 @@ function stringOrNull(
     : null;
 }
 
+function numberOrNull(
+  value:
+    unknown,
+):
+number | null {
+  return (
+    typeof value ===
+      'number' &&
+    Number.isFinite(
+      value,
+    )
+  )
+    ? value
+    : null;
+}
+
 function firstString(
-  ...values: unknown[]
-): string | null {
+  ...values:
+    unknown[]
+):
+string | null {
   for (
-    const value of values
+    const value
+    of values
   ) {
     const result =
       stringOrNull(
         value,
       );
 
-    if (result) {
+    if (
+      result
+    ) {
       return result;
     }
   }
@@ -1964,15 +3414,21 @@ function firstString(
 }
 
 function requiredString(
-  value: unknown,
-  label: string,
-): string {
+  value:
+    unknown,
+
+  label:
+    string,
+):
+string {
   const result =
     stringOrNull(
       value,
     );
 
-  if (!result) {
+  if (
+    !result
+  ) {
     throw new Error(
       `Missing ${label}.`,
     );
@@ -1982,7 +3438,8 @@ function requiredString(
 }
 
 function validateMaster(
-  master: MasterFile,
+  master:
+    MasterFile,
 ): void {
   if (
     master.university
@@ -2028,8 +3485,10 @@ function validateMaster(
 }
 
 async function readJson<T>(
-  path: string,
-): Promise<T> {
+  path:
+    string,
+):
+Promise<T> {
   return JSON.parse(
     await readFile(
       path,
@@ -2039,9 +3498,13 @@ async function readJson<T>(
 }
 
 async function writeJson(
-  path: string,
-  value: unknown,
-): Promise<void> {
+  path:
+    string,
+
+  value:
+    unknown,
+):
+Promise<void> {
   await writeFile(
     path,
 
@@ -2055,23 +3518,20 @@ async function writeJson(
   );
 }
 
-main().catch(
-  (
-    error: unknown,
-  ) => {
-    console.error(
-      error,
-    );
-
-    process.exitCode =
-      1;
-  },
-);
+/*
+ * ============================================================
+ * FILTER FALSE UNIT ROWS
+ * ============================================================
+ */
 
 function isNonSubjectCoreRow(
-  unit: UsydGlobalTableUnit,
-  section: string,
-): boolean {
+  unit:
+    UsydGlobalTableUnit,
+
+  section:
+    string,
+):
+boolean {
   const normalizedSection =
     normalizeText(
       section,
@@ -2079,13 +3539,12 @@ function isNonSubjectCoreRow(
 
   const normalizedTitle =
     normalizeText(
-      unit.title ?? '',
+      unit.title ??
+      '',
     ).toLowerCase();
 
   /*
-   * ------------------------------------------------
-   * Amendment / publication history
-   * ------------------------------------------------
+   * Amendment/publication history.
    */
   if (
     normalizedSection.startsWith(
@@ -2096,17 +3555,8 @@ function isNonSubjectCoreRow(
   }
 
   /*
-   * ------------------------------------------------
-   * Narrative recommendation rows
-   *
-   * Examples seen from the parser:
-   *
-   * INFO1110
-   * "Students in the Electrical and Software streams..."
-   *
-   * ENGG1810
-   * "Students in other streams are recommended..."
-   * ------------------------------------------------
+   * Narrative recommendations that contain a unit code and can
+   * therefore be mistaken for unit rows by a generic parser.
    */
   if (
     normalizedTitle.startsWith(
@@ -2116,15 +3566,6 @@ function isNonSubjectCoreRow(
     return true;
   }
 
-  /*
-   * ------------------------------------------------
-   * PEP explanatory note
-   *
-   * Example:
-   * ENGP1001
-   * "Note: Students must enrol..."
-   * ------------------------------------------------
-   */
   if (
     normalizedTitle.startsWith(
       'note:',
@@ -2133,11 +3574,6 @@ function isNonSubjectCoreRow(
     return true;
   }
 
-  /*
-   * ------------------------------------------------
-   * Amendment-history prose that contains unit codes
-   * ------------------------------------------------
-   */
   if (
     normalizedTitle.startsWith(
       'prerequisites (p) for published as:',
@@ -2156,3 +3592,17 @@ function isNonSubjectCoreRow(
 
   return false;
 }
+
+main().catch(
+  (
+    error:
+      unknown,
+  ) => {
+    console.error(
+      error,
+    );
+
+    process.exitCode =
+      1;
+  },
+);

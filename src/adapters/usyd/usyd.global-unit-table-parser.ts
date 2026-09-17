@@ -2,6 +2,11 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import type { AnyNode } from 'domhandler';
 
+export interface UsydGlobalTableHeadingContext {
+  text: string;
+  level: number;
+}
+
 export interface UsydGlobalTableUnit {
   code: string;
 
@@ -11,25 +16,91 @@ export interface UsydGlobalTableUnit {
 
   /**
    * Raw A/P/C/N text from the table row.
-   *
-   * We preserve this for later detailed requisite parsing.
    */
   accessConditionsRaw: string | null;
 
   /**
-   * Section/category immediately surrounding the row.
+   * Legacy immediate section label.
    *
-   * Examples:
-   *
-   * - Major core
-   * - 1000-level units of study
-   * - Selective units
-   * - Core (Honours)
+   * Keep this for all existing consumers.
    */
   section: string | null;
 
+  /**
+   * Structural heading context surrounding this unit.
+   *
+   * This is additive and does not replace `section`.
+   */
+  headingPath?: UsydGlobalTableHeadingContext[];
+
   sourceUrl: string;
 }
+
+export interface UsydGlobalTableHeadingRow {
+  kind: 'HEADING';
+
+  text: string;
+
+  level: number;
+
+  tableIndex: number;
+
+  rowIndex: number;
+
+  sourceOrder: number;
+}
+
+export interface UsydGlobalTableSectionRow {
+  kind: 'SECTION';
+
+  text: string;
+
+  tableIndex: number;
+
+  rowIndex: number;
+
+  sourceOrder: number;
+}
+
+export interface UsydGlobalTableNarrativeRow {
+  kind: 'NARRATIVE';
+
+  text: string;
+
+  tableIndex: number;
+
+  rowIndex: number;
+
+  sourceOrder: number;
+}
+
+export interface UsydGlobalTableUnitRow {
+  kind: 'UNIT';
+
+  code: string;
+
+  title: string;
+
+  creditPoints: number | null;
+
+  accessConditionsRaw: string | null;
+
+  section: string | null;
+
+  headingPath: UsydGlobalTableHeadingContext[];
+
+  tableIndex: number;
+
+  rowIndex: number;
+
+  sourceOrder: number;
+}
+
+export type UsydGlobalTableStructureRow =
+  | UsydGlobalTableHeadingRow
+  | UsydGlobalTableSectionRow
+  | UsydGlobalTableNarrativeRow
+  | UsydGlobalTableUnitRow;
 
 export interface UsydGlobalUnitTableParseResult {
   url: string;
@@ -37,6 +108,17 @@ export interface UsydGlobalUnitTableParseResult {
   title: string;
 
   units: UsydGlobalTableUnit[];
+
+  /**
+   * Lossless source-order structural view of table rows.
+   *
+   * Existing consumers can continue using `units`.
+   *
+   * Consumers that need hierarchy, such as the Engineering
+   * Core repair, can use this field instead of reconstructing
+   * structure from the flattened `section` property.
+   */
+  structureRows: UsydGlobalTableStructureRow[];
 
   uniqueUnitCodes: string[];
 
@@ -112,7 +194,10 @@ function parseCreditPoints(
     );
 
   /**
-   * Standard CP cell.
+   * Standard numeric cell.
+   *
+   * Important:
+   * 0 is valid and must remain 0.
    */
   if (
     /^\d+(?:\.\d+)?$/.test(
@@ -132,10 +217,11 @@ function parseCreditPoints(
   }
 
   /**
-   * Defensive form:
+   * Defensive forms:
    *
-   * "6 credit points"
-   * "6 cp"
+   * 6 credit points
+   * 6 cp
+   * 0 credit points
    */
   const match =
     normalized.match(
@@ -177,8 +263,144 @@ function cleanUnitTitle(
 
 /**
  * ------------------------------------------------
- * SECTION ROW
+ * TABLE TEXT
  * ------------------------------------------------
+ */
+
+function getRowText(
+  $: cheerio.CheerioAPI,
+  row: AnyNode,
+): string {
+  return normalizeText(
+    $(row)
+      .find(
+        'th, td',
+      )
+      .map(
+        (
+          _,
+          cell,
+        ) =>
+          normalizeText(
+            $(cell).text(),
+          ),
+      )
+      .get()
+      .filter(
+        Boolean,
+      )
+      .join(
+        ' ',
+      ),
+  );
+}
+
+/**
+ * ------------------------------------------------
+ * EXPLICIT HTML HEADING ROW
+ * ------------------------------------------------
+ *
+ * This is the important addition for tables such as:
+ *
+ * Foundations
+ * Computing Units
+ * Mathematics Units
+ * Projects Table
+ * Project 1
+ * Project 2 & 3
+ * Thesis Units
+ *
+ * We preserve the actual h1-h6 level and source order.
+ *
+ * We do NOT infer academic semantics here.
+ */
+
+function getExplicitHeading(
+  $: cheerio.CheerioAPI,
+  row: AnyNode,
+): UsydGlobalTableHeadingContext | null {
+  const heading =
+    $(row)
+      .find(
+        'h1, h2, h3, h4, h5, h6',
+      )
+      .first();
+
+  if (
+    heading.length ===
+    0
+  ) {
+    return null;
+  }
+
+  const text =
+    normalizeText(
+      heading.text(),
+    );
+
+  if (
+    !text
+  ) {
+    return null;
+  }
+
+  const tagName =
+    (
+      heading
+        .get(0) as
+        | {
+            tagName?: string;
+            name?: string;
+          }
+        | undefined
+    )
+      ?.tagName ??
+    (
+      heading
+        .get(0) as
+        | {
+            name?: string;
+          }
+        | undefined
+    )
+      ?.name ??
+    '';
+
+  const match =
+    String(
+      tagName,
+    ).match(
+      /^h([1-6])$/i,
+    );
+
+  if (
+    !match
+  ) {
+    return null;
+  }
+
+  return {
+    text,
+
+    level:
+      Number(
+        match[1],
+      ),
+  };
+}
+
+/**
+ * ------------------------------------------------
+ * LEGACY SECTION ROW
+ * ------------------------------------------------
+ *
+ * Not every USYD table uses actual h4/h5 elements for
+ * section labels.
+ *
+ * Keep the previous fallback behaviour for generic consumers.
+ *
+ * Structural consumers should prefer HEADING rows where they
+ * exist.
  */
 
 function getSectionCandidate(
@@ -208,7 +430,7 @@ function getSectionCandidate(
     );
 
   /**
-   * Ignore actual table column headings.
+   * Actual table column headings.
    */
   if (
     /unit of study/i.test(
@@ -230,8 +452,8 @@ function getSectionCandidate(
   }
 
   /**
-   * Avoid turning long explanatory paragraphs into
-   * section labels.
+   * Long text is narrative rather than a safe generic
+   * section label.
    */
   if (
     combined.length >
@@ -241,8 +463,8 @@ function getSectionCandidate(
   }
 
   /**
-   * Rows containing unit codes are usually requirement
-   * or instruction rows rather than headings.
+   * Rows mentioning subject codes are normally instructions,
+   * rules or prose rather than section headings.
    */
   if (
     /\b[A-Z]{4}\d{4}\b/.test(
@@ -253,6 +475,59 @@ function getSectionCandidate(
   }
 
   return combined;
+}
+
+/**
+ * ------------------------------------------------
+ * HEADING PATH
+ * ------------------------------------------------
+ *
+ * This preserves literal HTML hierarchy only.
+ *
+ * It deliberately does NOT claim that two sibling h4 rows
+ * have an academic parent-child relationship.
+ *
+ * Example:
+ *
+ * h4 Projects Table
+ * h5 Project 1
+ *
+ * gives:
+ *
+ * Projects Table -> Project 1
+ *
+ * But:
+ *
+ * h4 Foundations
+ * h4 Computing Units
+ *
+ * remains two h4 source headings.
+ *
+ * Engineering-specific semantic nesting is handled later by
+ * the Engineering repair.
+ */
+
+function updateHeadingPath(
+  current:
+    UsydGlobalTableHeadingContext[],
+
+  next:
+    UsydGlobalTableHeadingContext,
+): UsydGlobalTableHeadingContext[] {
+  const retained =
+    current.filter(
+      (
+        heading,
+      ) =>
+        heading.level <
+        next.level,
+    );
+
+  retained.push(
+    next,
+  );
+
+  return retained;
 }
 
 /**
@@ -284,59 +559,100 @@ function findRowUnitCode(
         index,
       );
 
-    /**
-     * Strongest signal:
-     *
-     * official link to a unit detail page.
-     */
-    const unitAnchor =
-      cell
-        .find(
-          'a[href*="/units/"]',
-        )
-        .first();
+    const cellText =
+      normalizeText(
+        cell.text(),
+      );
 
-    if (
-      unitAnchor.length >
-      0
+    /**
+     * ------------------------------------------------
+     * OFFICIAL /units/ LINK
+     * ------------------------------------------------
+     *
+     * A real unit row normally starts with its own unit code:
+     *
+     * INFO1110 Introduction to Programming | 6 | ...
+     *
+     * However narrative rows can also contain links:
+     *
+     * "Students in the Electrical and Software streams are
+     * strongly recommended to take INFO1110 or INFO1910..."
+     *
+     * The old parser treated any /units/ link as the identity
+     * of the row, which incorrectly converted narrative text
+     * into fake subject rows.
+     *
+     * Therefore an official unit link is only accepted as the
+     * row identity when the corresponding cell itself starts
+     * with that unit code.
+     */
+
+    const unitAnchors =
+      cell.find(
+        'a[href*="/units/"]',
+      );
+
+    for (
+      let anchorIndex = 0;
+      anchorIndex <
+      unitAnchors.length;
+      anchorIndex += 1
     ) {
+      const anchor =
+        unitAnchors.eq(
+          anchorIndex,
+        );
+
       const href =
-        unitAnchor.attr(
+        anchor.attr(
           'href',
         );
 
-      if (
-        href
-      ) {
-        const hrefCode =
-          extractCodeFromHref(
-            href,
-          );
-
-        if (
-          hrefCode
-        ) {
-          return {
-            code:
-              hrefCode,
-
-            cellIndex:
-              index,
-          };
-        }
-      }
-
-      const anchorCode =
+      const code =
+        (
+          href
+            ? extractCodeFromHref(
+                href,
+              )
+            : null
+        ) ??
         extractUnitCode(
-          unitAnchor.text(),
+          anchor.text(),
         );
 
       if (
-        anchorCode
+        !code
+      ) {
+        continue;
+      }
+
+      /**
+       * The unit code must be the leading meaningful text of
+       * its table cell.
+       *
+       * Accept:
+       *
+       * INFO1110
+       * INFO1110 Introduction to Programming
+       *
+       * Reject:
+       *
+       * Students should take INFO1110...
+       * P INFO1110...
+       */
+      const startsWithCode =
+        new RegExp(
+          `^${code}\\b`,
+          'i',
+        ).test(
+          cellText,
+        );
+
+      if (
+        startsWithCode
       ) {
         return {
-          code:
-            anchorCode,
+          code,
 
           cellIndex:
             index,
@@ -345,26 +661,33 @@ function findRowUnitCode(
     }
 
     /**
-     * Some tables render the code as plain text.
+     * ------------------------------------------------
+     * PLAIN-TEXT UNIT CODE
+     * ------------------------------------------------
      *
-     * Only inspect the first two cells so prerequisite
-     * codes in A/P/C/N do not become the table unit.
+     * Some tables do not use links.
+     *
+     * Again, require the code to occur at the beginning of the
+     * first two cells instead of merely appearing somewhere in
+     * the text. This prevents prerequisite/advisory prose from
+     * becoming a fake unit row.
      */
     if (
       index <=
       1
     ) {
-      const textCode =
-        extractUnitCode(
-          cell.text(),
+      const leadingMatch =
+        cellText.match(
+          /^([A-Z]{4}\d{4})\b/,
         );
 
       if (
-        textCode
+        leadingMatch
       ) {
         return {
           code:
-            textCode,
+            leadingMatch[1]
+              .toUpperCase(),
 
           cellIndex:
             index,
@@ -378,270 +701,539 @@ function findRowUnitCode(
 
 /**
  * ------------------------------------------------
+ * UNIT ROW PARSING
+ * ------------------------------------------------
+ */
+
+function parseUnitRow(
+  $: cheerio.CheerioAPI,
+
+  row: AnyNode,
+
+  sourceUrl: string,
+
+  unitIdentity: {
+    code: string;
+    cellIndex: number;
+  },
+
+  currentSection:
+    string | null,
+
+  headingPath:
+    UsydGlobalTableHeadingContext[],
+): UsydGlobalTableUnit {
+  const cellElements =
+    $(row).find(
+      'th, td',
+    );
+
+  const cellTexts:
+    string[] =
+    [];
+
+  cellElements.each(
+    (
+      _,
+      cell,
+    ) => {
+      cellTexts.push(
+        normalizeText(
+          $(cell).text(),
+        ),
+      );
+    },
+  );
+
+  const {
+    code,
+
+    cellIndex:
+      codeCellIndex,
+  } =
+    unitIdentity;
+
+  /**
+   * ------------------------------------------------
+   * CREDIT POINTS
+   * ------------------------------------------------
+   */
+
+  let creditPoints:
+    number | null =
+    null;
+
+  let creditPointCellIndex =
+    -1;
+
+  for (
+    let index =
+      codeCellIndex +
+      1;
+
+    index <
+    cellTexts.length;
+
+    index += 1
+  ) {
+    const parsed =
+      parseCreditPoints(
+        cellTexts[
+          index
+        ],
+      );
+
+    if (
+      parsed !==
+      null
+    ) {
+      creditPoints =
+        parsed;
+
+      creditPointCellIndex =
+        index;
+
+      break;
+    }
+  }
+
+  /**
+   * ------------------------------------------------
+   * TITLE
+   * ------------------------------------------------
+   */
+
+  let title =
+    cleanUnitTitle(
+      cellTexts[
+        codeCellIndex
+      ] ??
+        '',
+      code,
+    );
+
+  /**
+   * CODE | TITLE | CP | A/P/C/N
+   */
+  if (
+    !title &&
+    creditPointCellIndex >
+      codeCellIndex +
+        1
+  ) {
+    title =
+      normalizeText(
+        cellTexts
+          .slice(
+            codeCellIndex +
+              1,
+
+            creditPointCellIndex,
+          )
+          .join(
+            ' ',
+          ),
+      );
+  }
+
+  /**
+   * Defensive fallback when CP detection fails.
+   */
+  if (
+    !title &&
+    cellTexts[
+      codeCellIndex +
+        1
+    ] &&
+    extractUnitCode(
+      cellTexts[
+        codeCellIndex +
+          1
+      ],
+    ) ===
+      null
+  ) {
+    title =
+      normalizeText(
+        cellTexts[
+          codeCellIndex +
+            1
+        ],
+      );
+  }
+
+  /**
+   * ------------------------------------------------
+   * RAW ACCESS CONDITIONS
+   * ------------------------------------------------
+   */
+
+  let conditions:
+    string | null =
+    null;
+
+  if (
+    creditPointCellIndex >=
+      0 &&
+    creditPointCellIndex +
+      1 <
+      cellTexts.length
+  ) {
+    const raw =
+      normalizeText(
+        cellTexts
+          .slice(
+            creditPointCellIndex +
+              1,
+          )
+          .join(
+            ' ',
+          ),
+      );
+
+    conditions =
+      raw ||
+      null;
+  }
+
+  return {
+    code,
+
+    title,
+
+    creditPoints,
+
+    accessConditionsRaw:
+      conditions,
+
+    section:
+      currentSection,
+
+    headingPath:
+      headingPath.map(
+        (
+          heading,
+        ) => ({
+          ...heading,
+        }),
+      ),
+
+    sourceUrl,
+  };
+}
+
+/**
+ * ------------------------------------------------
  * PARSE ONE HTML TABLE
  * ------------------------------------------------
  */
 
 function parseHtmlTable(
   $: cheerio.CheerioAPI,
+
   table: AnyNode,
+
   sourceUrl: string,
+
+  tableIndex: number,
+
+  initialSourceOrder: number,
 ): {
-  units: UsydGlobalTableUnit[];
-  rowsInspected: number;
+  units:
+    UsydGlobalTableUnit[];
+
+  structureRows:
+    UsydGlobalTableStructureRow[];
+
+  rowsInspected:
+    number;
+
+  nextSourceOrder:
+    number;
 } {
   const units:
     UsydGlobalTableUnit[] =
     [];
 
+  const structureRows:
+    UsydGlobalTableStructureRow[] =
+    [];
+
   let rowsInspected =
     0;
+
+  let sourceOrder =
+    initialSourceOrder;
 
   let currentSection:
     string | null =
     null;
 
-  $(table)
-    .find(
-      'tr',
-    )
-    .each(
+  let headingPath:
+    UsydGlobalTableHeadingContext[] =
+    [];
+
+  const rows =
+    $(table)
+      .find(
+        'tr',
+      )
+      .toArray();
+
+  for (
+    let rowIndex = 0;
+    rowIndex <
+    rows.length;
+    rowIndex += 1
+  ) {
+    const row =
+      rows[
+        rowIndex
+      ];
+
+    rowsInspected +=
+      1;
+
+    const cellElements =
+      $(row).find(
+        'th, td',
+      );
+
+    if (
+      cellElements.length ===
+      0
+    ) {
+      continue;
+    }
+
+    const cellTexts:
+      string[] =
+      [];
+
+    cellElements.each(
       (
         _,
-        row,
+        cell,
       ) => {
-        rowsInspected +=
-          1;
-
-        const cellElements =
-          $(row).find(
-            'th, td',
-          );
-
-        if (
-          cellElements.length ===
-          0
-        ) {
-          return;
-        }
-
-        const cellTexts:
-          string[] =
-          [];
-
-        cellElements.each(
-          (
-            __,
-            cell,
-          ) => {
-            cellTexts.push(
-              normalizeText(
-                $(cell).text(),
-              ),
-            );
-          },
+        cellTexts.push(
+          normalizeText(
+            $(cell).text(),
+          ),
         );
-
-        const unitIdentity =
-          findRowUnitCode(
-            $,
-            row,
-          );
-
-        /**
-         * No unit code:
-         *
-         * possibly a heading/section row.
-         */
-        if (
-          !unitIdentity
-        ) {
-          const section =
-            getSectionCandidate(
-              cellTexts,
-            );
-
-          if (
-            section
-          ) {
-            currentSection =
-              section;
-          }
-
-          return;
-        }
-
-        const {
-          code,
-          cellIndex:
-            codeCellIndex,
-        } =
-          unitIdentity;
-
-        /**
-         * ------------------------------------------------
-         * CREDIT POINTS
-         * ------------------------------------------------
-         */
-
-        let creditPoints:
-          number | null =
-          null;
-
-        let creditPointCellIndex =
-          -1;
-
-        for (
-          let index =
-            codeCellIndex +
-            1;
-          index <
-          cellTexts.length;
-          index += 1
-        ) {
-          const parsed =
-            parseCreditPoints(
-              cellTexts[
-                index
-              ],
-            );
-
-          if (
-            parsed !==
-            null
-          ) {
-            creditPoints =
-              parsed;
-
-            creditPointCellIndex =
-              index;
-
-            break;
-          }
-        }
-
-        /**
-         * ------------------------------------------------
-         * TITLE
-         * ------------------------------------------------
-         */
-
-        let title =
-          cleanUnitTitle(
-            cellTexts[
-              codeCellIndex
-            ] ??
-              '',
-            code,
-          );
-
-        /**
-         * Code and title can be separate:
-         *
-         * CODE | TITLE | CP | A/P/C/N
-         */
-        if (
-          !title &&
-          creditPointCellIndex >
-            codeCellIndex +
-              1
-        ) {
-          title =
-            normalizeText(
-              cellTexts
-                .slice(
-                  codeCellIndex +
-                    1,
-                  creditPointCellIndex,
-                )
-                .join(
-                  ' ',
-                ),
-            );
-        }
-
-        /**
-         * Defensive fallback when CP detection fails.
-         */
-        if (
-          !title &&
-          cellTexts[
-            codeCellIndex +
-              1
-          ] &&
-          extractUnitCode(
-            cellTexts[
-              codeCellIndex +
-                1
-            ],
-          ) ===
-            null
-        ) {
-          title =
-            normalizeText(
-              cellTexts[
-                codeCellIndex +
-                  1
-              ],
-            );
-        }
-
-        /**
-         * ------------------------------------------------
-         * RAW ACCESS CONDITIONS
-         * ------------------------------------------------
-         */
-
-        let conditions:
-          string | null =
-          null;
-
-        if (
-          creditPointCellIndex >=
-            0 &&
-          creditPointCellIndex +
-            1 <
-            cellTexts.length
-        ) {
-          const raw =
-            normalizeText(
-              cellTexts
-                .slice(
-                  creditPointCellIndex +
-                    1,
-                )
-                .join(
-                  ' ',
-                ),
-            );
-
-          conditions =
-            raw ||
-            null;
-        }
-
-        units.push({
-          code,
-
-          title,
-
-          creditPoints,
-
-          accessConditionsRaw:
-            conditions,
-
-          section:
-            currentSection,
-
-          sourceUrl,
-        });
       },
     );
+
+    const rowText =
+      getRowText(
+        $,
+        row,
+      );
+
+    const unitIdentity =
+      findRowUnitCode(
+        $,
+        row,
+      );
+
+    /**
+     * ------------------------------------------------
+     * UNIT
+     * ------------------------------------------------
+     */
+
+    if (
+      unitIdentity
+    ) {
+      const unit =
+        parseUnitRow(
+          $,
+          row,
+          sourceUrl,
+          unitIdentity,
+          currentSection,
+          headingPath,
+        );
+
+      units.push(
+        unit,
+      );
+
+      structureRows.push({
+        kind:
+          'UNIT',
+
+        code:
+          unit.code,
+
+        title:
+          unit.title,
+
+        creditPoints:
+          unit.creditPoints,
+
+        accessConditionsRaw:
+          unit.accessConditionsRaw,
+
+        section:
+          unit.section,
+
+        headingPath:
+          (
+            unit.headingPath ??
+            []
+          ).map(
+            (
+              heading,
+            ) => ({
+              ...heading,
+            }),
+          ),
+
+        tableIndex,
+
+        rowIndex,
+
+        sourceOrder,
+      });
+
+      sourceOrder +=
+        1;
+
+      continue;
+    }
+
+    /**
+     * ------------------------------------------------
+     * EXPLICIT H1-H6 HEADING
+     * ------------------------------------------------
+     */
+
+    const explicitHeading =
+      getExplicitHeading(
+        $,
+        row,
+      );
+
+    if (
+      explicitHeading
+    ) {
+      headingPath =
+        updateHeadingPath(
+          headingPath,
+          explicitHeading,
+        );
+
+      currentSection =
+        explicitHeading.text;
+
+      structureRows.push({
+        kind:
+          'HEADING',
+
+        text:
+          explicitHeading.text,
+
+        level:
+          explicitHeading.level,
+
+        tableIndex,
+
+        rowIndex,
+
+        sourceOrder,
+      });
+
+      sourceOrder +=
+        1;
+
+      continue;
+    }
+
+    /**
+     * Empty rows carry no useful structure.
+     */
+    if (
+      !rowText
+    ) {
+      continue;
+    }
+
+    /**
+     * ------------------------------------------------
+     * LEGACY GENERIC SECTION
+     * ------------------------------------------------
+     *
+     * Preserve previous parser behaviour for non-heading tables.
+     */
+
+    const section =
+      getSectionCandidate(
+        cellTexts,
+      );
+
+    if (
+      section
+    ) {
+      currentSection =
+        section;
+
+      structureRows.push({
+        kind:
+          'SECTION',
+
+        text:
+          section,
+
+        tableIndex,
+
+        rowIndex,
+
+        sourceOrder,
+      });
+
+      sourceOrder +=
+        1;
+
+      continue;
+    }
+
+    /**
+     * ------------------------------------------------
+     * NARRATIVE
+     * ------------------------------------------------
+     *
+     * Unlike the old parser, narrative text is preserved rather
+     * than discarded.
+     *
+     * It does NOT alter explicit headingPath.
+     */
+    structureRows.push({
+      kind:
+        'NARRATIVE',
+
+      text:
+        rowText,
+
+      tableIndex,
+
+      rowIndex,
+
+      sourceOrder,
+    });
+
+    sourceOrder +=
+      1;
+  }
 
   return {
     units,
 
+    structureRows,
+
     rowsInspected,
+
+    nextSourceOrder:
+      sourceOrder,
   };
 }
 
@@ -650,9 +1242,8 @@ function parseHtmlTable(
  * FALLBACK EXTRACTION
  * ------------------------------------------------
  *
- * If a page contains unit links but its visual table is
- * not represented through normal HTML table rows, use
- * the official /units/ links conservatively.
+ * If no standard unit rows exist, conservatively use official
+ * /units/CODE links.
  */
 
 function extractFallbackUnits(
@@ -719,6 +1310,9 @@ function extractFallbackUnits(
 
         section:
           null,
+
+        headingPath:
+          [],
 
         sourceUrl,
       });
@@ -790,12 +1384,19 @@ export async function fetchUsydGlobalUnitTable(
     UsydGlobalTableUnit[] =
     [];
 
+  const structureRows:
+    UsydGlobalTableStructureRow[] =
+    [];
+
   let rowsInspected =
+    0;
+
+  let sourceOrder =
     0;
 
   tables.each(
     (
-      _,
+      tableIndex,
       table,
     ) => {
       const parsed =
@@ -803,38 +1404,91 @@ export async function fetchUsydGlobalUnitTable(
           $,
           table,
           finalUrl,
+          tableIndex,
+          sourceOrder,
         );
 
       rowsInspected +=
         parsed.rowsInspected;
 
+      sourceOrder =
+        parsed.nextSourceOrder;
+
       allUnits.push(
         ...parsed.units,
+      );
+
+      structureRows.push(
+        ...parsed.structureRows,
       );
     },
   );
 
   /**
-   * Fallback to official unit links if no standard rows
-   * were found.
+   * Fall back to official unit links only if no normal unit
+   * rows were parsed.
    */
   if (
     allUnits.length ===
     0
   ) {
-    allUnits.push(
-      ...extractFallbackUnits(
+    const fallbackUnits =
+      extractFallbackUnits(
         $,
         finalUrl,
-      ),
+      );
+
+    allUnits.push(
+      ...fallbackUnits,
     );
+
+    for (
+      const unit
+      of fallbackUnits
+    ) {
+      structureRows.push({
+        kind:
+          'UNIT',
+
+        code:
+          unit.code,
+
+        title:
+          unit.title,
+
+        creditPoints:
+          unit.creditPoints,
+
+        accessConditionsRaw:
+          unit.accessConditionsRaw,
+
+        section:
+          unit.section,
+
+        headingPath:
+          [],
+
+        tableIndex:
+          -1,
+
+        rowIndex:
+          -1,
+
+        sourceOrder,
+      });
+
+      sourceOrder +=
+        1;
+    }
   }
 
   const uniqueUnitCodes =
     [
       ...new Set(
         allUnits.map(
-          (unit) =>
+          (
+            unit,
+          ) =>
             unit.code,
         ),
       ),
@@ -848,6 +1502,8 @@ export async function fetchUsydGlobalUnitTable(
 
     units:
       allUnits,
+
+    structureRows,
 
     uniqueUnitCodes,
 

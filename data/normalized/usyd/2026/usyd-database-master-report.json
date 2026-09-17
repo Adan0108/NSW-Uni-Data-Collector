@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-16T11:30:35.097Z",
+  "generatedAt": "2026-09-17T11:58:18.780Z",
   "existingHandbookPlans": 6,
   "cuspPlans": 525,
   "finalStudyPlans": 531,
   "degreesWithCuspPlans": 12,
-  "subjects": 3087,
+  "subjects": 3119,
   "cuspPlansWithSourcePlanId": 525,
   "cuspPlansByFamily": {
     "ADVANCED_COMPUTING": 82,

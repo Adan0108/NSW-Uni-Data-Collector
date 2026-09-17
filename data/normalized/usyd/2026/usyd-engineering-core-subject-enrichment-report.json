@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-09-17T10:50:00.999Z",
+  "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/core-unit-of-study-table.html",
+  "discoveredCoreCodes": 41,
+  "candidatesForEnrichment": 31,
+  "enriched": [
+    "AERO1560",
+    "AMME4111",
+    "AMME4112",
+    "BMET1960",
+    "BMET4111",
+    "BMET4112",
+    "CHNG1108",
+    "CHNG4811",
+    "CHNG4812",
+    "CIVL4022",
+    "CIVL4023",
+    "ELEC1004",
+    "ELEC1005",
+    "ELEC4712",
+    "ELEC4713",
+    "ENGG1810",
+    "ENGG2112",
+    "ENGG3112",
+    "ENGP1001",
+    "ENGP1002",
+    "ENGP1003",
+    "ENGP2001",
+    "ENGP2002",
+    "ENGP2003",
+    "ENGP3001",
+    "ENGP3002",
+    "ENVE1001",
+    "MECH1560",
+    "MTRX1701"
+  ],
+  "partialTableBacked": [
+    "ENVE4811",
+    "ENVE4812"
+  ],
+  "alreadyComplete": [
+    "AMME4010",
+    "BMET4010",
+    "CHNG4203",
+    "CIVL1900",
+    "CIVL4203",
+    "ELEC4714",
+    "INFO1110",
+    "INFO1910",
+    "MATH1061",
+    "MATH1062"
+  ],
+  "failures": [
+    {
+      "code": "ENVE4811",
+      "unitUrl": "https://www.sydney.edu.au/units/ENVE4811",
+      "tableTitle": "Thesis A",
+      "tableCreditPoints": 6,
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    },
+    {
+      "code": "ENVE4812",
+      "unitUrl": "https://www.sydney.edu.au/units/ENVE4812",
+      "tableTitle": "Thesis B",
+      "tableCreditPoints": 6,
+      "error": "Could not parse USYD unit heading: \"Page not found\""
+    }
+  ]
+}
