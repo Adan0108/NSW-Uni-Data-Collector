@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-09-16T11:29:58.007Z",
+  "engineeringCore": {
+    "sourceUrl": "https://www.sydney.edu.au/handbooks/engineering/engineering-honours/core-unit-of-study-table.html",
+    "fetchedUnits": 47,
+    "groups": [
+      {
+        "key": "FOUNDATION",
+        "name": "Foundation",
+        "requiredCreditPoints": 18,
+        "sections": [
+          "Computing Units",
+          "Mathematics Units"
+        ],
+        "subjectCodes": [
+          "INFO1110",
+          "INFO1910",
+          "ENGG1810",
+          "MATH1061",
+          "MATH1062"
+        ]
+      },
+      {
+        "key": "PROJECTS",
+        "name": "Engineering Projects",
+        "requiredCreditPoints": 30,
+        "sections": [
+          "Students must complete 6 credit points from the following:",
+          "Students must complete 12 credit points from the following:"
+        ],
+        "subjectCodes": [
+          "AERO1560",
+          "BMET1960",
+          "CHNG1108",
+          "CIVL1900",
+          "ELEC1004",
+          "ELEC1005",
+          "ENVE1001",
+          "MECH1560",
+          "MTRX1701",
+          "ENGG2112",
+          "ENGG3112",
+          "AMME4111",
+          "AMME4112",
+          "BMET4111",
+          "BMET4112",
+          "CHNG4811",
+          "CHNG4812",
+          "CIVL4022",
+          "CIVL4023",
+          "ELEC4712",
+          "ELEC4713",
+          "ENVE4811",
+          "ENVE4812",
+          "AMME4010",
+          "BMET4010",
+          "CHNG4203",
+          "CIVL4203",
+          "ELEC4714"
+        ]
+      },
+      {
+        "key": "PEP",
+        "name": "Professional Engagement Program",
+        "requiredCreditPoints": null,
+        "sections": [
+          "Students must complete the Professional Engagement Program units of study."
+        ],
+        "subjectCodes": [
+          "ENGP1001",
+          "ENGP1002",
+          "ENGP1003",
+          "ENGP2001",
+          "ENGP2002",
+          "ENGP2003",
+          "ENGP3001",
+          "ENGP3002"
+        ]
+      }
+    ]
+  },
+  "specialisations": {
+    "relationships": 45,
+    "streams": [
+      {
+        "streamSlug": "aeronautical",
+        "streamName": "Aeronautical Engineering",
+        "specialisations": [
+          "Aerospace Research",
+          "Aerospace Systems"
+        ]
+      },
+      {
+        "streamSlug": "aeronautical-with-space",
+        "streamName": "Aeronautical Engineering with Space",
+        "specialisations": [
+          "Aerospace Research",
+          "Aerospace Systems"
+        ]
+      },
+      {
+        "streamSlug": "biomedical",
+        "streamName": "Biomedical Engineering",
+        "specialisations": [
+          "Biocomputation",
+          "Biomedical Modelling Design",
+          "Bionics Bioelectronics",
+          "Nanoscale Biotechnology"
+        ]
+      },
+      {
+        "streamSlug": "chemical-biomolecular",
+        "streamName": "Chemical and Biomolecular Engineering",
+        "specialisations": [
+          "Biochemical Food Technologies",
+          "Chemical Digital Technologies",
+          "Chemical Engineering Energy",
+          "Chemical Engineering Environment"
+        ]
+      },
+      {
+        "streamSlug": "civil",
+        "streamName": "Civil Engineering",
+        "specialisations": [
+          "Geotechnical",
+          "Humanitarian",
+          "Integrated Building",
+          "Project Management",
+          "Structures",
+          "Transport",
+          "Water Engineering"
+        ]
+      },
+      {
+        "streamSlug": "electrical",
+        "streamName": "Electrical Engineering",
+        "specialisations": [
+          "Computer",
+          "Intelligent Information",
+          "Internet Things",
+          "Power",
+          "Telecommunications"
+        ]
+      },
+      {
+        "streamSlug": "environmental",
+        "streamName": "Environmental Engineering",
+        "specialisations": [
+          "Chemical",
+          "Energy Environment",
+          "Geotechnical"
+        ]
+      },
+      {
+        "streamSlug": "mechanical",
+        "streamName": "Mechanical Engineering",
+        "specialisations": [
+          "Computational",
+          "Energy Environment",
+          "Industrial Product Design",
+          "Materials Science",
+          "Mechanical Design",
+          "Thermofluids"
+        ]
+      },
+      {
+        "streamSlug": "mechanical-with-space",
+        "streamName": "Mechanical Engineering with Space",
+        "specialisations": [
+          "Computational",
+          "Energy Environment",
+          "Industrial Product Design",
+          "Materials Science",
+          "Mechanical Design",
+          "Thermofluids"
+        ]
+      },
+      {
+        "streamSlug": "mechatronic",
+        "streamName": "Mechatronic Engineering",
+        "specialisations": [
+          "Robotics Intelligent Systems"
+        ]
+      },
+      {
+        "streamSlug": "mechatronic-with-space",
+        "streamName": "Mechatronic Engineering with Space",
+        "specialisations": [
+          "Robotics Intelligent Systems"
+        ]
+      },
+      {
+        "streamSlug": "software",
+        "streamName": "Software Engineering",
+        "specialisations": [
+          "Computer",
+          "Engineering Data Science",
+          "Intelligent Information Engineering",
+          "Internet Things"
+        ]
+      }
+    ]
+  },
+  "unresolvedCoreSubjectCodes": [],
+  "degreeRequirementsUpdated": [
+    "Foundation",
+    "Engineering Projects",
+    "Professional Engagement Program"
+  ],
+  "streamSourcesUpdated": [
+    "Aeronautical Engineering",
+    "Aeronautical Engineering with Space",
+    "Biomedical Engineering",
+    "Chemical and Biomolecular Engineering",
+    "Civil Engineering",
+    "Electrical Engineering",
+    "Environmental Engineering",
+    "Mechanical Engineering",
+    "Mechanical Engineering with Space",
+    "Mechatronic Engineering",
+    "Mechatronic Engineering with Space",
+    "Software Engineering"
+  ]
+}

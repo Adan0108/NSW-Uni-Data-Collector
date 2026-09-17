@@ -6,21 +6,29 @@
     "scrape:uts": "tsx src/index.ts uts",
     "scrape:unsw": "tsx src/index.ts unsw",
     "scrape:all": "tsx src/index.ts all",
+
     "repair:usyd-components": "tsx src/adapters/usyd/usyd.component-repair.run.ts",
     "audit:usyd-components": "tsx src/adapters/usyd/usyd.component-audit.run.ts",
     "finalize:usyd": "tsx src/adapters/usyd/usyd.master-finalizer.run.ts",
     "import:usyd-components": "tsx src/import/usyd-2026.components-import.ts",
+
     "discover:usyd:cusp": "tsx src/adapters/usyd/cusp/discover-cusp-study-plan-seeds.ts",
     "collect:usyd:cusp": "tsx src/adapters/usyd/cusp/collect-cusp-study-plans.ts",
     "merge:usyd:cusp": "tsx src/adapters/usyd/cusp/merge-cusp-study-plans.ts",
     "prepare:usyd:cusp": "npm run discover:usyd:cusp && npm run collect:usyd:cusp && npm run merge:usyd:cusp",
-    "import:usyd:database": "cross-env USYD_DATA_FILE=data/normalized/usyd/2026/usyd-master-final.database-ready.json tsx src/import/usyd-2026.import.ts",
+
     "resolve:usyd:cusp-subjects": "tsx src/adapters/usyd/cusp/resolve-cusp-missing-subjects.ts",
     "validate:usyd:cusp-plans": "tsx src/adapters/usyd/cusp/validate-cusp-study-plans.ts",
+
+    "repair:usyd:engineering": "tsx src/adapters/usyd/engineering/repair-engineering-components.ts",
+    "resolve:usyd:engineering-subjects": "tsx src/adapters/usyd/engineering/resolve-engineering-missing-subjects.ts",
+
+    "repair:usyd:engineering-course-structure": "tsx src/adapters/usyd/engineering/repair-engineering-course-structure.ts",
+
     "prepare:usyd:database-master": "tsx src/adapters/usyd/cusp/prepare-usyd-database-master.ts",
     "validate:usyd:database-master": "tsx src/adapters/usyd/cusp/validate-usyd-database-master.ts",
-    "repair:usyd:engineering": "tsx src/adapters/usyd/engineering/repair-engineering-components.ts",
-    "resolve:usyd:engineering-subjects": "tsx src/adapters/usyd/engineering/resolve-engineering-missing-subjects.ts"
+
+    "import:usyd:database": "cross-env USYD_DATA_FILE=data/normalized/usyd/2026/usyd-master-final.database-ready.json tsx src/import/usyd-2026.import.ts"
   },
   "keywords": [],
   "author": "",

@@ -394,26 +394,242 @@ export async function importUsyd2026(): Promise<ImportCounts> {
               });
               counts.requirementGroups += 1;
       
-              const units = arrayOfObjects(rawGroup.units);
-              if (units.length > 0) {
-                await tx.requirementItem.createMany({
-                  data: units.map((unit, unitIndex) => {
-                    const codeValue = stringOrNull(unit.code);
-                    return {
-                      requirementGroupId: group.id,
-                      itemType: 'SUBJECT' as const,
-                      subjectId: codeValue ? subjectIdByCode.get(codeValue) ?? null : null,
-                      rawCode: codeValue,
-                      rawName: stringOrNull(unit.name),
-                      creditPoints: numberOrNull(unit.creditPoints),
-                      sourceUrl: stringOrNull(unit.sourceUrl),
-                      sortOrder: unitIndex,
-                      authoritative: true,
-                      rawData: toJson(unit),
-                    };
-                  }),
+              const units =
+                arrayOfObjects(
+                  rawGroup.units,
+                );
+
+              const componentChoices =
+                arrayOfObjects(
+                  rawGroup.components,
+                );
+
+              const requirementItemRows:
+                Prisma.RequirementItemCreateManyInput[] =
+                [];
+
+              /*
+              * ------------------------------------------------
+              * SUBJECT requirement items
+              * ------------------------------------------------
+              */
+
+              for (
+                const [
+                  unitIndex,
+                  unit,
+                ] of units.entries()
+              ) {
+                const codeValue =
+                  stringOrNull(
+                    unit.code,
+                  );
+
+                requirementItemRows.push({
+                  requirementGroupId:
+                    group.id,
+
+                  itemType:
+                    'SUBJECT',
+
+                  subjectId:
+                    codeValue
+                      ? subjectIdByCode.get(
+                          codeValue,
+                        ) ?? null
+                      : null,
+
+                  componentId:
+                    null,
+
+                  rawCode:
+                    codeValue,
+
+                  rawName:
+                    firstString(
+                      unit.name,
+                      unit.title,
+                    ),
+
+                  creditPoints:
+                    numberOrNull(
+                      unit.creditPoints,
+                    ),
+
+                  sourceUrl:
+                    stringOrNull(
+                      unit.sourceUrl,
+                    ),
+
+                  sortOrder:
+                    unitIndex,
+
+                  authoritative:
+                    true,
+
+                  rawData:
+                    toJson(
+                      unit,
+                    ),
                 });
-                counts.requirementItems += units.length;
+              }
+
+              /*
+              * ------------------------------------------------
+              * COMPONENT requirement items
+              *
+              * Used for relationships such as:
+              *
+              * Software Engineering
+              *   -> Specialisation
+              *      -> Computer
+              *      -> Engineering Data Science
+              *      -> Intelligent Information Engineering
+              *      -> Internet Things
+              *
+              * This is generic and also works for other stream/component
+              * choice relationships represented by the shared schema.
+              * ------------------------------------------------
+              */
+
+              for (
+                const [
+                  componentIndex,
+                  candidate,
+                ] of
+                  componentChoices.entries()
+              ) {
+                const candidateName =
+                  requiredString(
+                    firstString(
+                      candidate.componentName,
+                      candidate.name,
+                    ),
+
+                    'component requirement candidate.name',
+                  );
+
+                const candidateType =
+                  requiredString(
+                    firstString(
+                      candidate.componentType,
+                      candidate.type,
+                    ),
+
+                    `component requirement ${candidateName}.type`,
+                  );
+
+                const candidateHandbook =
+                  requiredString(
+                    firstString(
+                      candidate.componentHandbook,
+                      candidate.handbookCategory,
+                      candidate.handbook,
+                      candidate.scope,
+                    ),
+
+                    `component requirement ${candidateName}.handbook`,
+                  );
+
+                const resolvedComponentId =
+                  resolveComponentIdentity({
+                    handbookCategory:
+                      candidateHandbook,
+
+                    type:
+                      candidateType,
+
+                    name:
+                      candidateName,
+
+                    evidence:
+                      candidate,
+
+                    components:
+                      master.components,
+
+                    componentCodeByRecord,
+
+                    componentIdByCode,
+                  });
+
+                if (
+                  !resolvedComponentId
+                ) {
+                  throw new Error(
+                    [
+                      'Unable to resolve component requirement candidate:',
+                      `${candidateHandbook} /`,
+                      `${candidateType} /`,
+                      candidateName,
+                    ].join(
+                      ' ',
+                    ),
+                  );
+                }
+
+                requirementItemRows.push({
+                  requirementGroupId:
+                    group.id,
+
+                  itemType:
+                    'COMPONENT',
+
+                  subjectId:
+                    null,
+
+                  componentId:
+                    resolvedComponentId,
+
+                  rawCode:
+                    null,
+
+                  rawName:
+                    candidateName,
+
+                  creditPoints:
+                    numberOrNull(
+                      candidate.creditPoints,
+                    ),
+
+                  sourceUrl:
+                    firstString(
+                      candidate.sourceUrl,
+                      candidate.evidenceUrl,
+                    ),
+
+                  /*
+                  * Keep component choices after subject rows if a future
+                  * source ever contains both kinds in one group.
+                  */
+                  sortOrder:
+                    units.length +
+                    componentIndex,
+
+                  authoritative:
+                    booleanOrNull(
+                      candidate.authoritative,
+                    ) ??
+                    true,
+
+                  rawData:
+                    toJson(
+                      candidate,
+                    ),
+                });
+              }
+
+              if (
+                requirementItemRows.length >
+                0
+              ) {
+                await tx.requirementItem.createMany({
+                  data:
+                    requirementItemRows,
+                });
+
+                counts.requirementItems +=
+                  requirementItemRows.length;
               }
             }
           }
