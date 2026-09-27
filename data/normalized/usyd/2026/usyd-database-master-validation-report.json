@@ -1,8 +1,12 @@
 {
-  "generatedAt": "2026-09-17T12:04:15.950Z",
+  "generatedAt": "2026-09-27T11:46:25.345Z",
   "totals": {
     "degrees": 109,
     "subjects": 3119,
+    "requirementCandidateSources": 33,
+    "tableDCandidateSources": 31,
+    "tableDCandidateMemberships": 527,
+    "dalyellRequirements": 31,
     "studyPlans": 531,
     "cuspPlans": 525,
     "handbookPlans": 6,

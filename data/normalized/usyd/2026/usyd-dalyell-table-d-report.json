@@ -1,0 +1,256 @@
+{
+  "generatedAt": "2026-09-21T14:21:12.318Z",
+  "sourceUrl": "https://www.sydney.edu.au/handbooks/interdisciplinary-studies/dalyell-stream/unit-of-study-table.html",
+  "sourceTableCount": 1,
+  "subjectCodes": [
+    "BUDL2901",
+    "BUDL2902",
+    "BUDL3901",
+    "BUDL3902",
+    "ENGD2001",
+    "ENGD3001",
+    "ENGD3002",
+    "ENGD3003",
+    "ENGD3004",
+    "FASS2100",
+    "FASS2200",
+    "FASS2300",
+    "SCDL1991",
+    "SCDL2991",
+    "SCDL2992",
+    "SCDL3991",
+    "SCDL3992"
+  ],
+  "canonicalSubjectCount": 17,
+  "missingSubjectCodes": [],
+  "unresolvedSubjectCodes": [],
+  "authoritativeRequirementCount": 31,
+  "requirements": [
+    {
+      "degreeCode": "BHENGART-05",
+      "sourcePath": "requirements.14.rawText",
+      "sourceIndex": 14,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BHENGART-05:DALYELL:requirements.14.rawText:14:TABLE-D"
+    },
+    {
+      "degreeCode": "BHENGCOM-05",
+      "sourcePath": "requirements.14.rawText",
+      "sourceIndex": 14,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BHENGCOM-05:DALYELL:requirements.14.rawText:14:TABLE-D"
+    },
+    {
+      "degreeCode": "BHENGINE-04",
+      "sourcePath": "requirements.12.rawText",
+      "sourceIndex": 12,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BHENGINE-04:DALYELL:requirements.12.rawText:12:TABLE-D"
+    },
+    {
+      "degreeCode": "BHENGSCI-05",
+      "sourcePath": "requirements.15.rawText",
+      "sourceIndex": 15,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BHENGSCI-05:DALYELL:requirements.15.rawText:15:TABLE-D"
+    },
+    {
+      "degreeCode": "BPADVCMP-01",
+      "sourcePath": "requirements.5.rawText",
+      "sourceIndex": 5,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPADVCMP-01:DALYELL:requirements.5.rawText:5:TABLE-D"
+    },
+    {
+      "degreeCode": "BPARTAVS-01",
+      "sourcePath": "requirements.3.rawText",
+      "sourceIndex": 3,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPARTAVS-01:DALYELL:requirements.3.rawText:3:TABLE-D"
+    },
+    {
+      "degreeCode": "BPARTSAR-09",
+      "sourcePath": "requirements.3.rawText",
+      "sourceIndex": 3,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPARTSAR-09:DALYELL:requirements.3.rawText:3:TABLE-D"
+    },
+    {
+      "degreeCode": "BPAVTBSC-01",
+      "sourcePath": "requirements.5.rawText",
+      "sourceIndex": 5,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPAVTBSC-01:DALYELL:requirements.5.rawText:5:TABLE-D"
+    },
+    {
+      "degreeCode": "BPCOMART-03",
+      "sourcePath": "requirements.11.rawText",
+      "sourceIndex": 11,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPCOMART-03:DALYELL:requirements.11.rawText:11:TABLE-D"
+    },
+    {
+      "degreeCode": "BPCOMAVS-01",
+      "sourcePath": "requirements.4.rawText",
+      "sourceIndex": 4,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPCOMAVS-01:DALYELL:requirements.4.rawText:4:TABLE-D"
+    },
+    {
+      "degreeCode": "BPCOMLAW-05",
+      "sourcePath": "requirements.7.rawText",
+      "sourceIndex": 7,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPCOMLAW-05:DALYELL:requirements.7.rawText:7:TABLE-D"
+    },
+    {
+      "degreeCode": "BPCOMMER-06",
+      "sourcePath": "requirements.4.rawText",
+      "sourceIndex": 4,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPCOMMER-06:DALYELL:requirements.4.rawText:4:TABLE-D"
+    },
+    {
+      "degreeCode": "BPCOMSCI-03",
+      "sourcePath": "requirements.11.rawText",
+      "sourceIndex": 11,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPCOMSCI-03:DALYELL:requirements.11.rawText:11:TABLE-D"
+    },
+    {
+      "degreeCode": "BPDSNAVS-01",
+      "sourcePath": "requirements.5.rawText",
+      "sourceIndex": 5,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPDSNAVS-01:DALYELL:requirements.5.rawText:5:TABLE-D"
+    },
+    {
+      "degreeCode": "BPECNART-01",
+      "sourcePath": "requirements.6.rawText",
+      "sourceIndex": 6,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPECNART-01:DALYELL:requirements.6.rawText:6:TABLE-D"
+    },
+    {
+      "degreeCode": "BPECNAVS-01",
+      "sourcePath": "requirements.3.rawText",
+      "sourceIndex": 3,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPECNAVS-01:DALYELL:requirements.3.rawText:3:TABLE-D"
+    },
+    {
+      "degreeCode": "BPECONOM-05",
+      "sourcePath": "requirements.3.rawText",
+      "sourceIndex": 3,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPECONOM-05:DALYELL:requirements.3.rawText:3:TABLE-D"
+    },
+    {
+      "degreeCode": "BPINTSTD-02",
+      "sourcePath": "requirements.9.rawText",
+      "sourceIndex": 9,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPINTSTD-02:DALYELL:requirements.9.rawText:9:TABLE-D"
+    },
+    {
+      "degreeCode": "BPLANGUA-01",
+      "sourcePath": "requirements.10.rawText",
+      "sourceIndex": 10,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPLANGUA-01:DALYELL:requirements.10.rawText:10:TABLE-D"
+    },
+    {
+      "degreeCode": "BPMATHSC-01",
+      "sourcePath": "requirements.3.rawText",
+      "sourceIndex": 3,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPMATHSC-01:DALYELL:requirements.3.rawText:3:TABLE-D"
+    },
+    {
+      "degreeCode": "BPMEDCOM-01",
+      "sourcePath": "requirements.9.rawText",
+      "sourceIndex": 9,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPMEDCOM-01:DALYELL:requirements.9.rawText:9:TABLE-D"
+    },
+    {
+      "degreeCode": "BPPLPHEC-01",
+      "sourcePath": "requirements.10.rawText",
+      "sourceIndex": 10,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPPLPHEC-01:DALYELL:requirements.10.rawText:10:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCIART-03",
+      "sourcePath": "requirements.11.rawText",
+      "sourceIndex": 11,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPSCIART-03:DALYELL:requirements.11.rawText:11:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCIAVS-01",
+      "sourcePath": "requirements.7.rawText",
+      "sourceIndex": 7,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPSCIAVS-01:DALYELL:requirements.7.rawText:7:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCIDMD-01",
+      "sourcePath": "requirements.11.rawText",
+      "sourceIndex": 11,
+      "requiredCreditPoints": 6,
+      "candidateSourceKey": "USYD:2026:BPSCIDMD-01:DALYELL:requirements.11.rawText:11:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCIENC-05",
+      "sourcePath": "requirements.7.rawText",
+      "sourceIndex": 7,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPSCIENC-05:DALYELL:requirements.7.rawText:7:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCILAW-02",
+      "sourcePath": "requirements.8.rawText",
+      "sourceIndex": 8,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPSCILAW-02:DALYELL:requirements.8.rawText:8:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCIMED-01",
+      "sourcePath": "requirements.11.rawText",
+      "sourceIndex": 11,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPSCIMED-01:DALYELL:requirements.11.rawText:11:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCINUD-02",
+      "sourcePath": "requirements.10.rawText",
+      "sourceIndex": 10,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPSCINUD-02:DALYELL:requirements.10.rawText:10:TABLE-D"
+    },
+    {
+      "degreeCode": "BPSCINUR-02",
+      "sourcePath": "requirements.8.rawText",
+      "sourceIndex": 8,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPSCINUR-02:DALYELL:requirements.8.rawText:8:TABLE-D"
+    },
+    {
+      "degreeCode": "BPWLCTRG-01",
+      "sourcePath": "requirements.2.rawText",
+      "sourceIndex": 2,
+      "requiredCreditPoints": 12,
+      "candidateSourceKey": "USYD:2026:BPWLCTRG-01:DALYELL:requirements.2.rawText:2:TABLE-D"
+    }
+  ],
+  "creditPointCounts": {
+    "6": 1,
+    "12": 30
+  },
+  "candidateSourceCount": 31,
+  "candidateMembershipCount": 527,
+  "totalCandidateSourceCount": 33,
+  "engineeringUndergraduateSubjectCount": 271,
+  "tableSSubjectCount": 1472
+}

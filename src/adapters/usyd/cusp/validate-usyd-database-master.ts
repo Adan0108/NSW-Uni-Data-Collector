@@ -1,6 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+import {
+  type DalyellMaster,
+  validateDalyellTableD,
+} from '../dalyell/dalyell-table-d.js';
+
 interface Subject {
   code?: string;
   name?: string;
@@ -302,6 +307,38 @@ function main(): void {
     }
 
     subjectCodes.add(code);
+  }
+
+  let dalyellValidation:
+    ReturnType<
+      typeof validateDalyellTableD
+    > | null =
+    null;
+
+  try {
+    dalyellValidation =
+      validateDalyellTableD(
+        master as unknown as
+          DalyellMaster,
+      );
+  } catch (
+    error:
+      unknown
+  ) {
+    issues.push({
+      severity:
+        'ERROR',
+
+      type:
+        'DALYELL_TABLE_D_VALIDATION_FAILED',
+
+      message:
+        error instanceof Error
+          ? error.message
+          : String(
+              error,
+            ),
+    });
   }
 
   /*
@@ -881,6 +918,26 @@ function main(): void {
 
       subjects:
         subjects.length,
+
+      requirementCandidateSources:
+        dalyellValidation
+          ?.totalCandidateSourceCount ??
+        null,
+
+      tableDCandidateSources:
+        dalyellValidation
+          ?.candidateSourceCount ??
+        null,
+
+      tableDCandidateMemberships:
+        dalyellValidation
+          ?.candidateMembershipCount ??
+        null,
+
+      dalyellRequirements:
+        dalyellValidation
+          ?.authoritativeRequirementCount ??
+        null,
 
       studyPlans:
         studyPlans.length,
