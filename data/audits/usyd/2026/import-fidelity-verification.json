@@ -1,0 +1,628 @@
+{
+  "verifiedAt": "2026-10-04T12:50:40.044Z",
+  "realImportExecuted": false,
+  "databaseWritesExecuted": false,
+  "method": "Server-enforced REPEATABLE READ READ ONLY transactions, SELECT-only typed preservation preview, explicit ROLLBACK; unit/static tests. No write dry-run performed.",
+  "artifactSha256": "ce05f076d9c751a070e4130b98682b97b1fe975f31c96be8125472d73af79407",
+  "liveSchema": {
+    "columns": [
+      {
+        "column_name": "id",
+        "udt_name": "text",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "datetime_precision": null
+      },
+      {
+        "column_name": "degreeId",
+        "udt_name": "text",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "datetime_precision": null
+      },
+      {
+        "column_name": "feeYear",
+        "udt_name": "text",
+        "data_type": "text",
+        "is_nullable": "NO",
+        "column_default": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "datetime_precision": null
+      },
+      {
+        "column_name": "domesticFee",
+        "udt_name": "int4",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "column_default": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0,
+        "datetime_precision": null
+      },
+      {
+        "column_name": "internationalFee",
+        "udt_name": "int4",
+        "data_type": "integer",
+        "is_nullable": "YES",
+        "column_default": null,
+        "numeric_precision": 32,
+        "numeric_scale": 0,
+        "datetime_precision": null
+      },
+      {
+        "column_name": "createdAt",
+        "udt_name": "timestamp",
+        "data_type": "timestamp without time zone",
+        "is_nullable": "NO",
+        "column_default": "CURRENT_TIMESTAMP",
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "datetime_precision": 3
+      },
+      {
+        "column_name": "updatedAt",
+        "udt_name": "timestamp",
+        "data_type": "timestamp without time zone",
+        "is_nullable": "NO",
+        "column_default": null,
+        "numeric_precision": null,
+        "numeric_scale": null,
+        "datetime_precision": 3
+      }
+    ],
+    "constraints": [
+      {
+        "conname": "CourseFee_createdAt_not_null",
+        "contype": "n",
+        "confdeltype": " ",
+        "confupdtype": " ",
+        "definition": "NOT NULL \"createdAt\""
+      },
+      {
+        "conname": "CourseFee_degreeId_feeYear_key",
+        "contype": "u",
+        "confdeltype": " ",
+        "confupdtype": " ",
+        "definition": "UNIQUE (\"degreeId\", \"feeYear\")"
+      },
+      {
+        "conname": "CourseFee_degreeId_fkey",
+        "contype": "f",
+        "confdeltype": "c",
+        "confupdtype": "a",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON DELETE CASCADE"
+      },
+      {
+        "conname": "CourseFee_degreeId_not_null",
+        "contype": "n",
+        "confdeltype": " ",
+        "confupdtype": " ",
+        "definition": "NOT NULL \"degreeId\""
+      },
+      {
+        "conname": "CourseFee_feeYear_not_null",
+        "contype": "n",
+        "confdeltype": " ",
+        "confupdtype": " ",
+        "definition": "NOT NULL \"feeYear\""
+      },
+      {
+        "conname": "CourseFee_id_not_null",
+        "contype": "n",
+        "confdeltype": " ",
+        "confupdtype": " ",
+        "definition": "NOT NULL id"
+      },
+      {
+        "conname": "CourseFee_pkey",
+        "contype": "p",
+        "confdeltype": " ",
+        "confupdtype": " ",
+        "definition": "PRIMARY KEY (id)"
+      },
+      {
+        "conname": "CourseFee_updatedAt_not_null",
+        "contype": "n",
+        "confdeltype": " ",
+        "confupdtype": " ",
+        "definition": "NOT NULL \"updatedAt\""
+      }
+    ],
+    "indexes": [
+      {
+        "indexname": "CourseFee_pkey",
+        "indexdef": "CREATE UNIQUE INDEX \"CourseFee_pkey\" ON public.\"CourseFee\" USING btree (id)"
+      },
+      {
+        "indexname": "CourseFee_degreeId_feeYear_key",
+        "indexdef": "CREATE UNIQUE INDEX \"CourseFee_degreeId_feeYear_key\" ON public.\"CourseFee\" USING btree (\"degreeId\", \"feeYear\")"
+      },
+      {
+        "indexname": "CourseFee_degreeId_idx",
+        "indexdef": "CREATE INDEX \"CourseFee_degreeId_idx\" ON public.\"CourseFee\" USING btree (\"degreeId\")"
+      }
+    ],
+    "fks": [
+      {
+        "conname": "Component_handbookVersionId_fkey",
+        "schema": "public",
+        "child": "Component",
+        "parentSchema": "public",
+        "parent": "HandbookVersion",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"handbookVersionId\") REFERENCES \"HandbookVersion\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "CourseFee_degreeId_fkey",
+        "schema": "public",
+        "child": "CourseFee",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "a",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON DELETE CASCADE"
+      },
+      {
+        "conname": "Degree_handbookVersionId_fkey",
+        "schema": "public",
+        "child": "Degree",
+        "parentSchema": "public",
+        "parent": "HandbookVersion",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"handbookVersionId\") REFERENCES \"HandbookVersion\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "DegreeComponent_componentId_fkey",
+        "schema": "public",
+        "child": "DegreeComponent",
+        "parentSchema": "public",
+        "parent": "Component",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"componentId\") REFERENCES \"Component\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "DegreeComponent_degreeId_fkey",
+        "schema": "public",
+        "child": "DegreeComponent",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "DegreeComponent_parentGroupId_fkey",
+        "schema": "public",
+        "child": "DegreeComponent",
+        "parentSchema": "public",
+        "parent": "RequirementGroup",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"parentGroupId\") REFERENCES \"RequirementGroup\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "DegreeRanking_degreeId_fkey",
+        "schema": "public",
+        "child": "DegreeRanking",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementCandidateSource_requirementGroupId_fkey",
+        "schema": "public",
+        "child": "RequirementCandidateSource",
+        "parentSchema": "public",
+        "parent": "RequirementGroup",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"requirementGroupId\") REFERENCES \"RequirementGroup\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementCandidateSubject_candidateSourceId_fkey",
+        "schema": "public",
+        "child": "RequirementCandidateSubject",
+        "parentSchema": "public",
+        "parent": "RequirementCandidateSource",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"candidateSourceId\") REFERENCES \"RequirementCandidateSource\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementCandidateSubject_subjectId_fkey",
+        "schema": "public",
+        "child": "RequirementCandidateSubject",
+        "parentSchema": "public",
+        "parent": "Subject",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"subjectId\") REFERENCES \"Subject\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementGroup_componentId_fkey",
+        "schema": "public",
+        "child": "RequirementGroup",
+        "parentSchema": "public",
+        "parent": "Component",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"componentId\") REFERENCES \"Component\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementGroup_degreeId_fkey",
+        "schema": "public",
+        "child": "RequirementGroup",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementGroup_parentGroupId_fkey",
+        "schema": "public",
+        "child": "RequirementGroup",
+        "parentSchema": "public",
+        "parent": "RequirementGroup",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"parentGroupId\") REFERENCES \"RequirementGroup\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementItem_componentId_fkey",
+        "schema": "public",
+        "child": "RequirementItem",
+        "parentSchema": "public",
+        "parent": "Component",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"componentId\") REFERENCES \"Component\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "RequirementItem_requirementGroupId_fkey",
+        "schema": "public",
+        "child": "RequirementItem",
+        "parentSchema": "public",
+        "parent": "RequirementGroup",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"requirementGroupId\") REFERENCES \"RequirementGroup\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RequirementItem_subjectId_fkey",
+        "schema": "public",
+        "child": "RequirementItem",
+        "parentSchema": "public",
+        "parent": "Subject",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"subjectId\") REFERENCES \"Subject\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "RiasecScore_componentId_fkey",
+        "schema": "public",
+        "child": "RiasecScore",
+        "parentSchema": "public",
+        "parent": "Component",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"componentId\") REFERENCES \"Component\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RiasecScore_degreeId_fkey",
+        "schema": "public",
+        "child": "RiasecScore",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RiasecSubcategoryScore_componentId_fkey",
+        "schema": "public",
+        "child": "RiasecSubcategoryScore",
+        "parentSchema": "public",
+        "parent": "Component",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"componentId\") REFERENCES \"Component\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "RiasecSubcategoryScore_degreeId_fkey",
+        "schema": "public",
+        "child": "RiasecSubcategoryScore",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "SourceRecord_handbookVersionId_fkey",
+        "schema": "public",
+        "child": "SourceRecord",
+        "parentSchema": "public",
+        "parent": "HandbookVersion",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"handbookVersionId\") REFERENCES \"HandbookVersion\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "StudyPlan_degreeId_fkey",
+        "schema": "public",
+        "child": "StudyPlan",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "StudyPlanItem_studyPlanPeriodId_fkey",
+        "schema": "public",
+        "child": "StudyPlanItem",
+        "parentSchema": "public",
+        "parent": "StudyPlanPeriod",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"studyPlanPeriodId\") REFERENCES \"StudyPlanPeriod\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "StudyPlanItem_subjectId_fkey",
+        "schema": "public",
+        "child": "StudyPlanItem",
+        "parentSchema": "public",
+        "parent": "Subject",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"subjectId\") REFERENCES \"Subject\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "StudyPlanPeriod_studyPlanYearId_fkey",
+        "schema": "public",
+        "child": "StudyPlanPeriod",
+        "parentSchema": "public",
+        "parent": "StudyPlanYear",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"studyPlanYearId\") REFERENCES \"StudyPlanYear\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "StudyPlanYear_studyPlanId_fkey",
+        "schema": "public",
+        "child": "StudyPlanYear",
+        "parentSchema": "public",
+        "parent": "StudyPlan",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"studyPlanId\") REFERENCES \"StudyPlan\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "Subject_handbookVersionId_fkey",
+        "schema": "public",
+        "child": "Subject",
+        "parentSchema": "public",
+        "parent": "HandbookVersion",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"handbookVersionId\") REFERENCES \"HandbookVersion\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "SubjectAccessCondition_handbookVersionId_fkey",
+        "schema": "public",
+        "child": "SubjectAccessCondition",
+        "parentSchema": "public",
+        "parent": "HandbookVersion",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"handbookVersionId\") REFERENCES \"HandbookVersion\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "SubjectAccessCondition_subjectId_fkey",
+        "schema": "public",
+        "child": "SubjectAccessCondition",
+        "parentSchema": "public",
+        "parent": "Subject",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"subjectId\") REFERENCES \"Subject\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "SubjectRequisiteGroup_accessConditionId_fkey",
+        "schema": "public",
+        "child": "SubjectRequisiteGroup",
+        "parentSchema": "public",
+        "parent": "SubjectAccessCondition",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"accessConditionId\") REFERENCES \"SubjectAccessCondition\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "SubjectRequisiteItem_referencedComponentId_fkey",
+        "schema": "public",
+        "child": "SubjectRequisiteItem",
+        "parentSchema": "public",
+        "parent": "Component",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"referencedComponentId\") REFERENCES \"Component\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "SubjectRequisiteItem_referencedDegreeId_fkey",
+        "schema": "public",
+        "child": "SubjectRequisiteItem",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"referencedDegreeId\") REFERENCES \"Degree\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "SubjectRequisiteItem_referencedSubjectId_fkey",
+        "schema": "public",
+        "child": "SubjectRequisiteItem",
+        "parentSchema": "public",
+        "parent": "Subject",
+        "deletion": "n",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"referencedSubjectId\") REFERENCES \"Subject\"(id) ON UPDATE CASCADE ON DELETE SET NULL"
+      },
+      {
+        "conname": "SubjectRequisiteItem_requisiteGroupId_fkey",
+        "schema": "public",
+        "child": "SubjectRequisiteItem",
+        "parentSchema": "public",
+        "parent": "SubjectRequisiteGroup",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"requisiteGroupId\") REFERENCES \"SubjectRequisiteGroup\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      },
+      {
+        "conname": "UnresolvedReference_handbookVersionId_fkey",
+        "schema": "public",
+        "child": "UnresolvedReference",
+        "parentSchema": "public",
+        "parent": "HandbookVersion",
+        "deletion": "c",
+        "update": "c",
+        "definition": "FOREIGN KEY (\"handbookVersionId\") REFERENCES \"HandbookVersion\"(id) ON UPDATE CASCADE ON DELETE CASCADE"
+      }
+    ],
+    "enums": [
+      {
+        "enumlabel": "ALL"
+      },
+      {
+        "enumlabel": "ANY"
+      },
+      {
+        "enumlabel": "ONE_OF"
+      },
+      {
+        "enumlabel": "UNKNOWN"
+      }
+    ],
+    "unknown": [
+      {
+        "conname": "CourseFee_degreeId_fkey",
+        "schema": "public",
+        "child": "CourseFee",
+        "parentSchema": "public",
+        "parent": "Degree",
+        "deletion": "c",
+        "update": "a",
+        "definition": "FOREIGN KEY (\"degreeId\") REFERENCES \"Degree\"(id) ON DELETE CASCADE"
+      }
+    ],
+    "counts": [
+      {
+        "university": "UTS",
+        "year": 2026,
+        "degrees": 162,
+        "components": 554,
+        "subjects": 3540,
+        "plans": 412
+      },
+      {
+        "university": "USYD",
+        "year": 2026,
+        "degrees": 109,
+        "components": 367,
+        "subjects": 3119,
+        "plans": 531
+      }
+    ],
+    "feeCounts": {
+      "USYD": 109,
+      "UTS": 162
+    },
+    "feeFingerprint": {
+      "USYD": "77794e405a686aa328964d7def1f014a7b579c2d2752794d0f64bc04d3142aa8",
+      "UTS": "47146dc65134d07e59b612920a7ed21b4e6958629c8cf9a0f312fe7e3964ca7c"
+    }
+  },
+  "feeFingerprintsBefore": {
+    "USYD": "77794e405a686aa328964d7def1f014a7b579c2d2752794d0f64bc04d3142aa8",
+    "UTS": "47146dc65134d07e59b612920a7ed21b4e6958629c8cf9a0f312fe7e3964ca7c"
+  },
+  "feeFingerprintsUnchanged": true,
+  "liveCountsUnchanged": true,
+  "projectedUsydCounts": {
+    "HandbookVersion": 1,
+    "Degree": 109,
+    "Subject": 3119,
+    "SubjectAccessCondition": 3079,
+    "SubjectRequisiteGroup": 3240,
+    "SubjectRequisiteItem": 8329,
+    "SourceRecord": 1,
+    "UnresolvedReference": 111,
+    "DegreeRanking": 0,
+    "RiasecScore": 0,
+    "RiasecSubcategoryScore": 0,
+    "CourseFee": 109,
+    "Component": 371,
+    "RequirementGroup": 3161,
+    "RequirementItem": 8310,
+    "DegreeComponent": 5337,
+    "RequirementCandidateSource": 33,
+    "RequirementCandidateSubject": 2270,
+    "StudyPlan": 531,
+    "StudyPlanYear": 2682,
+    "StudyPlanPeriod": 4901,
+    "StudyPlanItem": 21298
+  },
+  "utsCounts": {
+    "degrees": 162,
+    "components": 554,
+    "subjects": 3540,
+    "plans": 412,
+    "fees": 162
+  },
+  "courseFeeDesign": "Capture PostgreSQL JSON rows with Degree.code; preserve CourseFee IDs, text feeYear, nullable int4 amounts, timestamp(3) values; only degreeId changes. Same transaction client captures, restores, and verifies; errors propagate and roll back replacement. Reject missing/duplicate mappings, changed schema and unreviewed inbound tables.",
+  "atLeast": {
+    "affectedGroups": 5,
+    "mapping": "ANY with requiredCreditPoints=minCreditPoints and maximumCreditPoints=maxCreditPoints; verified exact quotas only; original AT_LEAST/bounds retained in rawData. Other AT_LEAST shapes throw.",
+    "schemaChanged": false
+  },
+  "limitations": [
+    "Optional Breadth combination-count restrictions remain in raw text/data.",
+    "No real INSERT or replacement executed, so transaction write integration remains unexercised against live DB."
+  ],
+  "validation": {
+    "unitTestsPassed": 6,
+    "typeCheckPassed": true,
+    "engineeringSpecialisationsPassed": true,
+    "dalyellPassed": true,
+    "databaseMasterErrors": 0,
+    "databaseMasterWarnings": 0,
+    "cuspErrors": 0,
+    "cuspWarnings": 0,
+    "bhenginePlans": 196,
+    "bhenginePlanCreditPoints": 192,
+    "candidateSources": 33,
+    "candidateMemberships": 2270,
+    "engineeringUg": 271,
+    "tableS": 1472,
+    "tableD": 17
+  },
+  "changedFiles": [
+    "package.json",
+    "src/import/usyd-2026.import.ts",
+    "src/import/usyd-import-fidelity.ts",
+    "src/import/usyd-import-fidelity.test.ts",
+    "src/import/preview-usyd-import-fidelity.ts"
+  ]
+}

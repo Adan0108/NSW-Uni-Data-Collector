@@ -4,6 +4,7 @@ import { createHash, randomUUID } from 'node:crypto';
 
 import { Prisma } from '../generated/prisma/client.js';
 import { prisma } from '../db/prisma.js';
+import { captureFees, restoreFees, verifyFees, componentRequirementFields } from './usyd-import-fidelity.js';
 
 const DATA_FILE = resolve(
   process.cwd(),
@@ -100,6 +101,9 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         select: { id: true },
       });
 
+      const feeSnapshot = await captureFees(tx, previous?.id,
+        master.degrees.map(degree => requiredString(degree.code, 'degree.code')));
+
       if (previous) {
         console.log('Existing USYD 2026 data found. Replacing only that handbook...');
         await tx.handbookVersion.delete({ where: { id: previous.id } });
@@ -153,6 +157,7 @@ export async function importUsyd2026(): Promise<ImportCounts> {
         }),
       );
       counts.degrees = degreeIdByCode.size;
+      await restoreFees(tx, feeSnapshot, handbook.id, degreeIdByCode);
 
       /* USYD components have no native code. This deterministic code is stable
        * across reruns and distinguishes same-named roles in different handbooks. */
@@ -436,12 +441,11 @@ export async function importUsyd2026(): Promise<ImportCounts> {
                   sourceGroupId: `USYD:COMPONENT:${code}:${slug(String(parsedTable.url ?? 'TABLE'))}:${index}`,
                   title: stringOrNull(rawGroup.name),
                   description: stringOrNull(requirement.summary),
-                  logic: mapRequirementLogic(rawGroup.logic),
+                  ...componentRequirementFields(rawGroup),
                   nodeType: 'GROUP',
                   status: 'AUTHORITATIVE',
                   sourceUrl: stringOrNull(parsedTable.url),
                   authoritative: true,
-                  requiredCreditPoints: numberOrNull(rawGroup.requiredCreditPoints),
                   sortOrder: index,
                   rawData: toJson(rawGroup),
                 },
@@ -1647,6 +1651,8 @@ export async function importUsyd2026(): Promise<ImportCounts> {
 
       verifyImportedCounts(master, counts);
       await verifyPersistedCounts(tx, handbook.id, master);
+      await verifyFees(tx, feeSnapshot, handbook.id, degreeIdByCode);
+      console.log(`CourseFee preserved: ${feeSnapshot.usyd.length} -> ${feeSnapshot.usyd.length}; UTS unchanged: ${feeSnapshot.uts.length}`);
       return counts;
     },
     {

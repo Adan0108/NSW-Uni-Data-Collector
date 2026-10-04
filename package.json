@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test:usyd:import-fidelity": "tsx --test src/import/usyd-import-fidelity.test.ts",
+    "preview:usyd:import-fidelity": "tsx src/import/preview-usyd-import-fidelity.ts",
     "scrape:uts": "tsx src/index.ts uts",
     "scrape:unsw": "tsx src/index.ts unsw",
     "scrape:all": "tsx src/index.ts all",
