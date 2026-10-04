@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { classifyCuspVariant, isCuspChoice, repairCuspMathematicsAllocation } from './cusp-plan-semantics.js';
 
 type JsonObject = Record<string, unknown>;
 
@@ -289,10 +290,7 @@ function periodNumberFromName(
 function looksLikeChoice(
   item: CuspItem,
 ): boolean {
-  return (
-    (item.subjects?.length ?? 0) ===
-    0
-  );
+  return isCuspChoice(item);
 }
 
 function convertSubjectItem(
@@ -401,6 +399,7 @@ function convertChoiceItem(
 
 function convertItems(
   items: CuspItem[],
+  degreeVersionId?: string | null,
 ): DatabasePlanItem[] {
   const result:
     DatabasePlanItem[] = [];
@@ -409,15 +408,15 @@ function convertItems(
     const [itemIndex, item]
     of items.entries()
   ) {
-    const subjects =
-      item.subjects ?? [];
+    const normalizedItem = repairCuspMathematicsAllocation(item, degreeVersionId);
+    const subjects = normalizedItem.subjects ?? [];
 
     if (
-      looksLikeChoice(item)
+      looksLikeChoice(normalizedItem)
     ) {
       result.push(
         convertChoiceItem(
-          item,
+          normalizedItem,
           itemIndex,
         ),
       );
@@ -425,20 +424,13 @@ function convertItems(
       continue;
     }
 
-    /*
-     * CUSP can theoretically attach
-     * more than one subject to a single
-     * requirement row.
-     *
-     * DB schema stores one StudyPlanItem
-     * -> one Subject, so expand it.
-     */
+    // A fixed source position has exactly one subject; choices remain one row.
     for (
       const subject of subjects
     ) {
       result.push(
         convertSubjectItem(
-          item,
+          normalizedItem,
           subject,
           itemIndex,
         ),
@@ -451,6 +443,7 @@ function convertItems(
 
 function convertPeriodsToYears(
   periods: CuspPeriod[],
+  degreeVersionId?: string | null,
 ): DatabaseYear[] {
   const byYear =
     new Map<
@@ -526,6 +519,7 @@ function convertPeriodsToYears(
                 convertItems(
                   period.items ??
                     [],
+                  degreeVersionId,
                 );
 
               const totalCreditPoints =
@@ -661,6 +655,7 @@ function convertCuspPlan(
   const years =
     convertPeriodsToYears(
       plan.periods ?? [],
+      plan.cuspDegreeVersionId ?? plan.cusp?.dvid,
     );
 
   return {
@@ -699,7 +694,9 @@ function convertCuspPlan(
 
     handbookYear: 2026,
 
-    totalCreditPoints: null,
+    totalCreditPoints: degree.code === 'BHENGINE-04'
+      ? years.reduce((sum, year) => sum + year.periods.reduce((cp, period) => cp + (period.totalCreditPoints ?? 0), 0), 0)
+      : null,
 
     sourceType: 'CUSP',
 
@@ -714,6 +711,7 @@ function convertCuspPlan(
 
     rawData: {
       sourcePlanId,
+      category: classifyCuspVariant(plan),
 
       provider:
         'CUSP',

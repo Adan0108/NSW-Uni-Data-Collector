@@ -26,7 +26,9 @@
     "repair:usyd:engineering-course-structure": "tsx src/adapters/usyd/engineering/repair-engineering-course-structure.ts",
 
     "build:usyd:dalyell-table-d": "tsx src/adapters/usyd/dalyell/build-dalyell-table-d-pools.ts",
-    "prepare:usyd:database-master": "npm run build:usyd:engineering-free-electives && npm run build:usyd:dalyell-table-d && tsx src/adapters/usyd/cusp/prepare-usyd-database-master.ts",
+    "repair:usyd:engineering-specialisations": "tsx src/adapters/usyd/engineering/repair-engineering-specialisations.ts",
+    "validate:usyd:engineering-specialisations": "tsx src/adapters/usyd/engineering/validate-engineering-specialisations.ts",
+    "prepare:usyd:database-master": "npm run repair:usyd:engineering-specialisations && npm run build:usyd:engineering-free-electives && npm run build:usyd:dalyell-table-d && tsx src/adapters/usyd/cusp/prepare-usyd-database-master.ts",
     "validate:usyd:database-master": "tsx src/adapters/usyd/cusp/validate-usyd-database-master.ts",
     "validate:usyd:dalyell-table-d": "tsx src/adapters/usyd/dalyell/validate-dalyell-table-d.ts",
 

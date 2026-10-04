@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T11:46:25.345Z",
+  "generatedAt": "2026-10-04T12:12:56.851Z",
   "totals": {
     "degrees": 109,
     "subjects": 3119,
@@ -12,9 +12,9 @@
     "handbookPlans": 6,
     "years": 2682,
     "periods": 4901,
-    "items": 21507,
-    "subjectItems": 17027,
-    "choiceItems": 4480,
+    "items": 21298,
+    "subjectItems": 16628,
+    "choiceItems": 4670,
     "errors": 0,
     "warnings": 0
   },

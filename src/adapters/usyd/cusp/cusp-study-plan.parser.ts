@@ -1,5 +1,6 @@
 import * as cheerio from "cheerio";
 import type { Element } from "domhandler";
+import { repairCuspMathematicsAllocation } from './cusp-plan-semantics.js';
 
 import type {
   CuspStudyPlan,
@@ -112,6 +113,7 @@ const parseRequirementSourceId = (
 const parsePeriod = (
   $: cheerio.CheerioAPI,
   headingElement: Element,
+  degreeVersionId: string,
 ): CuspStudyPlanPeriod | null => {
   const heading = $(headingElement);
   const title = cleanText(heading.text());
@@ -176,7 +178,7 @@ const parsePeriod = (
       return;
     }
 
-    items.push({
+    items.push(repairCuspMathematicsAllocation({
       position: items.length + 1,
       requirementLabel: requirementLabel || null,
       requirementSourceId: parseRequirementSourceId(
@@ -186,7 +188,7 @@ const parsePeriod = (
       creditPoints: parseInteger(creditPointText),
       subjects: parseSubjects($, unitCell),
       rawText,
-    });
+    }, degreeVersionId));
   });
 
   const notes: string[] = [];
@@ -258,7 +260,7 @@ export const parseCuspStudyPlan = (
   const periods: CuspStudyPlanPeriod[] = [];
 
   $("h3").each((_, heading) => {
-    const period = parsePeriod($, heading);
+    const period = parsePeriod($, heading, identifiers.degreeVersionId);
 
     if (period) {
       periods.push(period);
